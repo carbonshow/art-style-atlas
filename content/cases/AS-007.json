@@ -1,0 +1,418 @@
+{
+  "id": "AS-007",
+  "name": "Albert Bierstadt · 崇高风景与暮色",
+  "english_name": "Albert Bierstadt · Sublime Landscapes and Luminous Dusk",
+  "classification": "19 世纪美国浪漫主义风景 · 哈德逊河画派背景 · 戏剧性明暗、空气透视与发光的天水",
+  "summary": "比尔施塔特把山谷、湖岸和草原组织成宏阔而富于情绪的空间。深色树群与岩壁围住远处的亮天、薄雾和水面；暖金受光区在蓝灰风暴云、暗绿树林与褐紫阴影间展开。近景的细节与远景的柔和过渡共同制造可走入的深度。本条以六幅已对应作品的用户复现图归纳风格，另两张同批附图暂存于待核实区。",
+  "recognition": "先看大块深影与局部亮光如何引导视线，再看近景枝叶、谷底薄雾与远山怎样分层。宏阔感来自光域、遮挡、空气透视和小尺度生命；山景的风暴光与湖岸、草原的暮色是同一套光影语言的不同变化。",
+  "tags": [
+    "Albert Bierstadt",
+    "阿尔伯特·比尔施塔特",
+    "比尔斯塔特",
+    "比尔施泰特",
+    "Hudson River School",
+    "哈德逊河画派",
+    "Romantic landscape",
+    "浪漫主义风景",
+    "sublime",
+    "崇高",
+    "chiaroscuro",
+    "明暗对比",
+    "atmospheric perspective",
+    "空气透视",
+    "穿云光",
+    "golden dusk",
+    "金色暮光",
+    "Yosemite",
+    "优胜美地",
+    "Lake Tahoe",
+    "太浩湖",
+    "The Rocky Mountains, Lander's Peak",
+    "A Storm in the Rocky Mountains, Mt. Rosalie",
+    "Valley of the Yosemite",
+    "The Buffalo Trail",
+    "Twilight, Lake Tahoe",
+    "Sunset in the Yosemite Valley",
+    "城市云景",
+    "城市天际线",
+    "厚云",
+    "city panorama",
+    "urban skyline",
+    "cloudscape"
+  ],
+  "palette": [
+    {
+      "name": "金色光域",
+      "hex": "#E8BD62"
+    },
+    {
+      "name": "橙赭暮色",
+      "hex": "#B87338"
+    },
+    {
+      "name": "蓝灰云层",
+      "hex": "#687A8D"
+    },
+    {
+      "name": "暗绿树林",
+      "hex": "#25382F"
+    },
+    {
+      "name": "褐紫深影",
+      "hex": "#44333D"
+    }
+  ],
+  "reuse_focus": "保留输入图的空间骨架，用大块深影、受光焦点和远近对比建立光影秩序，再重绘细节。开阔景色可强化空气透视；树林或城市场景可借助原有树群、建筑和道路框景；人物照片保持身份与姿态，避免让背景喧宾夺主。",
+  "judgment_note": "阿尔伯特·比尔施塔特（Albert Bierstadt，1830–1902）为德裔美国画家。作品题名、年代、媒介与馆藏据各图来源，风格特征按可见画面归纳。六张主要参考为用户提供的作品复现图；不同复制版本可能有色彩与边缘差异，不能据此复原原作的精确色值或制作流程。中文题名为图鉴译名。全部原文件、可见署名与复现品水印保留；“油画世界 ArtYouhua”是所见复现品水印，不视作原作者签名。附图 7、8 归属及题名待核实，未参与本条提示词归纳。",
+  "references": [
+    {
+      "file": "media/bierstadt-batch-input-01.webp",
+      "kind": "user_artwork_reproduction",
+      "caption": "附图 1 · A Storm in the Rocky Mountains, Mt. Rosalie《落基山脉的风暴，罗莎莉山》",
+      "alt": "Albert Bierstadt 作品复现图：风暴云层压在深色山谷上，金色阳光照亮中景岩坡与湖面，右侧巨壁和近景树群落入深影",
+      "credit": "Albert Bierstadt · 用户复现图 · Brooklyn Museum 馆方保护公告",
+      "credit_url": "https://cdn2.brooklynmuseum.org/labels/Bierstadt_Conservation_Press_Release_rev.pdf",
+      "artwork": {
+        "title": "A Storm in the Rocky Mountains, Mt. Rosalie",
+        "title_zh": "落基山脉的风暴，罗莎莉山",
+        "date_label": "1866",
+        "medium_label": "油彩／画布（oil on canvas）",
+        "dimensions_label": "原作 210.8 × 361.3 cm",
+        "collection": "Brooklyn Museum",
+        "accession_number": "76.79",
+        "verification_note": "年代、媒介、原作尺寸和登记号据馆方 2017 年保护公告；原作署名位置据馆藏检索记录为右下。用户附件保留原画面边缘。",
+        "artist": "Albert Bierstadt"
+      },
+      "focus": "低亮度山谷与受光岩坡形成巨大的明暗跨度，云层的体积与冷暖过渡比单纯的金色滤镜更关键。"
+    },
+    {
+      "file": "media/bierstadt-batch-input-02.webp",
+      "kind": "user_artwork_reproduction",
+      "caption": "附图 2 · Rocky Mountains, \"Lander's Peak\"《落基山脉，兰德峰》",
+      "alt": "Albert Bierstadt 作品复现图：竖幅山谷中，左侧暗崖与松树围住中景草地和水面，远处瀑布由高处落下，云间斜射的浅色光束照亮山岩",
+      "credit": "Albert Bierstadt · 用户复现图 · Harvard Art Museums 提供的作品资料",
+      "credit_url": "https://artsandculture.google.com/asset/wd/NgEXihtZ74zsHA",
+      "artwork": {
+        "title": "Rocky Mountains, \"Lander's Peak\"",
+        "title_zh": "落基山脉，兰德峰",
+        "date_label": "1863 · 哈佛馆藏竖幅版本",
+        "medium_label": "油彩／亚麻布（oil on linen）",
+        "dimensions_label": "原作 110.8 × 90.2 cm",
+        "collection": "Harvard Art Museums / Fogg Museum",
+        "accession_number": "1895.698",
+        "verification_note": "图像对应哈佛馆藏的竖幅作品，同名的纽约大都会博物馆横幅版本是另一幅，不能混用尺寸或登记号。媒介与尺寸据馆方提供给 Google Arts & Culture 的资料，登记号据馆藏关联记录。",
+        "artist": "Albert Bierstadt"
+      },
+      "focus": "侧光穿过云层，前景崖壁的暗部和谷底的小块亮地共同放大山体尺度；竖幅画面通过连续遮挡建立深度。"
+    },
+    {
+      "file": "media/bierstadt-batch-input-03.webp",
+      "kind": "user_artwork_reproduction",
+      "caption": "附图 3 · Valley of the Yosemite《优胜美地山谷》",
+      "alt": "Albert Bierstadt 作品复现图：金色霞光从优胜美地两侧岩壁之间照进湖面，前景鹿群形成小剪影，岸边树木与巨壁倒映在水中，右下保留署名",
+      "credit": "Albert Bierstadt · 用户复现图 · Smithsonian 展览中的 MFA 馆藏资料",
+      "credit_url": "https://americanart.si.edu/exhibitions/humboldt/online/albert-bierstadt-valley-yosemite",
+      "artwork": {
+        "title": "Valley of the Yosemite",
+        "title_zh": "优胜美地山谷",
+        "date_label": "1864",
+        "medium_label": "油彩／纸板（oil on paperboard）",
+        "dimensions_label": "原作 11⅞ × 19¼ in.（约 30.2 × 48.9 cm）",
+        "collection": "Museum of Fine Arts, Boston",
+        "accession_number": "47.1236",
+        "verification_note": "题名、年代、纸板媒介、原作英寸尺寸与登记号据 Smithsonian 展览所列 MFA 资料；厘米数为换算近似。保留附件右下可读署名。",
+        "artist": "Albert Bierstadt"
+      },
+      "focus": "亮天、薄雾和水中反光构成连续光带，前景鹿群以小尺度衬托巨壁；色彩明亮，结构仍由大暗形稳定。"
+    },
+    {
+      "file": "media/bierstadt-batch-input-04.webp",
+      "kind": "user_artwork_reproduction",
+      "caption": "附图 4 · The Buffalo Trail《野牛迁徙之路》",
+      "alt": "Albert Bierstadt 作品复现图：野牛沿着低矮河岸成群行进，左方橙金色天光与水面映光照亮草地，右侧宽大树冠和树干形成深色框景",
+      "credit": "Albert Bierstadt · 用户复现图 · MFA Boston 官方复现品资料",
+      "credit_url": "https://customprints.mfa.org/detail/476095/bierstadt-the-buffalo-trail-about-1867",
+      "artwork": {
+        "title": "The Buffalo Trail",
+        "title_zh": "野牛迁徙之路",
+        "date_label": "约 1867 · about 1867",
+        "collection": "Museum of Fine Arts, Boston",
+        "verification_note": "采用 MFA 馆方题名与约年。它与 NGA 的 Buffalo Trail: The Impending Storm（1869）是不同作品。本次所用馆方页面未列原作尺寸，故不补填。",
+        "artist": "Albert Bierstadt"
+      },
+      "focus": "无须高山也能产生宏阔感：低地平线、宽阔光域、树冠暗形和野牛队列一起组织暮色空间。"
+    },
+    {
+      "file": "media/bierstadt-batch-input-05.webp",
+      "kind": "user_artwork_reproduction",
+      "caption": "附图 5 · Twilight, Lake Tahoe《太浩湖暮色》",
+      "alt": "Albert Bierstadt 作品复现图：太浩湖上空铺展红橙晚霞，左侧高松与右岸树林成为剪影，湖前倒木的裸枝伸向天空，水面反射橙金色天光",
+      "credit": "Albert Bierstadt · 用户复现图 · Christie’s 作品及拍卖资料",
+      "credit_url": "https://www.christies.com/en/lot/lot-6074110",
+      "artwork": {
+        "title": "Twilight, Lake Tahoe",
+        "title_zh": "太浩湖暮色",
+        "date_label": "约 1870 年代 · circa 1870s",
+        "medium_label": "油彩／画布（oil on canvas）",
+        "dimensions_label": "原作 92.7 × 133.4 cm",
+        "collection": "私人收藏作品 · 佳士得拍卖记录（2017）",
+        "verification_note": "已与佳士得拍卖图逐一比对：左侧双松、中央倒木、远山、右岸树群与鸟影对应。附件整体色调更偏红，保留现有“油画世界 ArtYouhua”复现品水印。拍卖记录不能据以确认当前持有人。",
+        "artist": "Albert Bierstadt"
+      },
+      "focus": "树干、远山和倒木保持深色骨架；晚霞的暖色集中于天空与倒影，平静水面让充满变化的云层更突出。"
+    },
+    {
+      "file": "media/bierstadt-batch-input-06.webp",
+      "kind": "user_artwork_reproduction",
+      "caption": "附图 6 · Sunset in the Yosemite Valley《优胜美地山谷日落》",
+      "alt": "Albert Bierstadt 作品复现图：优胜美地山谷中，金黄霞光从右侧巨壁边缘照出，红紫厚云笼罩天空，左侧尖岩与树群受局部亮光照射，曲折河流映出金色",
+      "credit": "Albert Bierstadt · 用户复现图 · Haggin Museum 馆藏资料",
+      "credit_url": "https://hagginmuseum.org/collections/bierstadt-albert/sunset-in-the-yosemite-valley/",
+      "artwork": {
+        "title": "Sunset in the Yosemite Valley",
+        "title_zh": "优胜美地山谷日落",
+        "date_label": "1868",
+        "medium_label": "油彩／画布（oil on canvas）",
+        "dimensions_label": "原作 36¼ × 52¼ in.",
+        "collection": "Haggin Museum",
+        "verification_note": "已与哈金博物馆原图对照：左侧尖岩、前景树干和松群、右侧巨壁、谷底曲折河道一致。不是 Birmingham Museum 的 Looking Down Yosemite Valley, California（1865）。保留附件中的复现品水印。",
+        "artist": "Albert Bierstadt"
+      },
+      "focus": "暖光穿过暗云与巨壁之间的开口，沿河流继续进入谷底；前景松树和侧壁的浓影强化远景亮度。"
+    }
+  ],
+  "unverified_references": [
+    {
+      "file": "media/bierstadt-batch-input-07.webp",
+      "kind": "unverified_user_reference",
+      "caption": "附图 7 · 暮色海岸与帆船（图鉴描述名）",
+      "alt": "黄橙色暮光中的海岸与远山，两艘带高帆的小船停在近岸，右側人物拉着绳索，底部保留油画世界 ArtYouhua 水印",
+      "credit": "用户提供 · 作者与正式题名待核实",
+      "attribution_status": "用户作为比尔施塔特作品提交；本次未取得同图的可靠作品记录，不确认为作者原作。",
+      "focus": "已对照 MFA 的 Fishing Boats at Capri（1857），其渔船、海岸和人物构图与附图不同；另一位画家 Gudin 的相似题材也不对应。保留可见暮色、帆船与人物队列作为对照，不据相似题材填写题名、年代或媒介。"
+    },
+    {
+      "file": "media/bierstadt-batch-input-08.webp",
+      "kind": "unverified_user_reference",
+      "caption": "附图 8 · 云隙光下的山湖与巨树（图鉴描述名）",
+      "alt": "雪峰和左侧三角山岩围绕平静湖面，右侧巨树的伸展枝条形成近景框架，岸边有小鹿，云间浅金色阳光照向湖岸",
+      "credit": "用户提供 · 作者与正式题名待核实",
+      "attribution_status": "用户作为比尔施塔特作品提交；未取得题名、馆藏与附图同时对应的可靠记录。",
+      "focus": "已对照 In the Mountains、Rocky Mountain Landscape（1870）和 Reynolda 的 Sierra Nevada 等候选复现，山峰、树木与湖岸构图不对应。保持原图与“油画世界 ArtYouhua”水印，不把相似山湖画的馆藏资料移用到本图。"
+    }
+  ],
+  "type": "case",
+  "schema_version": 1,
+  "analysis": [
+    {
+      "label": "光域与深影",
+      "text": "大面积低亮度岩壁、云底和树群托起局部金黄或乳白受光区。光常从云隙或谷口进入，再由雾、水面和岩坡承接；最亮处成为视线的落点。"
+    },
+    {
+      "label": "空间与尺度",
+      "text": "前景以树干、岩块、草坡和遮挡建立入口，中景展开放光的湖水、草地或溪流，远景逐层淡入山体与云气。鹿、野牛和微小人物让自然显得辽阔。"
+    },
+    {
+      "label": "云雾与色温",
+      "text": "云层有清晰的体积转折，边缘由暖亮渐变到冷灰蓝和褐紫。远山较浅、较柔和，薄雾降低远处对比；夕照中的金橙色与深绿、冷灰暗部相互支撑。"
+    },
+    {
+      "label": "细节的疏密",
+      "text": "近景树皮、叶簇、岩石和草地具有细致但不均匀的变化，强轮廓集中在近处或剪影。远景轮廓与纹理逐渐消隐，避免把所有距离画得同样清楚。"
+    },
+    {
+      "label": "树形与水面",
+      "text": "直立松树与伸展树冠作为深色框景，枝条和倒木带出横向或斜向节奏。平静水面保留亮天、山壁和树木的倒影，局部雾带或细小波纹打断镜像。"
+    },
+    {
+      "label": "系列的变化",
+      "text": "附图 1、2 展现风暴与穿云光；附图 3、5、6 偏重山谷、湖泊的金色暮光；附图 4 以野牛、溪流和树冠组织草原景色。宏阔感可以通过不同题材实现，并不需要重复同一种山峰。"
+    }
+  ],
+  "legacy_prompts": {
+    "zh": "将输入图片完整改绘为阿尔伯特·比尔施塔特风景作品所体现的浪漫主义绘画语言：宏阔空间、戏剧性明暗、发光的暖色受光区、柔和空气透视和细致的近景。输入图决定内容、构图和视角，参考图提供风格。保留主体数量、人物身份与姿态、物件关系、原有地形或建筑结构、画幅比例和镜头。先重建大块明暗，让原图已有的树群、岩壁、建筑或前景形体形成有层次的深色框架，并在原场景的受光区域建立一个清晰的暖金或乳白光域。保持合理光源方向，用深绿、褐紫与冷蓝灰组织阴影，暗处仍有微妙层次。仅当原图已有天空时，以有体积的云层、薄雾、柔和霞光或克制的穿云光处理它；不要凭空添加天空或改变天气与季节。通过遮挡、逐级降低对比、变冷变浅的远景和柔和边缘强化空间纵深。把现有草木、岩石、衣料和表面逐一画成可见绘画细节，近处丰富，远处简洁，细节疏密服从光线。仅当原图已有水面时，重绘与原场景一致的山树、建筑或亮天倒影，以细波纹和浅雾局部打断镜像。人物保持可辨认面部、真实姿态与全画统一的绘画质感。保持庄严、静谧或天气将变的氛围，让光影与空间共同产生宏阔感。不要导入参考中的雪山、巨壁、松林、瀑布、野牛、鹿、帆船或新人物，不改变原场景地点。避免全画同样橙黄、纯黑剪影、远近同等锐利、过强光束、塑料材质、均匀纹理、摄影贴片、虚构签名、文字和新水印。",
+    "en": "Repaint the entire input image using the Romantic visual language of Albert Bierstadt’s landscapes: expansive space, dramatic light and shadow, luminous warm highlights, soft atmospheric perspective and richly observed foreground detail. Let the input determine content, composition and viewpoint; use the references for style. Preserve subject count, recognizable identities and poses, object relationships, existing terrain or architecture, aspect ratio and camera. Establish broad value masses first. Use existing trees, cliffs, buildings or foreground forms as layered dark framing, and organize a clear warm golden or ivory focal light within the scene’s existing illuminated areas. Keep a plausible light direction. Build shadows from deep green, brown-violet and cool blue-gray, retaining subtle internal variation. Only where the input already contains sky, paint volumetric clouds, thin haze, soft dusk light or restrained shafts of sunlight; do not invent sky or force a change of weather or season. Strengthen depth through overlap, progressively lower contrast, cooler and lighter distance and softer distant edges. Repaint existing foliage, rocks, fabric and surfaces with varied visible painted detail, richer near the viewer and simpler farther away, subordinating detail to light. Only where water already exists, paint reflections consistent with the original scene, selectively interrupted by small ripples or thin haze. Keep faces recognizable, poses credible and rendering consistent throughout. Convey grandeur, quiet or an approaching change of weather through light and space. Do not import snow peaks, giant cliffs, pine forests, waterfalls, bison, deer, sailboats or extra people from the references, or relocate the scene. Avoid uniformly orange color, featureless black silhouettes, equally sharp detail at every distance, excessive light beams, plastic materials, uniform texture, photographic patches, fabricated signatures, lettering and new watermarks."
+  },
+  "sources": [
+    {
+      "title": "Brooklyn Museum · 作品保护与风景背景",
+      "url": "https://cdn2.brooklynmuseum.org/labels/Bierstadt_Conservation_Press_Release_rev.pdf"
+    },
+    {
+      "title": "Harvard · 兰德峰竖幅作品资料",
+      "url": "https://artsandculture.google.com/asset/wd/NgEXihtZ74zsHA"
+    },
+    {
+      "title": "MFA · 野牛迁徙之路",
+      "url": "https://customprints.mfa.org/detail/476095/bierstadt-the-buffalo-trail-about-1867"
+    },
+    {
+      "title": "Christie’s · 太浩湖暮色",
+      "url": "https://www.christies.com/en/lot/lot-6074110"
+    },
+    {
+      "title": "Haggin Museum · 优胜美地山谷日落",
+      "url": "https://hagginmuseum.org/collections/bierstadt-albert/sunset-in-the-yosemite-valley/"
+    }
+  ],
+  "artist": "Albert Bierstadt",
+  "facets": {
+    "tradition": [
+      "romantic-landscape"
+    ],
+    "subject": [
+      "landscape",
+      "animals"
+    ],
+    "effect": [
+      "depth",
+      "light"
+    ]
+  },
+  "relations": [],
+  "cover": "media/bierstadt-batch-input-01.webp",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "可信体积",
+      "explanation": "保持原有主体轮廓与体积，以明暗塑造大形",
+      "evidence": "大面积低亮度岩壁、云底和树群托起局部金黄或乳白受光区。光常从云隙或谷口进入，再由雾、水面和岩坡承接；最亮处成为视线的落点。",
+      "zh": "保持原有主体轮廓与体积，以明暗塑造大形",
+      "en": "Keep original silhouettes and volumes, modeling major forms with light and shadow",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "远近边缘",
+      "explanation": "近处轮廓清楚，远处轮廓逐渐柔化",
+      "evidence": "近景树皮、叶簇、岩石和草地具有细致但不均匀的变化，强轮廓集中在近处或剪影。远景轮廓与纹理逐渐消隐，避免把所有距离画得同样清楚。",
+      "zh": "近处轮廓清楚，远处轮廓逐渐柔化",
+      "en": "Keep nearby contours clear and gradually soften distant edges",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "金暖冷灰",
+      "explanation": "以金黄暖光对照冷灰蓝、深绿与褐紫暗部",
+      "evidence": "云层有清晰的体积转折，边缘由暖亮渐变到冷灰蓝和褐紫。远山较浅、较柔和，薄雾降低远处对比；夕照中的金橙色与深绿、冷灰暗部相互支撑。",
+      "zh": "以金黄暖光对照冷灰蓝、深绿与褐紫暗部",
+      "en": "Contrast golden warm light with cool gray-blue, deep green and brown-violet shadows",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "穿透光域",
+      "explanation": "让大面积深影承托局部明亮光域，保留光线逻辑",
+      "evidence": "大面积低亮度岩壁、云底和树群托起局部金黄或乳白受光区。光常从云隙或谷口进入，再由雾、水面和岩坡承接；最亮处成为视线的落点。",
+      "zh": "让大面积深影承托局部明亮光域，保留光线逻辑",
+      "en": "Support a localized luminous area with broad deep shadows and coherent lighting",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "空气透视",
+      "explanation": "在原构图中加强近深远浅、近实远虚的空气透视",
+      "evidence": "前景以树干、岩块、草坡和遮挡建立入口，中景展开放光的湖水、草地或溪流，远景逐层淡入山体与云气。鹿、野牛和微小人物让自然显得辽阔。",
+      "zh": "在原构图中加强近深远浅、近实远虚的空气透视",
+      "en": "Within the original composition, strengthen atmospheric perspective with darker sharper foregrounds and lighter softer distance",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "选择性细节",
+      "explanation": "近处保留细致变化，远处逐渐减少纹理",
+      "evidence": "近景树皮、叶簇、岩石和草地具有细致但不均匀的变化，强轮廓集中在近处或剪影。远景轮廓与纹理逐渐消隐，避免把所有距离画得同样清楚。",
+      "zh": "近处保留细致变化，远处逐渐减少纹理",
+      "en": "Keep varied fine detail nearby and gradually reduce texture in the distance",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "宏阔诗意",
+      "explanation": "营造宏阔、安静而有诗意的光影氛围",
+      "evidence": "附图 1、2 展现风暴与穿云光；附图 3、5、6 偏重山谷、湖泊的金色暮光；附图 4 以野牛、溪流和树冠组织草原景色。宏阔感可以通过不同题材实现，并不需要重复同一种山峰。",
+      "zh": "营造宏阔、安静而有诗意的光影氛围",
+      "en": "Create a grand, quiet and poetic atmosphere through light",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "observed_avoid": "避免把每张照片都改成美国西部山谷、强行添加雪峰或鹿群；避免全画橙黄、纯黑暗部、同等清晰的远近细节、夸张光束和只有调色没有绘画重构的处理。",
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  },
+  "aliases": [
+    "风景绘画",
+    "19 世纪美国浪漫主义风景 · 哈德逊河画派背景 · 戏剧性明暗、空气透视与发光的天水",
+    "Albert Bierstadt",
+    "阿尔伯特·比尔施塔特",
+    "比尔斯塔特",
+    "比尔施泰特",
+    "Hudson River School",
+    "哈德逊河画派",
+    "Romantic landscape",
+    "浪漫主义风景",
+    "sublime",
+    "崇高",
+    "chiaroscuro",
+    "明暗对比",
+    "atmospheric perspective",
+    "空气透视",
+    "穿云光",
+    "golden dusk",
+    "金色暮光",
+    "Yosemite",
+    "优胜美地",
+    "Lake Tahoe",
+    "太浩湖",
+    "The Rocky Mountains, Lander's Peak",
+    "A Storm in the Rocky Mountains, Mt. Rosalie",
+    "Valley of the Yosemite",
+    "The Buffalo Trail",
+    "Twilight, Lake Tahoe",
+    "Sunset in the Yosemite Valley",
+    "城市云景",
+    "城市天际线",
+    "厚云",
+    "city panorama",
+    "urban skyline",
+    "cloudscape"
+  ],
+  "reviewed_at": "2026-10-16",
+  "examples": [
+    {
+      "before": "media/city-bierstadt-input.webp",
+      "after": "media/city-bierstadt-final.webp",
+      "title": "城市云景 → 浪漫主义光影",
+      "caption": "保留原照片的宽幅视角、低位城市天际线、近景建筑关系与左侧小飞机。将厚云完整改绘为冷蓝灰与褐紫的体积，原有亮云区域转为金色和乳白光域；近景建筑以较丰富笔触重绘，远处轮廓通过薄雾与较柔和边缘后退。",
+      "observations": [
+        "云层仍占据主要画幅；暖光集中在左侧与上方亮云区域，右上厚云保留冷色深影。",
+        "两侧公寓楼、屋顶楼梯与远处地标的相对位置保持可辨，左侧的小飞机仍是同一处的单个对象。",
+        "完整画面采用统一绘画处理；未添加山谷、树林、水面、动物或人物。"
+      ],
+      "credit": "输入：用户照片 · 输出：AI 改绘（内置 image_gen）；非 Albert Bierstadt 原作",
+      "collected_at": "2026-10-03",
+      "kind": "ai_style_transfer_example",
+      "execution_prompt": "Use case: style-transfer.\nAsset type: complete panoramic painting, AI reinterpretation of a user photograph.\nInput images: Image 1 is the sole EDIT TARGET and sole authority for content, composition, architecture, objects, viewpoint and aspect ratio. Image 2 (Bierstadt storm landscape) and Image 3 (Bierstadt Yosemite valley) are STYLE REFERENCES ONLY: borrow their broad light-and-shadow structure, painted cloud volumes, luminous highlights, subtle colored shadows and atmospheric depth. Do not reproduce their terrain, animals, vegetation, water, signatures, text or watermarks.\n\nPrimary request:\nRepaint the entire input image using the Romantic visual language of Albert Bierstadt’s landscapes: expansive space, dramatic light and shadow, luminous warm highlights, soft atmospheric perspective and richly observed foreground detail. Let the input determine content, composition and viewpoint; use the references for style. Preserve subject count, recognizable identities and poses, object relationships, existing terrain or architecture, aspect ratio and camera. Establish broad value masses first. Use existing trees, cliffs, buildings or foreground forms as layered dark framing, and organize a clear warm golden or ivory focal light within the scene’s existing illuminated areas. Keep a plausible light direction. Build shadows from deep green, brown-violet and cool blue-gray, retaining subtle internal variation. Only where the input already contains sky, paint volumetric clouds, thin haze, soft dusk light or restrained shafts of sunlight; do not invent sky or force a change of weather or season. Strengthen depth through overlap, progressively lower contrast, cooler and lighter distance and softer distant edges. Repaint existing foliage, rocks, fabric and surfaces with varied visible painted detail, richer near the viewer and simpler farther away, subordinating detail to light. Only where water already exists, paint reflections consistent with the original scene, selectively interrupted by small ripples or thin haze. Keep faces recognizable, poses credible and rendering consistent throughout. Convey grandeur, quiet or an approaching change of weather through light and space. Do not import snow peaks, giant cliffs, pine forests, waterfalls, bison, deer, sailboats or extra people from the references, or relocate the scene. Avoid uniformly orange color, featureless black silhouettes, equally sharp detail at every distance, excessive light beams, plastic materials, uniform texture, photographic patches, fabricated signatures, lettering and new watermarks.\n\nImage-specific invariants:\nThis is a modern city panorama viewed from above nearby pale stone apartment rooftops. Keep the original very wide 20:9 aspect ratio (4080:1836), full frame, camera and perspective. The dense city and recognizable distant skyline remain low in the composition, approximately the bottom fifth, with the existing tall tower toward the right, the slimmer spire farther left and the rectangular tall building to its right all retained in their original locations and relative scales. Preserve the small single airplane just above the left-side rooftop at its existing position, scale and orientation. Preserve both large left and right foreground apartment blocks, their cornices, windows, rooftop railings, stairways and all intervening buildings. There are no visible people, no mountains, no vegetation foreground and no water to add.\nKeep the layered overcast cloud arrangement and broad dark cloud canopy occupying the upper frame. Let warm ivory and restrained pale gold subtly illuminate the existing brighter cloud opening on the left and upper-middle, while the upper-right cloud mass stays cool blue-gray and brown-violet. Do not add a visible sun, change to a blazing sunset, exaggerate shafts of light or erase the existing cloudy weather. Align subtle warm rooftop accents with this soft light from the left/upper-left.\nRepaint every part with coherent fine oil-painting-like marks: substantial but softly transitioned cloud forms; layered cool atmospheric haze and softer edges across the distant skyline; richer individually varied painted stone, windows and roof details in the near buildings. Do not preserve photographic patches or merely apply a color filter. Keep all forms legible and consistent, with the grand cloud field carrying the emotional scale. No border, no lettering, no added signature or watermark.\n"
+    }
+  ]
+}

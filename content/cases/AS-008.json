@@ -1,0 +1,310 @@
+{
+  "id": "AS-008",
+  "name": "Peggy Nille · 繁花秘境",
+  "english_name": "Peggy Nille · Ornamental Dream Gardens",
+  "classification": "当代装饰性绘本插画：平涂色块、繁密植物纹样与幻想叙事",
+  "summary": "这里的森林像一张可以不断寻找细节的彩色织毯：树冠、羽毛、花瓣与房屋各有自己的纹样，小人物和动物隐入其间。大轮廓让画面远看成立，细密图案让近看充满发现；黑底暖色、蓝紫幻想、明亮白底与深蓝月夜，是同一装饰语言的不同展开。",
+  "recognition": "先辨认概括而清楚的形体，再看形体内部的点列、叶脉、鳞片和扇形纹样。它的辨识度来自形状、色彩、纹样密度和小叙事的共同组织，不能仅凭热带植物或鲜艳颜色认定作者。与 AS-001、AS-002 相比，本组更强调多种平面纹样和幻想场景中的寻觅细节；“繁花秘境”是图鉴归纳名。",
+  "tags": [
+    "Peggy Nille",
+    "佩吉·尼勒",
+    "繁花秘境",
+    "装饰插画",
+    "植物纹样",
+    "幻想绘本",
+    "童话森林",
+    "热带丛林",
+    "平涂",
+    "高饱和",
+    "密集构图",
+    "寻觅细节",
+    "孔雀羽纹",
+    "月夜",
+    "蓝白",
+    "Cachés dans les rêves",
+    "ornamental",
+    "botanical",
+    "decorative illustration",
+    "flat color",
+    "pattern-filled silhouettes",
+    "dream garden",
+    "seek and find",
+    "jungle",
+    "storybook"
+  ],
+  "palette": [
+    {
+      "name": "午夜靛黑",
+      "hex": "#080C20"
+    },
+    {
+      "name": "深叶绿",
+      "hex": "#185941"
+    },
+    {
+      "name": "靛钴蓝",
+      "hex": "#294381"
+    },
+    {
+      "name": "朱橙红",
+      "hex": "#E64B27"
+    },
+    {
+      "name": "明黄绿",
+      "hex": "#E1D54F"
+    }
+  ],
+  "reuse_focus": "先保留输入图的大轮廓、遮挡关系与主体，再将已有叶簇、羽毛、服饰、建筑和地面转换成分区的装饰图案。每个形体选择少量纹样，维持大中小尺度和疏密差异。按目标图原有明亮程度选择白地、彩色底或深色底；人物面部与关键物件周围降低纹样密度。",
+  "judgment_note": "本条汇集用户以 Peggy Nille 系列提交的五张真实参考附件，没有生成改绘。附图 3 已与作者官网《Cachés dans les rêves》图库对应；附图 1、2、4 的作者信息按用户标注，附图 5 另保留可读“PEGGY NILLE”名称。其余四张的正式题名、具体出版物或产品、创作年代与原始媒介未逐项核实，不填猜测资料。所有中文画面标题均为图鉴描述名；“平涂”“织毯感”和“手绘起伏”是视觉判断。原文件与画面边缘、已有标记完整保留。",
+  "references": [
+    {
+      "file": "media/peggy-nille-batch-input-01.webp",
+      "kind": "user_artist_series_reference",
+      "caption": "附图 1 · 黑底彩树与童话村落（图鉴描述名）",
+      "alt": "近黑底色上密集排列红橙黄绿树冠和带窗童话房屋，树冠以点粒和枝脉填充，小人物、狐狸和其他动物藏在树林之间",
+      "credit": "用户提供 · Peggy Nille（按用户标注）",
+      "attribution_basis": "user_identification",
+      "title_status": "descriptive_atlas_title",
+      "focus": "圆团树冠与三角屋顶先建立大形，点状叶簇和不规则彩色环纹形成局部肌理。近黑底让朱橙与黄绿鲜明，小人物为密集图案提供尺度和故事。改图时可把树冠、屋面或衣饰各自设为独立纹样区，保留相邻形体的色差。"
+    },
+    {
+      "file": "media/peggy-nille-batch-input-02.webp",
+      "kind": "user_artist_series_reference",
+      "caption": "附图 2 · 蓝紫扇纹与放射状白花（图鉴描述名）",
+      "alt": "青色背景和绿色枝叶之间，一个彩衣人物站在密集蓝紫扇面图案上，手持细杆指向两个白色放射状圆形花簇",
+      "credit": "用户提供 · Peggy Nille（按用户标注）",
+      "attribution_basis": "user_identification",
+      "title_status": "descriptive_atlas_title",
+      "focus": "层叠扇面在大蓝紫色块内重复鳞格、环点和短线，两个白色放射形在密集纹样上形成清晰亮点。人物、细杆和花簇使装饰纹样产生动作感。改图适合借用扇形分区与放射状线条，但亮点数量需服从原图。"
+    },
+    {
+      "file": "media/peggy-nille-batch-input-03.webp",
+      "kind": "user_artwork_reproduction",
+      "caption": "附图 3 · 灯笼与奇幻蘑菇森林（《Cachés dans les rêves》官网对应画面）",
+      "alt": "深绿树干构成密林骨架，红橙灯笼、宝石状吊饰与幻想蘑菇穿插其间，蓝紫叶簇、鲜色花朵和小动物铺满近景",
+      "credit": "Peggy Nille · 用户参考附件 · 已对应作者官网图库",
+      "credit_url": "https://www.peggynille.com/copie-de-caches-dans-la-mer",
+      "attribution_basis": "author_official_gallery_visual_match",
+      "title_status": "descriptive_image_title_with_verified_publication",
+      "artwork": {
+        "title": "Cachés dans les rêves · illustration",
+        "title_zh": "《藏在梦里》中的插画（图鉴译名）",
+        "artist": "Peggy Nille",
+        "verification_note": "已与作者官网本书图库的灯笼森林画面比对：直立树干、左下红色弯曲蘑菇、中央蓝色环纹蘑菇、上方吊饰及右侧粉色奇花对应。官网注明 Actes Sud Junior；未将本书出版年写成这幅插画的创作年，也未推定原始媒介。"
+      },
+      "focus": "密林的竖向树干与垂直吊饰梳理满幅细节，暖色小灯点将视线串起来，红、粉、紫蘑菇提供较大的图形节点。这里的发光感来自暗底与暖亮色差，局部软边辅助，不能只靠加光晕替代形体与纹样。"
+    },
+    {
+      "file": "media/peggy-nille-batch-input-04.webp",
+      "kind": "user_artist_series_reference",
+      "caption": "附图 4 · 蓝白鸟园与中央留白（图鉴描述名）",
+      "alt": "横幅白色中央空间被蓝色热带花叶从两侧与下缘包围，红黄蓝鸟群、白色长颈鸟和蝴蝶散布其间，原图右下保留圆形数字 1 标记",
+      "credit": "用户提供 · Peggy Nille（按用户标注）",
+      "attribution_basis": "user_identification",
+      "title_status": "descriptive_atlas_title",
+      "focus": "画面最明亮，却仍然繁密：深浅蓝叶片在两侧形成框架，红黄鸟翼跨入中央白地，前景大花与远处小动物产生尺度对比。改图可借鉴“密集边缘＋清楚主体区”的密度分配。保留原图右下数字标记，不视为作者签名。"
+    },
+    {
+      "file": "media/peggy-nille-batch-input-05.webp",
+      "kind": "user_artist_series_reference",
+      "caption": "附图 5 · 月下丛林与隐现动物（图鉴描述名）",
+      "alt": "深蓝夜空里一轮白月位于右上，密集绿蓝植物之间藏有虎、蓝紫斑马、鸟和狮子，前景粉花与黄果点亮局部，左上保留 PEGGY NILLE 名称",
+      "credit": "用户提供 · 画面标注 PEGGY NILLE",
+      "attribution_basis": "user_identification_and_visible_name_label",
+      "title_status": "descriptive_atlas_title",
+      "focus": "花叶的密度依然很高，蓝绿低对比区域却使月亮、虎纹、粉色大花与亮黄果簇成为明确焦点；动物轮廓常被叶片部分遮挡。改图可降低背景纹样的亮度与色差，再为原有主体保留较清楚的局部对比。左上作者名称原样保存。"
+    }
+  ],
+  "type": "case",
+  "schema_version": 1,
+  "analysis": [
+    {
+      "label": "形体先于细节",
+      "text": "树冠被概括成圆团、椭圆、尖塔或扇面；鸟翼、花朵和屋顶都有可读的剪影。细密纹样填在这些大形内，形成“大形—纹样簇—微小点线”三个尺度，避免所有细节争夺注意。"
+    },
+    {
+      "label": "纹样词汇",
+      "text": "点粒、短叶形、细叶脉、平行弧线、羽状排线、鱼鳞格与不规则环纹反复出现。同一种纹样沿枝叶或羽片的方向生长，不同物种和形体换用不同节奏；重复带有大小与间距变化。"
+    },
+    {
+      "label": "平面色彩",
+      "text": "以清晰的局部色块和相邻色差分离形体，体积明暗被压低；细线与内部花纹承担结构说明。部分边缘和色块有轻微手绘起伏，附图 1 的点粒更粗，附图 4 的线条更清爽。这里只描述可见质感，不据此外观断言水粉、丝网印刷、拼贴或数字软件。"
+    },
+    {
+      "label": "色彩的秩序",
+      "text": "先用近黑、深蓝、绿色或白色建立大底，再让红橙、黄绿、粉紫与青蓝作为局部对比。高饱和颜色有集中与重复，暗形和相对安静的区域稳定画面，并非每一寸都同样鲜亮。"
+    },
+    {
+      "label": "空间与遮挡",
+      "text": "景深主要由形体重叠、大小变化、竖向树干和局部空隙建立；装饰性的平面感仍然强。前景大叶片围住中景树群，房屋、人物和动物穿插于不同层次，空间逻辑服务于画面的可读性。"
+    },
+    {
+      "label": "密度与留白",
+      "text": "附图 1 以圆形树冠分组，附图 3 用直立树干和灯点梳理密林。附图 4 的鸟群、花叶集中于两侧和下缘，中央大片白地让展翅的鸟更突出；附图 5 以低对比深色植被承托月亮与少数鲜色动物。满幅和留白都属于本组。"
+    },
+    {
+      "label": "叙事与尺度",
+      "text": "小人物、动物与带窗房屋像藏在图案中的故事线索，体型比例常带幻想意味。观看过程由远看整体色块转为近看细节；附图 2 的人物与两个放射状白花形建立局部动作关系，附图 3 的灯笼串形成向上的节奏。"
+    },
+    {
+      "label": "系列变体",
+      "text": "黑底暖色型：红橙黄树冠形成热烈童话感（附图 1）。蓝紫幻想型：青绿、靛蓝、紫红与放射状细线交织（附图 2、3）。蓝白明亮型：蓝色花叶框景配红黄鸟翼，中央留白（附图 4）。月夜型：深蓝绿降低整体亮度，粉花、黄果和虎纹成为少量焦点（附图 5）。"
+    }
+  ],
+  "legacy_prompts": {
+    "zh": "将输入图片完整改绘为繁密而有秩序的装饰性幻想绘本插画，参考本组的平面色块、概括轮廓、植物纹样和寻觅细节。输入图片决定内容、构图和视角，参考图只提供视觉语言。保留主体数量、人物身份与表情、动作、物件关系、建筑或地形结构、原有遮挡、镜头和画幅比例。先把现有形体重画成清楚、略带手绘起伏的大轮廓，以不透明的局部色块组织画面，减少写实体积渐变，再在各形体内部建立大中小三个尺度的装饰节奏。将原图已有叶簇、羽毛、衣饰、屋面、地面和其他表面分别转换成点粒、短叶形、叶脉、弧形排线、扇纹、鳞格或不规则环纹；每一分区选少量纹样，沿形体方向排列，改变大小、疏密和间距，保持材料与物件可读。用深蓝、青绿或原图合适的底色稳定大面积，再以红橙、明黄绿、青蓝或粉紫形成有位置和数量控制的亮色焦点；不要让全画同样鲜亮。保留原图的明亮或夜间关系：白地场景可让装饰集中于原有边缘和形体，暗色场景降低背景纹样对比，突出原有主体，不能强制添加月亮或更换天气。通过重叠、尺度和局部空隙保留必要的空间层次；已有小人物与动物可像故事线索融入细节，但人物面部、手和关键物件周围减少纹样，维持身份与动作清楚。全画统一插画语言，细节丰富而不机械，保留轻微边缘与纹理变化。不要导入参考中的丛林、房屋、蘑菇、灯笼、鸟群、野兽或新人物，不把空白全部填满。避免统一花纹贴图、随机高饱和噪点、仅加调色滤镜、厚重油画笔触、写实 3D、摄影贴片、虚构签名、文字和新水印。",
+    "en": "Repaint the entire input image as an intricate yet orderly decorative fantasy picture-book illustration, borrowing the flat color fields, simplified silhouettes, botanical pattern vocabulary and discoverable detail of these references. Let the input determine content, composition and viewpoint; use the references only for visual language. Preserve subject count, recognizable identities and expressions, actions, object relationships, architecture or terrain, existing occlusion, camera and aspect ratio. Establish clear broad silhouettes with subtly irregular drawn edges, organize them with opaque local color, reduce realistic volume gradients, then build ornament at large, medium and small scales inside those forms. Translate existing foliage, feathers, clothing, roofs, ground and other surfaces into dots, small leaf marks, veins, curved hatching, fans, scales or irregular rings. Use a limited pattern vocabulary in each region, follow the direction of the form, vary size, spacing and density, and keep materials and objects readable. Stabilize broad areas with deep blue, blue-green or a ground appropriate to the input, then place controlled red-orange, yellow-green, cyan or pink-violet accents. Do not make every region equally vivid. Preserve the input’s bright or nocturnal relationship: on a light ground, concentrate ornament within existing forms and edges; in a dark scene, lower background pattern contrast and emphasize existing subjects. Do not invent a moon or force a change of weather. Retain readable depth through overlap, scale and selective gaps. Existing small people and animals may become discoverable narrative details, while faces, hands and important objects receive less ornament so identity and action remain clear. Use a consistent illustrated treatment throughout, with rich but nonmechanical detail and subtle variation in edges and texture. Do not import jungles, houses, mushrooms, lanterns, flocks, wild animals or extra people from the references, or fill every empty area. Avoid uniform pattern overlays, random saturated noise, color filtering without redrawing, heavy oil-paint impasto, realistic 3D, photographic patches, fabricated signatures, lettering and new watermarks."
+  },
+  "sources": [
+    {
+      "title": "Peggy Nille 官网 · 《Cachés dans les rêves》与附图 3 对应图库",
+      "url": "https://www.peggynille.com/copie-de-caches-dans-la-mer"
+    },
+    {
+      "title": "Peggy Nille 官网 · 插画与出版作品目录（背景资料）",
+      "url": "https://www.peggynille.com/"
+    },
+    {
+      "title": "Peggy Nille 官网 · 墙面图案作品（背景资料）",
+      "url": "https://www.peggynille.com/copie-de-walldecor"
+    }
+  ],
+  "artist": "Peggy Nille",
+  "facets": {
+    "tradition": [
+      "storybook"
+    ],
+    "subject": [
+      "people",
+      "plants",
+      "animals",
+      "architecture"
+    ],
+    "effect": [
+      "flat",
+      "pattern",
+      "contour"
+    ]
+  },
+  "relations": [],
+  "cover": "media/peggy-nille-batch-input-01.webp",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "大形先行",
+      "explanation": "先概括原有形体的大剪影，再分层安排小纹样",
+      "evidence": "树冠被概括成圆团、椭圆、尖塔或扇面；鸟翼、花朵和屋顶都有可读的剪影。细密纹样填在这些大形内，形成“大形—纹样簇—微小点线”三个尺度，避免所有细节争夺注意。",
+      "zh": "先概括原有形体的大剪影，再分层安排小纹样",
+      "en": "Establish large silhouettes of existing forms before arranging smaller patterns",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "细线说明",
+      "explanation": "用内部细线和边缘色差说明结构",
+      "evidence": "点粒、短叶形、细叶脉、平行弧线、羽状排线、鱼鳞格与不规则环纹反复出现。同一种纹样沿枝叶或羽片的方向生长，不同物种和形体换用不同节奏；重复带有大小与间距变化。",
+      "zh": "用内部细线和边缘色差说明结构",
+      "en": "Describe structure through fine internal lines and color differences at edges",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "深底鲜色",
+      "explanation": "用稳定深色承托有集中与重复的鲜明局部色",
+      "evidence": "先用近黑、深蓝、绿色或白色建立大底，再让红橙、黄绿、粉紫与青蓝作为局部对比。高饱和颜色有集中与重复，暗形和相对安静的区域稳定画面，并非每一寸都同样鲜亮。",
+      "zh": "用稳定深色承托有集中与重复的鲜明局部色",
+      "en": "Set concentrated, repeated bright local colors against stable dark fields",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "压低体积",
+      "explanation": "弱化体积明暗，让局部色与纹样承担形体信息",
+      "evidence": "以清晰的局部色块和相邻色差分离形体，体积明暗被压低；细线与内部花纹承担结构说明。部分边缘和色块有轻微手绘起伏，附图 1 的点粒更粗，附图 4 的线条更清爽。这里只描述可见质感，不据此外观断言水粉、丝网印刷、拼贴或数字软件。",
+      "zh": "弱化体积明暗，让局部色与纹样承担形体信息",
+      "en": "Reduce volumetric shading so local color and pattern describe forms",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "重叠分层",
+      "explanation": "保留原有物件关系，用重叠与大小差异建立层次",
+      "evidence": "景深主要由形体重叠、大小变化、竖向树干和局部空隙建立；装饰性的平面感仍然强。前景大叶片围住中景树群，房屋、人物和动物穿插于不同层次，空间逻辑服务于画面的可读性。",
+      "zh": "保留原有物件关系，用重叠与大小差异建立层次",
+      "en": "Keep object relationships and build layers through overlap and size differences",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "纹样尺度",
+      "explanation": "在现有形体内组织大形、纹样簇和小点线三个尺度",
+      "evidence": "点粒、短叶形、细叶脉、平行弧线、羽状排线、鱼鳞格与不规则环纹反复出现。同一种纹样沿枝叶或羽片的方向生长，不同物种和形体换用不同节奏；重复带有大小与间距变化。",
+      "zh": "在现有形体内组织大形、纹样簇和小点线三个尺度",
+      "en": "Within existing forms, organize three scales: large shapes, pattern clusters and tiny marks",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "寻觅趣味",
+      "explanation": "营造丰富、幻想、值得细看的叙事趣味",
+      "evidence": "小人物、动物与带窗房屋像藏在图案中的故事线索，体型比例常带幻想意味。观看过程由远看整体色块转为近看细节；附图 2 的人物与两个放射状白花形建立局部动作关系，附图 3 的灯笼串形成向上的节奏。",
+      "zh": "营造丰富、幻想、值得细看的叙事趣味",
+      "en": "Create a rich imaginative narrative atmosphere that rewards close looking",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "observed_avoid": "避免只提高饱和度或覆盖统一花纹；避免把所有形体画成同样细碎的噪点、让人物失去辨识度，或把任何输入强行变成丛林。黑底、白底、鸟群、灯笼和奇幻房屋都是样例的具体选择，迁移时服从原图内容。",
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  },
+  "aliases": [
+    "装饰插画",
+    "当代装饰性绘本插画：平涂色块、繁密植物纹样与幻想叙事",
+    "Peggy Nille",
+    "佩吉·尼勒",
+    "繁花秘境",
+    "装饰插画",
+    "植物纹样",
+    "幻想绘本",
+    "童话森林",
+    "热带丛林",
+    "平涂",
+    "高饱和",
+    "密集构图",
+    "寻觅细节",
+    "孔雀羽纹",
+    "月夜",
+    "蓝白",
+    "Cachés dans les rêves",
+    "ornamental",
+    "botanical",
+    "decorative illustration",
+    "flat color",
+    "pattern-filled silhouettes",
+    "dream garden",
+    "seek and find",
+    "jungle",
+    "storybook"
+  ],
+  "reviewed_at": "2026-10-16"
+}

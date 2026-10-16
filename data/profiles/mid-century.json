@@ -1,0 +1,92 @@
+{
+  "id": "mid-century",
+  "name": "世纪中叶现代主义插画",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "概括的形状",
+      "explanation": "将原有形体概括为有大小和方向变化的简单形状",
+      "evidence": "房屋、树冠与人物由简洁的大形组成，大小和倾斜方向有变化。",
+      "zh": "将原有形体概括为有大小和方向变化的简单形状",
+      "en": "Simplify existing forms into simple shapes with varied size and direction",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "以形代线",
+      "explanation": "主要用相邻色面的边界界定形体，减少统一描边",
+      "evidence": "不少形体靠相邻色块区分，外轮廓没有统一的黑色描边。",
+      "zh": "主要用相邻色面的边界界定形体，减少统一描边",
+      "en": "Define forms mainly through adjoining color fields, reducing uniform outlines",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "大胆冷暖",
+      "explanation": "以深蓝紫承托黄绿亮色，建立明确的冷暖与明度对比",
+      "evidence": "房屋的黄绿亮部被蓝紫树林包围，冷暖与明度对比集中。",
+      "zh": "以深蓝紫承托黄绿亮色，建立明确的冷暖与明度对比",
+      "en": "Set bright yellow-green against deep blue and violet for clear temperature and value contrasts",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "色块光感",
+      "explanation": "以明暗色块表达光感，避免写实的光学反射",
+      "evidence": "光感来自明亮房屋与深色环境的对照，而非均匀写实阴影。",
+      "zh": "以明暗色块表达光感，避免写实的光学反射",
+      "en": "Suggest light through value shapes rather than realistic optical reflections",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "层叠空间",
+      "explanation": "保留原图前后关系，用遮挡和形状大小建立层叠空间",
+      "evidence": "前景树干与叶形遮挡中景，画面中心的空间被打开。",
+      "zh": "保留原图前后关系，用遮挡和形状大小建立层叠空间",
+      "en": "Keep the original depth relationships and use overlap and shape size to build layered space",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "手绘色面",
+      "explanation": "保留不透明手绘色面的轻微笔触与不规则边缘",
+      "evidence": "色面略有不规则边缘和可见手绘变化；材料在所用图录中未注明。",
+      "zh": "保留不透明手绘色面的轻微笔触与不规则边缘",
+      "en": "Keep subtle brush marks and irregular edges in opaque painted color fields",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "童话的活力",
+      "explanation": "营造富于想象、轻盈而有活力的叙事氛围",
+      "evidence": "倾斜、异比例的形状与大胆颜色共同形成童话般活力。",
+      "zh": "营造富于想象、轻盈而有活力的叙事氛围",
+      "en": "Create an imaginative, light and lively storytelling atmosphere",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
+    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+  }
+}

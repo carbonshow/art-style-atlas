@@ -1,0 +1,238 @@
+{
+  "id": "AS-004",
+  "name": "版画质感 · 奇幻绘本",
+  "english_name": "Textured Fantasy Storybook",
+  "classification": "水粉／粉彩干刷效果与版画装饰语言结合的当代奇幻绘本插画",
+  "summary": "不透明的粗颗粒颜料、刻线般的植物剪影与小比例人物，让环境参与叙事。冷绿蓝色盘中，橙红色承担情绪焦点。",
+  "recognition": "看干性颗粒、平面剪影与排线的结合，再看人物与环境比例。比笼统的“水彩风”更贴近这组参考。",
+  "tags": [
+    "版画",
+    "水粉",
+    "粉彩",
+    "干刷",
+    "粗纹纸",
+    "绘本",
+    "奇幻",
+    "森林",
+    "冷绿蓝",
+    "橙红",
+    "高俯视",
+    "Fantasy Storybook",
+    "Gouache",
+    "Pastel",
+    "Woodcut",
+    "Hatching"
+  ],
+  "palette": [
+    {
+      "name": "深林墨绿",
+      "hex": "#102B29"
+    },
+    {
+      "name": "孔雀蓝",
+      "hex": "#286579"
+    },
+    {
+      "name": "草叶绿",
+      "hex": "#6F8951"
+    },
+    {
+      "name": "纸白",
+      "hex": "#E4DCC7"
+    },
+    {
+      "name": "橙红",
+      "hex": "#E0653F"
+    }
+  ],
+  "reuse_focus": "先组织大块明暗、人物焦点和引导线，再加干刷颗粒与刻线。保留目标照片的视角和画幅。",
+  "judgment_note": "水粉、粉彩和版画描述可见效果；作品可能使用数字笔刷，实际媒介待补。",
+  "references": [
+    {
+      "file": "media/storybook-input-01.webp",
+      "caption": "01 · 草地旅人",
+      "alt": "高俯视的草地中，披红斗篷的旅人带着白马沿河边前行",
+      "credit": "用户提供 · 作者待补",
+      "focus": "抒情田园；草地笔触与色彩节奏。"
+    },
+    {
+      "file": "media/storybook-input-02.webp",
+      "caption": "02 · 林中火光",
+      "alt": "幽暗蓝色森林中，冒险者在橙红色篝火旁休息",
+      "credit": "用户提供 · 作者待补",
+      "focus": "幽暗童话；冷蓝与暖色火光对照。"
+    },
+    {
+      "file": "media/storybook-input-03.webp",
+      "caption": "03 · 雪地足迹",
+      "alt": "蓝白色森林雪道中，背着长剑的人物沿红色痕迹向前行走",
+      "credit": "用户提供 · 作者待补",
+      "focus": "道路与红色痕迹引导视线，叙事最明确。"
+    },
+    {
+      "file": "media/storybook-input-04.webp",
+      "caption": "04 · 岩台与红鱼",
+      "alt": "小比例矮人站在浅色石台上，下方深蓝水面有红鱼和圆形荷叶",
+      "credit": "用户提供 · 作者待补",
+      "focus": "平面装饰性最强；排线、石阶与荷叶呼应。"
+    }
+  ],
+  "type": "case",
+  "schema_version": 1,
+  "analysis": [
+    {
+      "label": "笔触与表面",
+      "text": "不透明色块、干刷露底、粉彩般擦痕与粗纹纸颗粒叠加，边缘有断裂和毛糙感。"
+    },
+    {
+      "label": "人物与植物",
+      "text": "人物以轮廓、披风和装备表达身份，面部简化；蕨叶、草束和荷叶转化为重复图形。"
+    },
+    {
+      "label": "版画语言",
+      "text": "植物剪影、岩壁排线与刻印般的边缘带来版画气质，同时保留松动的绘画笔触。"
+    },
+    {
+      "label": "色彩组织",
+      "text": "墨绿、蓝绿和深蓝建立环境；橙红形成人物或叙事焦点，纸白为视线提供停顿。"
+    },
+    {
+      "label": "空间与叙事",
+      "text": "原参考采用狭长竖幅与高俯视，用河岸、烟、道路和石阶引导视线；人物较小，环境显得辽阔。"
+    }
+  ],
+  "legacy_prompts": {
+    "zh": "将输入照片改绘为版画质感的当代奇幻绘本插画。照片提供内容、视角和构图，风格参考只提供色彩、笔触和图形语言。保留原图主体数量、人物身份与姿态、关键物件、空间关系和画幅比例。用不透明水粉与粉彩般的干刷擦痕重绘全场，显露粗纹纸颗粒与断裂边缘；在树干、岩石及既有表面使用细排线和刻印般纹理，把植物概括为清晰剪影与重复图案。以墨绿、蓝绿和深蓝组织大块明暗，用原图已有暖色主体建立少量橙红焦点，并保留纸白般的亮部停顿。简化次要人物细节，但保持主角可辨认，面部与环境使用同一绘画语言。用原有道路、河岸或形体方向引导视线，不强行改为高俯视镜头。不要从参考导入武器、鱼群、火堆、雪地或新角色；不要添加文字、水印、摄影贴片、塑料光泽或均匀噪点滤镜。",
+    "en": "Reinterpret the input photograph as a contemporary fantasy storybook illustration combining opaque gouache and pastel-like dry brushwork with woodcut-inspired graphic texture. The photograph supplies content, viewpoint and composition; references supply color, mark-making and graphic language only. Preserve subject count, recognizable identities and poses, key objects, spatial relationships and aspect ratio. Repaint the scene with rough-paper grain, scumbled pigment and broken edges. Use fine hatching and engraved-looking marks on existing trunks, rocks and surfaces; simplify foliage into clear silhouettes and rhythmic patterns. Organize broad light and dark masses in deep forest green, blue-green and petrol blue. Use an existing warm-colored subject for restrained orange-red focus, with paper-white highlights as visual pauses. Simplify secondary detail while keeping the main subject recognizable and faces consistently painted. Guide the eye with existing paths, banks or directional shapes; do not force a high-angle camera. Do not import weapons, fish, fires, snow or new characters. No lettering, watermarks, photographic patches, plastic gloss or uniform noise-filter effects."
+  },
+  "sources": [],
+  "artist": "作者未核实",
+  "facets": {
+    "tradition": [
+      "storybook"
+    ],
+    "subject": [
+      "people",
+      "plants",
+      "landscape"
+    ],
+    "effect": [
+      "grain",
+      "flat",
+      "hatching",
+      "brush"
+    ]
+  },
+  "relations": [],
+  "cover": "media/storybook-input-01.webp",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "简化剪影",
+      "explanation": "保留主体身份与动作，用简化剪影和少量细节表达",
+      "evidence": "人物以轮廓、披风和装备表达身份，面部简化；蕨叶、草束和荷叶转化为重复图形。",
+      "zh": "保留主体身份与动作，用简化剪影和少量细节表达",
+      "en": "Keep identity and pose, describing subjects through simplified silhouettes and few details",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "刻印边缘",
+      "explanation": "用略有毛糙的轮廓和局部排线说明形体",
+      "evidence": "植物剪影、岩壁排线与刻印般的边缘带来版画气质，同时保留松动的绘画笔触。",
+      "zh": "用略有毛糙的轮廓和局部排线说明形体",
+      "en": "Describe forms with slightly rough contours and localized hatching",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "冷绿暖橙",
+      "explanation": "以墨绿、蓝绿与深蓝为主，用少量橙红强调已有焦点",
+      "evidence": "墨绿、蓝绿和深蓝建立环境；橙红形成人物或叙事焦点，纸白为视线提供停顿。",
+      "zh": "以墨绿、蓝绿与深蓝为主，用少量橙红强调已有焦点",
+      "en": "Use dark green, teal and deep blue, with restrained orange-red on existing focal points",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "不透明色面",
+      "explanation": "压低光学反光，用不透明色面区分明暗",
+      "evidence": "不透明色块、干刷露底、粉彩般擦痕与粗纹纸颗粒叠加，边缘有断裂和毛糙感。",
+      "zh": "压低光学反光，用不透明色面区分明暗",
+      "en": "Reduce optical reflections and separate values through opaque color fields",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "路径引导",
+      "explanation": "保留原构图与画幅，强化原有形体的视线引导",
+      "evidence": "原参考采用狭长竖幅与高俯视，用河岸、烟、道路和石阶引导视线；人物较小，环境显得辽阔。",
+      "zh": "保留原构图与画幅，强化原有形体的视线引导",
+      "en": "Keep composition and aspect ratio, strengthening the viewing path of existing forms",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "干刷颗粒",
+      "explanation": "加入有方向的干刷、擦痕和适度粗纸颗粒",
+      "evidence": "不透明色块、干刷露底、粉彩般擦痕与粗纹纸颗粒叠加，边缘有断裂和毛糙感。",
+      "zh": "加入有方向的干刷、擦痕和适度粗纸颗粒",
+      "en": "Use directional dry brush marks, scuffs and restrained coarse paper grain",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "辽阔幻想",
+      "explanation": "营造宁静、辽阔、带探索感的幻想氛围",
+      "evidence": "原参考采用狭长竖幅与高俯视，用河岸、烟、道路和石阶引导视线；人物较小，环境显得辽阔。",
+      "zh": "营造宁静、辽阔、带探索感的幻想氛围",
+      "en": "Create a quiet, expansive atmosphere of imaginative exploration",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "observed_avoid": "避免用均匀噪点代替笔触、让透明水彩洇染成为主体，或照搬参考中的武器、鱼群、雪地和火堆。",
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  },
+  "aliases": [
+    "奇幻绘本",
+    "水粉／粉彩干刷效果与版画装饰语言结合的当代奇幻绘本插画",
+    "版画",
+    "水粉",
+    "粉彩",
+    "干刷",
+    "粗纹纸",
+    "绘本",
+    "奇幻",
+    "森林",
+    "冷绿蓝",
+    "橙红",
+    "高俯视",
+    "Fantasy Storybook",
+    "Gouache",
+    "Pastel",
+    "Woodcut",
+    "Hatching"
+  ],
+  "reviewed_at": "2026-10-16"
+}

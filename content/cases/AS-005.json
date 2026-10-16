@@ -1,0 +1,256 @@
+{
+  "id": "AS-005",
+  "name": "油画质感 · 微光雨夜花园",
+  "english_name": "Luminous Rain Garden",
+  "classification": "油画般碎笔触与浪漫幻想气氛结合的植物动景，具有印象派式色彩倾向",
+  "summary": "繁密花丛从深蓝夜幕中浮现，奶白、粉紫与金黄花瓣点亮冷蓝和青绿色的植物。细雨、金色微光与水波般的局部形变，共同形成潮湿、浪漫而略带迷幻的花园动景。",
+  "recognition": "先看可辨认的花朵体积与细碎、不透明的色彩笔触，再看冷色夜幕和暖色微光。播放时，花瓣与叶丛持续局部扭动；这比单纯给静态花园叠加雨点更接近原参考。植物题材与已有装饰插画有交集，绘画表面、夜光和动态形变使它成为独立条目。",
+  "tags": [
+    "油画质感",
+    "雨夜花园",
+    "微光",
+    "动态形变",
+    "印象派倾向",
+    "浪漫幻想",
+    "花卉",
+    "繁花",
+    "深蓝",
+    "冷暖对比",
+    "金色光点",
+    "液态扭曲",
+    "雨丝",
+    "循环动图",
+    "oil-paint-like texture",
+    "painterly botanical",
+    "Impressionistic",
+    "romantic fantasy",
+    "luminous garden",
+    "rain",
+    "golden glimmers",
+    "liquid distortion",
+    "micro loop",
+    "JenPanepinto",
+    "quantumspirit"
+  ],
+  "palette": [
+    {
+      "name": "夜幕靛蓝",
+      "hex": "#090B25"
+    },
+    {
+      "name": "青绿叶丛",
+      "hex": "#174B43"
+    },
+    {
+      "name": "冷钴蓝",
+      "hex": "#164DA5"
+    },
+    {
+      "name": "暖粉白",
+      "hex": "#E4C8B8"
+    },
+    {
+      "name": "微光金黄",
+      "hex": "#D8AF49"
+    }
+  ],
+  "reuse_focus": "先迁移不透明碎笔触、繁密与留白的关系、冷色暗部和局部暖色亮部。需要动图时，再加入受控的局部水波形变、细雨和闪烁；人物身份与重要物件要保持稳定。",
+  "judgment_note": "“油画”“印象派倾向”描述可见质感与色彩关联；真实媒介、制作软件、是否使用 AI 及原作者归属尚未由原帖证实。发布账号为 @JenPanepinto（页面资料显示 Jennifer Panepinto / quantumspirit）。本条名称由图鉴归纳，非已核实作品标题；参考保留 X 提供的 MP4 原字节，静态帧为提取样例，未改绘。",
+  "references": [
+    {
+      "file": "media/x-2105866106053271986-frame-07.webp",
+      "kind": "external_motion_reference",
+      "caption": "01 · 微光雨夜花园 · 原帖动图",
+      "alt": "深蓝夜色中繁密的花朵与青绿叶丛，空中有细雨和金色微光，花瓣与叶丛呈水波般局部形变",
+      "credit": "发布：@JenPanepinto · 原作归属待核实",
+      "credit_url": "https://x.com/JenPanepinto/status/2105866106053271986",
+      "frame_time_seconds": 0.42,
+      "frame_time_label": "0.42 秒",
+      "focus": "主参考以原帖动图播放；下方静态帧从第 7 帧提取，保留完整 9:10 画幅。",
+      "motion": {
+        "file": "media/x-2105866106053271986.mp4",
+        "mime_type": "video/mp4",
+        "source_url": "https://video.twimg.com/tweet_video/HTmKCYEXAAAcy8w.mp4",
+        "duration_seconds": 0.91,
+        "duration_label": "0.91 秒 / 循环",
+        "width": 900,
+        "height": 1000,
+        "frame_count": 13,
+        "frame_rate": "100/7",
+        "format_note": "X 将这段内容标注为 GIF，实际提供 MP4。此处内嵌平台文件，点击播放后循环；文件已本地归档，可离线浏览。"
+      }
+    }
+  ],
+  "motion_prompts": {
+    "zh": "在已完成的改绘上追加短循环动态。固定镜头、画幅与总体构图，不切镜、不推拉。让已有植物、织物或背景笔触产生连续、受控的水波般局部起伏：轻微拉伸、折叠、摆动，保持主体轮廓与位置可读。人物面部、身体结构和重要物件保持稳定，不新增实体或改变物件数量。在环境层加入纤细、低对比的近竖直雨丝，以及疏密错落、亮度略有变化的金色微光点；动态点缀保持克制，不遮挡主体。保留原有绘画笔触、冷色暗部与花瓣般柔和亮部。让循环首尾自然衔接，呈现雨幕、微光与局部形变共同构成的呼吸感，避免镜头抖动、全局变形、频闪、拖影和过度发光。",
+    "en": "Add a short looping animation to the completed repaint. Lock the camera, aspect ratio and overall composition with no cuts or camera moves. Give existing foliage, fabric or background brush marks controlled, continuous wave-like local motion: gentle stretching, folding and swaying while keeping subject silhouettes and positions readable. Stabilize faces, body structure and important objects; do not add physical subjects or change object counts. Introduce fine, low-contrast, nearly vertical rain streaks in the environment and irregularly spaced golden glimmers with subtle brightness variation. Keep these accents restrained and clear of the main subject. Preserve the painted texture, cool dark masses and soft petal-like highlights. Blend the end of the loop naturally into its beginning so rain, glimmers and local deformation create a breathing rhythm. Avoid camera shake, global warping, strobing, trails and excessive bloom."
+  },
+  "type": "case",
+  "schema_version": 1,
+  "analysis": [
+    {
+      "label": "造型与笔触",
+      "text": "花瓣和叶片保留可辨认的结构与体积，表面由交叠的碎色块、短小点触和斑驳亮部组成；局部有油彩堆叠般的厚重感，边缘柔化、融入周围色彩。"
+    },
+    {
+      "label": "色彩组织",
+      "text": "深靛蓝、青绿和冷钴蓝构成大片底色；奶白、淡粉、紫红和小面积金黄分散在花簇中。暖色光点在冷色暗部上更醒目，花朵亮部承担主要视觉支点。"
+    },
+    {
+      "label": "构图与空间",
+      "text": "花丛集中在中下部，两侧抬高、中央降低，形成向夜幕打开的凹口。前景花朵较大、后方细碎花簇较小；上部深色留白与下部高密度纹理形成疏密对照。"
+    },
+    {
+      "label": "光线与氛围",
+      "text": "细小金色亮点与花瓣上的柔和高光穿插于暗场，营造潮湿、梦幻的夜光。植物结构相对具体，整体颜色和亮点分布则带有浪漫幻想感。"
+    },
+    {
+      "label": "动态形变",
+      "text": "13 帧中，花瓣、叶簇和局部笔触发生连续的拉伸、折叠与扭动，呈现水波般的液态起伏；主要花朵与植物区域仍可辨认。这里描述可见运动，不据此断定所用滤镜或软件。"
+    },
+    {
+      "label": "雨与微循环",
+      "text": "细长的近竖直雨线改变位置，金色点状光在帧间闪烁；画幅、总体构图和视角保持固定，没有切镜。平台文件约 0.91 秒、13 帧，短循环带来持续的颤动与流光。"
+    }
+  ],
+  "legacy_prompts": {
+    "zh": "将输入照片完整改绘为具有油画质感、印象派式碎笔触和浪漫幻想气氛的绘画。照片决定内容与构图，附加参考只提供材质、色彩和气氛。保留原图主体数量、人物身份与姿态、物件关系、场景结构、镜头视角和画幅比例。以交叠的不透明短笔触、细碎色块和斑驳高光重绘既有表面，让主要物体保有可辨认的形状与柔和体积；边缘局部融入周围颜色，避免均匀颗粒滤镜。用深靛蓝、青绿和冷钴蓝组织暗部，以原场景已有的亮部和暖色对象形成奶白、淡粉、紫红与少量金黄的视觉支点。保留暗部层次、疏密对照和主体附近的呼吸空间，营造潮湿、宁静、微光闪耀的梦幻气氛。人物面部保持可辨认，并使用与全画一致的绘画语言。只迁移风格，不把参考中的花海、花种或摆放位置导入原照片；不强行改变视角或裁成参考画幅。静态版本保持清晰，不加入运动拖影。不要新增人物、物件、文字或水印，避免塑料光泽、过度发光、全局模糊或写实摄影贴片。",
+    "en": "Repaint the input photograph with oil-paint-like texture, impressionistic broken brushwork and a romantic fantasy atmosphere. The photograph determines content and composition; references supply surface treatment, palette and mood only. Preserve subject count, recognizable identities and poses, object relationships, scene structure, camera viewpoint and aspect ratio. Use overlapping opaque dabs, small broken color shapes and mottled highlights on existing surfaces, retaining readable forms and softly modeled volume. Let selected edges merge into surrounding colors without a uniform grain filter. Organize shadows in deep indigo, blue-green and cool cobalt; use existing highlights and warm subjects for ivory, pale pink, plum and restrained golden accents. Keep layered darks, contrasts between dense detail and breathing space, and a damp, quiet, luminous dreamlike mood. Render recognizable faces in the same painted language as the scene. Transfer style without importing the reference garden, flower species or arrangement, changing the camera, or forcing the reference aspect ratio. Keep the still version sharp without motion trails. Do not add people, objects, text or watermarks. Avoid plastic gloss, excessive bloom, global blur and photographic patches."
+  },
+  "sources": [],
+  "artist": "发布者 JenPanepinto；作者未核实",
+  "facets": {
+    "tradition": [
+      "painterly-surface"
+    ],
+    "subject": [
+      "plants"
+    ],
+    "effect": [
+      "brush",
+      "impasto",
+      "light"
+    ]
+  },
+  "relations": [],
+  "cover": "media/x-2105866106053271986-frame-07.webp",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "结构与碎色",
+      "explanation": "保留可辨形体，以交叠碎色块提示结构",
+      "evidence": "花瓣和叶片保留可辨认的结构与体积，表面由交叠的碎色块、短小点触和斑驳亮部组成；局部有油彩堆叠般的厚重感，边缘柔化、融入周围色彩。",
+      "zh": "保留可辨形体，以交叠碎色块提示结构",
+      "en": "Keep recognizable forms and suggest structure through overlapping broken color patches",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "融化边缘",
+      "explanation": "让部分边缘融入邻近颜色，同时保留关键形状",
+      "evidence": "花瓣和叶片保留可辨认的结构与体积，表面由交叠的碎色块、短小点触和斑驳亮部组成；局部有油彩堆叠般的厚重感，边缘柔化、融入周围色彩。",
+      "zh": "让部分边缘融入邻近颜色，同时保留关键形状",
+      "en": "Merge some edges into adjacent colors while preserving key shapes",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "冷夜暖光",
+      "explanation": "以深靛蓝、青绿和冷蓝承托少量奶白、淡粉与金黄",
+      "evidence": "深靛蓝、青绿和冷钴蓝构成大片底色；奶白、淡粉、紫红和小面积金黄分散在花簇中。暖色光点在冷色暗部上更醒目，花朵亮部承担主要视觉支点。",
+      "zh": "以深靛蓝、青绿和冷蓝承托少量奶白、淡粉与金黄",
+      "en": "Use deep indigo, teal and cool blue with restrained cream, pale pink and gold",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "局部微光",
+      "explanation": "在已有受光部位安排柔和局部亮光，保持大片暗部",
+      "evidence": "细小金色亮点与花瓣上的柔和高光穿插于暗场，营造潮湿、梦幻的夜光。植物结构相对具体，整体颜色和亮点分布则带有浪漫幻想感。",
+      "zh": "在已有受光部位安排柔和局部亮光，保持大片暗部",
+      "en": "Place soft local light on existing illuminated areas and preserve broad shadows",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "疏密对照",
+      "explanation": "保留原布局，让密集细节与安静暗部形成对照",
+      "evidence": "花丛集中在中下部，两侧抬高、中央降低，形成向夜幕打开的凹口。前景花朵较大、后方细碎花簇较小；上部深色留白与下部高密度纹理形成疏密对照。",
+      "zh": "保留原布局，让密集细节与安静暗部形成对照",
+      "en": "Keep the layout and contrast dense detail with quiet shadow areas",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "油彩般碎笔",
+      "explanation": "用不透明短笔、点触与局部厚重色块表现油彩般质感",
+      "evidence": "花瓣和叶片保留可辨认的结构与体积，表面由交叠的碎色块、短小点触和斑驳亮部组成；局部有油彩堆叠般的厚重感，边缘柔化、融入周围色彩。",
+      "zh": "用不透明短笔、点触与局部厚重色块表现油彩般质感",
+      "en": "Use opaque short strokes, dabs and localized thick color for an oil-paint-like surface",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "潮湿梦幻",
+      "explanation": "营造潮湿、柔和、浪漫幻想的夜间气氛",
+      "evidence": "细小金色亮点与花瓣上的柔和高光穿插于暗场，营造潮湿、梦幻的夜光。植物结构相对具体，整体颜色和亮点分布则带有浪漫幻想感。",
+      "zh": "营造潮湿、柔和、浪漫幻想的夜间气氛",
+      "en": "Create a damp, soft and romantically dreamlike night atmosphere",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "observed_avoid": "避免把参考的花海直接加入任意照片；避免仅用均匀噪点、强发光光斑或整体模糊代替绘画表面。动态迁移中，避免人物面部和重要物件被液态扭曲破坏，也不要把局部形变误做成镜头摇晃。",
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  },
+  "aliases": [
+    "绘画动景",
+    "油画般碎笔触与浪漫幻想气氛结合的植物动景，具有印象派式色彩倾向",
+    "油画质感",
+    "雨夜花园",
+    "微光",
+    "动态形变",
+    "印象派倾向",
+    "浪漫幻想",
+    "花卉",
+    "繁花",
+    "深蓝",
+    "冷暖对比",
+    "金色光点",
+    "液态扭曲",
+    "雨丝",
+    "循环动图",
+    "oil-paint-like texture",
+    "painterly botanical",
+    "Impressionistic",
+    "romantic fantasy",
+    "luminous garden",
+    "rain",
+    "golden glimmers",
+    "liquid distortion",
+    "micro loop",
+    "JenPanepinto",
+    "quantumspirit"
+  ],
+  "reviewed_at": "2026-10-16"
+}

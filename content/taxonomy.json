@@ -1,0 +1,202 @@
+{
+  "dimensions": [
+    {
+      "id": "shape",
+      "name": "造型"
+    },
+    {
+      "id": "line",
+      "name": "线条"
+    },
+    {
+      "id": "color",
+      "name": "色彩"
+    },
+    {
+      "id": "light",
+      "name": "光影"
+    },
+    {
+      "id": "space",
+      "name": "构图与空间"
+    },
+    {
+      "id": "texture",
+      "name": "笔触与肌理"
+    },
+    {
+      "id": "mood",
+      "name": "氛围"
+    }
+  ],
+  "facets": {
+    "tradition": {
+      "name": "风格与传统",
+      "values": [
+        {
+          "id": "painterly-realism",
+          "name": "写实绘画"
+        },
+        {
+          "id": "art-nouveau",
+          "name": "新艺术"
+        },
+        {
+          "id": "art-deco",
+          "name": "装饰艺术"
+        },
+        {
+          "id": "expressionism",
+          "name": "表现主义"
+        },
+        {
+          "id": "nihonga",
+          "name": "日本画"
+        },
+        {
+          "id": "fantasy-comics",
+          "name": "幻想漫画"
+        },
+        {
+          "id": "mid-century",
+          "name": "世纪中叶现代主义"
+        },
+        {
+          "id": "minimalism",
+          "name": "极简插画"
+        },
+        {
+          "id": "arts-crafts",
+          "name": "工艺美术"
+        },
+        {
+          "id": "stylized-3d",
+          "name": "风格化 3D"
+        },
+        {
+          "id": "storybook",
+          "name": "绘本插画"
+        },
+        {
+          "id": "romantic-landscape",
+          "name": "浪漫主义风景"
+        },
+        {
+          "id": "group-of-seven",
+          "name": "加拿大七人画派"
+        },
+        {
+          "id": "chinese-contemporary",
+          "name": "新中式插画"
+        },
+        {
+          "id": "ukiyoe-influence",
+          "name": "浮世绘视觉借鉴"
+        },
+        {
+          "id": "painterly-surface",
+          "name": "绘画质感表现"
+        }
+      ]
+    },
+    "subject": {
+      "name": "参考题材",
+      "values": [
+        {
+          "id": "people",
+          "name": "人物"
+        },
+        {
+          "id": "landscape",
+          "name": "风景"
+        },
+        {
+          "id": "architecture",
+          "name": "建筑"
+        },
+        {
+          "id": "plants",
+          "name": "植物"
+        },
+        {
+          "id": "animals",
+          "name": "动物"
+        }
+      ]
+    },
+    "effect": {
+      "name": "画面效果",
+      "values": [
+        {
+          "id": "flat",
+          "name": "平面色块"
+        },
+        {
+          "id": "contour",
+          "name": "明确轮廓"
+        },
+        {
+          "id": "geometry",
+          "name": "几何造型"
+        },
+        {
+          "id": "grain",
+          "name": "纸张颗粒"
+        },
+        {
+          "id": "brush",
+          "name": "可见笔触"
+        },
+        {
+          "id": "impasto",
+          "name": "厚重笔触"
+        },
+        {
+          "id": "gold",
+          "name": "金线"
+        },
+        {
+          "id": "organic",
+          "name": "装饰曲线"
+        },
+        {
+          "id": "negative-space",
+          "name": "留白与负空间"
+        },
+        {
+          "id": "depth",
+          "name": "空间纵深"
+        },
+        {
+          "id": "light",
+          "name": "戏剧光影"
+        },
+        {
+          "id": "pattern",
+          "name": "重复纹样"
+        },
+        {
+          "id": "hatching",
+          "name": "排线"
+        },
+        {
+          "id": "limited",
+          "name": "有限色彩"
+        }
+      ]
+    },
+    "type": {
+      "name": "内容类型",
+      "values": [
+        {
+          "id": "guide",
+          "name": "风格指南"
+        },
+        {
+          "id": "case",
+          "name": "参考案例"
+        }
+      ]
+    }
+  }
+}

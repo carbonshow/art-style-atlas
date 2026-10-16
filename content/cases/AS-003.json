@@ -1,0 +1,229 @@
+{
+  "id": "AS-003",
+  "name": "手绘质感 · 风格化 3D",
+  "english_name": "Painterly Stylized 3D Environment",
+  "classification": "手绘质感的风格化 3D 童话庄园",
+  "summary": "明确的建筑体积与柔和造型相结合。概括的材质、温暖日光和层次化植物，让场景呈现安静的童话庄园感。",
+  "recognition": "看体积、投影与透视，再看概括的材质笔触。3D、手绘质感与童话氛围描述的是不同层面的特点。",
+  "tags": [
+    "风格化",
+    "3D",
+    "手绘",
+    "庄园",
+    "场景美术",
+    "游戏美术",
+    "材质",
+    "暖色日光",
+    "Stylized 3D",
+    "Painterly Rendering",
+    "Cozy Fantasy",
+    "Storybook Manor",
+    "Addison Bacheller"
+  ],
+  "palette": [
+    {
+      "name": "天空蓝",
+      "hex": "#68B7CF"
+    },
+    {
+      "name": "石墙暖黄",
+      "hex": "#C3A87A"
+    },
+    {
+      "name": "瓦片蓝灰",
+      "hex": "#53586A"
+    },
+    {
+      "name": "庭院绿",
+      "hex": "#36583D"
+    },
+    {
+      "name": "暖阳",
+      "hex": "#DFBA78"
+    }
+  ],
+  "reuse_focus": "保持原图物件和结构，优先简化形体、增强大块明暗，再让材质呈现有方向的绘画痕迹。",
+  "judgment_note": "原图署名 Addison Bacheller，并标注 artstation.com/lazulie；已核对作者主页。具体引擎与制作流程待补。",
+  "references": [
+    {
+      "file": "media/morning-input-04.webp",
+      "caption": "暖色日光中的欧式庄园",
+      "alt": "风格化三维欧式庄园，蓝灰色屋顶、暖黄色石墙、绿树花丛与前景野餐物件",
+      "credit": "原图署名：Addison Bacheller",
+      "credit_url": "https://lazulie.artstation.com/"
+    }
+  ],
+  "pipeline": [
+    {
+      "label": "建模",
+      "text": "用清楚的大轮廓和适度柔化的边缘建立主体，控制小零件密度。"
+    },
+    {
+      "label": "材质",
+      "text": "用大块色彩变化与手绘纹理表达石材、瓦片和植被，保留材质差异。"
+    },
+    {
+      "label": "灯光",
+      "text": "用暖色主光、柔和阴影与前后景亮度差建立主体层级。"
+    }
+  ],
+  "type": "case",
+  "schema_version": 1,
+  "analysis": [
+    {
+      "label": "轮廓与造型",
+      "text": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。"
+    },
+    {
+      "label": "色彩组织",
+      "text": "暖黄石墙、蓝灰屋顶与蓝色天空形成清楚分区；植物包围建筑，日光集中在主体。"
+    },
+    {
+      "label": "材质表面",
+      "text": "石墙、瓦片与植物以概括色块和可读纹理表达材质，避免均匀的微小噪声覆盖表面。"
+    },
+    {
+      "label": "光影与空间",
+      "text": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。"
+    },
+    {
+      "label": "题材与氛围",
+      "text": "欧式庄园、花园与柔和阳光组合成温暖宁静的童话田园。题材不等于渲染方法。"
+    }
+  ],
+  "legacy_prompts": {
+    "zh": "把输入照片转译为具有手绘质感的风格化 3D 场景。照片提供内容与构图，附加图片仅作风格参考。保留原图主体数量、人物身份与动作、物件关系、建筑结构、镜头视角和画幅。让主要物体具有清楚而简化的三维体积、自然透视和适度柔化的边缘；以概括色块、方向明确的手绘纹理与细微色彩变化表现不同材质。使用温暖柔和的日光、可读的接触阴影和有层次的前后景，营造宁静的童话氛围。以原场景已有颜色和材质为基础调整冷暖，不强行替换为欧式庄园。保留人物辨识度，面部处理与场景一致。避免全场塑料质感、写实扫描噪点、过重黑色轮廓线、强烈赛璐珞分段阴影、额外物件、文字或水印。",
+    "en": "Reinterpret the input photograph as a painterly stylized 3D environment. Use the photograph for content and composition, and references for style only. Preserve subject count, recognizable identities and poses, object relationships, architectural structure, camera viewpoint and aspect ratio. Give major objects clear, simplified three-dimensional volumes, coherent perspective and moderately softened edges. Express distinct materials with broad color blocks, directional hand-painted texture and subtle color variation. Use warm gentle daylight, readable contact shadows and layered depth for a peaceful storybook mood. Adjust warm and cool relationships from the original scene's existing colors and materials, without replacing its setting with a European manor. Keep faces recognizable and stylistically consistent. Avoid uniform plastic surfaces, photogrammetry-like noise, heavy black outlines, harsh cel-shaded bands, added objects, text or watermarks."
+  },
+  "sources": [
+    {
+      "title": "Addison Bacheller · 作者主页",
+      "url": "https://lazulie.artstation.com/"
+    }
+  ],
+  "artist": "Addison Bacheller",
+  "facets": {
+    "tradition": [
+      "stylized-3d"
+    ],
+    "subject": [
+      "architecture",
+      "plants",
+      "landscape"
+    ],
+    "effect": [
+      "geometry",
+      "depth",
+      "brush"
+    ]
+  },
+  "relations": [],
+  "cover": "media/morning-input-04.webp",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "柔化的体块",
+      "explanation": "保持原有主体的三维体积，柔化边角并概括小细节",
+      "evidence": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。",
+      "zh": "保持原有主体的三维体积，柔化边角并概括小细节",
+      "en": "Keep the subjects’ three-dimensional volumes, softening corners and simplifying small details",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "柔和轮廓",
+      "explanation": "用柔和而清楚的边缘区分形体，减少过硬描边",
+      "evidence": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。",
+      "zh": "用柔和而清楚的边缘区分形体，减少过硬描边",
+      "en": "Separate forms with soft but clear edges and avoid harsh outlines",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "暖黄蓝灰",
+      "explanation": "使用暖黄、蓝灰与克制绿色的明快配色",
+      "evidence": "暖黄石墙、蓝灰屋顶与蓝色天空形成清楚分区；植物包围建筑，日光集中在主体。",
+      "zh": "使用暖黄、蓝灰与克制绿色的明快配色",
+      "en": "Use a cheerful palette of warm yellow, blue-gray and restrained greens",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "柔光投影",
+      "explanation": "用柔和日光、体块明暗和接触阴影建立可信深度",
+      "evidence": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。",
+      "zh": "用柔和日光、体块明暗和接触阴影建立可信深度",
+      "en": "Build believable depth with soft daylight, form shading and contact shadows",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "清楚透视",
+      "explanation": "保留原视角与透视，降低次要区域细节",
+      "evidence": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。",
+      "zh": "保留原视角与透视，降低次要区域细节",
+      "en": "Keep the original viewpoint and perspective and simplify secondary detail",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "手绘材质",
+      "explanation": "用概括笔触表现材质差异，避免均匀微噪声",
+      "evidence": "石墙、瓦片与植物以概括色块和可读纹理表达材质，避免均匀的微小噪声覆盖表面。",
+      "zh": "用概括笔触表现材质差异，避免均匀微噪声",
+      "en": "Use simplified brushwork to distinguish materials, avoiding uniform micro-noise",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "温暖童话",
+      "explanation": "营造温暖宁静、有手工感的童话气质",
+      "evidence": "欧式庄园、花园与柔和阳光组合成温暖宁静的童话田园。题材不等于渲染方法。",
+      "zh": "营造温暖宁静、有手工感的童话气质",
+      "en": "Create a warm, peaceful storybook feeling with a handmade quality",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "observed_avoid": "避免全场统一为光滑塑料，或用过重轮廓线与分段阴影取代柔和体积感。",
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  },
+  "aliases": [
+    "3D 场景",
+    "手绘质感的风格化 3D 童话庄园",
+    "风格化",
+    "3D",
+    "手绘",
+    "庄园",
+    "场景美术",
+    "游戏美术",
+    "材质",
+    "暖色日光",
+    "Stylized 3D",
+    "Painterly Rendering",
+    "Cozy Fantasy",
+    "Storybook Manor",
+    "Addison Bacheller"
+  ],
+  "reviewed_at": "2026-10-16"
+}

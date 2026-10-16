@@ -1,0 +1,255 @@
+{
+  "media/bierstadt-batch-input-01.webp": {
+    "sha256": "150bbaacc92cd136fcd66477771723b7567b898ed67b47e5f0ae80b5cd5ad392",
+    "width": 1250,
+    "height": 723
+  },
+  "media/bierstadt-batch-input-02.webp": {
+    "sha256": "6542f772397b00ea8ff27a51354013b2ef6dec5141710607c0b1fa988e1f327c",
+    "width": 1024,
+    "height": 1259
+  },
+  "media/bierstadt-batch-input-03.webp": {
+    "sha256": "9f27c1097f52fe008cb6699d863c51632c7a148e2ae35cf98b8a3f8bc6bbca8a",
+    "width": 1020,
+    "height": 641
+  },
+  "media/bierstadt-batch-input-04.webp": {
+    "sha256": "7964761f804de3b55aacf2b45a80ef4128d3cc7a2ecb1c6a3fab531c8d013f17",
+    "width": 1080,
+    "height": 729
+  },
+  "media/bierstadt-batch-input-05.webp": {
+    "sha256": "a374b289e3aecb82c413d36313e39246060bc2489e83e6260c5435d69f15625e",
+    "width": 1080,
+    "height": 740
+  },
+  "media/bierstadt-batch-input-06.webp": {
+    "sha256": "2bb85b22e6c8da9440361b4a4095397f7f20fc441c7979d4aea7a3d919fc46b9",
+    "width": 1080,
+    "height": 755
+  },
+  "media/bierstadt-batch-input-07.webp": {
+    "sha256": "4797f7c03c1eb63b1a280ff7dbf8153fa299451fae04150a1bd7aa21a68e3f0b",
+    "width": 1000,
+    "height": 549
+  },
+  "media/bierstadt-batch-input-08.webp": {
+    "sha256": "2af042845a53f8354f323453af1588ced59c8e1468c69a975a37157b1df25137",
+    "width": 1080,
+    "height": 727
+  },
+  "media/carmichael-batch-input-01.webp": {
+    "sha256": "2f52d756b9ae6fd0ff2e9da1db3ef5e2d8cfaf693ab45dac9d053ea7347ed47e",
+    "width": 720,
+    "height": 909
+  },
+  "media/carmichael-batch-input-02.webp": {
+    "sha256": "676c3285962f05097c0bd3a3240fb95d778ecf30ec4446e8dbfc75fca0c7a125",
+    "width": 1250,
+    "height": 703
+  },
+  "media/carmichael-batch-input-03.webp": {
+    "sha256": "b136ed79546f499e882159cd45503ffd4b5111243aa38b64820e8c0cc4db86e4",
+    "width": 513,
+    "height": 632
+  },
+  "media/carmichael-batch-input-04.webp": {
+    "sha256": "8ef6f7026ed7fd02027c6cfb6dc43e81ccd4d01ed84c890e6be24a5eabdc8735",
+    "width": 1920,
+    "height": 1573
+  },
+  "media/city-bierstadt-final.webp": {
+    "sha256": "5aa08a348486ee027802b3f407ab7e6502c16227896a5bad0b7719e8964ba070",
+    "width": 1869,
+    "height": 842
+  },
+  "media/city-bierstadt-input.webp": {
+    "sha256": "047f157a2ab070b0d70d574d694653d8de7dfa7dd2998528842954844eb803b6",
+    "width": 1920,
+    "height": 864
+  },
+  "media/guide-art-deco.webp": {
+    "sha256": "dddfbd0bf23690c21a7653fdba10941293bd43512c7f5ec745e2116791fca37e",
+    "width": 607,
+    "height": 800
+  },
+  "media/guide-art-nouveau.webp": {
+    "sha256": "ab13b18382817f3a8293555d197ceb615346d9a77c2d33e2e12f6ba37c8150ab",
+    "width": 391,
+    "height": 520
+  },
+  "media/guide-expressionism.webp": {
+    "sha256": "24f37e8707ec3e8cc8f85b16f85fdb6795df6f950f5a2d7c7d7721041ac2b179",
+    "width": 992,
+    "height": 802
+  },
+  "media/guide-fantasy-comics.webp": {
+    "sha256": "46396eab94a6d4e04b0091b57a86ae2efd13e3644c3c5a0d627c3d29499b241a",
+    "width": 1057,
+    "height": 1400
+  },
+  "media/guide-mid-century.webp": {
+    "sha256": "addc9df44ba56cbe50b0781aca7a7382dff161b687e88469a3a1af5c29eea3ab",
+    "width": 824,
+    "height": 695
+  },
+  "media/guide-minimalism.webp": {
+    "sha256": "aeb7ecb26f5494c0d87499caaa9eedcab712e2928da4510d24e87bfde287a911",
+    "width": 990,
+    "height": 1400
+  },
+  "media/guide-nihonga.webp": {
+    "sha256": "d438f80548cfc283d2561c8fc5d84f61863899e13aec5e79206c170023ab549b",
+    "width": 230,
+    "height": 380
+  },
+  "media/guide-painterly-portrait.webp": {
+    "sha256": "a363dd0300c171e79dd1373e632ebf2a8e18fd77b3c47d94936e50bc0073d367",
+    "width": 800,
+    "height": 669
+  },
+  "media/morning-input-01.webp": {
+    "sha256": "c6ef2fea8fccb3bded7adad41f3005fa9d54c578ed91357f8f887a319ec90548",
+    "width": 1232,
+    "height": 2200
+  },
+  "media/morning-input-02.webp": {
+    "sha256": "8d5a186f7fcb5cc89a2947cfd5ae306491c5a86766ae022f20dbb8b3de6bb529",
+    "width": 1232,
+    "height": 2200
+  },
+  "media/morning-input-03.webp": {
+    "sha256": "c923df56c4d1c5edfc7c1e0def419ab4df7997dbd8771cfeb8462d7ddfbca91f",
+    "width": 1920,
+    "height": 1440
+  },
+  "media/morning-input-04.webp": {
+    "sha256": "c4a2c8c43d4c961a88eadbbb8e86f5d2d0db930132364ad62f6c4338512a94e5",
+    "width": 1920,
+    "height": 1080
+  },
+  "media/park-art-nouveau-final.webp": {
+    "sha256": "d2be8fabfb37cedefd344547ba4614bc748085fe823d2a2b1cf2f6717c4e5166",
+    "width": 1448,
+    "height": 1086
+  },
+  "media/peggy-nille-batch-input-01.webp": {
+    "sha256": "5ed12406c2742d86cc932a1eee96519392675c392abd94fe74292492b1ffd2f6",
+    "width": 1080,
+    "height": 1350
+  },
+  "media/peggy-nille-batch-input-02.webp": {
+    "sha256": "7748641b27877c9d1f64e3d909af9239fd0b01b83c037058a5b0b6019d96ad10",
+    "width": 1070,
+    "height": 1070
+  },
+  "media/peggy-nille-batch-input-03.webp": {
+    "sha256": "fcde7fe1d0628e10e2193c12b907405f43a6fe264f70687b4b429a2771570d34",
+    "width": 1200,
+    "height": 768
+  },
+  "media/peggy-nille-batch-input-04.webp": {
+    "sha256": "cbef100cffa94599508704e1da7fd2c188519b904a3187167f2e2dfcb40940ae",
+    "width": 1920,
+    "height": 1200
+  },
+  "media/peggy-nille-batch-input-05.webp": {
+    "sha256": "87362050a803de03a4ef862bf7993c9b4bce3a52c731f30d4272da1a93b1ba99",
+    "width": 1920,
+    "height": 1195
+  },
+  "media/poetry-landscape-batch-input-01.webp": {
+    "sha256": "e26d4a762198af5792bc6db654577d75dc54513de5e395be856e7df8b308fdaa",
+    "width": 941,
+    "height": 1672
+  },
+  "media/poetry-landscape-batch-input-02.webp": {
+    "sha256": "a4a5caeaa6cd94d3f2a83b66715bda02816d6c57e501335b5d24cbbaa91d6ea6",
+    "width": 941,
+    "height": 1672
+  },
+  "media/poetry-landscape-batch-input-03.webp": {
+    "sha256": "b5be7b36162cbd7e32a23053397031d52ff4c8b1db393837e56cdde9a9b945f8",
+    "width": 941,
+    "height": 1672
+  },
+  "media/poetry-landscape-batch-input-04.webp": {
+    "sha256": "0454de54cd375c0e46c237cb049af9753f823485dd0643f0ed9d90dda9136b21",
+    "width": 941,
+    "height": 1672
+  },
+  "media/poetry-landscape-batch-input-05.webp": {
+    "sha256": "f1eb354c3c90afcab30f65adf73c607397ecc102602d8530226dbc34d424b633",
+    "width": 941,
+    "height": 1672
+  },
+  "media/poetry-landscape-batch-input-06.webp": {
+    "sha256": "85bd3ece6673a4888eb87e41cb9976d7aed1c7ae2adf04bf04656207d054b81a",
+    "width": 941,
+    "height": 1672
+  },
+  "media/poetry-landscape-batch-input-07.webp": {
+    "sha256": "0c10ba1084142e7664bc9dc4aa0bccf04a5fe56e89fa8b20081a5ae80bacc0c2",
+    "width": 941,
+    "height": 1672
+  },
+  "media/poetry-landscape-batch-input-08.webp": {
+    "sha256": "d234ebea6187fdc3dfe536668496647f1ac996e8e8e65ee9eabd35a7743e1fbd",
+    "width": 941,
+    "height": 1672
+  },
+  "media/storybook-input-01.webp": {
+    "sha256": "efb8a1df963f1889b56f34e395a131fcffd1fbe23fef77f202936cf0fc25da8d",
+    "width": 640,
+    "height": 1904
+  },
+  "media/storybook-input-02.webp": {
+    "sha256": "6886b846168464a7cf1d2e572c786dbd0bdfb48390c8d44118698201f2c5f3f4",
+    "width": 640,
+    "height": 1904
+  },
+  "media/storybook-input-03.webp": {
+    "sha256": "365246311f7458b31b2c100accb6d3949f06bd228193d7b7188fecf737b26a06",
+    "width": 640,
+    "height": 1904
+  },
+  "media/storybook-input-04.webp": {
+    "sha256": "25d9b923741db0bd5586a8d078ef7789835166fbc2611cc20a7b702d0da2d266",
+    "width": 640,
+    "height": 1904
+  },
+  "media/ukiyoe-wuxia-batch-input-01.webp": {
+    "sha256": "1b3bb2b654a6d6b387cbbc9fd712b68ea33b1398a906c852681b88ea9cacbb49",
+    "width": 941,
+    "height": 1672
+  },
+  "media/ukiyoe-wuxia-batch-input-02.webp": {
+    "sha256": "ed1741d6ba59779f6b2590ac9dc938b4d919da6bf0d53b39f9f08d3bb69c9e7a",
+    "width": 941,
+    "height": 1672
+  },
+  "media/ukiyoe-wuxia-batch-input-03.webp": {
+    "sha256": "d18ffa48f5e71364c4e05c806d72e95c0b71ac152ff8e7d62afdb1a00e112899",
+    "width": 941,
+    "height": 1672
+  },
+  "media/ukiyoe-wuxia-batch-input-04.webp": {
+    "sha256": "b2cf6d84867207971130fd2d6442b2096cb48f31221fc1a12475646076a8c565",
+    "width": 941,
+    "height": 1672
+  },
+  "media/x-2105866106053271986-frame-07.webp": {
+    "sha256": "d9c1e51b1d4ab936eeb4ce3c4c8b25bf0d5f27038909e2412fcdeb1c4911b6e0",
+    "width": 900,
+    "height": 1000
+  },
+  "media/x-2105866106053271986.mp4": {
+    "sha256": "429c5327e1337756301c09a514b1efc872473fdb643c9aff0bf55bbc971ee13a"
+  },
+  "media/guide-mid-century-alice.webp": {
+    "sha256": "083c898bca114d285c9795ae01cd0fc6cf07135c306527f270b29ce5df98f4ee",
+    "width": 369,
+    "height": 756
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "id": "AS-009",
+  "name": "新中式插画 · 古诗山水",
+  "english_name": "Contemporary Chinese Illustration · Poetic Landscapes",
+  "classification": "新中式装饰山水插画：古诗叙事、青绿朱红设色、细线勾勒、纸本颗粒与长卷式留白",
+  "summary": "这组图把古诗中的一个瞬间放进狭长画幅：密集树冠围出河道、小径或白墙，视线沿浅色空隙缓缓移动，最后停在独钓、指路、停泊、荷尖蜻蜓或越墙花枝上。它的长处是用“大色块—小叙事—细密纹理”建立远近观看的层次；青绿与朱红最鲜明，蓝灰雪景、桃粉花海和荷塘绿调则证明，同一构图语言可以承载不同季节。作为海报，系列统一、主题易读；作为诗意插图，部分画面的华美与热烈也会减弱诗句中的清寒、怅惘或今昔之感。",
+  "recognition": "先找一条连续的浅色空隙，再看它两侧是否由团簇树冠、近黑枝干和细线建筑围合，最后找承担诗意的小动作。与 AS-008 的多种平面纹样相比，本组更依赖完整的山水场景、河路动线和版面留白；与 AS-001 的金箔装饰相比，本组靠墨线、哑光色块和纸本质感组织画面。“新中式插画”用作当代设计的宽泛风格类别，本组进一步归为装饰山水与古诗叙事；青绿朱红、长卷式留白、细线勾勒和纸本颗粒是具体特征。“长卷”形容观看节奏，附件均为竖幅海报，不能据外观认定传统画派、真实木版工艺或 AI 生成。",
+  "tags": [
+    "新中式插画",
+    "古诗山水",
+    "装饰山水",
+    "青绿朱红",
+    "长卷式留白",
+    "纸本颗粒",
+    "中式新插画",
+    "新中式装饰山水插画",
+    "古诗意境 · 青绿朱红长卷",
+    "青绿朱红长卷",
+    "contemporary Chinese illustration",
+    "neo-Chinese illustration",
+    "古诗意境",
+    "长卷式构图",
+    "留白",
+    "密林小景",
+    "古诗海报",
+    "国风插画",
+    "S形动线",
+    "冷暖对比",
+    "细线勾勒",
+    "江雪",
+    "清明",
+    "乌衣巷",
+    "泊秦淮",
+    "大林寺桃花",
+    "枫桥夜泊",
+    "小池",
+    "游园不值",
+    "柳宗元",
+    "杜牧",
+    "刘禹锡",
+    "白居易",
+    "张继",
+    "杨万里",
+    "叶绍翁",
+    "Chinese poetry",
+    "teal",
+    "vermilion",
+    "negative space",
+    "scroll composition",
+    "paper grain",
+    "poetic landscape",
+    "poster illustration"
+  ],
+  "palette": [
+    {
+      "name": "米纸白",
+      "hex": "#E7DCC2"
+    },
+    {
+      "name": "墨青绿",
+      "hex": "#24474A"
+    },
+    {
+      "name": "瓦青",
+      "hex": "#2B9693"
+    },
+    {
+      "name": "朱砂红",
+      "hex": "#BA4032"
+    },
+    {
+      "name": "桃花粉",
+      "hex": "#E98C82"
+    }
+  ],
+  "reuse_focus": "适合把学习者实拍中的河岸、园林、花树、雨后小径或荷塘改绘成有留白的叙事插画。先由她指出一个真实发现或动作，再保留原照片的主路、岸线、人物关系与视角；将现有叶簇概括为大色团，用细线和点叶补结构，最后选择青绿朱红、蓝灰雪景、桃粉或荷塘绿中的一组色彩关系。画面没有的寺庙、舟船和古装人物无需补入。",
+  "judgment_note": "八张图片均为用户提供的参考附件，保留原字节、原顺序、完整画幅及已有题字和印章；不是学习者的参赛作品或本次生成改绘。标题依附件上可读诗题记录，柳宗元、杜牧等是画面题注的诗人，不能据此作为插画作者。插画作者、原帖网址、创作年代、真实媒介、制作软件及是否使用 AI 均未核实；不凭文件名、整齐风格或画面质感推定来源。本次只进行视觉品鉴，未做外部归属核验；色盘为视觉近似，提示词为本次归纳的迁移建议。",
+  "references": [
+    {
+      "file": "media/poetry-landscape-batch-input-01.webp",
+      "kind": "user_reference",
+      "caption": "附图 1 ·《江雪》主题海报（依图中文字）",
+      "alt": "竖幅米白江面被蓝灰雪树与黑色岩石夹住，一叶小舟上的蓑笠渔者独钓，左侧保留江雪大标题、诗句与柳宗元题注",
+      "credit": "用户提供 · 插画作者、原始出处及制作方式未核实",
+      "attribution_basis": "user_attachment_only",
+      "title_status": "visible_poem_title_not_verified_artwork_title",
+      "visible_poem_credit": "唐·柳宗元（图中文字；非插画作者署名）",
+      "focus": "米白江面像一条宽阔的静默通道，蓝灰雪树和近黑枝干从两岸夹入；画中很小的渔舟让“独”有了尺度。最值得学的是少色、低温与疏密反差，雪点只依附枝叶和树冠边缘。图中文字仅呈现部分诗句，不把它当作全诗文本；对学习者的照片改绘，可用原有河面或空地承接这种安静。"
+    },
+    {
+      "file": "media/poetry-landscape-batch-input-02.webp",
+      "kind": "user_reference",
+      "caption": "附图 2 ·《清明》主题海报（依图中文字）",
+      "alt": "青绿树冠与粉色花树围出雨后村路，骑牛牧童伸手指向上方酒家，持红伞的行人站在路中，右侧有杜牧诗句题注",
+      "credit": "用户提供 · 插画作者、原始出处及制作方式未核实",
+      "attribution_basis": "user_attachment_only",
+      "title_status": "visible_poem_title_not_verified_artwork_title",
+      "visible_poem_credit": "唐·杜牧（图中文字；非插画作者署名）",
+      "focus": "牧童伸手、行人仰望、酒家招幌构成“问路—指路—目的地”的三点关系；红伞把注意力先留在人身上，路面水痕补足细雨。粉花与翠瓦使画面偏明丽，较贴近所题“借问／遥指”的故事瞬间；若想强化清明的湿冷感，可压低花色和整体对比。"
+    },
+    {
+      "file": "media/poetry-landscape-batch-input-03.webp",
+      "kind": "user_reference",
+      "caption": "附图 3 ·《乌衣巷》主题海报（依图中文字）",
+      "alt": "青绿瓦顶与朱红秋树围出石板巷道，上方门匾可读王谢第，下方为小型民居，三只燕子穿过米白空地，右侧保留刘禹锡诗句",
+      "credit": "用户提供 · 插画作者、原始出处及制作方式未核实",
+      "attribution_basis": "user_attachment_only",
+      "title_status": "visible_poem_title_not_verified_artwork_title",
+      "visible_poem_credit": "唐·刘禹锡（图中文字；非插画作者署名）",
+      "focus": "燕子沿巷道串起上方大宅与下方民居，朱红树冠和青绿瓦面形成有力对照。可读“王谢第”门匾与整饬建筑，使显赫门第仍很醒目；我的品鉴判断是：装饰性鲜明，但“旧时／寻常百姓家”的今昔反差偏弱。若围绕诗意再创作，可通过门庭尺度、日常器物与空间使用变化表现时间。"
+    },
+    {
+      "file": "media/poetry-landscape-batch-input-04.webp",
+      "kind": "user_reference",
+      "caption": "附图 4 ·《泊秦淮》主题海报（依图中文字）",
+      "alt": "米白河道弯曲穿过青绿与朱红树冠，右上临水酒楼亮着红灯和暖色窗光，左下有载着人物的篷船，保留泊秦淮题字",
+      "credit": "用户提供 · 插画作者、原始出处及制作方式未核实",
+      "attribution_basis": "user_attachment_only",
+      "title_status": "visible_poem_title_not_verified_artwork_title",
+      "visible_poem_credit": "唐·杜牧（图中文字；非插画作者署名）",
+      "focus": "河道的折线把下方小船引向右上酒楼；大面积冷青树冠托起朱红树叶、灯笼和窗内暖光，人物剪影给建筑以生活气息。它最适合学习“冷底＋少量暖光”的叙事组织。米纸亮底保留了海报可读性，却淡化了题诗中的烟、水、月与寒意；迁移到雨夜照片时可保留原有暗部，减少亮暖面积。"
+    },
+    {
+      "file": "media/poetry-landscape-batch-input-05.webp",
+      "kind": "user_reference",
+      "caption": "附图 5 ·《大林寺桃花》主题海报（依图中文字）",
+      "alt": "密集桃粉树冠围住通向山寺的曲折石阶，青绿屋顶位于上方，一个持杖小人物沿路登山，保留大林寺桃花标题与白居易题注",
+      "credit": "用户提供 · 插画作者、原始出处及制作方式未核实",
+      "attribution_basis": "user_attachment_only",
+      "title_status": "visible_poem_title_not_verified_artwork_title",
+      "visible_poem_credit": "唐·白居易（图中文字；非插画作者署名）",
+      "focus": "桃粉几乎铺满全幅，青绿寺顶因此成为唯一明显的冷色锚点；曲折石阶把一个小人物带入花海。成功处是以“长路＋小人”表现抵达与发现，而不只是陈列漂亮花树。花海内部仍有深浅层次、黑枝骨架和白色空隙；复用时要保留主路和主体周围的呼吸空间。"
+    },
+    {
+      "file": "media/poetry-landscape-batch-input-06.webp",
+      "kind": "user_reference",
+      "caption": "附图 6 ·《枫桥夜泊》主题海报（依图中文字）",
+      "alt": "满幅朱红树冠围出宽阔米白水面，上方为带寒山寺门匾的寺院入口，右下篷船靠近木码头并挂有小灯，保留枫桥夜泊标题",
+      "credit": "用户提供 · 插画作者、原始出处及制作方式未核实",
+      "attribution_basis": "user_attachment_only",
+      "title_status": "visible_poem_title_not_verified_artwork_title",
+      "visible_poem_credit": "唐·张继（图中文字；非插画作者署名）",
+      "focus": "朱红树海和米白江面形成最大尺度的分区，青绿寺顶与船上小灯是两个较小的焦点；船、码头和水纹让停泊关系成立。画面以红枫和寺院强化秋意与地点线索，但月落、霜气与夜泊的感受较弱，色彩更偏热烈。若追求清寒夜色，可用冷灰暗面收敛红色，把暖灯留作小面积亮点。"
+    },
+    {
+      "file": "media/poetry-landscape-batch-input-07.webp",
+      "kind": "user_reference",
+      "caption": "附图 7 ·《小池》主题海报（依图中文字）",
+      "alt": "近景大荷叶和卷起的新叶围住米白池面，红蜻蜓停在尖细卷荷顶端，左上绿树间露出亭角，荷叶上有一滴水珠，保留小池题字",
+      "credit": "用户提供 · 插画作者、原始出处及制作方式未核实",
+      "attribution_basis": "user_attachment_only",
+      "title_status": "visible_poem_title_not_verified_artwork_title",
+      "visible_poem_credit": "宋·杨万里（图中文字；非插画作者署名）",
+      "focus": "蜻蜓停在尖细卷荷上，画面抓住了“才露／早有”的短暂时刻；大片前景荷叶与小小水珠让观看转向近处。亭角退在左上，水面留白承托这一个动作，图文关系在本组中尤其清楚。放大的蜻蜓与卷荷属于插画的焦点安排；复用重点是把真实观察到的细小动作画清楚，不机械复制宏大建筑。"
+    },
+    {
+      "file": "media/poetry-landscape-batch-input-08.webp",
+      "kind": "user_reference",
+      "caption": "附图 8 ·《游园不值》主题海报（依图中文字）",
+      "alt": "青绿树林中一面高白墙斜穿画面，朱红花枝越过墙头伸向墙外，行人站在关闭的木门旁，保留游园不值标题与叶绍翁题注",
+      "credit": "用户提供 · 插画作者、原始出处及制作方式未核实",
+      "attribution_basis": "user_attachment_only",
+      "title_status": "visible_poem_title_not_verified_artwork_title",
+      "visible_poem_credit": "宋·叶绍翁（图中文字；非插画作者署名）",
+      "focus": "白墙是一条连续的浅色斜带，也是园内外的界限；红花枝越过墙头，恰好把“关不住”变成可以看见的方向。门外人物与关闭的门补充了“未能入园”的情境。适合学习者学习的是让一个动作关系承载意思：越过、探出、靠近，而非只堆花草；花枝跨界的位置比花朵数量更重要。"
+    }
+  ],
+  "type": "case",
+  "schema_version": 1,
+  "analysis": [
+    {
+      "label": "连续的留白",
+      "text": "河流、村路、石阶间空地或墙面连成贯穿画幅的浅色通道；大片留白本身就是主形。植被细节集中于两侧，常以折线或 S 形引导视线。留白并非什么都不画，少量水纹、落花和倒影足以提示材质。"
+    },
+    {
+      "label": "俯视与层叠",
+      "text": "多数图采用偏高视点，屋顶、台阶、树冠与水岸逐层重叠；清楚的大小差异、遮挡和斜向边线建立纵深。空间同时保留平面装饰感；《小池》转为贴近荷叶的特写，是系列中的尺度变化，不必强求所有照片都改成俯视。"
+    },
+    {
+      "label": "树冠的骨架",
+      "text": "先看见团块树冠和深色分枝，再看见密集的叶点、碎边与细小亮斑。点粒随树冠分区改变深浅，黑枝保持连贯，让“密”仍有结构；砖瓦、石阶、栏杆和荷脉则以较清楚的细线说明形体。"
+    },
+    {
+      "label": "色彩分区",
+      "text": "米白纸地承担河水、道路或天空感；墨青绿稳定大面积，瓦青与朱红组成冷暖对照。雪景收敛为蓝灰、近黑与米白，桃花图让粉色占主导，荷塘以绿调配少量红。迁移时选择一组变体，避免把所有颜色平均铺满。"
+    },
+    {
+      "label": "边缘与肌理",
+      "text": "建筑和枝干边缘相对明确，树冠边缘则由点簇打散；哑光色面、细颗粒和略有起伏的纸色共同形成印刷插画般观感。这里描述的是可见效果，不把“纸本”“版画感”写成已核实的材质或制作工艺。"
+    },
+    {
+      "label": "小动作讲故事",
+      "text": "渔者垂钓、牧童指路、燕子飞行、旅人登阶、蜻蜓落在荷尖、花枝越墙，都是可一眼读懂的动作。人物通常很小，物件关系却清楚；画面焦点由动作、位置和局部色差决定，未必是面积最大的建筑。"
+    },
+    {
+      "label": "诗文与版式",
+      "text": "大标题压在深色树冠上，细竖排诗句放在浅色空地里，红色印章形成小面积节奏；字与图共同分配疏密。原附件保留全部题字与印章。照片改绘默认只借用绘画语言；另做诗词海报时，先安排文字位置，再用排版工具加入核对过的诗文。"
+    },
+    {
+      "label": "品鉴与取舍",
+      "text": "《江雪》的少色与独舟、《小池》的卷荷与蜻蜓、《游园不值》的越墙花枝，图像与所题诗句的关系最清楚。《乌衣巷》的华丽门第、《枫桥夜泊》的大面积暖红和亮地，则更强调装饰与地标，清寒、夜色或今昔之感相对弱。以上是本次品鉴判断；复用前先决定自己真正要表达的感受。"
+    }
+  ],
+  "legacy_prompts": {
+    "zh": "将输入照片完整改绘为具有古诗意境的新中式装饰山水插画，参考本组的细线勾勒、团簇树冠、哑光色块、纸本颗粒与连续留白。照片决定内容、构图、视角和画幅，参考图只提供视觉语言。保留主体数量、人物身份与表情、动作、原有衣着、物件关系、建筑和地形结构、前后遮挡及原始比例；不要把现代场景替换成古代。沿照片已有的河道、小径、天空、地面或墙面组织较安静的浅色区域，以两侧已有的植被和建筑形成疏密对照；如果原图没有贯通通道，就保留原有空隙，不另造河流或道路。先把树冠与叶簇归纳为清楚的大色团，再用近黑的分枝、细密但分区有序的叶点、碎边和少量亮斑建立层次；砖瓦、石阶、栏杆、叶脉以节制细线表达。减少摄影式光滑渐变，保留必要明暗与空间重叠，整幅统一为绘画语言。按原照片的季节、光线和情绪选一组色彩：常态用米纸白、墨青绿与瓦青，少量朱砂红作焦点；冬景改用蓝灰、近黑与米白；花海可用桃粉主调和少量青绿；荷塘以深浅绿配少量红。不要为配色凭空添加雪、红叶、花朵、灯笼或改变天气。让原有的一个小动作或观察成为故事焦点，在人物面部、手和关键物件附近减少纹理，保持清楚可辨；明暗与色彩强度服从要表达的感受。水面只用疏朗细纹和概括倒影提示质感，纸面颗粒轻薄，不覆盖细节。不强制改为俯视或狭长竖幅，不导入参考中的寺庙、酒楼、舟船、牧童、燕子、蜻蜓或古装人物，不新增诗句、标题、印章、签名、边框和水印。避免均匀噪点、荧光色、厚重油画堆积、写实 3D、摄影贴片及仅加调色滤镜。",
+    "en": "Repaint the entire input photograph as a contemporary Chinese decorative landscape illustration with the poetic visual language of these references: fine contour drawing, clustered tree canopies, matte color fields, subtle paper grain and connected areas of negative space. Let the photograph determine content, composition, viewpoint and aspect ratio. Preserve subject count, recognizable identities and expressions, actions, existing clothing, object relationships, architecture, terrain, occlusion and proportions; do not replace a contemporary scene with an ancient one. Use existing water, paths, sky, ground or walls as calmer light areas, framed by vegetation and architecture already present. If the input has no continuous passage, keep its existing gaps instead of inventing a river or road. Establish broad, readable canopy masses first, then articulate them with near-black branching structures, regionally organized leaf stippling, broken edges and restrained highlights. Describe tiles, steps, railings and leaf veins with economical fine lines. Reduce smooth photographic gradients while retaining necessary shading, overlap and readable depth in a consistent illustrated treatment. Choose one palette variant to suit the actual season, light and mood: warm paper ivory, deep blue-green and turquoise with limited vermilion accents; slate blue, near-black and ivory for a winter scene; peach-pink masses with small cool-green accents for blossom scenes; or layered greens with sparse red for a pond. Do not invent snow, red foliage, flowers or lanterns, or change the weather to force a palette. Let one existing small action or observed detail carry the story. Reduce texture near faces, hands and important objects so they remain legible, and let contrast and color intensity serve the intended feeling. Suggest water with sparse ripples and simplified reflections; keep paper grain subtle. Do not force an elevated viewpoint or a narrow vertical crop. Do not import temples, taverns, boats, herders, swallows, dragonflies or historical costumes from the references. Add no poem, title, seal, signature, border or watermark. Avoid uniform visual noise, fluorescent color, heavy impasto, realistic 3D, photographic patches and color filtering without redrawing."
+  },
+  "sources": [
+    {
+      "title": "抱石艺术学院 · 新中式视觉诗画课程案例（分类语境，非本组出处）",
+      "url": "https://bsart.jxue.edu.cn/2026/0213/c420a44320/page.htm"
+    }
+  ],
+  "artist": "作者未核实",
+  "facets": {
+    "tradition": [
+      "chinese-contemporary"
+    ],
+    "subject": [
+      "people",
+      "plants",
+      "landscape",
+      "architecture"
+    ],
+    "effect": [
+      "flat",
+      "negative-space",
+      "grain",
+      "contour"
+    ]
+  },
+  "relations": [],
+  "cover": "media/poetry-landscape-batch-input-04.webp",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "概括大形",
+      "explanation": "以团块与清楚骨架概括原有形体，保留动作关系",
+      "evidence": "先看见团块树冠和深色分枝，再看见密集的叶点、碎边与细小亮斑。点粒随树冠分区改变深浅，黑枝保持连贯，让“密”仍有结构；砖瓦、石阶、栏杆和荷脉则以较清楚的细线说明形体。",
+      "zh": "以团块与清楚骨架概括原有形体，保留动作关系",
+      "en": "Simplify original forms into clusters and clear structural lines while retaining action relationships",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "细线与碎边",
+      "explanation": "用清楚细线和局部点簇边缘区分材质与结构",
+      "evidence": "先看见团块树冠和深色分枝，再看见密集的叶点、碎边与细小亮斑。点粒随树冠分区改变深浅，黑枝保持连贯，让“密”仍有结构；砖瓦、石阶、栏杆和荷脉则以较清楚的细线说明形体。",
+      "zh": "用清楚细线和局部点簇边缘区分材质与结构",
+      "en": "Use clear fine lines and localized dotted edges to distinguish material and structure",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "米白青绿朱红",
+      "explanation": "以米白、墨青绿与少量朱红建立有限色彩关系",
+      "evidence": "米白纸地承担河水、道路或天空感；墨青绿稳定大面积，瓦青与朱红组成冷暖对照。雪景收敛为蓝灰、近黑与米白，桃花图让粉色占主导，荷塘以绿调配少量红。迁移时选择一组变体，避免把所有颜色平均铺满。",
+      "zh": "以米白、墨青绿与少量朱红建立有限色彩关系",
+      "en": "Build a limited palette of ivory, dark teal-green and restrained vermilion",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "哑光层次",
+      "explanation": "以哑光色面和细微明度差表达层次，避免高光塑料感",
+      "evidence": "建筑和枝干边缘相对明确，树冠边缘则由点簇打散；哑光色面、细颗粒和略有起伏的纸色共同形成印刷插画般观感。这里描述的是可见效果，不把“纸本”“版画感”写成已核实的材质或制作工艺。",
+      "zh": "以哑光色面和细微明度差表达层次，避免高光塑料感",
+      "en": "Use matte color fields and subtle value steps rather than glossy plastic highlights",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "连续留白",
+      "explanation": "在原图已有空隙中强化连续留白，保持原视角与画幅",
+      "evidence": "河流、村路、石阶间空地或墙面连成贯穿画幅的浅色通道；大片留白本身就是主形。植被细节集中于两侧，常以折线或 S 形引导视线。留白并非什么都不画，少量水纹、落花和倒影足以提示材质。",
+      "zh": "在原图已有空隙中强化连续留白，保持原视角与画幅",
+      "en": "Strengthen connected open spaces already present in the source while keeping viewpoint and aspect ratio",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "细纸颗粒",
+      "explanation": "使用细颗粒与轻微纸色起伏，保持主要形体清楚",
+      "evidence": "建筑和枝干边缘相对明确，树冠边缘则由点簇打散；哑光色面、细颗粒和略有起伏的纸色共同形成印刷插画般观感。这里描述的是可见效果，不把“纸本”“版画感”写成已核实的材质或制作工艺。",
+      "zh": "使用细颗粒与轻微纸色起伏，保持主要形体清楚",
+      "en": "Use fine grain and subtle paper-tone variation while keeping main forms clear",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "含蓄诗意",
+      "explanation": "营造含蓄、安静、有小叙事的诗意氛围",
+      "evidence": "渔者垂钓、牧童指路、燕子飞行、旅人登阶、蜻蜓落在荷尖、花枝越墙，都是可一眼读懂的动作。人物通常很小，物件关系却清楚；画面焦点由动作、位置和局部色差决定，未必是面积最大的建筑。",
+      "zh": "营造含蓄、安静、有小叙事的诗意氛围",
+      "en": "Create a restrained, quiet and poetic atmosphere with subtle narrative",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "observed_avoid": "避免只套青绿滤镜、把每片叶子画成等量噪点，或为模仿竖幅海报强行裁成狭长画面。不要让满幅红花和灯火压过本来想表达的安静与清寒；不要把现代真实场景全部替换成古建筑。诗句中的人物、物件和节令关系需要有意识选择，不能靠贴一首诗替代画面表达。",
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  },
+  "aliases": [
+    "装饰插画",
+    "新中式装饰山水插画：古诗叙事、青绿朱红设色、细线勾勒、纸本颗粒与长卷式留白",
+    "新中式插画",
+    "古诗山水",
+    "装饰山水",
+    "青绿朱红",
+    "长卷式留白",
+    "纸本颗粒",
+    "中式新插画",
+    "新中式装饰山水插画",
+    "古诗意境 · 青绿朱红长卷",
+    "青绿朱红长卷",
+    "contemporary Chinese illustration",
+    "neo-Chinese illustration",
+    "古诗意境",
+    "长卷式构图",
+    "留白",
+    "密林小景",
+    "古诗海报",
+    "国风插画",
+    "S形动线",
+    "冷暖对比",
+    "细线勾勒",
+    "江雪",
+    "清明",
+    "乌衣巷",
+    "泊秦淮",
+    "大林寺桃花",
+    "枫桥夜泊",
+    "小池",
+    "游园不值",
+    "柳宗元",
+    "杜牧",
+    "刘禹锡",
+    "白居易",
+    "张继",
+    "杨万里",
+    "叶绍翁",
+    "Chinese poetry",
+    "teal",
+    "vermilion",
+    "negative space",
+    "scroll composition",
+    "paper grain",
+    "poetic landscape",
+    "poster illustration"
+  ],
+  "reviewed_at": "2026-10-16"
+}

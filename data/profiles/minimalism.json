@@ -1,0 +1,92 @@
+{
+  "id": "minimalism",
+  "name": "极简人物插画",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "必要的形状",
+      "explanation": "仅保留足以辨认原有主体的关键形状，删除次要细节",
+      "evidence": "眼镜、头发、手和衣服被简化，少数关键形状仍能提示身份。",
+      "zh": "仅保留足以辨认原有主体的关键形状，删除次要细节",
+      "en": "Keep only the essential shapes needed to recognize the original subjects and remove secondary detail",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "精确轮廓",
+      "explanation": "让轮廓转折精确清楚，避免多余的描边与装饰线",
+      "evidence": "黑白交界转折十分明确，没有额外的均匀描边。",
+      "zh": "让轮廓转折精确清楚，避免多余的描边与装饰线",
+      "en": "Use precise contour changes and avoid unnecessary outlines or decorative lines",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "黑白对照",
+      "explanation": "使用近黑与柔白两组清楚色面建立强对比",
+      "evidence": "画面主体使用近黑与柔白的大面积对照。",
+      "zh": "使用近黑与柔白两组清楚色面建立强对比",
+      "en": "Use distinct near-black and soft-white fields for strong contrast",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "明暗二分",
+      "explanation": "将光影归纳为少量完整形状，避免渐变与复杂反光",
+      "evidence": "亮暗被压缩成相连的色形，几乎不依靠渐变。",
+      "zh": "将光影归纳为少量完整形状，避免渐变与复杂反光",
+      "en": "Reduce light and shadow to a few coherent shapes without gradients or complex reflections",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "正负形互补",
+      "explanation": "保持原有位置关系，让主体与周围空白形成互补形状",
+      "evidence": "脸与手的浅色形状由大片黑色围合，正负形共同完成识别。",
+      "zh": "保持原有位置关系，让主体与周围空白形成互补形状",
+      "en": "Keep the original spatial relationships and make subjects and surrounding negative space form complementary shapes",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "干净平面",
+      "explanation": "呈现均匀、干净的平面色块，不叠加颗粒纹理",
+      "evidence": "表面平整干净，无明显颗粒；不能仅凭这一点断言软件或媒介。",
+      "zh": "呈现均匀、干净的平面色块，不叠加颗粒纹理",
+      "en": "Use even, clean flat color fields without grain overlays",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "鲜明与克制",
+      "explanation": "营造鲜明、克制且易于一眼辨认的图形感",
+      "evidence": "高度删减的形状和强对比让画面有鲜明、克制的图形感。",
+      "zh": "营造鲜明、克制且易于一眼辨认的图形感",
+      "en": "Create a bold, restrained graphic presence that reads at a glance",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
+    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+  }
+}

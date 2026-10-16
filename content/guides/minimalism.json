@@ -1,0 +1,153 @@
+{
+  "id": "minimalism",
+  "name": "极简人物插画",
+  "english_name": "Minimalist Figure Illustration",
+  "artist": "Malika Favre",
+  "aliases": [
+    "马利卡·法夫尔",
+    "Malika Favre",
+    "极简插画",
+    "负空间",
+    "Minimalist Vector Portrait"
+  ],
+  "kind": "视觉表现方法",
+  "summary": "只留下不可替代的形状。轮廓、负空间和少量颜色同时承担人物识别、光影与视觉趣味。",
+  "definition": "极简插画是一种处理信息的方式，不是固定题材或媒介。Malika Favre 的作品提供了清楚的图形观察入口：减少细节，同时让正形与负形共同说明人物。",
+  "recognition": [
+    "去掉一条线或一个色块后，人物还能否被认出？",
+    "空白是否同时充当了脸、手或背景的一部分？",
+    "黑白或少量色彩之间的边界是否十分精确？"
+  ],
+  "variations": "黑白可以极简，鲜艳多色也可以极简。关键是形状与信息的必要性，而不是只看颜色数量。",
+  "confusion": "极简不等于细节少就完成了；负空间要能被读成有意义的形状。也不能从平整表面推定一定使用矢量软件。",
+  "type": "guide",
+  "schema_version": 1,
+  "cover": "media/guide-minimalism.webp",
+  "facets": {
+    "tradition": [
+      "minimalism"
+    ],
+    "subject": [
+      "people"
+    ],
+    "effect": [
+      "flat",
+      "contour",
+      "negative-space",
+      "limited"
+    ]
+  },
+  "references": [
+    {
+      "file": "media/guide-minimalism.webp",
+      "caption": "The Laureate · The New Yorker 封面",
+      "alt": "头发、眼镜和衣服以黑色相连，浅色脸部与手从黑形中显现。少数边缘即可表达身份与姿态。作品原有刊名与日期保留在参考图中，不加入创作提示词。",
+      "credit": "Malika Favre · The New Yorker, 2016 · 作品版权归相应权利人",
+      "credit_url": "https://www.malikafavre.com/pages/new-yorker-covers",
+      "artwork": {
+        "date_label": "2016",
+        "medium_label": "插画；所用页面未标明制作媒介",
+        "artist": "Malika Favre"
+      },
+      "focus": "头发、眼镜和衣服以黑色相连，浅色脸部与手从黑形中显现。少数边缘即可表达身份与姿态。作品原有刊名与日期保留在参考图中，不加入创作提示词。",
+      "relationship": "代表作品（本页观察入口）",
+      "image_source": "https://www.malikafavre.com/cdn/shop/files/final_A4-01.jpg?v=1712485104&width=1080"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Malika Favre 官方网站 · New Yorker covers",
+      "url": "https://www.malikafavre.com/pages/new-yorker-covers"
+    }
+  ],
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "必要的形状",
+      "explanation": "仅保留足以辨认原有主体的关键形状，删除次要细节",
+      "evidence": "眼镜、头发、手和衣服被简化，少数关键形状仍能提示身份。",
+      "zh": "仅保留足以辨认原有主体的关键形状，删除次要细节",
+      "en": "Keep only the essential shapes needed to recognize the original subjects and remove secondary detail",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "精确轮廓",
+      "explanation": "让轮廓转折精确清楚，避免多余的描边与装饰线",
+      "evidence": "黑白交界转折十分明确，没有额外的均匀描边。",
+      "zh": "让轮廓转折精确清楚，避免多余的描边与装饰线",
+      "en": "Use precise contour changes and avoid unnecessary outlines or decorative lines",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "黑白对照",
+      "explanation": "使用近黑与柔白两组清楚色面建立强对比",
+      "evidence": "画面主体使用近黑与柔白的大面积对照。",
+      "zh": "使用近黑与柔白两组清楚色面建立强对比",
+      "en": "Use distinct near-black and soft-white fields for strong contrast",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "明暗二分",
+      "explanation": "将光影归纳为少量完整形状，避免渐变与复杂反光",
+      "evidence": "亮暗被压缩成相连的色形，几乎不依靠渐变。",
+      "zh": "将光影归纳为少量完整形状，避免渐变与复杂反光",
+      "en": "Reduce light and shadow to a few coherent shapes without gradients or complex reflections",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "正负形互补",
+      "explanation": "保持原有位置关系，让主体与周围空白形成互补形状",
+      "evidence": "脸与手的浅色形状由大片黑色围合，正负形共同完成识别。",
+      "zh": "保持原有位置关系，让主体与周围空白形成互补形状",
+      "en": "Keep the original spatial relationships and make subjects and surrounding negative space form complementary shapes",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "干净平面",
+      "explanation": "呈现均匀、干净的平面色块，不叠加颗粒纹理",
+      "evidence": "表面平整干净，无明显颗粒；不能仅凭这一点断言软件或媒介。",
+      "zh": "呈现均匀、干净的平面色块，不叠加颗粒纹理",
+      "en": "Use even, clean flat color fields without grain overlays",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "鲜明与克制",
+      "explanation": "营造鲜明、克制且易于一眼辨认的图形感",
+      "evidence": "高度删减的形状和强对比让画面有鲜明、克制的图形感。",
+      "zh": "营造鲜明、克制且易于一眼辨认的图形感",
+      "en": "Create a bold, restrained graphic presence that reads at a glance",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
+    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+  },
+  "relations": [],
+  "reviewed_at": "2026-10-16"
+}

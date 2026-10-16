@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="从作品观察出发，理解美术风格，提取视觉特征，组装自己的创作提示词。">
+  <meta property="og:title" content="创作提示词 · 美术风格图鉴">
+  <meta property="og:description" content="从作品观察出发，理解美术风格，提取视觉特征，组装自己的创作提示词。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://carbonshow.github.io/art-style-atlas/media/guide-art-nouveau.webp">
+  <link rel="canonical" href="https://carbonshow.github.io/art-style-atlas/compose/">
+  <title>创作提示词 · 美术风格图鉴</title>
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script defer src="../assets/core.js"></script>
+  <script defer src="../assets/site.js"></script>
+</head>
+<body data-root="../" data-page="compose">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="美术风格图鉴首页"><span class="brand-mark" aria-hidden="true">艺</span><span>美术风格图鉴<small>ART STYLE ATLAS</small></span></a>
+    <nav aria-label="主导航"><a href="../catalog/">风格库</a><a href="../learn/">入门学习</a><a href="../compose/" aria-current="page">创作提示词</a></nav>
+  </header>
+  <main id="main"><div class="page-intro"><p class="eyebrow">选择，而不是堆砌</p><h1>创作提示词</h1><p class="lead">从一份参考开始，只带走需要的视觉特征。默认保留原图内容；你填写的要求在中英文版本中均保留原文。</p></div><noscript><p>提示词组装需要 JavaScript；也可回到详情页阅读完整描述。</p></noscript><a class="mobile-prompt-jump button" href="#prompt-panel">查看实时提示词 ↓</a><div class="composer-layout" id="composer-main"><div class="composer-form"><section class="source-picker"><label for="source-select">01 · 从风格或案例开始</label><select id="source-select"><optgroup label="风格指南"><option value="painterly-portrait">笔触写实肖像</option><option value="art-nouveau">新艺术</option><option value="art-deco">装饰艺术</option><option value="expressionism">表现主义人物</option><option value="nihonga">日本画人物</option><option value="fantasy-comics">幻想漫画线描</option><option value="mid-century">世纪中叶现代主义插画</option><option value="minimalism">极简人物插画</option></optgroup><optgroup label="参考案例"><option value="AS-001">新艺术 · 金箔森林</option><option value="AS-002">新艺术 · 金线田园</option><option value="AS-003">手绘质感 · 风格化 3D</option><option value="AS-004">版画质感 · 奇幻绘本</option><option value="AS-005">油画质感 · 微光雨夜花园</option><option value="AS-006">Franklin Carmichael · 秋色风景</option><option value="AS-007">Albert Bierstadt · 崇高风景与暮色</option><option value="AS-008">Peggy Nille · 繁花秘境</option><option value="AS-009">新中式插画 · 古诗山水</option><option value="AS-010">浮世绘风 · 武侠人物</option></optgroup></select><div class="source-preview"><img id="source-image" alt=""><div><a id="source-link" href="../catalog/">回看参考作品 →</a><p id="source-note" class="note"></p></div></div></section><section><div class="section-heading"><h2>02 · 选择视觉特征</h2><button id="reset-recommended" type="button">恢复推荐组合</button></div><p class="note">同一配色组只能选一项。恢复推荐组合不会清除你的文字要求。</p><div id="feature-options"></div></section><section class="requirements"><h2>03 · 写下这次的目标与取舍</h2><label for="goal">本次改绘目标</label><textarea id="goal" rows="3" placeholder="例如：把这张人物合照改成适合明信片的平面插画"></textarea><fieldset><legend>需要保留的原图内容</legend><label class="check-row"><input type="checkbox" name="preserve" value="identity" checked><span>主体身份与数量</span></label><label class="check-row"><input type="checkbox" name="preserve" value="relationships" checked><span>动作及物件关系</span></label><label class="check-row"><input type="checkbox" name="preserve" value="viewpoint" checked><span>构图与视角</span></label><label class="check-row"><input type="checkbox" name="preserve" value="aspect" checked><span>画幅比例</span></label></fieldset><label for="custom-keep">补充保留要求</label><textarea id="custom-keep" rows="2" placeholder="例如：保留衣服上的校徽位置，但不生成文字"></textarea><label class="check-row"><input type="checkbox" id="base-avoid" checked><span>使用建议避免项</span></label><p id="avoid-description" class="note"></p><label for="custom-avoid">补充避免项</label><textarea id="custom-avoid" rows="2" placeholder="例如：避免把皮肤处理成明显的裂纹表面"></textarea></section></div><aside class="prompt-panel" id="prompt-panel"><div class="section-heading"><h2>你的提示词</h2><span id="selected-count" class="note"></span></div><div class="language-toggle" role="group" aria-label="提示词语言"><button type="button" data-lang="zh" aria-pressed="true">中文</button><button type="button" data-lang="en" aria-pressed="false">English</button></div><pre id="prompt-output" lang="zh-CN" aria-live="polite">正在加载推荐特征……</pre><button id="copy-prompt" type="button" class="button primary" disabled>复制当前提示词</button><p class="note">英文版只切换已编写的特征与固定说明；你的自由输入保持原文。本站不上传图片，也不调用生成模型。</p><a class="mobile-prompt-jump" href="#feature-options">返回调整特征 ↑</a></aside></div></main>
+  <footer class="site-footer"><div><strong>从观察开始，把风格说清楚。</strong><p>作品用于风格学习与比较。原作版权归相应权利人；各页保留出处与核实说明。</p></div><div><a href="../about/">关于与内容维护</a><a href="https://github.com/carbonshow/art-style-atlas">GitHub 仓库 ↗</a><span>内容核对 · 2026-10-16</span></div></footer>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <dialog id="lightbox" aria-label="作品大图"><button id="close-lightbox" type="button" aria-label="关闭大图">关闭 ×</button><img id="zoom-image" alt=""><p id="zoom-caption"></p></dialog>
+</body>
+</html>

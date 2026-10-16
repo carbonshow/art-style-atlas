@@ -1,0 +1,92 @@
+{
+  "id": "AS-006",
+  "name": "Franklin Carmichael · 秋色风景",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "起伏色面",
+      "explanation": "将现有形体概括为起伏、交叠的弧形与带状色面",
+      "evidence": "山脊、谷地和云层被概括为交叠的弧形与带状色面，重复但不等距。坡面的轮廓与笔触一起顺着地形转折，形成起伏、流动的节奏。",
+      "zh": "将现有形体概括为起伏、交叠的弧形与带状色面",
+      "en": "Simplify existing forms into rolling overlapping arcs and bands of color",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "装饰轮廓",
+      "explanation": "保持轮廓清楚，以重复但不等距的节奏组织边线",
+      "evidence": "白桦树干与细枝提供浅色、弯曲的竖线，深色针叶树呈紧凑剪影，暖色树冠以概括轮廓组织。这些形体在秋林样例中交错，既框景，也把视线送入谷地。",
+      "zh": "保持轮廓清楚，以重复但不等距的节奏组织边线",
+      "en": "Keep contours clear with repeated but unevenly spaced rhythms",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "金橙与冷青",
+      "explanation": "用金黄、橙赭受光色对照深青、蓝绿阴影",
+      "evidence": "金黄、橙红和赭红集中在受光坡面与叶丛；深青、蓝绿和冷蓝组织林间、背光面与远景。同一山丘上的明暗分区清楚，暖色鲜艳处仍有深色支撑。",
+      "zh": "用金黄、橙赭受光色对照深青、蓝绿阴影",
+      "en": "Contrast golden yellow and orange-ochre lights with deep teal and blue-green shadows",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "分区日光",
+      "explanation": "以清楚的受光与背光分区表现日光",
+      "evidence": "前景保留岩石、树干与强烈暗部，远景使用较冷、较浅的蓝绿色；坡面的斑块亮部带出日光。空间层次由遮挡、色温和明暗共同建立，局部形式则保持装饰性。",
+      "zh": "以清楚的受光与背光分区表现日光",
+      "en": "Show daylight through clear divisions between light and shade",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "冷暖远近",
+      "explanation": "保留原有遮挡，以较冷较浅的远景建立深度",
+      "evidence": "前景保留岩石、树干与强烈暗部，远景使用较冷、较浅的蓝绿色；坡面的斑块亮部带出日光。空间层次由遮挡、色温和明暗共同建立，局部形式则保持装饰性。",
+      "zh": "保留原有遮挡，以较冷较浅的远景建立深度",
+      "en": "Keep original overlaps and use cooler, lighter distance to build depth",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "方向笔触",
+      "explanation": "用短笔、条带和点触顺着原有形体方向塑造表面",
+      "evidence": "大形先用相对完整的色面组织，再以短笔、条带、点触和不规则碎色块塑造细部。方向性的笔触交代山势、云带与地面，而树叶常以分离的小亮色块点出。",
+      "zh": "用短笔、条带和点触顺着原有形体方向塑造表面",
+      "en": "Use short strokes, bands and dabs following the direction of existing forms",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "明朗节奏",
+      "explanation": "营造明朗、蓬勃而有节奏的观看感受",
+      "evidence": "《Autumn》（1940）偏重宽阔山势与云层；《October Gold》（1922）以白桦和密集金叶框住深色谷地；《Festive Autumn》（1921）用树木、伐木遗迹、岩石和散布光斑形成明亮的前景。三幅共享色彩与形体节奏，笔触疏密各有不同。",
+      "zh": "营造明朗、蓬勃而有节奏的观看感受",
+      "en": "Create a clear, lively and rhythmic visual feeling",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  }
+}

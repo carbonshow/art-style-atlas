@@ -1,0 +1,92 @@
+{
+  "id": "AS-007",
+  "name": "Albert Bierstadt · 崇高风景与暮色",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "可信体积",
+      "explanation": "保持原有主体轮廓与体积，以明暗塑造大形",
+      "evidence": "大面积低亮度岩壁、云底和树群托起局部金黄或乳白受光区。光常从云隙或谷口进入，再由雾、水面和岩坡承接；最亮处成为视线的落点。",
+      "zh": "保持原有主体轮廓与体积，以明暗塑造大形",
+      "en": "Keep original silhouettes and volumes, modeling major forms with light and shadow",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "远近边缘",
+      "explanation": "近处轮廓清楚，远处轮廓逐渐柔化",
+      "evidence": "近景树皮、叶簇、岩石和草地具有细致但不均匀的变化，强轮廓集中在近处或剪影。远景轮廓与纹理逐渐消隐，避免把所有距离画得同样清楚。",
+      "zh": "近处轮廓清楚，远处轮廓逐渐柔化",
+      "en": "Keep nearby contours clear and gradually soften distant edges",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "金暖冷灰",
+      "explanation": "以金黄暖光对照冷灰蓝、深绿与褐紫暗部",
+      "evidence": "云层有清晰的体积转折，边缘由暖亮渐变到冷灰蓝和褐紫。远山较浅、较柔和，薄雾降低远处对比；夕照中的金橙色与深绿、冷灰暗部相互支撑。",
+      "zh": "以金黄暖光对照冷灰蓝、深绿与褐紫暗部",
+      "en": "Contrast golden warm light with cool gray-blue, deep green and brown-violet shadows",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "穿透光域",
+      "explanation": "让大面积深影承托局部明亮光域，保留光线逻辑",
+      "evidence": "大面积低亮度岩壁、云底和树群托起局部金黄或乳白受光区。光常从云隙或谷口进入，再由雾、水面和岩坡承接；最亮处成为视线的落点。",
+      "zh": "让大面积深影承托局部明亮光域，保留光线逻辑",
+      "en": "Support a localized luminous area with broad deep shadows and coherent lighting",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "空气透视",
+      "explanation": "在原构图中加强近深远浅、近实远虚的空气透视",
+      "evidence": "前景以树干、岩块、草坡和遮挡建立入口，中景展开放光的湖水、草地或溪流，远景逐层淡入山体与云气。鹿、野牛和微小人物让自然显得辽阔。",
+      "zh": "在原构图中加强近深远浅、近实远虚的空气透视",
+      "en": "Within the original composition, strengthen atmospheric perspective with darker sharper foregrounds and lighter softer distance",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "选择性细节",
+      "explanation": "近处保留细致变化，远处逐渐减少纹理",
+      "evidence": "近景树皮、叶簇、岩石和草地具有细致但不均匀的变化，强轮廓集中在近处或剪影。远景轮廓与纹理逐渐消隐，避免把所有距离画得同样清楚。",
+      "zh": "近处保留细致变化，远处逐渐减少纹理",
+      "en": "Keep varied fine detail nearby and gradually reduce texture in the distance",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "宏阔诗意",
+      "explanation": "营造宏阔、安静而有诗意的光影氛围",
+      "evidence": "附图 1、2 展现风暴与穿云光；附图 3、5、6 偏重山谷、湖泊的金色暮光；附图 4 以野牛、溪流和树冠组织草原景色。宏阔感可以通过不同题材实现，并不需要重复同一种山峰。",
+      "zh": "营造宏阔、安静而有诗意的光影氛围",
+      "en": "Create a grand, quiet and poetic atmosphere through light",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  }
+}

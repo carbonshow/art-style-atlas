@@ -1,0 +1,232 @@
+{
+  "id": "AS-002",
+  "name": "新艺术 · 金线田园",
+  "english_name": "Golden-Line Pastoral Illustration",
+  "classification": "新艺术与工艺美术气质融合的装饰性田园插画",
+  "summary": "以钴蓝天空与清新绿色打开画面。细金线贯穿叶脉、枝条和云纹，让自然景观具有精密的装饰秩序。",
+  "recognition": "与金箔森林同属装饰植物语言；这一条目以明亮日光、蓝天和细金线作为主要识别线索。",
+  "tags": [
+    "新艺术",
+    "Art Nouveau",
+    "Arts and Crafts",
+    "工艺美术",
+    "金线",
+    "田园",
+    "植物插画",
+    "钴蓝",
+    "翠绿",
+    "童话",
+    "pastoral",
+    "botanical"
+  ],
+  "palette": [
+    {
+      "name": "钴蓝",
+      "hex": "#2465A0"
+    },
+    {
+      "name": "林绿",
+      "hex": "#263F27"
+    },
+    {
+      "name": "草绿",
+      "hex": "#62864A"
+    },
+    {
+      "name": "金线",
+      "hex": "#D2A454"
+    },
+    {
+      "name": "象牙白",
+      "hex": "#EEE1CA"
+    }
+  ],
+  "reuse_focus": "用金线重新组织既有植物、云层与建筑边缘，保留明亮空间和视觉留白。",
+  "judgment_note": "“新艺术＋工艺美术”是对可见装饰语言的判断，不代表已核实作品所属历史流派。",
+  "references": [
+    {
+      "file": "media/morning-input-02.webp",
+      "caption": "蓝天、金线云纹与繁密植物",
+      "alt": "蓝天与白云下的绿色田园树林，金色线条装饰叶片、树干和云朵",
+      "credit": "用户提供 · 作者待补"
+    }
+  ],
+  "type": "case",
+  "schema_version": 1,
+  "analysis": [
+    {
+      "label": "轮廓与线条",
+      "text": "细金线勾勒叶脉与枝条；云朵中的卷曲线条，把自然形态转化为装饰图案。"
+    },
+    {
+      "label": "色彩组织",
+      "text": "钴蓝天空与层次丰富的绿色形成主色关系，象牙白花朵和金色线条带出日光。"
+    },
+    {
+      "label": "表面质感",
+      "text": "密集但清晰的植物重复、细小花朵与纸面笔触，形成壁纸、织毯般的手工观感。"
+    },
+    {
+      "label": "空间构图",
+      "text": "前景叶片近似平面装饰，树林、溪流与山坡仍有纵深；细节集中在植物和轮廓上。"
+    },
+    {
+      "label": "叙事氛围",
+      "text": "清新、宁静、理想化的田园世界。迁移时优先保留原场景，不必新增溪流或蘑菇。"
+    }
+  ],
+  "legacy_prompts": {
+    "zh": "将输入照片完整改绘为新艺术与工艺美术气质融合的装饰性田园插画。照片决定内容、视角与构图；附加参考图仅提供风格语言。保留主体数量与身份、主要物件位置、建筑或地形结构、画幅比例。使用优雅的有机曲线、细金色轮廓与叶脉、密集而有节奏的植物纹样。以钴蓝、森林绿、翠绿、象牙白和赭金构成明亮配色，用柔和日光形成清新宁静的童话田园气氛。在原图已有植物、云层、织物或装饰表面加入图案，保留主体附近的视觉留白与空间纵深。整体呈精细手绘与轻微纸面颜料质感。不要导入参考中的溪流、山丘、蘑菇或新人物，不要添加文字、水印或边框，不要只叠加色彩滤镜。",
+    "en": "Transform the input photograph into a refined decorative pastoral illustration blending Art Nouveau linework with an Arts and Crafts-like botanical pattern language. Let the photograph determine subjects, viewpoint and composition; use references for style only. Preserve subject count and identities, key object positions, architectural or landscape structure, and aspect ratio. Use graceful organic curves, fine golden contours and leaf veins, and dense but rhythmic botanical repetition. Build a luminous palette of cobalt blue, forest and spring greens, ivory and ochre-gold, with gentle daylight and a peaceful fairy-tale pastoral mood. Ornament existing foliage, clouds, textiles or decorative surfaces while retaining visual breathing space and readable depth. Keep the scene consistently hand-painted with subtle pigment-on-paper texture. Do not import rivers, hills, mushrooms or extra people. No lettering, watermarks, borders or a simple color-filter overlay."
+  },
+  "sources": [
+    {
+      "title": "V&A · 新艺术与工艺美术的关联",
+      "url": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style"
+    }
+  ],
+  "artist": "作者未核实",
+  "facets": {
+    "tradition": [
+      "art-nouveau",
+      "arts-crafts"
+    ],
+    "subject": [
+      "landscape",
+      "plants"
+    ],
+    "effect": [
+      "organic",
+      "gold",
+      "pattern",
+      "depth"
+    ]
+  },
+  "relations": [
+    {
+      "id": "art-nouveau",
+      "relationship": "视觉借鉴"
+    }
+  ],
+  "cover": "media/morning-input-02.webp",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "概括的形块",
+      "explanation": "以清楚色面概括原有形体，保持轮廓可读",
+      "evidence": "细金线勾勒叶脉与枝条；云朵中的卷曲线条，把自然形态转化为装饰图案。",
+      "zh": "以清楚色面概括原有形体，保持轮廓可读",
+      "en": "Simplify existing forms into clear color fields with readable contours",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "细金线",
+      "explanation": "沿原有轮廓与结构布置轻盈的细金线",
+      "evidence": "细金线勾勒叶脉与枝条；云朵中的卷曲线条，把自然形态转化为装饰图案。",
+      "zh": "沿原有轮廓与结构布置轻盈的细金线",
+      "en": "Place delicate fine gold lines along existing contours and structures",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "明亮蓝绿",
+      "explanation": "以钴蓝、层次丰富的绿色和象牙白形成明亮关系",
+      "evidence": "钴蓝天空与层次丰富的绿色形成主色关系，象牙白花朵和金色线条带出日光。",
+      "zh": "以钴蓝、层次丰富的绿色和象牙白形成明亮关系",
+      "en": "Use cobalt blue, varied greens and ivory in a bright palette",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "柔和日光",
+      "explanation": "呈现清透而柔和的日光，避免强烈金属高光",
+      "evidence": "钴蓝天空与层次丰富的绿色形成主色关系，象牙白花朵和金色线条带出日光。",
+      "zh": "呈现清透而柔和的日光，避免强烈金属高光",
+      "en": "Use clear soft daylight without harsh metallic highlights",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "平面与纵深",
+      "explanation": "保留原有透视，以装饰性前景与较简洁远景形成层次",
+      "evidence": "前景叶片近似平面装饰，树林、溪流与山坡仍有纵深；细节集中在植物和轮廓上。",
+      "zh": "保留原有透视，以装饰性前景与较简洁远景形成层次",
+      "en": "Keep perspective, contrasting decorative foreground detail with simpler distance",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "手工图案",
+      "explanation": "让重复纹样带有轻微手工变化，避免整齐复制",
+      "evidence": "密集但清晰的植物重复、细小花朵与纸面笔触，形成壁纸、织毯般的手工观感。",
+      "zh": "让重复纹样带有轻微手工变化，避免整齐复制",
+      "en": "Give repeated patterns subtle handmade variations rather than exact duplication",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "宁静田园",
+      "explanation": "营造清新、宁静、理想化的氛围",
+      "evidence": "清新、宁静、理想化的田园世界。迁移时优先保留原场景，不必新增溪流或蘑菇。",
+      "zh": "营造清新、宁静、理想化的氛围",
+      "en": "Create a fresh, peaceful and idealized atmosphere",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "observed_avoid": "避免装饰线覆盖全部天空，或平均堆满细节，使原场景难以辨认。",
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  },
+  "aliases": [
+    "装饰插画",
+    "新艺术与工艺美术气质融合的装饰性田园插画",
+    "新艺术",
+    "Art Nouveau",
+    "Arts and Crafts",
+    "工艺美术",
+    "金线",
+    "田园",
+    "植物插画",
+    "钴蓝",
+    "翠绿",
+    "童话",
+    "pastoral",
+    "botanical"
+  ],
+  "reviewed_at": "2026-10-16",
+  "examples": [
+    {
+      "before": "media/morning-input-03.webp",
+      "after": "media/park-art-nouveau-final.webp",
+      "title": "公园照片 → 金线田园",
+      "caption": "本次记录的改绘。保留树木位置、草坪、步道与弧形长椅，以金线植物纹样和明亮色彩统一画面。",
+      "observations": [
+        "弧形长椅保留原有形状，表面被重绘为装饰性马赛克。",
+        "金色叶脉串联树冠与前景绿篱，蓝天仍保留清晰间隙。"
+      ],
+      "credit": "输入：用户照片 · 输出：AI 改绘",
+      "execution_prompt": "Use case: style-transfer. Edit Image 1, the landscape photograph of a sunny leafy public park, using Image 2 only as the visual style reference. Produce a refined, richly detailed Art Nouveau and Arts and Crafts decorative pastoral illustration of THE SAME PARK. Preserve Image 1's 4:3 landscape framing, viewpoint, composition, main tree placements and branching silhouettes, layered canopy, open lawn, horizontal walkway, dense foreground hedge, sweeping curved low mosaic-tiled bench/wall across the lower foreground, paved foreground, right-hand small bench, distant buildings and small existing people in their positions. The original photographed location must remain clearly recognizable. Transform every part into cohesive hand-painted storybook artwork with the exact visual vocabulary of Image 2: fine warm golden contour lines and leaf veins, elegant organic curves, dense individually painted foliage with patterned botanical repetition, deep forest green, jade and fresh spring greens, rich cobalt-blue glimpses of sky, ivory and ochre-gold highlights, tiny warm red accents, intricate tapestry-like detail, subtle gouache/oil paint texture on paper, luminous gentle daylight, enchanting peaceful pastoral mood. Reinterpret the foreground hedge as exquisite overlapping botanical leaves and tiny floral motifs with delicate gold outlines; reinterpret the curved tiled bench as an ornate small mosaic of green, ivory, russet and gold while retaining its original shape and position. Stylize existing tree trunks with warm gold line work, retaining pale bases. Use graceful gold swirling ornamental accents sparingly within the existing visible blue sky areas, as in the reference. Make this a substantial painted style transformation, fully illustrated, elegant and richly crafted, with refined fine line work and lush detailed plants throughout. Preserve scene content; do not import the reference's river, hills, mushrooms or new animals or people. No frame, lettering, signature, watermark, or photographic leftovers."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "expressionism",
+  "name": "表现主义人物",
+  "english_name": "Expressionist Figure Painting",
+  "artist": "Egon Schiele",
+  "aliases": [
+    "席勒",
+    "Schiele",
+    "表现主义"
+  ],
+  "kind": "艺术倾向与流派",
+  "summary": "形体不只记录外貌，也表达心理状态。折转的轮廓、不均匀的颜色和留白让情绪变得可见。",
+  "definition": "表现主义重视主观经验的表达，存在不同地区与艺术家的路径。本页从 Schiele 的自画像理解其中一种人物语言：紧张线条、主观形体与稀疏空间。",
+  "recognition": [
+    "轮廓是否在关节和转折处突然收紧或折断？",
+    "颜色是否服务情绪，而不只是模拟正常肤色？",
+    "空白是否增强人物与观看者之间的张力？"
+  ],
+  "variations": "表现主义也可粗放、鲜艳或厚重。本例偏向清楚线条、斑驳色面与浅色空场，不能概括全部表现主义。",
+  "confusion": "夸张不是随意画错。尝试说明哪一个比例、方向或色差强化了特定感受，避免把所有变形都叫表现主义。",
+  "type": "guide",
+  "schema_version": 1,
+  "cover": "media/guide-expressionism.webp",
+  "facets": {
+    "tradition": [
+      "expressionism"
+    ],
+    "subject": [
+      "people",
+      "plants"
+    ],
+    "effect": [
+      "contour",
+      "negative-space",
+      "brush"
+    ]
+  },
+  "references": [
+    {
+      "file": "media/guide-expressionism.webp",
+      "caption": "Self-Portrait with Chinese Lantern Plant《灯笼果自画像》",
+      "alt": "头颈与肩部倾斜，脸部色块断续；深色衣服与浅底形成强对照，左侧红色果实平衡右侧人物的重量。",
+      "credit": "Egon Schiele · Leopold Museum, Vienna, Inv. 454",
+      "credit_url": "https://onlinecollection.leopoldmuseum.org/en/object/528-self-portrait-with-chinese-lantern-plant/",
+      "artwork": {
+        "date_label": "1912",
+        "medium_label": "木板油彩与不透明颜料",
+        "artist": "Egon Schiele"
+      },
+      "focus": "头颈与肩部倾斜，脸部色块断续；深色衣服与浅底形成强对照，左侧红色果实平衡右侧人物的重量。",
+      "relationship": "代表作品（本页观察入口）",
+      "image_source": "https://onlinecollection.leopoldmuseum.org/images/web-lm-00454-default.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Leopold Museum · Self-Portrait with Chinese Lantern Plant",
+      "url": "https://onlinecollection.leopoldmuseum.org/en/object/528-self-portrait-with-chinese-lantern-plant/"
+    }
+  ],
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "带张力的形体",
+      "explanation": "在保留身份与动作的前提下，适度强化形体转折与不对称",
+      "evidence": "头颈与肩部的倾斜、局部不对称带来不稳定感。",
+      "zh": "在保留身份与动作的前提下，适度强化形体转折与不对称",
+      "en": "Preserve identity and pose while moderately emphasizing angular changes and asymmetry",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "紧张折线",
+      "explanation": "用有轻重变化的折转线条表达形体张力",
+      "evidence": "颈部、下颌和眼周的轮廓收紧，转折明显。",
+      "zh": "用有轻重变化的折转线条表达形体张力",
+      "en": "Express tension through angular lines with varied weight",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "主观的肤色",
+      "explanation": "以土黄、灰绿、暗红和近黑组织不均匀的情绪性色块",
+      "evidence": "脸部并非均匀肤色，土黄、灰绿与暖红色痕交错。",
+      "zh": "以土黄、灰绿、暗红和近黑组织不均匀的情绪性色块",
+      "en": "Use ochre, gray-green, dark red and near-black in uneven expressive color patches",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "不均匀明暗",
+      "explanation": "让明暗分布略带断续，突出关键表情和结构",
+      "evidence": "脸部明暗以断续色痕出现，与大面积深色衣服对照。",
+      "zh": "让明暗分布略带断续，突出关键表情和结构",
+      "en": "Use slightly broken tonal transitions to emphasize expression and structure",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "空场中的主体",
+      "explanation": "保留原图布局，简化次要细节，让主体周围有安静的空场",
+      "evidence": "人物集中在右侧，左侧空场与红色灯笼果形成平衡。",
+      "zh": "保留原图布局，简化次要细节，让主体周围有安静的空场",
+      "en": "Keep the original layout, simplify secondary detail and leave quiet space around the subjects",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "断续色痕",
+      "explanation": "保留干涩、断续的色痕与局部露底，避免过度抛光",
+      "evidence": "面部色痕、衣服中的线与露出的浅底保留了干涩感。",
+      "zh": "保留干涩、断续的色痕与局部露底，避免过度抛光",
+      "en": "Keep dry broken marks and occasional exposed ground without polishing them away",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "内向的张力",
+      "explanation": "表达克制而敏感的心理张力",
+      "evidence": "直视的眼神与偏转的头部方向不同，增添敏感而紧张的感受。",
+      "zh": "表达克制而敏感的心理张力",
+      "en": "Convey restrained, sensitive psychological tension",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
+    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+  },
+  "relations": [],
+  "reviewed_at": "2026-10-16"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "AS-001",
+  "name": "新艺术 · 金箔森林",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "修长形体",
+      "explanation": "将原有形体概括为修长、完整的装饰性剪影",
+      "evidence": "纤细树干与舒展枝条形成连续曲线；小径上的旋纹与树冠节奏相互呼应。",
+      "zh": "将原有形体概括为修长、完整的装饰性剪影",
+      "en": "Simplify existing forms into elongated, coherent decorative silhouettes",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "连续曲线",
+      "explanation": "用流动曲线与细线刻画原有形体，局部加入细金线",
+      "evidence": "纤细树干与舒展枝条形成连续曲线；小径上的旋纹与树冠节奏相互呼应。",
+      "zh": "用流动曲线与细线刻画原有形体，局部加入细金线",
+      "en": "Use flowing curves and fine lines on existing forms, with restrained gold accents",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "深蓝与金赭",
+      "explanation": "以深蓝近黑承托金赭与浅金，少量朱红作为焦点",
+      "evidence": "深蓝、近黑建立背景，金赭与浅金铺陈枝叶，少量朱红形成局部焦点。",
+      "zh": "以深蓝近黑承托金赭与浅金，少量朱红作为焦点",
+      "en": "Set golden ochre and pale gold against deep blue and near-black, with small vermilion accents",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "哑光亮度",
+      "explanation": "弱化写实反光，让金色以哑光色面呈现",
+      "evidence": "金箔般的哑光装饰、细密勾线和重复叶片，带来织毯与装饰壁画的观感。",
+      "zh": "弱化写实反光，让金色以哑光色面呈现",
+      "en": "Reduce realistic reflections and render gold as matte color fields",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "纵向节奏",
+      "explanation": "保留原构图，以连续的方向节奏串联现有形体",
+      "evidence": "高大树干形成竖向骨架；S 形小径从前景延伸，植物纹样与空间纵深并存。",
+      "zh": "保留原构图，以连续的方向节奏串联现有形体",
+      "en": "Keep the composition and link existing forms through continuous directional rhythms",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "精细纹样",
+      "explanation": "在原有形体内组织细密而有疏密的重复纹样",
+      "evidence": "金箔般的哑光装饰、细密勾线和重复叶片，带来织毯与装饰壁画的观感。",
+      "zh": "在原有形体内组织细密而有疏密的重复纹样",
+      "en": "Organize fine repeated patterns within existing forms with varied density",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "幽静童话",
+      "explanation": "营造幽静、神秘而有装饰性的童话氛围",
+      "evidence": "夜色森林中的小动物与红蘑菇营造民间故事感；迁移时不需要把这些题材对象加入原照片。",
+      "zh": "营造幽静、神秘而有装饰性的童话氛围",
+      "en": "Create a quiet, mysterious and decorative storybook mood",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  }
+}

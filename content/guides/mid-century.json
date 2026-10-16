@@ -1,0 +1,175 @@
+{
+  "id": "mid-century",
+  "name": "世纪中叶现代主义插画",
+  "english_name": "Mid-century Modern Illustration",
+  "artist": "Mary Blair",
+  "aliases": [
+    "玛丽·布莱尔",
+    "玛丽布莱尔",
+    "Mary Blair",
+    "20 世纪中叶现代主义",
+    "中世纪现代主义插画"
+  ],
+  "kind": "时代与设计语境",
+  "summary": "大胆色彩与简洁形状共同讲故事。人物可以很小，画面依然通过形状、比例和冷暖让情绪一目了然。",
+  "definition": "这里的 Mid-century 指 20 世纪中叶，不是中世纪。Mary Blair 的动画概念设计以色彩组织和概括形状提供观察入口；“世纪中叶现代主义”覆盖多种设计实践，并非统一画法。",
+  "recognition": [
+    "缩小图片后，大色块是否仍能传达画面感受？",
+    "人物和环境能否被读成简单而有变化的形状？",
+    "非写实的色彩关系是否帮助突出故事焦点？"
+  ],
+  "variations": "可使用不透明色面、拼贴般层次或更松动的手绘边缘；明快与幽暗都能成立。这里的两幅 Alice 概念图展示了不同的空间节奏。",
+  "confusion": "简化不等于把所有形状画成规则几何图。大小、方向和不对称的变化，能让平面设计保持活力。",
+  "type": "guide",
+  "schema_version": 1,
+  "cover": "media/guide-mid-century.webp",
+  "facets": {
+    "tradition": [
+      "mid-century",
+      "storybook"
+    ],
+    "subject": [
+      "people",
+      "architecture",
+      "plants"
+    ],
+    "effect": [
+      "flat",
+      "geometry",
+      "brush",
+      "limited"
+    ]
+  },
+  "references": [
+    {
+      "file": "media/guide-mid-century.webp",
+      "caption": "Alice looking at the White Rabbit’s house concept art",
+      "alt": "黄绿色的房屋亮面被深蓝、紫色树形包围。人物很小但位置清楚；倾斜与不等大的几何形给场景带来活力。",
+      "credit": "Mary Blair · Courtesy Pam Burns-Clair Family · © Disney · 图像提取自馆方公开图录",
+      "credit_url": "https://www.waltdisney.org/sites/default/files/Mary-Blair-Image-Index-Final.pdf",
+      "artwork": {
+        "date_label": "约 1951",
+        "medium_label": "概念设计；所用图录未标明材料",
+        "artist": "Mary Blair"
+      },
+      "focus": "黄绿色的房屋亮面被深蓝、紫色树形包围。人物很小但位置清楚；倾斜与不等大的几何形给场景带来活力。",
+      "relationship": "代表作品（本页观察入口）",
+      "image_source": "https://www.waltdisney.org/sites/default/files/Mary-Blair-Image-Index-Final.pdf"
+    },
+    {
+      "file": "media/guide-mid-century-alice.webp",
+      "caption": "Alice falling down the rabbit hole concept art",
+      "alt": "Alice 在狭长、装饰性墙面与小家具之间下落的概念设计",
+      "credit": "Mary Blair · Courtesy Walt Disney Family Foundation, gift of Diane Disney Miller · © Disney",
+      "credit_url": "https://www.waltdisney.org/sites/default/files/Mary-Blair-Image-Index-Final.pdf",
+      "artwork": {
+        "date_label": "1951",
+        "artist": "Mary Blair",
+        "medium_label": "概念设计；所用图录未标明材料"
+      },
+      "focus": "这张图改用狭长空间，重复的小图形与墙面纹样强化纵向节奏；人物的浅色与蓝色从暗底中读出。它与另一幅房屋图共享概括形状和主观色彩，构图差别却很大。",
+      "relationship": "变体",
+      "image_source": "https://www.waltdisney.org/sites/default/files/Mary-Blair-Image-Index-Final.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Walt Disney Family Museum · Mary Blair 展览图录，第 1 页",
+      "url": "https://www.waltdisney.org/sites/default/files/Mary-Blair-Image-Index-Final.pdf"
+    },
+    {
+      "title": "Walt Disney Family Museum · MAGIC, COLOR, FLAIR 展览",
+      "url": "https://www.waltdisney.org/exhibitions/magic-color-flair-world-mary-blair"
+    }
+  ],
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "概括的形状",
+      "explanation": "将原有形体概括为有大小和方向变化的简单形状",
+      "evidence": "房屋、树冠与人物由简洁的大形组成，大小和倾斜方向有变化。",
+      "zh": "将原有形体概括为有大小和方向变化的简单形状",
+      "en": "Simplify existing forms into simple shapes with varied size and direction",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "以形代线",
+      "explanation": "主要用相邻色面的边界界定形体，减少统一描边",
+      "evidence": "不少形体靠相邻色块区分，外轮廓没有统一的黑色描边。",
+      "zh": "主要用相邻色面的边界界定形体，减少统一描边",
+      "en": "Define forms mainly through adjoining color fields, reducing uniform outlines",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "大胆冷暖",
+      "explanation": "以深蓝紫承托黄绿亮色，建立明确的冷暖与明度对比",
+      "evidence": "房屋的黄绿亮部被蓝紫树林包围，冷暖与明度对比集中。",
+      "zh": "以深蓝紫承托黄绿亮色，建立明确的冷暖与明度对比",
+      "en": "Set bright yellow-green against deep blue and violet for clear temperature and value contrasts",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "色块光感",
+      "explanation": "以明暗色块表达光感，避免写实的光学反射",
+      "evidence": "光感来自明亮房屋与深色环境的对照，而非均匀写实阴影。",
+      "zh": "以明暗色块表达光感，避免写实的光学反射",
+      "en": "Suggest light through value shapes rather than realistic optical reflections",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "层叠空间",
+      "explanation": "保留原图前后关系，用遮挡和形状大小建立层叠空间",
+      "evidence": "前景树干与叶形遮挡中景，画面中心的空间被打开。",
+      "zh": "保留原图前后关系，用遮挡和形状大小建立层叠空间",
+      "en": "Keep the original depth relationships and use overlap and shape size to build layered space",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "手绘色面",
+      "explanation": "保留不透明手绘色面的轻微笔触与不规则边缘",
+      "evidence": "色面略有不规则边缘和可见手绘变化；材料在所用图录中未注明。",
+      "zh": "保留不透明手绘色面的轻微笔触与不规则边缘",
+      "en": "Keep subtle brush marks and irregular edges in opaque painted color fields",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "童话的活力",
+      "explanation": "营造富于想象、轻盈而有活力的叙事氛围",
+      "evidence": "倾斜、异比例的形状与大胆颜色共同形成童话般活力。",
+      "zh": "营造富于想象、轻盈而有活力的叙事氛围",
+      "en": "Create an imaginative, light and lively storytelling atmosphere",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
+    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+  },
+  "relations": [],
+  "reviewed_at": "2026-10-16"
+}

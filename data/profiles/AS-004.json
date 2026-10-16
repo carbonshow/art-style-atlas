@@ -1,0 +1,92 @@
+{
+  "id": "AS-004",
+  "name": "版画质感 · 奇幻绘本",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "简化剪影",
+      "explanation": "保留主体身份与动作，用简化剪影和少量细节表达",
+      "evidence": "人物以轮廓、披风和装备表达身份，面部简化；蕨叶、草束和荷叶转化为重复图形。",
+      "zh": "保留主体身份与动作，用简化剪影和少量细节表达",
+      "en": "Keep identity and pose, describing subjects through simplified silhouettes and few details",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "刻印边缘",
+      "explanation": "用略有毛糙的轮廓和局部排线说明形体",
+      "evidence": "植物剪影、岩壁排线与刻印般的边缘带来版画气质，同时保留松动的绘画笔触。",
+      "zh": "用略有毛糙的轮廓和局部排线说明形体",
+      "en": "Describe forms with slightly rough contours and localized hatching",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "冷绿暖橙",
+      "explanation": "以墨绿、蓝绿与深蓝为主，用少量橙红强调已有焦点",
+      "evidence": "墨绿、蓝绿和深蓝建立环境；橙红形成人物或叙事焦点，纸白为视线提供停顿。",
+      "zh": "以墨绿、蓝绿与深蓝为主，用少量橙红强调已有焦点",
+      "en": "Use dark green, teal and deep blue, with restrained orange-red on existing focal points",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "不透明色面",
+      "explanation": "压低光学反光，用不透明色面区分明暗",
+      "evidence": "不透明色块、干刷露底、粉彩般擦痕与粗纹纸颗粒叠加，边缘有断裂和毛糙感。",
+      "zh": "压低光学反光，用不透明色面区分明暗",
+      "en": "Reduce optical reflections and separate values through opaque color fields",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "路径引导",
+      "explanation": "保留原构图与画幅，强化原有形体的视线引导",
+      "evidence": "原参考采用狭长竖幅与高俯视，用河岸、烟、道路和石阶引导视线；人物较小，环境显得辽阔。",
+      "zh": "保留原构图与画幅，强化原有形体的视线引导",
+      "en": "Keep composition and aspect ratio, strengthening the viewing path of existing forms",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "干刷颗粒",
+      "explanation": "加入有方向的干刷、擦痕和适度粗纸颗粒",
+      "evidence": "不透明色块、干刷露底、粉彩般擦痕与粗纹纸颗粒叠加，边缘有断裂和毛糙感。",
+      "zh": "加入有方向的干刷、擦痕和适度粗纸颗粒",
+      "en": "Use directional dry brush marks, scuffs and restrained coarse paper grain",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "辽阔幻想",
+      "explanation": "营造宁静、辽阔、带探索感的幻想氛围",
+      "evidence": "原参考采用狭长竖幅与高俯视，用河岸、烟、道路和石阶引导视线；人物较小，环境显得辽阔。",
+      "zh": "营造宁静、辽阔、带探索感的幻想氛围",
+      "en": "Create a quiet, expansive atmosphere of imaginative exploration",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  }
+}

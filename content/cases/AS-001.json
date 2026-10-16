@@ -1,0 +1,218 @@
+{
+  "id": "AS-001",
+  "name": "新艺术 · 金箔森林",
+  "english_name": "Gilded Botanical Fairy Tale",
+  "classification": "新艺术式装饰性森林童话插画",
+  "summary": "金色枝叶织成浓密森林。深蓝夜色、朱红点缀与蜿蜒小径，共同建立华丽而神秘的童话空间。",
+  "recognition": "先看枝条的流动曲线与植物纹样，再看金色装饰。金色是这张参考图的配色选择。",
+  "tags": [
+    "新艺术",
+    "Art Nouveau",
+    "金箔",
+    "金线",
+    "植物纹样",
+    "装饰插画",
+    "森林童话",
+    "深蓝",
+    "民俗",
+    "gilded",
+    "botanical",
+    "enchanted forest"
+  ],
+  "palette": [
+    {
+      "name": "夜蓝",
+      "hex": "#173B50"
+    },
+    {
+      "name": "墨色",
+      "hex": "#121B1F"
+    },
+    {
+      "name": "金赭",
+      "hex": "#C78C46"
+    },
+    {
+      "name": "浅金",
+      "hex": "#E9C895"
+    },
+    {
+      "name": "朱红",
+      "hex": "#B94524"
+    }
+  ],
+  "reuse_focus": "把流动曲线与装饰节奏嵌入原照片的枝叶、织物或建筑表面，保留冷暖关系与主要结构。",
+  "judgment_note": "按可见画面归类；作者、年代和真实媒介待补。“金箔”描述视觉效果。",
+  "references": [
+    {
+      "file": "media/morning-input-01.webp",
+      "caption": "森林、金色小径与黑色狐狸",
+      "alt": "深蓝森林中金色树木和蜿蜒小径，前景有黑色狐狸与红蘑菇",
+      "credit": "用户提供 · 作者待补"
+    }
+  ],
+  "type": "case",
+  "schema_version": 1,
+  "analysis": [
+    {
+      "label": "轮廓与线条",
+      "text": "纤细树干与舒展枝条形成连续曲线；小径上的旋纹与树冠节奏相互呼应。"
+    },
+    {
+      "label": "色彩组织",
+      "text": "深蓝、近黑建立背景，金赭与浅金铺陈枝叶，少量朱红形成局部焦点。"
+    },
+    {
+      "label": "表面质感",
+      "text": "金箔般的哑光装饰、细密勾线和重复叶片，带来织毯与装饰壁画的观感。"
+    },
+    {
+      "label": "空间构图",
+      "text": "高大树干形成竖向骨架；S 形小径从前景延伸，植物纹样与空间纵深并存。"
+    },
+    {
+      "label": "叙事氛围",
+      "text": "夜色森林中的小动物与红蘑菇营造民间故事感；迁移时不需要把这些题材对象加入原照片。"
+    }
+  ],
+  "legacy_prompts": {
+    "zh": "将输入照片改绘为新艺术式的金箔装饰森林童话插画。照片决定内容与构图；附加参考图只提供线条、配色和纹样，不导入参考中的人物、动物或物件。保留原图主体数量、身份特征、姿态、物件关系、视角和画幅。把已有枝条、轮廓与路径组织成优雅的有机曲线，以细密植物纹样和金色勾线强化装饰节奏。使用深蓝与近黑底色、金赭和浅金装饰，以及少量朱红焦点；金色呈哑光金箔般的绘画效果。兼顾平面纹样与必要的空间纵深，保留细微纸面和手绘纹理。人物面部与全画保持一致的插画语言。不要凭空添加狐狸、蘑菇、文字、边框或水印，避免摄影贴片与写实金属反光。",
+    "en": "Reinterpret the input photograph as an Art Nouveau-inspired decorative fairy-tale illustration with a gilded botanical visual language. Use the photograph for content and composition. Borrow only linework, palette and pattern language from references, without importing characters, animals or objects. Preserve subject count, recognizable identities, poses, object relationships, viewpoint and aspect ratio. Translate existing branches, contours and paths into flowing organic curves, intricate botanical repetition and fine golden outlines. Use deep navy and near-black grounds, matte ochre-gold and pale-gold details, and restrained vermilion accents. Balance ornamental flatness with readable depth and subtle painted paper texture. Render faces in the same illustrated language as the whole scene. Do not add foxes, mushrooms, lettering, borders or watermarks. Avoid photographic patches and realistic metallic glare."
+  },
+  "sources": [
+    {
+      "title": "V&A · 新艺术的自然形态与流动线条",
+      "url": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style"
+    }
+  ],
+  "artist": "作者未核实",
+  "facets": {
+    "tradition": [
+      "art-nouveau"
+    ],
+    "subject": [
+      "landscape",
+      "plants",
+      "animals"
+    ],
+    "effect": [
+      "organic",
+      "gold",
+      "pattern",
+      "depth"
+    ]
+  },
+  "relations": [
+    {
+      "id": "art-nouveau",
+      "relationship": "视觉借鉴"
+    }
+  ],
+  "cover": "media/morning-input-01.webp",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "修长形体",
+      "explanation": "将原有形体概括为修长、完整的装饰性剪影",
+      "evidence": "纤细树干与舒展枝条形成连续曲线；小径上的旋纹与树冠节奏相互呼应。",
+      "zh": "将原有形体概括为修长、完整的装饰性剪影",
+      "en": "Simplify existing forms into elongated, coherent decorative silhouettes",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "连续曲线",
+      "explanation": "用流动曲线与细线刻画原有形体，局部加入细金线",
+      "evidence": "纤细树干与舒展枝条形成连续曲线；小径上的旋纹与树冠节奏相互呼应。",
+      "zh": "用流动曲线与细线刻画原有形体，局部加入细金线",
+      "en": "Use flowing curves and fine lines on existing forms, with restrained gold accents",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "深蓝与金赭",
+      "explanation": "以深蓝近黑承托金赭与浅金，少量朱红作为焦点",
+      "evidence": "深蓝、近黑建立背景，金赭与浅金铺陈枝叶，少量朱红形成局部焦点。",
+      "zh": "以深蓝近黑承托金赭与浅金，少量朱红作为焦点",
+      "en": "Set golden ochre and pale gold against deep blue and near-black, with small vermilion accents",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "哑光亮度",
+      "explanation": "弱化写实反光，让金色以哑光色面呈现",
+      "evidence": "金箔般的哑光装饰、细密勾线和重复叶片，带来织毯与装饰壁画的观感。",
+      "zh": "弱化写实反光，让金色以哑光色面呈现",
+      "en": "Reduce realistic reflections and render gold as matte color fields",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "纵向节奏",
+      "explanation": "保留原构图，以连续的方向节奏串联现有形体",
+      "evidence": "高大树干形成竖向骨架；S 形小径从前景延伸，植物纹样与空间纵深并存。",
+      "zh": "保留原构图，以连续的方向节奏串联现有形体",
+      "en": "Keep the composition and link existing forms through continuous directional rhythms",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "精细纹样",
+      "explanation": "在原有形体内组织细密而有疏密的重复纹样",
+      "evidence": "金箔般的哑光装饰、细密勾线和重复叶片，带来织毯与装饰壁画的观感。",
+      "zh": "在原有形体内组织细密而有疏密的重复纹样",
+      "en": "Organize fine repeated patterns within existing forms with varied density",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "幽静童话",
+      "explanation": "营造幽静、神秘而有装饰性的童话氛围",
+      "evidence": "夜色森林中的小动物与红蘑菇营造民间故事感；迁移时不需要把这些题材对象加入原照片。",
+      "zh": "营造幽静、神秘而有装饰性的童话氛围",
+      "en": "Create a quiet, mysterious and decorative storybook mood",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "observed_avoid": "避免整幅金属化，或只加金色滤镜而不重构线条与纹样。",
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  },
+  "aliases": [
+    "装饰插画",
+    "新艺术式装饰性森林童话插画",
+    "新艺术",
+    "Art Nouveau",
+    "金箔",
+    "金线",
+    "植物纹样",
+    "装饰插画",
+    "森林童话",
+    "深蓝",
+    "民俗",
+    "gilded",
+    "botanical",
+    "enchanted forest"
+  ],
+  "reviewed_at": "2026-10-16"
+}
