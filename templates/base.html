@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="dark">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="description" content="$description">
   <meta property="og:title" content="$title · 美术风格图鉴">
   <meta property="og:description" content="$description">
@@ -14,6 +15,8 @@
   <link rel="icon" href="$root/assets/icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="$root/assets/site.css">
   <script defer src="$root/assets/core.js"></script>
+  <script id="analytics-config" type="application/json">$analytics_config</script>
+  <script defer src="$root/assets/analytics.js"></script>
   <script defer src="$root/assets/site.js"></script>
 </head>
 <body data-root="$root/" data-page="$page">
@@ -23,7 +26,14 @@
     <nav aria-label="主导航">$navigation</nav>
   </header>
   <main id="main">$content</main>
-  <footer class="site-footer"><div><strong>从观察开始，把风格说清楚。</strong><p>作品用于风格学习与比较。原作版权归相应权利人；各页保留出处与核实说明。</p></div><div><a href="$root/about/">关于与内容维护</a><a href="https://github.com/carbonshow/art-style-atlas">GitHub 仓库 ↗</a><span>内容核对 · $updated_at</span></div></footer>
+  <footer class="site-footer"><div><strong>从观察开始，把风格说清楚。</strong><p>作品用于风格学习与比较。原作版权归相应权利人；各页保留出处与核实说明。</p></div><div><a href="$root/about/">关于与内容维护</a><button id="analytics-settings" class="analytics-settings" type="button" aria-controls="analytics-consent" aria-expanded="false" hidden>统计设置</button><a href="https://github.com/carbonshow/art-style-atlas">GitHub 仓库 ↗</a><span>内容核对 · $updated_at</span></div></footer>
+  <aside id="analytics-consent" class="analytics-consent" role="region" aria-labelledby="analytics-heading" tabindex="-1" hidden>
+    <h2 id="analytics-heading">是否允许访问统计？</h2>
+    <p>我们使用 Google Analytics 了解页面访问与来源，不采集你输入的搜索词和创作提示词。你可随时在页脚更改选择。<a href="$root/about/#privacy">了解详情</a></p>
+    <p id="analytics-choice" class="note"></p>
+    <div class="analytics-actions"><button id="analytics-allow" type="button">允许统计</button><button id="analytics-deny" type="button">不允许</button></div>
+    <button id="analytics-close" class="analytics-close" type="button" hidden>关闭设置</button>
+  </aside>
   <div id="notice" role="status" aria-live="polite"></div>
   <dialog id="lightbox" aria-label="作品大图"><button id="close-lightbox" type="button" aria-label="关闭大图">关闭 ×</button><img id="zoom-image" alt=""><p id="zoom-caption"></p></dialog>
 </body>

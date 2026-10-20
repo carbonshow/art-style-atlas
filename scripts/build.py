@@ -75,6 +75,16 @@ def load():
 def validate(data):
     site, taxonomy, terms, learning, media, entries = data
     errors = []
+    analytics = site.get('analytics', {'enabled': False, 'measurement_id': ''})
+    if not isinstance(analytics, dict) or type(analytics.get('enabled')) is not bool:
+        errors.append('analytics.enabled 必须为布尔值')
+    elif analytics['enabled']:
+        measurement_id = analytics.get('measurement_id', '')
+        if not isinstance(measurement_id, str) or not re.fullmatch(r'G-[A-Z0-9]+', measurement_id) or measurement_id in {'G-XXXXXXXXXX', 'G-EXAMPLE', 'G-PLACEHOLDER', 'G-TEST', 'G-1234567890'}:
+            errors.append('启用统计时必须填写真实的 GA4 Measurement ID，不能使用占位符')
+        production = urlsplit(site['url'])
+        if production.scheme != 'https' or not production.hostname or production.username or production.password or production.query or production.fragment or not production.path.endswith('/'):
+            errors.append('统计生产地址必须为无参数且以 / 结尾的 HTTPS URL')
     ids = [entry['id'] for entry in entries]
     if len(set(ids)) != len(ids): errors.append('重复内容标识')
     for kind in ['guides', 'cases']:
@@ -152,6 +162,8 @@ def render(data):
     by_id = {x['id']:x for x in entries}
     labels = {key:{v['id']:v['name'] for v in facet['values']} for key,facet in taxonomy['facets'].items()}
     outputs = {}
+    public_paths = ['', 'catalog/', 'learn/', 'learn/portrait/', 'learn/glossary/', 'compose/', 'about/', '404.html']
+    public_paths += [entry_url(entry) for entry in entries]
     template = string.Template((ROOT/'templates/base.html').read_text(encoding='utf-8'))
     def image(path, alt, prefix, cls='', eager=False):
         size = media[path]
@@ -168,9 +180,13 @@ def render(data):
         nav = [('catalog/','风格库','catalog'),('learn/','入门学习','learn'),('compose/','创作提示词','compose')]
         navigation = ''.join('<a href="'+prefix+'/'+url+'"'+(' aria-current="page"' if page_type==kind else '')+'>'+name+'</a>' for url,name,kind in nav)
         canonical = site['url']+(path[:-10] if path.endswith('index.html') else path)
+        analytics = dict(site.get('analytics', {'enabled': False, 'measurement_id': ''}),
+            site_url=site['url'], page_location=canonical, page_title=title+' · 美术风格图鉴',
+            public_paths=public_paths)
         outputs[path] = template.substitute(title=e(title),description=e(description or site['description']),root=prefix,
             canonical=e(canonical),og_image=e(site['url']+(cover or entries[1]['cover'])),page=page_type,content=content,
-            navigation=navigation,updated_at=e(site['updated_at']))
+            navigation=navigation,updated_at=e(site['updated_at']),
+            analytics_config=json.dumps(analytics, ensure_ascii=False).replace('<', '\\u003c'))
     def intro(kicker,title,text):
         return '<div class="page-intro"><p class="eyebrow">'+e(kicker)+'</p><h1>'+e(title)+'</h1>'+paragraph(text,'lead')+'</div>'
     def prompt_link(entry,prefix,label='选择特征，开始创作 →'):
@@ -290,6 +306,7 @@ def render(data):
     page('compose/index.html','创作提示词',compose,'compose')
     about=intro('关于这个图鉴','学习入口，也是一套观察方法','面向美术初学者与 AI 创作爱好者，用作品理解风格，用可观察的特征辅助创作。')
     about+='<section class="reading"><h2>内容怎样组织</h2><p>风格指南说明共性、变化和边界；参考案例保留具体作品的逐图观察；视觉特征把两者连接到创作提示词。分类与题材各自独立，视觉相似不作为历史归属的证据。</p><h2>来源与作品</h2><p>参考作品保留完整画幅、署名与出处。无法确认作者、题名或媒介时明确注明；“油画般”“版画感”等描述仅指可见效果。背景资料与作品来源分别标注。公开可见不等于作品获开放许可；版权仍归相应权利人，商业复用前请向来源方核对。</p><h2>新增与更正</h2><p>网站代码、公开的风格指南、案例和分类词表统一在独立 GitHub 仓库维护。每条内容有稳定标识，新增条目后自动进入目录与检索；加入人物路线需同时登记学习路线。发现出处错误或希望移除图片，可以通过仓库 Issue 提交对应页面与依据。</p>'+link('https://github.com/carbonshow/art-style-atlas','打开维护仓库 ↗','button')+' '+link('https://github.com/carbonshow/art-style-atlas/issues','反馈与更正 ↗','button subtle')+'<h2>如何理解生成的提示词</h2><p>提示词由浏览器根据勾选项组装，不会生成或保存图片，也不会自动读取原图。它是一份可修改的创作描述，不保证任何生成工具都能完全执行。人物、建筑和道具以你的原图为准，不从参考作品自动加入。</p></section>'
+    about+='<section class="reading" id="privacy"><h2>访问统计与隐私</h2><p>本站使用 Google 提供的 Google Analytics 4 了解访问人数、页面浏览、分享来源、设备、国家或地区及阅读参与度。只有在你选择“允许统计”后，浏览器才会加载 Google 统计脚本并发送数据；未选择或拒绝时不发送统计请求。</p><p>统计包含本页公开地址与标题、经过精简的来源地址和标准技术信息，不采集站内搜索词、创作提示词、表单文字、图片或剪贴板内容。本站不启用广告个性化、Google signals 或 User-ID，不将统计数据用于识别你的身份。</p><p>允许统计后，Google 会在本网站路径下设置以 atlas 为前缀的第一方 Cookie，用于区分浏览器与会话。你的选择在本浏览器中保留 180 天；存储不可用时仅在当前页面生效。你可以随时在页脚“统计设置”中拒绝统计；撤回会停止后续采集并清理本站统计 Cookie，不会清除你正在填写的创作文字，也不会自动删除此前已提交的数据。</p><p>报表只覆盖同意统计且成功上报的访问，不能还原接入前的流量，也不等于精确的实际人数。事件及用户级数据保留 14 个月，汇总报告遵循 Google Analytics 的处理方式。有关 Google 如何处理数据，见 <a href="https://policies.google.com/privacy">Google 隐私政策</a>。</p></section>'
     page('about/index.html','关于与内容维护',about,'about')
     page('404.html','暂时找不到这一页',intro('404','这一页可能换了位置','可以回到风格库按名称或 AS 编号查找。')+link('./catalog/','打开风格库','button primary'),'404')
     # The GitHub Pages 404 page may be served at an arbitrary depth: use a site base.

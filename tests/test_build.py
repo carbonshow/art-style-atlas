@@ -71,4 +71,24 @@ class PublicContentChecks(unittest.TestCase):
         self.assertEqual(len(case4['references']),4)
         self.assertEqual(len(self.data[2]['terms']),48)
 
+    def test_analytics_requires_a_real_id_and_https_production_url(self):
+        for measurement_id in ['', 'G-XXXXXXXXXX', 'G-EXAMPLE', 'G-TEST', '</script>']:
+            self.assertInvalid(lambda d: d[0].update(analytics={'enabled':True,'measurement_id':measurement_id}), 'Measurement ID')
+        self.assertInvalid(lambda d: d[0].update(analytics={'enabled':'true'}), '布尔值')
+        for url in ['http://example.com/', 'https://example.com/no-slash', 'https://example.com/?q=secret']:
+            self.assertInvalid(lambda d: d[0].update(url=url,analytics={'enabled':True,'measurement_id':'G-A1B2C3D4E5'}), 'HTTPS URL')
+
+    def test_analytics_is_optional_and_all_pages_supply_safe_metadata_before_site_js(self):
+        data = copy.deepcopy(self.data)
+        data[0].pop('analytics', None)
+        for path, text in build.render(data).items():
+            if not path.endswith('.html'): continue
+            parser = build.Links()
+            parser.feed(text)
+            self.assertIn('analytics-settings', parser.ids)
+            self.assertIn('"enabled": false', text)
+            self.assertLess(text.index('assets/analytics.js'), text.index('assets/site.js'))
+            self.assertNotIn('googletagmanager.com', text)
+            self.assertIn('strict-origin-when-cross-origin', text)
+
 if __name__=='__main__':unittest.main()
