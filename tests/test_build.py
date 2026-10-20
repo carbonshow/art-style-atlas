@@ -85,7 +85,9 @@ class PublicContentChecks(unittest.TestCase):
             if not path.endswith('.html'): continue
             parser = build.Links()
             parser.feed(text)
-            self.assertIn('analytics-settings', parser.ids)
+            self.assertIn('analytics-config', parser.ids)
+            self.assertNotIn('analytics-settings', parser.ids)
+            self.assertNotIn('analytics-consent', parser.ids)
             self.assertIn('"enabled": false', text)
             self.assertLess(text.index('assets/analytics.js'), text.index('assets/site.js'))
             self.assertNotIn('googletagmanager.com', text)

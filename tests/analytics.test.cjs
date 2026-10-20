@@ -6,57 +6,57 @@ const config = {enabled:true, measurement_id:'G-A1B2C3D4E5', site_url:site,
   page_location:site+'catalog/', page_title:'风格库 · 美术风格图鉴',
   public_paths:['', 'catalog/', 'compose/', 'about/', 'cases/AS-001/', '404.html']};
 const epoch = Date.UTC(2026, 9, 20);
-const choice = (value, expires=epoch+A.LIFETIME) => JSON.stringify({version:1, choice:value, expires});
+const legacyChoiceKey = 'atlas.analytics.consent.v1';
+const choice = value => JSON.stringify({version:1, choice:value, expires:epoch+180*24*60*60*1000});
 
 function fixture({href=site+'catalog/', referrer='', saved, disabled=false, brokenStorage=false,
   options={}, legacy=null}={}) {
   class Target {
-    constructor() { this.listeners={}; this.hidden=true; this.textContent=''; this.attrs={}; }
+    constructor() { this.listeners={}; }
     addEventListener(name, fn) { (this.listeners[name] ||= []).push(fn); }
     emit(name, event={}) { for (const fn of this.listeners[name] || []) fn(event); }
-    setAttribute(name, value) { this.attrs[name]=value; }
-    contains(el) { return el === this; }
-    focus() { doc.activeElement=this; }
   }
-  const elements=Object.fromEntries(['analytics-consent', 'analytics-settings', 'analytics-choice',
-    'analytics-close', 'analytics-allow', 'analytics-deny'].map(id => [id, new Target()]));
+  const elements={};
   if (legacy) elements['legacy-ids']={textContent:JSON.stringify(legacy)};
-  const scripts=[], deletedCookies=[], store=new Map(), timers=new Map();
-  if (saved) store.set(A.CHOICE_KEY,saved);
+  const scripts=[], deletedCookies=[], store=new Map();
+  if (saved) store.set(legacyChoiceKey,saved);
   if (disabled) store.set(A.DISABLED_KEY,'1');
-  let time=epoch, nextTimer=0;
   const win=new Target(), doc=new Target();
   win.location={href};
-  win.Date=class extends Date { constructor() {super(time);} static now() {return time;} };
+  win.Date=class extends Date { constructor() {super(epoch);} };
   win.localStorage={
     getItem(key) { if (brokenStorage) throw Error('blocked'); return store.get(key) ?? null; },
     setItem(key,value) { if (brokenStorage) throw Error('blocked'); store.set(key,value); }
   };
-  win.setTimeout=(fn,delay) => {const id=++nextTimer; timers.set(id,{fn,at:time+delay}); return id;};
-  win.clearTimeout=id=>timers.delete(id);
   doc.referrer=referrer;
-  doc.getElementById=id=>elements[id] || null;
+  // No consent UI or free-input elements exist in the fixture.
+  doc.getElementById=id=>{ assert.equal(id,'legacy-ids'); return elements[id] || null; };
   doc.createElement=()=>({});
   doc.head={appendChild(script) {scripts.push(script);}};
   Object.defineProperty(doc,'cookie',{set:value=>deletedCookies.push(value)});
   A.create(win,doc,{...config,...options}).start();
   const commands=()=>Array.from(win.atlasDataLayer || [], args=>Array.from(args));
   return {win,doc,elements,scripts,store,deletedCookies,commands,
-    clicks:id=>elements[id].emit('click'),
     pvs:()=>commands().filter(x=>x[0]==='event' && x[1]==='page_view'),
-    storage(value,key=A.CHOICE_KEY) {
+    storage(value,key=A.DISABLED_KEY) {
       if (value === null) store.delete(key); else store.set(key,value);
       win.emit('storage',{key,newValue:value});
-    },
-    advance(ms) {
-      time+=ms;
-      for (const [id,{fn,at}] of [...timers]) if (at<=time) {timers.delete(id); fn();}
     }
   };
 }
 
-test('no Google script or events without consent, after rejection, or outside production',()=>{
-  for (const params of [{}, {saved:choice('denied')}, {disabled:true},
+test('production starts automatically regardless of old consent choices',()=>{
+  for (const saved of [undefined, choice('denied'), choice('granted'), 'malformed']) {
+    const f=fixture({saved});
+    assert.equal(f.scripts.length,1);
+    f.scripts[0].onload();
+    assert.equal(f.pvs().length,1);
+    assert.equal(f.store.get(legacyChoiceKey),saved);
+  }
+});
+
+test('non-production, disabled configuration and maintainer opt-out never load Google',()=>{
+  for (const params of [{disabled:true},
     {href:'http://127.0.0.1:8000/catalog/'}, {href:'http://carbonshow.github.io/art-style-atlas/catalog/'},
     {href:'https://example.com/art-style-atlas/catalog/'},
     {href:'https://carbonshow.github.io/another-project/'},
@@ -65,23 +65,18 @@ test('no Google script or events without consent, after rejection, or outside pr
     assert.equal(f.scripts.length,0);
     assert.deepEqual(f.commands(),[]);
   }
-  const f=fixture();
-  assert.equal(f.elements['analytics-consent'].hidden,false);
-  f.clicks('analytics-deny');
-  assert.equal(f.elements['analytics-consent'].hidden,true);
-  assert.equal(f.scripts.length,0);
 });
 
-test('grant loads once, uses basic consent and sends exactly one explicit page view',()=>{
+test('load once, disable advertising and send exactly one explicit page view',()=>{
   const f=fixture();
-  f.clicks('analytics-allow'); f.clicks('analytics-allow');
+  f.win.emit('focus'); f.doc.emit('visibilitychange');
   assert.equal(f.scripts.length,1);
   assert.match(f.scripts[0].src,/^https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-A1B2C3D4E5&l=atlasDataLayer$/);
   assert.equal(f.pvs().length,0);
-  assert.deepEqual(f.commands()[0],['consent','default',{analytics_storage:'denied',
+  assert.deepEqual(f.commands()[0],['consent','default',{analytics_storage:'granted',
     ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'}]);
   f.scripts[0].onload();
-  f.clicks('analytics-allow'); f.win.emit('pageshow',{persisted:false}); f.win.emit('focus');
+  f.win.emit('pageshow',{persisted:false}); f.win.emit('focus');
   assert.equal(f.pvs().length,1);
   const setup=f.commands().find(x=>x[0]==='config')[2];
   assert.equal(setup.send_page_view,false);
@@ -99,7 +94,7 @@ test('capture sanitized landing URL before catalog rewrites it; drop unknown/pri
   const f=fixture({href:site+'catalog/?q=secret&source=AS-001&page=2&unknown=private&utm_source=x&utm_medium=social&utm_campaign=atlas_intro#private',
     referrer:'https://external.example/path?secret=hidden#fragment'});
   f.win.location.href=site+'catalog/?q=another-secret';
-  f.clicks('analytics-allow'); f.scripts[0].onload();
+  f.scripts[0].onload();
   const setup=f.commands().find(x=>x[0]==='config')[2];
   assert.equal(setup.page_location,site+'catalog/?utm_source=x&utm_medium=social&utm_campaign=atlas_intro');
   assert.equal(setup.page_referrer,'https://external.example');
@@ -123,15 +118,15 @@ test('referrers retain only known internal public paths or an external origin',(
   }
 });
 
-test('history changes do not create PVs; each BFCache restore does after rechecking consent',()=>{
-  const f=fixture({saved:choice('granted')});
+test('history changes do not create PVs; BFCache restores recheck maintainer opt-out',()=>{
+  const f=fixture();
   f.scripts[0].onload();
   f.win.location.href=site+'catalog/?q=typed-text&page=2';
   f.win.emit('popstate'); f.win.emit('hashchange'); f.doc.emit('visibilitychange');
   assert.equal(f.pvs().length,1);
   f.win.emit('pageshow',{persisted:true});
   assert.equal(f.pvs().length,2);
-  f.store.set(A.CHOICE_KEY,choice('denied'));
+  f.store.set(A.DISABLED_KEY,'1');
   f.win.emit('pageshow',{persisted:true});
   assert.equal(f.pvs().length,2);
   assert.equal(f.win['ga-disable-'+config.measurement_id],true);
@@ -139,80 +134,48 @@ test('history changes do not create PVs; each BFCache restore does after recheck
 
 test('a new document counts once; redirect intermediates never load, 404 paths are fixed',()=>{
   for (let i=0;i<2;i++) {
-    const f=fixture({saved:choice('granted')});
+    const f=fixture();
     f.scripts[0].onload(); assert.equal(f.pvs().length,1);
   }
-  const redirect=fixture({href:site+'#AS-001',saved:choice('granted'),legacy:['AS-001'],
+  const redirect=fixture({href:site+'#AS-001',legacy:['AS-001'],
     options:{page_location:site}});
   assert.equal(redirect.scripts.length,0);
-  const missing=fixture({href:site+'arbitrary-private-path?q=secret#hidden',saved:choice('granted'),
+  const missing=fixture({href:site+'arbitrary-private-path?q=secret#hidden',
     options:{page_location:site+'404.html'}});
   missing.scripts[0].onload();
   assert.equal(missing.pvs()[0][2].page_location,site+'404.html');
 });
 
-test('withdrawal stops first, clears only this stream cookies and never touches creative input',()=>{
-  const f=fixture({saved:choice('granted')});
+test('maintainer opt-out stops collection, clears only this stream cookies and preserves the page',()=>{
+  const f=fixture();
   f.scripts[0].onload();
-  // Inputs are deliberately absent from the DOM fixture: analytics must never access them.
-  f.clicks('analytics-settings');
-  assert.equal(f.elements['analytics-consent'].hidden,false);
-  assert.equal(f.doc.activeElement,f.elements['analytics-consent']);
-  f.clicks('analytics-deny');
+  f.storage('1');
   assert.equal(f.win['ga-disable-'+config.measurement_id],true);
   assert.deepEqual(new Set(f.deletedCookies.map(x=>x.split('=')[0])),new Set(['atlas_ga','atlas_ga_A1B2C3D4E5']));
   assert.ok(f.deletedCookies.every(x=>x.includes('Path=/art-style-atlas/')));
   f.win.emit('focus'); f.doc.emit('visibilitychange');
   assert.equal(f.pvs().length,1);
-  f.clicks('analytics-allow');
+  f.storage(null);
   assert.equal(f.win['ga-disable-'+config.measurement_id],false);
   assert.equal(f.pvs().length,1);
   assert.equal(f.scripts.length,1);
 });
 
-test('revocation during loading cannot send queued views after the script arrives',()=>{
+test('maintainer opt-out during loading prevents queued views after script arrival',()=>{
   const f=fixture();
-  f.clicks('analytics-allow');
-  f.clicks('analytics-deny');
+  f.storage('1');
   f.scripts[0].onload();
   assert.equal(f.pvs().length,0);
   assert.ok(!f.commands().some(x=>x[0]==='config'));
   assert.equal(f.win['ga-disable-'+config.measurement_id],true);
 });
 
-test('cross-tab denial, deletion and maintainer opt-out stop collection',()=>{
-  for (const denied of [choice('denied'),null,'malformed']) {
-    const f=fixture({saved:choice('granted')}); f.scripts[0].onload();
-    f.storage(denied);
-    assert.equal(f.win['ga-disable-'+config.measurement_id],true);
-    f.win.emit('pageshow',{persisted:true});
-    assert.equal(f.pvs().length,1);
-  }
-  const f=fixture({saved:choice('granted')}); f.scripts[0].onload();
-  f.storage('1',A.DISABLED_KEY);
-  assert.equal(f.win['ga-disable-'+config.measurement_id],true);
-  assert.equal(f.elements['analytics-settings'].hidden,true);
-});
-
-test('expired consent re-prompts and a stored grant expires while the page remains open',()=>{
-  const old=fixture({saved:choice('granted',epoch-1)});
-  assert.equal(old.scripts.length,0);
-  assert.equal(old.elements['analytics-consent'].hidden,false);
-  const f=fixture({saved:choice('granted',epoch+1000)}); f.scripts[0].onload();
-  f.advance(1001);
-  assert.equal(f.win['ga-disable-'+config.measurement_id],true);
-  assert.equal(f.elements['analytics-consent'].hidden,false);
-  assert.equal(f.pvs().length,1);
-});
-
-test('unavailable storage uses current-document choice; blocked Google script is nonfatal',()=>{
+test('unavailable storage does not prevent default tracking; blocked script is nonfatal',()=>{
   const f=fixture({brokenStorage:true});
-  f.clicks('analytics-allow'); f.scripts[0].onload();
+  f.scripts[0].onload();
   assert.equal(f.pvs().length,1);
   assert.equal(f.store.size,0);
-  f.clicks('analytics-deny');
-  assert.equal(f.win['ga-disable-'+config.measurement_id],true);
-  const blocked=fixture(); blocked.clicks('analytics-allow');
+  const blocked=fixture();
   assert.doesNotThrow(()=>blocked.scripts[0].onerror());
   blocked.win.emit('focus');
   assert.equal(blocked.scripts.length,1);

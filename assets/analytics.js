@@ -1,4 +1,4 @@
-/* Basic Consent Mode: no Google tag or collection before an explicit choice. */
+/* Default-on production analytics; never read visitor input. */
 (function (factory) {
   'use strict';
   if (typeof module === 'object' && module.exports) module.exports = factory();
@@ -10,10 +10,8 @@
   }
 })(function () {
   'use strict';
-  const CHOICE_KEY = 'atlas.analytics.consent.v1';
   const DISABLED_KEY = 'atlas.analytics.disabled';
-  const LIFETIME = 180 * 24 * 60 * 60 * 1000;
-  const DENIED = {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'};
+  const STORAGE = {analytics_storage:'granted', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'};
   const UTM = ['utm_source', 'utm_medium', 'utm_campaign'];
 
   function publicPath(path, site, paths) {
@@ -44,14 +42,6 @@
       return url.origin;
     } catch (_) { return ''; }
   }
-  function parseChoice(raw, now) {
-    try {
-      const value = JSON.parse(raw);
-      return value && value.version === 1 && ['granted', 'denied'].includes(value.choice) &&
-        Number.isFinite(value.expires) && value.expires > now && value.expires <= now + LIFETIME
-        ? value : null;
-    } catch (_) { return null; }
-  }
   function create(win, doc, config) {
     const site = new URL(config.site_url);
     const here = new URL(win.location.href);
@@ -64,18 +54,8 @@
     // Snapshot before catalog/compose rewrite their URL. Never read free-input elements.
     const fields = {page_location:cleanLocation(here.href, canonical.href),
       page_referrer:cleanReferrer(doc.referrer, site, paths), page_title:config.page_title};
-    const panel = doc.getElementById('analytics-consent');
-    const settings = doc.getElementById('analytics-settings');
-    const status = doc.getElementById('analytics-choice');
-    const close = doc.getElementById('analytics-close');
-    let memory = null, storageFailed = false, loaded = false, loading = false;
-    let configured = false, active = false, sent = false, timer = null;
-    const now = () => win.Date.now();
-    function getChoice() {
-      if (storageFailed) return parseChoice(JSON.stringify(memory), now());
-      try { return parseChoice(win.localStorage.getItem(CHOICE_KEY), now()); }
-      catch (_) { storageFailed = true; return parseChoice(JSON.stringify(memory), now()); }
-    }
+    let loaded = false, loading = false;
+    let configured = false, active = false, sent = false;
     function disabled() {
       try { return win.localStorage.getItem(DISABLED_KEY) === '1'; }
       catch (_) { return false; }
@@ -87,31 +67,17 @@
       }
     }
     function stop() {
-      // Apply the hard stop before a consent update or a delayed script callback.
+      // Apply the maintainer opt-out before a delayed script callback can send data.
       win['ga-disable-' + id] = true;
-      if (active) command('consent', 'update', {...DENIED});
+      if (active) command('consent', 'update', {...STORAGE, analytics_storage:'denied'});
       active = false;
       clearCookies();
     }
-    function show(focus) {
-      const choice = getChoice();
-      status.textContent = choice ? '当前：' + (choice.choice === 'granted' ? '允许统计' : '不允许统计') : '';
-      close.hidden = !choice;
-      panel.hidden = false;
-      settings.setAttribute('aria-expanded', 'true');
-      if (focus) panel.focus();
-    }
-    function hide() {
-      const hadFocus = panel.contains(doc.activeElement);
-      panel.hidden = true;
-      settings.setAttribute('aria-expanded', 'false');
-      if (hadFocus) settings.focus();
-    }
     function track() {
-      if (!loaded || disabled() || getChoice()?.choice !== 'granted') return;
+      if (!loaded || disabled()) return;
       win['ga-disable-' + id] = false;
       if (!active) {
-        command('consent', 'update', {...DENIED, analytics_storage:'granted'});
+        command('consent', 'update', {...STORAGE});
         active = true;
       }
       if (!configured) {
@@ -131,7 +97,7 @@
       if (loading) return;
       loading = true;
       win.atlasDataLayer = win.atlasDataLayer || [];
-      command('consent', 'default', {...DENIED});
+      command('consent', 'default', {...STORAGE});
       const script = doc.createElement('script');
       script.async = true;
       script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id) + '&l=atlasDataLayer';
@@ -142,40 +108,15 @@
       doc.head.appendChild(script);
     }
     function sync() {
-      if (timer !== null) win.clearTimeout(timer);
-      const choice = getChoice();
-      if (disabled()) { stop(); hide(); settings.hidden = true; return; }
-      settings.hidden = false;
-      if (!choice || choice.choice !== 'granted') {
-        stop();
-        if (!choice) show(false);
-      } else load();
-      if (choice) timer = win.setTimeout(sync, Math.min(choice.expires - now() + 1, 2147483647));
-    }
-    function choose(value) {
-      memory = {version:1, choice:value, expires:now() + LIFETIME};
-      // Stop synchronously even if the storage write fails.
-      if (value === 'denied') stop();
-      try { win.localStorage.setItem(CHOICE_KEY, JSON.stringify(memory)); }
-      catch (_) { storageFailed = true; }
-      hide(); sync();
+      if (disabled()) stop();
+      else load();
     }
     function start() {
       if (!eligible) return;
       const legacy = doc.getElementById('legacy-ids');
       if (legacy && JSON.parse(legacy.textContent).includes(here.hash.slice(1))) return;
-      settings.addEventListener('click', () => show(true));
-      doc.getElementById('analytics-allow').addEventListener('click', () => choose('granted'));
-      doc.getElementById('analytics-deny').addEventListener('click', () => choose('denied'));
-      close.addEventListener('click', hide);
-      panel.addEventListener('keydown', event => { if (event.key === 'Escape' && getChoice()) hide(); });
       win.addEventListener('storage', event => {
-        if (event.key === CHOICE_KEY || event.key === DISABLED_KEY || event.key === null) {
-          // A cross-tab removal/rejection supersedes even an in-memory choice.
-          if (event.key === CHOICE_KEY || event.key === null) { storageFailed = false; memory = null; }
-          sync();
-          if (!panel.hidden) show(false);
-        }
+        if (event.key === DISABLED_KEY || event.key === null) sync();
       });
       win.addEventListener('pageshow', event => { if (event.persisted) { sent = false; sync(); } });
       win.addEventListener('focus', sync);
@@ -184,5 +125,5 @@
     }
     return {start};
   }
-  return {create, cleanLocation, cleanReferrer, parseChoice, CHOICE_KEY, DISABLED_KEY, LIFETIME};
+  return {create, cleanLocation, cleanReferrer, DISABLED_KEY};
 });

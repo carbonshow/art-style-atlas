@@ -58,17 +58,17 @@ GitHub Pages 继续从 `main` 分支的仓库根目录发布，`.nojekyll` 保�
 
 采用 GA4 标准版，由 `content/site.json` 的 `analytics.enabled` 和 `analytics.measurement_id` 控制。启用时填入本站正式 Web 数据流的真实 `G-…` ID，再构建与发布；缺省或关闭时不加载 Google 脚本。Measurement ID 是公开站点标识，不是 API 密钥。正式主机与路径从 `site.url` 推导，只在相同 HTTPS origin 和站点路径下生效，本地预览不采集。
 
-访客允许后才加载 Google tag（Basic Consent Mode）。选择在本浏览器保存 180 天，页脚“统计设置”可随时撤回；撤回保留创作输入并删除本站 `atlas_ga` / `atlas_ga_<stream ID>` Cookie。Cookie 使用 `atlas` 前缀、host-only domain 和站点路径，避免混用其他项目。存储不可用时选择仅在当前页面生效，脚本被拦截不影响网站功能。
+正式站点默认自动加载 Google tag，不显示统计提示或页脚选择入口，也不再读取旧版的 `atlas.analytics.consent.v1` 选择。仅允许分析存储，广告存储、广告用户数据和广告个性化始终关闭。Cookie 使用 `atlas` 前缀、host-only domain 和站点路径，避免混用其他项目。存储不可用或脚本被拦截不影响网站功能。
 
-每份 HTML 文档只手动发送一次 `page_view`，BFCache 返回重新计一次。搜索、筛选、分页、切换创作参考、重复点击允许不增加 PV；旧 AS 链接仅计最终页面，404 统一为 `/404.html`。统计在页面逻辑运行前保存净化后的落地地址：仅保留合法的 `utm_source`、`utm_medium`、`utm_campaign`（1—64 位小写英文字母、数字、下划线或短横线），不采集搜索词、提示词及未知参数。外部来源仅保留 origin，站内来源仅保留已知公开路径。
+每份 HTML 文档只手动发送一次 `page_view`，BFCache 返回重新计一次。搜索、筛选、分页、切换创作参考不增加 PV；旧 AS 链接仅计最终页面，404 统一为 `/404.html`。统计在页面逻辑运行前保存净化后的落地地址：仅保留合法的 `utm_source`、`utm_medium`、`utm_campaign`（1—64 位小写英文字母、数字、下划线或短横线），不采集搜索词、提示词及未知参数。外部来源仅保留 origin，站内来源仅保留已知公开路径。
 
 GA4 后台必须同时配置：在“增强型衡量 → 网页浏览量 → 高级设置”中取消“根据浏览器历史记录事件判断的页面更改”，并关闭站内搜索、表单、外链、滚动、视频和下载事件。界面中的“网页加载次数”是不可取消的基础项，由代码的 `send_page_view:false` 关闭自动发送；不要仅凭增强型衡量总开关判断历史事件是否关闭。另外关闭 Google signals、用户提供的数据、广告个性化，不关联广告或启用 User-ID。事件与用户数据保留 14 个月，关闭“新活动重置”。
 
-维护者在本站浏览器控制台执行 `localStorage.setItem('atlas.analytics.disabled', '1')` 后刷新，可排除自己的浏览；恢复使用 `localStorage.removeItem('atlas.analytics.disabled')` 后刷新。只影响当前浏览器，不配置 GA4 永久排除过滤。跨标签页收到撤回或停用时立即停采。
+维护者在本站浏览器控制台执行 `localStorage.setItem('atlas.analytics.disabled', '1')` 后刷新，可排除自己的浏览；恢复使用 `localStorage.removeItem('atlas.analytics.disabled')` 后刷新。只影响当前浏览器，不配置 GA4 永久排除过滤。跨标签页收到维护者停用设置时立即停采。
 
-上线验收：先确认未选择和拒绝均无 Google 请求，再允许、刷新、跨页访问，在 Network 核对 `g/collect` 中的 `en=page_view`、净化后的 `dl` / `dr`、正确的 `tid` 和每页次数；在同一 GA4 资源的 Realtime 中核对页面。真实上报受网络、访客选择和拦截影响，不能只凭 HTTP 200/204 宣布后台验收通过。标准报告可能需要 24—48 小时；不永久启用 `debug_mode`。
+上线验收：确认正式页面无需操作便自动加载 Google tag，且没有统计提示；刷新、跨页访问，在 Network 核对 `g/collect` 中的 `en=page_view`、净化后的 `dl` / `dr`、正确的 `tid` 和每页次数；在同一 GA4 资源的 Realtime 中核对页面。真实上报受网络和浏览器拦截影响，不能只凭 HTTP 200/204 宣布后台验收通过。标准报告可能需要 24—48 小时；不永久启用 `debug_mode`。
 
-外部分享示例：[带来源的网站链接](https://carbonshow.github.io/art-style-atlas/?utm_source=x&utm_medium=social&utm_campaign=atlas_intro)。来源字段只写公开渠道与批次，站内链接不添加 UTM。查看“网页和屏幕”“流量获取”“用户获取”“技术详情”，区分 Total users、Active users、Views 等指标，数据只覆盖同意且成功上报的访问。
+外部分享示例：[带来源的网站链接](https://carbonshow.github.io/art-style-atlas/?utm_source=x&utm_medium=social&utm_campaign=atlas_intro)。来源字段只写公开渠道与批次，站内链接不添加 UTM。查看“网页和屏幕”“流量获取”“用户获取”“技术详情”，区分 Total users、Active users、Views 等指标，数据只覆盖成功上报的访问。
 
 ## 来源与更正
 
