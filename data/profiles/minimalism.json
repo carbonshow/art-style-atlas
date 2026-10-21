@@ -1,85 +1,85 @@
 {
   "id": "minimalism",
-  "name": "极简人物插画",
+  "name": "Minimalist Figure Illustration",
   "features": [
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "必要的形状",
-      "explanation": "仅保留足以辨认原有主体的关键形状，删除次要细节",
-      "evidence": "眼镜、头发、手和衣服被简化，少数关键形状仍能提示身份。",
+      "label": "Essential shapes",
+      "explanation": "Keep only the key shapes needed to recognize the original subjects and remove secondary details",
+      "evidence": "Glasses, hair, hand and clothing are simplified; a few key shapes can still suggest identity.",
       "zh": "仅保留足以辨认原有主体的关键形状，删除次要细节",
-      "en": "Keep only the essential shapes needed to recognize the original subjects and remove secondary detail",
+      "en": "Keep only the key shapes needed to recognize the original subjects and remove secondary details",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "精确轮廓",
-      "explanation": "让轮廓转折精确清楚，避免多余的描边与装饰线",
-      "evidence": "黑白交界转折十分明确，没有额外的均匀描边。",
+      "label": "Precise contours",
+      "explanation": "Make contour changes precise and clear, avoiding unnecessary outlines and decorative lines",
+      "evidence": "The turns in the black–white boundaries are clearly defined, without additional uniform outlines.",
       "zh": "让轮廓转折精确清楚，避免多余的描边与装饰线",
-      "en": "Use precise contour changes and avoid unnecessary outlines or decorative lines",
+      "en": "Make contour changes precise and clear, avoiding unnecessary outlines and decorative lines",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "黑白对照",
-      "explanation": "使用近黑与柔白两组清楚色面建立强对比",
-      "evidence": "画面主体使用近黑与柔白的大面积对照。",
+      "label": "Black–white contrast",
+      "explanation": "Use two clearly defined groups of color fields, near-black and soft white, to establish strong contrast",
+      "evidence": "The main subject uses broad areas of near-black and soft white in contrast.",
       "zh": "使用近黑与柔白两组清楚色面建立强对比",
-      "en": "Use distinct near-black and soft-white fields for strong contrast",
+      "en": "Use two clearly defined groups of color fields, near-black and soft white, to establish strong contrast",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "明暗二分",
-      "explanation": "将光影归纳为少量完整形状，避免渐变与复杂反光",
-      "evidence": "亮暗被压缩成相连的色形，几乎不依靠渐变。",
+      "label": "Two-part light and shadow",
+      "explanation": "Reduce light and shadow to a few coherent shapes, avoiding gradients and complex reflections",
+      "evidence": "Light and dark are compressed into connected color shapes, relying very little on gradients.",
       "zh": "将光影归纳为少量完整形状，避免渐变与复杂反光",
-      "en": "Reduce light and shadow to a few coherent shapes without gradients or complex reflections",
+      "en": "Reduce light and shadow to a few coherent shapes, avoiding gradients and complex reflections",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "正负形互补",
-      "explanation": "保持原有位置关系，让主体与周围空白形成互补形状",
-      "evidence": "脸与手的浅色形状由大片黑色围合，正负形共同完成识别。",
+      "label": "Complementary positive and negative shapes",
+      "explanation": "Keep the original spatial relationships, making the subjects and surrounding blank space form complementary shapes",
+      "evidence": "The pale shapes of the face and hand are enclosed by broad black areas; positive and negative shapes work together to make them recognizable.",
       "zh": "保持原有位置关系，让主体与周围空白形成互补形状",
-      "en": "Keep the original spatial relationships and make subjects and surrounding negative space form complementary shapes",
+      "en": "Keep the original spatial relationships, making the subjects and surrounding blank space form complementary shapes",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "干净平面",
-      "explanation": "呈现均匀、干净的平面色块，不叠加颗粒纹理",
-      "evidence": "表面平整干净，无明显颗粒；不能仅凭这一点断言软件或媒介。",
+      "label": "Clean flat surfaces",
+      "explanation": "Create even, clean flat color shapes without adding grain textures",
+      "evidence": "The surface is smooth and clean, without obvious grain; this alone cannot establish the software or medium.",
       "zh": "呈现均匀、干净的平面色块，不叠加颗粒纹理",
-      "en": "Use even, clean flat color fields without grain overlays",
+      "en": "Create even, clean flat color shapes without adding grain textures",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "鲜明与克制",
-      "explanation": "营造鲜明、克制且易于一眼辨认的图形感",
-      "evidence": "高度删减的形状和强对比让画面有鲜明、克制的图形感。",
+      "label": "Bold and restrained",
+      "explanation": "Create a bold, restrained graphic character that can be recognized at a glance",
+      "evidence": "Highly reduced shapes and strong contrast give the image a bold, restrained graphic character.",
       "zh": "营造鲜明、克制且易于一眼辨认的图形感",
-      "en": "Create a bold, restrained graphic presence that reads at a glance",
+      "en": "Create a bold, restrained graphic character that can be recognized at a glance",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": "Keep the source palette",
+      "explanation": "Keep the source image’s main hue relationships, adjusting only value and contrast.",
+      "evidence": "This is an optional variation for creating an image, not a description of the reference artwork.",
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -87,6 +87,6 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   }
 }

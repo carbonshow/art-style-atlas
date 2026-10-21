@@ -1,6 +1,9 @@
 {
   "id": "art-deco",
-  "name": "装饰艺术",
+  "name": {
+    "zh": "装饰艺术",
+    "en": "Art Deco"
+  },
   "english_name": "Art Deco",
   "artist": "Tamara de Lempicka",
   "aliases": [
@@ -9,16 +12,40 @@
     "Lempicka",
     "装饰艺术运动"
   ],
-  "kind": "艺术与设计风格",
-  "summary": "把身体与衣料看作精确而有力的体块。几何化的转折、利落边缘和光泽让人物显得摩登。",
-  "definition": "装饰艺术涉及建筑、设计与视觉艺术，几何秩序是常见线索。Lempicka 的人物绘画提供了一种有体积、有光泽的理解入口，不能把整个风格等同于金黑装饰或她的个人画法。",
+  "kind": {
+    "zh": "艺术与设计风格",
+    "en": "Art and design style"
+  },
+  "summary": {
+    "zh": "把身体与衣料看作精确而有力的体块。几何化的转折、利落边缘和光泽让人物显得摩登。",
+    "en": "See the body and fabric as precise, powerful volumes. Geometric transitions, crisp edges and sheen give the figure a modern presence."
+  },
+  "definition": {
+    "zh": "装饰艺术涉及建筑、设计与视觉艺术，几何秩序是常见线索。Lempicka 的人物绘画提供了一种有体积、有光泽的理解入口，不能把整个风格等同于金黑装饰或她的个人画法。",
+    "en": "Art Deco spans architecture, design and the visual arts, with geometric order as a common clue. Lempicka’s figure paintings offer one way into the style through volume and sheen; the entire style cannot be equated with gold-and-black decoration or her individual painting method."
+  },
   "recognition": [
-    "衣褶是否像有棱面的立体结构？",
-    "亮面与暗面是否在清楚的边缘处转折？",
-    "姿态是否显得雕塑化，形体能否读成几何块面？"
+    {
+      "zh": "衣褶是否像有棱面的立体结构？",
+      "en": "Do the folds resemble faceted, three-dimensional structures?"
+    },
+    {
+      "zh": "亮面与暗面是否在清楚的边缘处转折？",
+      "en": "Do light and dark planes meet at clearly defined edges?"
+    },
+    {
+      "zh": "姿态是否显得雕塑化，形体能否读成几何块面？",
+      "en": "Does the pose appear sculptural, and can the forms be read as geometric volumes?"
+    }
   ],
-  "variations": "装饰艺术也可使用平面几何纹样、流线形和对称构成。本例突出人物的雕塑体积与冷暖光泽。",
-  "confusion": "几何化不自动等于立体主义。本例仍保持单一可读人物与连贯体积，没有把多个视点同时拆开。",
+  "variations": {
+    "zh": "装饰艺术也可使用平面几何纹样、流线形和对称构成。本例突出人物的雕塑体积与冷暖光泽。",
+    "en": "Art Deco can also use flat geometric patterns, streamlined forms and symmetrical compositions. This example emphasizes the figure’s sculptural volume and the sheen of warm and cool colors."
+  },
+  "confusion": {
+    "zh": "几何化不自动等于立体主义。本例仍保持单一可读人物与连贯体积，没有把多个视点同时拆开。",
+    "en": "Geometric simplification does not automatically make an image Cubist. This example retains a single legible figure and coherent volume, without breaking it into multiple simultaneous viewpoints."
+  },
   "type": "guide",
   "schema_version": 1,
   "cover": "media/guide-art-deco.webp",
@@ -38,23 +65,47 @@
   "references": [
     {
       "file": "media/guide-art-deco.webp",
-      "caption": "Jeune fille en vert《绿衣少女》（又名戴手套的少女）",
-      "alt": "绿色衣褶被处理成清楚的亮暗棱面，帽檐、手套和手臂构成紧凑的方向变化。背景低调，人物光泽集中。",
-      "credit": "Tamara de Lempicka · © Tamara de Lempicka Estate LLC / Adagp, Paris · Photo: Bertrand Prévost, Centre Pompidou, MNAM-CCI",
+      "caption": {
+        "zh": "Jeune fille en vert《绿衣少女》（又名《戴手套的少女》；均为中文译名）",
+        "en": "Jeune fille en vert (reading translation: Young Woman in Green; also titled Jeune fille aux gants, Young Woman with Gloves)"
+      },
+      "alt": {
+        "zh": "绿色衣褶被处理成清楚的亮暗棱面，帽檐、手套和手臂构成紧凑的方向变化。背景低调，人物光泽集中。",
+        "en": "The green folds are rendered as distinct facets of light and dark. The hat brim, glove and arm form a compact sequence of directional changes. The background is subdued, concentrating the sheen on the figure."
+      },
+      "credit": {
+        "zh": "Tamara de Lempicka · © Tamara de Lempicka Estate LLC / Adagp, Paris · 摄影：Bertrand Prévost，Centre Pompidou，MNAM-CCI",
+        "en": "Tamara de Lempicka · © Tamara de Lempicka Estate LLC / Adagp, Paris · Photo: Bertrand Prévost, Centre Pompidou, MNAM-CCI"
+      },
       "credit_url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/c9nb7x4",
       "artwork": {
-        "date_label": "[1927–1930]，依馆藏记录",
-        "medium_label": "胶合板油画",
+        "date_label": {
+          "zh": "[1927–1930]，依馆藏记录",
+          "en": "[1927–1930], according to the collection record"
+        },
+        "medium_label": {
+          "zh": "胶合板油画",
+          "en": "Oil on plywood"
+        },
         "artist": "Tamara de Lempicka"
       },
-      "focus": "绿色衣褶被处理成清楚的亮暗棱面，帽檐、手套和手臂构成紧凑的方向变化。背景低调，人物光泽集中。",
-      "relationship": "代表作品（本页观察入口）",
+      "focus": {
+        "zh": "绿色衣褶被处理成清楚的亮暗棱面，帽檐、手套和手臂构成紧凑的方向变化。背景低调，人物光泽集中。",
+        "en": "The green folds are rendered as distinct facets of light and dark. The hat brim, glove and arm form a compact sequence of directional changes. The background is subdued, concentrating the sheen on the figure."
+      },
+      "relationship": {
+        "zh": "代表作品（本页观察入口）",
+        "en": "Representative work (the starting point for this page’s observations)"
+      },
       "image_source": "https://www.centrepompidou.fr/media/picture/d6/59/d659aed9bb5262358d5f9626ec1fa015/thumb_large.jpg"
     }
   ],
   "sources": [
     {
-      "title": "Centre Pompidou · Jeune fille en vert",
+      "title": {
+        "zh": "蓬皮杜中心 · Jeune fille en vert",
+        "en": "Centre Pompidou · Jeune fille en vert"
+      },
       "url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/c9nb7x4"
     }
   ],
@@ -62,81 +113,153 @@
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "雕塑体块",
-      "explanation": "将原有主体概括成紧凑、清楚的几何体块，保持身份可辨",
-      "evidence": "手臂、胸肩和衣服折面呈现清楚的雕塑化体积。",
+      "label": {
+        "zh": "雕塑体块",
+        "en": "Sculptural volumes"
+      },
+      "explanation": {
+        "zh": "将原有主体概括成紧凑、清楚的几何体块，保持身份可辨",
+        "en": "Simplify the original subjects into compact, clearly defined geometric volumes while keeping their identities recognizable"
+      },
+      "evidence": {
+        "zh": "手臂、胸肩和衣服折面呈现清楚的雕塑化体积。",
+        "en": "The arms, chest, shoulders and folded planes of the clothing have clearly sculpted volume."
+      },
       "zh": "将原有主体概括成紧凑、清楚的几何体块，保持身份可辨",
-      "en": "Simplify original subjects into compact sculptural volumes while keeping identity recognizable",
+      "en": "Simplify the original subjects into compact, clearly defined geometric volumes while keeping their identities recognizable",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "利落边缘",
-      "explanation": "用利落轮廓和清楚的转折界定形体",
-      "evidence": "帽檐、手套边缘与衣褶转折处的轮廓十分利落。",
+      "label": {
+        "zh": "利落边缘",
+        "en": "Crisp edges"
+      },
+      "explanation": {
+        "zh": "用利落轮廓和清楚的转折界定形体",
+        "en": "Define forms with crisp contours and clear changes of plane"
+      },
+      "evidence": {
+        "zh": "帽檐、手套边缘与衣褶转折处的轮廓十分利落。",
+        "en": "Contours are particularly crisp at the hat brim, glove edges and turns in the folds."
+      },
       "zh": "用利落轮廓和清楚的转折界定形体",
-      "en": "Define forms with crisp contours and decisive changes of plane",
+      "en": "Define forms with crisp contours and clear changes of plane",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "冷绿与暖肤色",
-      "explanation": "用深绿、冷灰与低饱和暖色形成克制的冷暖对比",
-      "evidence": "绿色衣料与灰白手套、帽子和暖肤色形成集中对比。",
+      "label": {
+        "zh": "冷绿与暖肤色",
+        "en": "Cool green and warm skin tones"
+      },
+      "explanation": {
+        "zh": "用深绿、冷灰与低饱和暖色形成克制的冷暖对比",
+        "en": "Use deep green, cool gray and muted warm tones for restrained warm–cool contrast"
+      },
+      "evidence": {
+        "zh": "绿色衣料与灰白手套、帽子和暖肤色形成集中对比。",
+        "en": "The green fabric creates a focused contrast with the gray-white gloves and hat and the warm skin tones."
+      },
       "zh": "用深绿、冷灰与低饱和暖色形成克制的冷暖对比",
-      "en": "Use deep green, cool gray and muted warm tones for restrained temperature contrast",
+      "en": "Use deep green, cool gray and muted warm tones for restrained warm–cool contrast",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "光滑的面光",
-      "explanation": "用连续的明暗渐变表现光滑体积，亮部集中在受光棱面",
-      "evidence": "亮部沿衣褶和手臂的转折展开，暗部清楚地收拢体块。",
+      "label": {
+        "zh": "光滑的面光",
+        "en": "Smoothly lit planes"
+      },
+      "explanation": {
+        "zh": "用连续的明暗渐变表现光滑体积，亮部集中在受光棱面",
+        "en": "Use continuous tonal gradients to show smooth volume, concentrating highlights on the lit facets"
+      },
+      "evidence": {
+        "zh": "亮部沿衣褶和手臂的转折展开，暗部清楚地收拢体块。",
+        "en": "Light follows the turns of the folds and arm, while the shadows clearly define the volumes."
+      },
       "zh": "用连续的明暗渐变表现光滑体积，亮部集中在受光棱面",
-      "en": "Use controlled tonal gradients for smooth volume, concentrating light on illuminated planes",
+      "en": "Use continuous tonal gradients to show smooth volume, concentrating highlights on the lit facets",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "紧凑层次",
-      "explanation": "保持原图构图，以紧凑的形体交叠突出主体",
-      "evidence": "人物、抬起的手臂与帽檐交叠，形成紧凑画面。",
+      "label": {
+        "zh": "紧凑层次",
+        "en": "Compact layering"
+      },
+      "explanation": {
+        "zh": "保持原图构图，以紧凑的形体交叠突出主体",
+        "en": "Keep the source image’s composition and emphasize the subjects through compact overlapping forms"
+      },
+      "evidence": {
+        "zh": "人物、抬起的手臂与帽檐交叠，形成紧凑画面。",
+        "en": "The figure, raised arm and hat brim overlap to create a compact composition."
+      },
       "zh": "保持原图构图，以紧凑的形体交叠突出主体",
-      "en": "Keep the original framing and emphasize subjects through compact overlapping forms",
+      "en": "Keep the source image’s composition and emphasize the subjects through compact overlapping forms",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "精整表面",
-      "explanation": "弱化散乱笔触，呈现细腻、整洁而有实体感的表面",
-      "evidence": "人物表面平整细腻，笔触不抢占形体和光泽的注意力。",
+      "label": {
+        "zh": "精整表面",
+        "en": "Refined surfaces"
+      },
+      "explanation": {
+        "zh": "弱化散乱笔触，呈现细腻、整洁而有实体感的表面",
+        "en": "Minimize scattered brushwork and create a delicate, clean surface with a tangible sense of volume"
+      },
+      "evidence": {
+        "zh": "人物表面平整细腻，笔触不抢占形体和光泽的注意力。",
+        "en": "The figure’s surface is smooth and refined; brushwork does not distract from form and sheen."
+      },
       "zh": "弱化散乱笔触，呈现细腻、整洁而有实体感的表面",
-      "en": "Minimize loose marks and create a refined, clean surface with tangible volume",
+      "en": "Minimize scattered brushwork and create a delicate, clean surface with a tangible sense of volume",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "摩登自信",
-      "explanation": "营造冷静、自信、摩登的视觉气质",
-      "evidence": "紧凑姿态、硬朗体块与光滑表面共同形成摩登气质。",
+      "label": {
+        "zh": "摩登自信",
+        "en": "Modern confidence"
+      },
+      "explanation": {
+        "zh": "营造冷静、自信、摩登的视觉气质",
+        "en": "Create a calm, confident and modern visual character"
+      },
+      "evidence": {
+        "zh": "紧凑姿态、硬朗体块与光滑表面共同形成摩登气质。",
+        "en": "The compact pose, firm volumes and smooth surface together create a modern character."
+      },
       "zh": "营造冷静、自信、摩登的视觉气质",
-      "en": "Create a poised, confident and modern atmosphere",
+      "en": "Create a calm, confident and modern visual character",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": {
+        "zh": "沿用原图配色",
+        "en": "Keep the source palette"
+      },
+      "explanation": {
+        "zh": "保留原图的主要色相关系，只调整色阶与对比。",
+        "en": "Keep the source image’s main hue relationships, adjusting only value and contrast."
+      },
+      "evidence": {
+        "zh": "这是创作时可选的变体，不是对参考作品的描述。",
+        "en": "This is an optional variation for creating an image, not a description of the reference artwork."
+      },
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -144,7 +267,7 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   },
   "relations": [],
   "reviewed_at": "2026-10-16"

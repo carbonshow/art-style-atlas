@@ -1,45 +1,87 @@
 {
   "id": "portrait",
-  "name": "人物画风入门",
-  "summary": "用 8 种差异鲜明的视觉语言，练习看形、看线、看色，再把观察转成可迁移的描述。",
+  "name": {
+    "zh": "人物画风入门",
+    "en": "Introduction to Figure Art Styles"
+  },
+  "summary": {
+    "zh": "用 8 种差异鲜明的视觉语言，练习看形、看线、看色，再把观察转成可迁移的描述。",
+    "en": "Explore 8 distinctly different visual languages to practice looking at form, line and color, then turn your observations into descriptions you can apply to other images."
+  },
   "steps": [
     {
       "id": "painterly-portrait",
-      "question": "先眯眼看：人物的亮面能否从环境中读出来？"
+      "question": {
+        "zh": "先眯眼看：人物的亮面能否从环境中读出来？",
+        "en": "First, squint: can you distinguish the figure’s lit planes from its surroundings?"
+      }
     },
     {
       "id": "art-nouveau",
-      "question": "人物外轮廓是否与衣褶、装饰形成连贯曲线？"
+      "question": {
+        "zh": "人物外轮廓是否与衣褶、装饰形成连贯曲线？",
+        "en": "Do the figure’s outer contours form continuous curves with the folds and ornament?"
+      }
     },
     {
       "id": "art-deco",
-      "question": "衣褶是否像有棱面的立体结构？"
+      "question": {
+        "zh": "衣褶是否像有棱面的立体结构？",
+        "en": "Do the folds resemble faceted, three-dimensional structures?"
+      }
     },
     {
       "id": "expressionism",
-      "question": "轮廓是否在关节和转折处突然收紧或折断？"
+      "question": {
+        "zh": "轮廓是否在关节和转折处突然收紧或折断？",
+        "en": "Do contours suddenly tighten or break at joints and changes of direction?"
+      }
     },
     {
       "id": "nihonga",
-      "question": "面部细节是否节制，姿态是否承担了更多表达？"
+      "question": {
+        "zh": "面部细节是否节制，姿态是否承担了更多表达？",
+        "en": "Are facial details restrained, with more expression carried by the pose?"
+      }
     },
     {
       "id": "fantasy-comics",
-      "question": "大轮廓是否先于细小纹理被读到？"
+      "question": {
+        "zh": "大轮廓是否先于细小纹理被读到？",
+        "en": "Are the large contours read before the fine textures?"
+      }
     },
     {
       "id": "mid-century",
-      "question": "缩小图片后，大色块是否仍能传达画面感受？"
+      "question": {
+        "zh": "缩小图片后，大色块是否仍能传达画面感受？",
+        "en": "When the image is reduced in size, do the large color shapes still convey its mood?"
+      }
     },
     {
       "id": "minimalism",
-      "question": "去掉一条线或一个色块后，人物还能否被认出？"
+      "question": {
+        "zh": "去掉一条线或一个色块后，人物还能否被认出？",
+        "en": "If you remove a line or a color shape, can the figure still be recognized?"
+      }
     }
   ],
   "exercise": [
-    "先任选一页，不看风格名称，写下三个看得见的特点。",
-    "再对照页内说明，把“好看、精致、有感觉”换成具体的形状、线条和颜色。",
-    "选择自己原图中适合迁移的特点，进入提示词页面，删去不需要的特征并填写本次目标。",
-    "用同一主体比较两种不同描述，记录哪些变化来自线条、色彩或空间，而不是题材。"
+    {
+      "zh": "先任选一页，不看风格名称，写下三个看得见的特点。",
+      "en": "Choose any page first. Without looking at the style name, write down three visible characteristics."
+    },
+    {
+      "zh": "再对照页内说明，把“好看、精致、有感觉”换成具体的形状、线条和颜色。",
+      "en": "Then compare your observations with the page’s explanations. Replace “beautiful,” “refined” and “evocative” with specific shapes, lines and colors."
+    },
+    {
+      "zh": "选择自己原图中适合迁移的特点，进入提示词页面，删去不需要的特征并填写本次目标。",
+      "en": "Choose characteristics that can be transferred to your source image. Open the prompt page, remove unwanted features and enter the goal for this creation."
+    },
+    {
+      "zh": "用同一主体比较两种不同描述，记录哪些变化来自线条、色彩或空间，而不是题材。",
+      "en": "Compare two different descriptions using the same subject. Record which changes come from line, color or space rather than the subject matter."
+    }
   ]
 }

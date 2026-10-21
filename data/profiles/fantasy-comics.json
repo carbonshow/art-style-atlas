@@ -1,85 +1,85 @@
 {
   "id": "fantasy-comics",
-  "name": "幻想漫画线描",
+  "name": "Fantasy Comics Linework",
   "features": [
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "清楚剪影",
-      "explanation": "先建立原有主体的清楚剪影，再补充有选择的结构细节",
-      "evidence": "头盔与肩部先形成可读的外轮廓，再进入衣服小细节。",
+      "label": "Clear silhouettes",
+      "explanation": "Establish clear silhouettes of the existing subjects before adding selected structural details",
+      "evidence": "The helmet and shoulders establish a legible outer contour before the eye moves to smaller clothing details.",
       "zh": "先建立原有主体的清楚剪影，再补充有选择的结构细节",
-      "en": "Establish clear silhouettes of existing subjects before adding selective structural detail",
+      "en": "Establish clear silhouettes of the existing subjects before adding selected structural details",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "精密墨线",
-      "explanation": "使用干净、连贯的细墨线，局部以排线说明转折",
-      "evidence": "轮廓由连贯墨线构成，短线与细点用于局部说明。",
+      "label": "Precise ink lines",
+      "explanation": "Use clean, continuous fine ink lines, with localized hatching to describe changes in form",
+      "evidence": "Continuous ink lines form the contours, with short strokes and fine dots describing selected areas.",
       "zh": "使用干净、连贯的细墨线，局部以排线说明转折",
-      "en": "Use clean continuous ink lines with localized hatching to explain changes in form",
+      "en": "Use clean, continuous fine ink lines, with localized hatching to describe changes in form",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "黑白线描",
-      "explanation": "采用黑白关系与少量灰阶，让线条承担主要信息",
-      "evidence": "这张官网示例以黑白呈现；不能据此认为作者只画黑白。",
+      "label": "Black-and-white linework",
+      "explanation": "Use black and white with a small range of grays, letting linework carry the main information",
+      "evidence": "This official website example is shown in black and white; it does not mean the artist worked only in black and white.",
       "zh": "采用黑白关系与少量灰阶，让线条承担主要信息",
-      "en": "Use black and white with restrained gray values so linework carries the information",
+      "en": "Use black and white with a small range of grays, letting linework carry the main information",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "排线明暗",
-      "explanation": "以疏密有别的排线提示明暗，保留干净亮面",
-      "evidence": "帽子与衣服中的排线疏密变化提示了转折与凹陷。",
+      "label": "Shading through hatching",
+      "explanation": "Suggest light and shade through varied hatching density while preserving clean light areas",
+      "evidence": "Varying hatching density in the headgear and clothing suggests changes of plane and recesses.",
       "zh": "以疏密有别的排线提示明暗，保留干净亮面",
-      "en": "Suggest shading through varied hatching density while preserving clean light areas",
+      "en": "Suggest light and shade through varied hatching density while preserving clean light areas",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "疏密层次",
-      "explanation": "在原构图中分开密集细节与开阔区域，保持阅读路径",
-      "evidence": "白色空场与人物内部较密的线条形成疏密对照。",
+      "label": "Dense and open areas",
+      "explanation": "Separate densely detailed and open areas within the original composition, preserving a clear visual path",
+      "evidence": "The white open ground contrasts with the denser lines inside the figure.",
       "zh": "在原构图中分开密集细节与开阔区域，保持阅读路径",
-      "en": "Separate detailed and open areas within the original composition to preserve readability",
+      "en": "Separate densely detailed and open areas within the original composition, preserving a clear visual path",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "纸上墨迹",
-      "explanation": "呈现细致纸上墨迹的效果，避免统一噪点覆盖",
-      "evidence": "可见墨线与短排线的纸上效果，页面未标明此图具体媒介。",
+      "label": "Ink-on-paper appearance",
+      "explanation": "Create the appearance of detailed ink marks on paper, avoiding a uniform noise overlay",
+      "evidence": "The image has the appearance of ink lines and short hatching on paper; the page does not state its specific medium.",
       "zh": "呈现细致纸上墨迹的效果，避免统一噪点覆盖",
-      "en": "Create the appearance of detailed ink on paper without a uniform noise overlay",
+      "en": "Create the appearance of detailed ink marks on paper, avoiding a uniform noise overlay",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "陌生而可信",
-      "explanation": "营造安静、奇异而可信的幻想感",
-      "evidence": "奇异服装由严谨线条组织，陌生感与可读性同时存在。",
+      "label": "Unfamiliar yet believable",
+      "explanation": "Create a quiet, strange yet believable sense of fantasy",
+      "evidence": "Precise lines organize the unusual clothing, combining unfamiliarity with legibility.",
       "zh": "营造安静、奇异而可信的幻想感",
-      "en": "Create a quiet, unfamiliar yet believable sense of wonder",
+      "en": "Create a quiet, strange yet believable sense of fantasy",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": "Keep the source palette",
+      "explanation": "Keep the source image’s main hue relationships, adjusting only value and contrast.",
+      "evidence": "This is an optional variation for creating an image, not a description of the reference artwork.",
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -87,6 +87,6 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   }
 }

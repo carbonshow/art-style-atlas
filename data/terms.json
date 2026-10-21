@@ -1,427 +1,475 @@
 {
-  "intro": "这些词跨越流派、题材、地区、时代和媒介，是探索入口，不是同一层级的艺术分类。搜索得到的图像仍需核对作者、作品和来源。",
+  "intro": "These terms span movements, subjects, regions, periods and media. They are starting points for exploration, not art categories at a single level. Images found through search still need their artists, works and sources checked.",
   "groups": [
     {
       "id": "western",
-      "name": "西方艺术史"
+      "name": "Western Art History"
     },
     {
       "id": "eastern",
-      "name": "东方人物艺术"
+      "name": "Eastern Figure Art"
     },
     {
       "id": "comics",
-      "name": "漫画与动画"
+      "name": "Comics and Animation"
     },
     {
       "id": "illustration",
-      "name": "现代插画与角色设计"
+      "name": "Modern Illustration and Character Design"
     },
     {
       "id": "technique",
-      "name": "媒介与视觉方法"
+      "name": "Media and Visual Methods"
     }
   ],
   "terms": [
     {
       "id": "term-01",
-      "name": "巴洛克人物",
+      "name": "Baroque Figure Art",
       "query": "Baroque Portrait",
       "group": "western",
-      "meaning": "戏剧性的明暗与人物姿态",
-      "related": []
+      "meaning": "Dramatic light and shadow, and figure poses",
+      "related": [],
+      "search_text": "Baroque Figure Art 巴洛克人物 Baroque Portrait Dramatic light and shadow, and figure poses 戏剧性的明暗与人物姿态"
     },
     {
       "id": "term-02",
-      "name": "前拉斐尔派人物",
+      "name": "Pre-Raphaelite Figure Art",
       "query": "Pre-Raphaelite Portrait",
       "group": "western",
-      "meaning": "文学题材、细密描绘与象征细节",
-      "related": []
+      "meaning": "Literary subjects, meticulous depiction and symbolic details",
+      "related": [],
+      "search_text": "Pre-Raphaelite Figure Art 前拉斐尔派人物 Pre-Raphaelite Portrait Literary subjects, meticulous depiction and symbolic details 文学题材、细密描绘与象征细节"
     },
     {
       "id": "term-03",
-      "name": "象征主义人物",
+      "name": "Symbolist Figure Art",
       "query": "Symbolist Figure Painting",
       "group": "western",
-      "meaning": "象征性形象与心理联想",
-      "related": []
+      "meaning": "Symbolic imagery and psychological associations",
+      "related": [],
+      "search_text": "Symbolist Figure Art 象征主义人物 Symbolist Figure Painting Symbolic imagery and psychological associations 象征性形象与心理联想"
     },
     {
       "id": "term-04",
-      "name": "新艺术人物",
+      "name": "Art Nouveau Figure Art",
       "query": "Art Nouveau Portrait",
       "group": "western",
-      "meaning": "自然曲线与装饰秩序",
+      "meaning": "Natural curves and decorative order",
       "related": [
         "art-nouveau"
-      ]
+      ],
+      "search_text": "Art Nouveau Figure Art 新艺术人物 Art Nouveau Portrait Natural curves and decorative order 自然曲线与装饰秩序"
     },
     {
       "id": "term-05",
-      "name": "装饰艺术人物",
+      "name": "Art Deco Figure Art",
       "query": "Art Deco Portrait",
       "group": "western",
-      "meaning": "几何秩序与摩登形体",
+      "meaning": "Geometric order and modern forms",
       "related": [
         "art-deco"
-      ]
+      ],
+      "search_text": "Art Deco Figure Art 装饰艺术人物 Art Deco Portrait Geometric order and modern forms 几何秩序与摩登形体"
     },
     {
       "id": "term-06",
-      "name": "野兽派肖像",
+      "name": "Fauvist Portrait",
       "query": "Fauvist Portrait",
       "group": "western",
-      "meaning": "主观而鲜明的色彩",
-      "related": []
+      "meaning": "Subjective, vivid color",
+      "related": [],
+      "search_text": "Fauvist Portrait 野兽派肖像 Fauvist Portrait Subjective, vivid color 主观而鲜明的色彩"
     },
     {
       "id": "term-07",
-      "name": "表现主义人物",
+      "name": "Expressionist Figure Art",
       "query": "Expressionist Figure Painting",
       "group": "western",
-      "meaning": "主观形体与情绪表达",
+      "meaning": "Subjectively altered forms and emotional expression",
       "related": [
         "expressionism"
-      ]
+      ],
+      "search_text": "Expressionist Figure Art 表现主义人物 Expressionist Figure Painting Subjectively altered forms and emotional expression 主观形体与情绪表达"
     },
     {
       "id": "term-08",
-      "name": "立体主义肖像",
+      "name": "Cubist Portrait",
       "query": "Cubist Portrait",
       "group": "western",
-      "meaning": "拆解形体与多视角组织",
-      "related": []
+      "meaning": "Fragmented forms organized through multiple viewpoints",
+      "related": [],
+      "search_text": "Cubist Portrait 立体主义肖像 Cubist Portrait Fragmented forms organized through multiple viewpoints 拆解形体与多视角组织"
     },
     {
       "id": "term-09",
-      "name": "新客观主义肖像",
+      "name": "New Objectivity Portrait",
       "query": "New Objectivity Portrait",
       "group": "western",
-      "meaning": "冷静描绘与现实观察",
-      "related": []
+      "meaning": "Dispassionate depiction and observation of reality",
+      "related": [],
+      "search_text": "New Objectivity Portrait 新客观主义肖像 New Objectivity Portrait Dispassionate depiction and observation of reality 冷静描绘与现实观察"
     },
     {
       "id": "term-10",
-      "name": "素人艺术肖像",
+      "name": "Naïve Art Portrait",
       "query": "Naive Art Portrait",
       "group": "western",
-      "meaning": "非学院化的比例与空间表达",
-      "related": []
+      "meaning": "Non-academic approaches to proportion and space",
+      "related": [],
+      "search_text": "Naïve Art Portrait 素人艺术肖像 Naive Art Portrait Non-academic approaches to proportion and space 非学院化的比例与空间表达"
     },
     {
       "id": "term-11",
-      "name": "中国工笔人物",
+      "name": "Chinese Gongbi Figure Painting",
       "query": "工笔人物画",
       "group": "eastern",
-      "meaning": "精细线描与层层设色",
-      "related": []
+      "meaning": "Meticulous linework and color applied in successive layers",
+      "related": [],
+      "search_text": "Chinese Gongbi Figure Painting 中国工笔人物 工笔人物画 Meticulous linework and color applied in successive layers 精细线描与层层设色"
     },
     {
       "id": "term-12",
-      "name": "中国白描人物",
+      "name": "Chinese Baimiao Figure Drawing",
       "query": "白描人物画",
       "group": "eastern",
-      "meaning": "以线条组织形体",
-      "related": []
+      "meaning": "Forms organized through lines",
+      "related": [],
+      "search_text": "Chinese Baimiao Figure Drawing 中国白描人物 白描人物画 Forms organized through lines 以线条组织形体"
     },
     {
       "id": "term-13",
-      "name": "中国写意人物",
+      "name": "Chinese Xieyi Figure Painting",
       "query": "写意人物画",
       "group": "eastern",
-      "meaning": "概括笔墨与人物神态",
-      "related": []
+      "meaning": "Economical brush-and-ink handling and expressive figures",
+      "related": [],
+      "search_text": "Chinese Xieyi Figure Painting 中国写意人物 写意人物画 Economical brush-and-ink handling and expressive figures 概括笔墨与人物神态"
     },
     {
       "id": "term-14",
-      "name": "敦煌壁画人物",
+      "name": "Figures in Dunhuang Murals",
       "query": "Dunhuang Figure Painting",
       "group": "eastern",
-      "meaning": "衣带、姿态与壁画设色",
-      "related": []
+      "meaning": "Drapery ribbons, poses and mural color",
+      "related": [],
+      "search_text": "Figures in Dunhuang Murals 敦煌壁画人物 Dunhuang Figure Painting Drapery ribbons, poses and mural color 衣带、姿态与壁画设色"
     },
     {
       "id": "term-15",
-      "name": "陈洪绶人物",
+      "name": "Chen Hongshou’s Figure Painting",
       "query": "陈洪绶 人物画",
       "group": "eastern",
-      "meaning": "古拙造型与富于个性的比例",
-      "related": []
+      "meaning": "Archaistic forms and distinctive proportions",
+      "related": [],
+      "search_text": "Chen Hongshou’s Figure Painting 陈洪绶人物 陈洪绶 人物画 Archaistic forms and distinctive proportions 古拙造型与富于个性的比例"
     },
     {
       "id": "term-16",
-      "name": "浮世绘美人画",
+      "name": "Ukiyo-e Bijin-ga",
       "query": "Ukiyo-e Bijin-ga",
       "group": "eastern",
-      "meaning": "美人题材与版画的平面语言",
-      "related": []
+      "meaning": "Beautiful-women subjects and the flat visual language of prints",
+      "related": [],
+      "search_text": "Ukiyo-e Bijin-ga 浮世绘美人画 Ukiyo-e Bijin-ga Beautiful-women subjects and the flat visual language of prints 美人题材与版画的平面语言"
     },
     {
       "id": "term-17",
-      "name": "日本画人物",
+      "name": "Nihonga Figure Painting",
       "query": "Nihonga Figure Painting",
       "group": "eastern",
-      "meaning": "日本画传统中的人物题材",
+      "meaning": "Figure subjects within the Nihonga tradition",
       "related": [
         "nihonga"
-      ]
+      ],
+      "search_text": "Nihonga Figure Painting 日本画人物 Nihonga Figure Painting Figure subjects within the Nihonga tradition 日本画传统中的人物题材"
     },
     {
       "id": "term-18",
-      "name": "新版画美人画",
+      "name": "Shin-hanga Bijin-ga",
       "query": "Shin-hanga Bijin-ga",
       "group": "eastern",
-      "meaning": "新版画语境中的人物与光色",
-      "related": []
+      "meaning": "Figures, light and color within the shin-hanga context",
+      "related": [],
+      "search_text": "Shin-hanga Bijin-ga 新版画美人画 Shin-hanga Bijin-ga Figures, light and color within the shin-hanga context 新版画语境中的人物与光色"
     },
     {
       "id": "term-19",
-      "name": "日本剧画",
+      "name": "Japanese Gekiga",
       "query": "Gekiga Manga Art",
       "group": "eastern",
-      "meaning": "叙事分镜与较写实的人物表现",
-      "related": []
+      "meaning": "Narrative panel sequences and relatively realistic figures",
+      "related": [],
+      "search_text": "Japanese Gekiga 日本剧画 Gekiga Manga Art Narrative panel sequences and relatively realistic figures 叙事分镜与较写实的人物表现"
     },
     {
       "id": "term-20",
-      "name": "法比漫画",
+      "name": "Franco-Belgian Comics",
       "query": "Franco-Belgian Comics",
       "group": "comics",
-      "meaning": "地区与出版传统，涵盖多种画法",
-      "related": []
+      "meaning": "A regional and publishing tradition encompassing many drawing styles",
+      "related": [],
+      "search_text": "Franco-Belgian Comics 法比漫画 Franco-Belgian Comics A regional and publishing tradition encompassing many drawing styles 地区与出版传统，涵盖多种画法"
     },
     {
       "id": "term-21",
-      "name": "清晰线条风格",
+      "name": "Ligne Claire",
       "query": "Ligne Claire Illustration",
       "group": "comics",
-      "meaning": "均衡清楚的轮廓与易读空间",
-      "related": []
+      "meaning": "Even, clear contours and legible space",
+      "related": [],
+      "search_text": "Ligne Claire 清晰线条风格 Ligne Claire Illustration Even, clear contours and legible space 均衡清楚的轮廓与易读空间"
     },
     {
       "id": "term-22",
-      "name": "美式漫画",
+      "name": "American Comics",
       "query": "American Comic Book Art",
       "group": "comics",
-      "meaning": "宽泛出版传统，可继续按作者细分",
-      "related": []
+      "meaning": "A broad publishing tradition that can be explored further by artist",
+      "related": [],
+      "search_text": "American Comics 美式漫画 American Comic Book Art A broad publishing tradition that can be explored further by artist 宽泛出版传统，可继续按作者细分"
     },
     {
       "id": "term-23",
-      "name": "高对比黑白漫画",
+      "name": "High-contrast Black-and-white Comics",
       "query": "Mike Mignola Ink Art",
       "group": "comics",
-      "meaning": "大块黑形与有选择的细节",
-      "related": []
+      "meaning": "Large black shapes and selective detail",
+      "related": [],
+      "search_text": "High-contrast Black-and-white Comics 高对比黑白漫画 Mike Mignola Ink Art Large black shapes and selective detail 大块黑形与有选择的细节"
     },
     {
       "id": "term-24",
-      "name": "Moebius 幻想漫画",
+      "name": "Moebius Fantasy Comics",
       "query": "Moebius Character Art",
       "group": "comics",
-      "meaning": "精密线描与幻想形体",
+      "meaning": "Precise linework and imagined forms",
       "related": [
         "fantasy-comics"
-      ]
+      ],
+      "search_text": "Moebius Fantasy Comics Moebius 幻想漫画 Moebius Character Art Precise linework and imagined forms 精密线描与幻想形体"
     },
     {
       "id": "term-25",
-      "name": "复古日本动画",
+      "name": "Retro Japanese Animation",
       "query": "90s Anime Character Design",
       "group": "comics",
-      "meaning": "时代语境中的角色比例与设色",
-      "related": []
+      "meaning": "Character proportions and color within a period context",
+      "related": [],
+      "search_text": "Retro Japanese Animation 复古日本动画 90s Anime Character Design Character proportions and color within a period context 时代语境中的角色比例与设色"
     },
     {
       "id": "term-26",
-      "name": "少女漫画",
+      "name": "Shōjo Manga",
       "query": "1970s Shojo Manga Art",
       "group": "comics",
-      "meaning": "装饰版面与人物情绪",
-      "related": []
+      "meaning": "Decorative page layouts and characters’ emotions",
+      "related": [],
+      "search_text": "Shōjo Manga 少女漫画 1970s Shojo Manga Art Decorative page layouts and characters’ emotions 装饰版面与人物情绪"
     },
     {
       "id": "term-27",
-      "name": "美国动画现代主义",
+      "name": "American Modernist Animation",
       "query": "UPA Animation Style",
       "group": "comics",
-      "meaning": "图形概括与平面设计",
-      "related": []
+      "meaning": "Simplified graphic forms and flat design",
+      "related": [],
+      "search_text": "American Modernist Animation 美国动画现代主义 UPA Animation Style Simplified graphic forms and flat design 图形概括与平面设计"
     },
     {
       "id": "term-28",
-      "name": "另类漫画",
+      "name": "Alternative Comics",
       "query": "Alternative Comics Art",
       "group": "comics",
-      "meaning": "独立叙事与多样个人语言",
-      "related": []
+      "meaning": "Independent narratives and diverse individual visual languages",
+      "related": [],
+      "search_text": "Alternative Comics 另类漫画 Alternative Comics Art Independent narratives and diverse individual visual languages 独立叙事与多样个人语言"
     },
     {
       "id": "term-29",
-      "name": "黄金时代插画",
+      "name": "Golden Age Illustration",
       "query": "Golden Age Illustration",
       "group": "illustration",
-      "meaning": "出版插画的历史观察入口",
-      "related": []
+      "meaning": "A historical starting point for exploring publishing illustration",
+      "related": [],
+      "search_text": "Golden Age Illustration 黄金时代插画 Golden Age Illustration A historical starting point for exploring publishing illustration 出版插画的历史观察入口"
     },
     {
       "id": "term-30",
-      "name": "世纪中叶现代主义插画",
+      "name": "Mid-century Modern Illustration",
       "query": "Mid-century Modern Illustration",
       "group": "illustration",
-      "meaning": "20 世纪中叶的色块与形状设计",
+      "meaning": "Color fields and shape design from the mid-20th century",
       "related": [
         "mid-century"
-      ]
+      ],
+      "search_text": "Mid-century Modern Illustration 世纪中叶现代主义插画 Mid-century Modern Illustration Color fields and shape design from the mid-20th century 20 世纪中叶的色块与形状设计"
     },
     {
       "id": "term-31",
-      "name": "编辑肖像插画",
+      "name": "Editorial Portrait Illustration",
       "query": "Editorial Portrait Illustration",
       "group": "illustration",
-      "meaning": "为文章观点服务的肖像设计",
-      "related": []
+      "meaning": "Portrait design serving an article’s ideas",
+      "related": [],
+      "search_text": "Editorial Portrait Illustration 编辑肖像插画 Editorial Portrait Illustration Portrait design serving an article’s ideas 为文章观点服务的肖像设计"
     },
     {
       "id": "term-32",
-      "name": "极简矢量肖像",
+      "name": "Minimalist Vector Portrait",
       "query": "Minimalist Vector Portrait",
       "group": "illustration",
-      "meaning": "少量色块与清楚轮廓；媒介需另核实",
+      "meaning": "Few color shapes and clear contours; the medium needs separate verification",
       "related": [
         "minimalism"
-      ]
+      ],
+      "search_text": "Minimalist Vector Portrait 极简矢量肖像 Minimalist Vector Portrait Few color shapes and clear contours; the medium needs separate verification 少量色块与清楚轮廓；媒介需另核实"
     },
     {
       "id": "term-33",
-      "name": "图形化角色设计",
+      "name": "Graphic Character Design",
       "query": "Graphic Shape Character Design",
       "group": "illustration",
-      "meaning": "用形状节奏建立角色识别",
-      "related": []
+      "meaning": "Character recognition established through the rhythm of shapes",
+      "related": [],
+      "search_text": "Graphic Character Design 图形化角色设计 Graphic Shape Character Design Character recognition established through the rhythm of shapes 用形状节奏建立角色识别"
     },
     {
       "id": "term-34",
-      "name": "绘画感角色概念设计",
+      "name": "Painterly Character Concept Art",
       "query": "Painterly Character Concept Art",
       "group": "illustration",
-      "meaning": "可见笔触与角色形体",
-      "related": []
+      "meaning": "Visible brushwork and character forms",
+      "related": [],
+      "search_text": "Painterly Character Concept Art 绘画感角色概念设计 Painterly Character Concept Art Visible brushwork and character forms 可见笔触与角色形体"
     },
     {
       "id": "term-35",
-      "name": "风格化写实角色",
+      "name": "Stylized Realist Characters",
       "query": "Stylized Realism Character Art",
       "group": "illustration",
-      "meaning": "可信体积与选择性的比例概括",
-      "related": []
+      "meaning": "Believable volume and selective simplification of proportions",
+      "related": [],
+      "search_text": "Stylized Realist Characters 风格化写实角色 Stylized Realism Character Art Believable volume and selective simplification of proportions 可信体积与选择性的比例概括"
     },
     {
       "id": "term-36",
-      "name": "手绘角色艺术",
+      "name": "Hand-painted Character Art",
       "query": "Hand-painted Character Art",
       "group": "illustration",
-      "meaning": "手绘表面与角色设计的组合",
-      "related": []
+      "meaning": "A combination of hand-painted surfaces and character design",
+      "related": [],
+      "search_text": "Hand-painted Character Art 手绘角色艺术 Hand-painted Character Art A combination of hand-painted surfaces and character design 手绘表面与角色设计的组合"
     },
     {
       "id": "term-37",
-      "name": "风格化 3D 角色",
+      "name": "Stylized 3D Characters",
       "query": "Stylized 3D Character Art",
       "group": "illustration",
-      "meaning": "立体造型、渲染与表面分别观察",
+      "meaning": "Examine three-dimensional form, rendering and surfaces separately",
       "related": [
         "AS-003"
-      ]
+      ],
+      "search_text": "Stylized 3D Characters 风格化 3D 角色 Stylized 3D Character Art Examine three-dimensional form, rendering and surfaces separately 立体造型、渲染与表面分别观察"
     },
     {
       "id": "term-38",
-      "name": "波普超现实人物",
+      "name": "Pop Surrealist Figure Art",
       "query": "Pop Surrealism Portrait",
       "group": "illustration",
-      "meaning": "流行图像与超现实联想",
-      "related": []
+      "meaning": "Popular imagery and surreal associations",
+      "related": [],
+      "search_text": "Pop Surrealist Figure Art 波普超现实人物 Pop Surrealism Portrait Popular imagery and surreal associations 流行图像与超现实联想"
     },
     {
       "id": "term-39",
-      "name": "木刻肖像",
+      "name": "Woodcut Portrait",
       "query": "Woodcut Portrait",
       "group": "technique",
-      "meaning": "刀刻形状与印刷边缘",
-      "related": []
+      "meaning": "Carved shapes and printed edges",
+      "related": [],
+      "search_text": "Woodcut Portrait 木刻肖像 Woodcut Portrait Carved shapes and printed edges 刀刻形状与印刷边缘"
     },
     {
       "id": "term-40",
-      "name": "油毡版画肖像",
+      "name": "Linocut Portrait",
       "query": "Linocut Portrait",
       "group": "technique",
-      "meaning": "块面、刻线与套色关系",
-      "related": []
+      "meaning": "Broad shapes, carved lines and relationships between separately printed colors",
+      "related": [],
+      "search_text": "Linocut Portrait 油毡版画肖像 Linocut Portrait Broad shapes, carved lines and relationships between separately printed colors 块面、刻线与套色关系"
     },
     {
       "id": "term-41",
-      "name": "蚀刻肖像",
+      "name": "Etched Portrait",
       "query": "Etching Portrait",
       "group": "technique",
-      "meaning": "细密线条与明暗排线",
-      "related": []
+      "meaning": "Fine lines and hatching for light and shade",
+      "related": [],
+      "search_text": "Etched Portrait 蚀刻肖像 Etching Portrait Fine lines and hatching for light and shade 细密线条与明暗排线"
     },
     {
       "id": "term-42",
-      "name": "丝网印刷肖像",
+      "name": "Screenprinted Portrait",
       "query": "Screenprint Portrait",
       "group": "technique",
-      "meaning": "分色与平整色面",
-      "related": []
+      "meaning": "Color separations and even color fields",
+      "related": [],
+      "search_text": "Screenprinted Portrait 丝网印刷肖像 Screenprint Portrait Color separations and even color fields 分色与平整色面"
     },
     {
       "id": "term-43",
-      "name": "孔版印刷肖像",
+      "name": "Risograph Portrait",
       "query": "Risograph Portrait",
       "group": "technique",
-      "meaning": "叠色与印刷颗粒",
-      "related": []
+      "meaning": "Overprinted colors and print grain",
+      "related": [],
+      "search_text": "Risograph Portrait Riso 孔版印刷肖像 Risograph Portrait Overprinted colors and print grain 叠色与印刷颗粒"
     },
     {
       "id": "term-44",
-      "name": "粉彩肖像",
+      "name": "Pastel Portrait",
       "query": "Pastel Portrait",
       "group": "technique",
-      "meaning": "干性擦痕与柔和边缘",
-      "related": []
+      "meaning": "Dry rubbed marks and soft edges",
+      "related": [],
+      "search_text": "Pastel Portrait 粉彩肖像 Pastel Portrait Dry rubbed marks and soft edges 干性擦痕与柔和边缘"
     },
     {
       "id": "term-45",
-      "name": "水粉人物",
+      "name": "Gouache Figure Painting",
       "query": "Gouache Figure Painting",
       "group": "technique",
-      "meaning": "不透明色面与概括笔触",
-      "related": []
+      "meaning": "Opaque color fields and economical brushwork",
+      "related": [],
+      "search_text": "Gouache Figure Painting 水粉人物 Gouache Figure Painting Opaque color fields and economical brushwork 不透明色面与概括笔触"
     },
     {
       "id": "term-46",
-      "name": "厚涂肖像",
+      "name": "Impasto Portrait",
       "query": "Impasto Portrait",
       "group": "technique",
-      "meaning": "颜料堆叠与可见笔触",
-      "related": []
+      "meaning": "Built-up paint and visible brushwork",
+      "related": [],
+      "search_text": "Impasto Portrait 厚涂肖像 Impasto Portrait Built-up paint and visible brushwork 颜料堆叠与可见笔触"
     },
     {
       "id": "term-47",
-      "name": "炭笔人物",
+      "name": "Charcoal Figure Drawing",
       "query": "Charcoal Figure Drawing",
       "group": "technique",
-      "meaning": "明暗大形、擦抹与线性痕迹",
-      "related": []
+      "meaning": "Large light and dark shapes, smudging and linear marks",
+      "related": [],
+      "search_text": "Charcoal Figure Drawing 炭笔人物 Charcoal Figure Drawing Large light and dark shapes, smudging and linear marks 明暗大形、擦抹与线性痕迹"
     },
     {
       "id": "term-48",
-      "name": "拼贴肖像",
+      "name": "Collage Portrait",
       "query": "Collage Portrait",
       "group": "technique",
-      "meaning": "剪切形状、材料对比与重组",
-      "related": []
+      "meaning": "Cut shapes, material contrasts and recombination",
+      "related": [],
+      "search_text": "Collage Portrait 拼贴肖像 Collage Portrait Cut shapes, material contrasts and recombination 剪切形状、材料对比与重组"
     }
   ]
 }

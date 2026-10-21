@@ -1,85 +1,85 @@
 {
   "id": "art-deco",
-  "name": "装饰艺术",
+  "name": "Art Deco",
   "features": [
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "雕塑体块",
-      "explanation": "将原有主体概括成紧凑、清楚的几何体块，保持身份可辨",
-      "evidence": "手臂、胸肩和衣服折面呈现清楚的雕塑化体积。",
+      "label": "Sculptural volumes",
+      "explanation": "Simplify the original subjects into compact, clearly defined geometric volumes while keeping their identities recognizable",
+      "evidence": "The arms, chest, shoulders and folded planes of the clothing have clearly sculpted volume.",
       "zh": "将原有主体概括成紧凑、清楚的几何体块，保持身份可辨",
-      "en": "Simplify original subjects into compact sculptural volumes while keeping identity recognizable",
+      "en": "Simplify the original subjects into compact, clearly defined geometric volumes while keeping their identities recognizable",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "利落边缘",
-      "explanation": "用利落轮廓和清楚的转折界定形体",
-      "evidence": "帽檐、手套边缘与衣褶转折处的轮廓十分利落。",
+      "label": "Crisp edges",
+      "explanation": "Define forms with crisp contours and clear changes of plane",
+      "evidence": "Contours are particularly crisp at the hat brim, glove edges and turns in the folds.",
       "zh": "用利落轮廓和清楚的转折界定形体",
-      "en": "Define forms with crisp contours and decisive changes of plane",
+      "en": "Define forms with crisp contours and clear changes of plane",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "冷绿与暖肤色",
-      "explanation": "用深绿、冷灰与低饱和暖色形成克制的冷暖对比",
-      "evidence": "绿色衣料与灰白手套、帽子和暖肤色形成集中对比。",
+      "label": "Cool green and warm skin tones",
+      "explanation": "Use deep green, cool gray and muted warm tones for restrained warm–cool contrast",
+      "evidence": "The green fabric creates a focused contrast with the gray-white gloves and hat and the warm skin tones.",
       "zh": "用深绿、冷灰与低饱和暖色形成克制的冷暖对比",
-      "en": "Use deep green, cool gray and muted warm tones for restrained temperature contrast",
+      "en": "Use deep green, cool gray and muted warm tones for restrained warm–cool contrast",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "光滑的面光",
-      "explanation": "用连续的明暗渐变表现光滑体积，亮部集中在受光棱面",
-      "evidence": "亮部沿衣褶和手臂的转折展开，暗部清楚地收拢体块。",
+      "label": "Smoothly lit planes",
+      "explanation": "Use continuous tonal gradients to show smooth volume, concentrating highlights on the lit facets",
+      "evidence": "Light follows the turns of the folds and arm, while the shadows clearly define the volumes.",
       "zh": "用连续的明暗渐变表现光滑体积，亮部集中在受光棱面",
-      "en": "Use controlled tonal gradients for smooth volume, concentrating light on illuminated planes",
+      "en": "Use continuous tonal gradients to show smooth volume, concentrating highlights on the lit facets",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "紧凑层次",
-      "explanation": "保持原图构图，以紧凑的形体交叠突出主体",
-      "evidence": "人物、抬起的手臂与帽檐交叠，形成紧凑画面。",
+      "label": "Compact layering",
+      "explanation": "Keep the source image’s composition and emphasize the subjects through compact overlapping forms",
+      "evidence": "The figure, raised arm and hat brim overlap to create a compact composition.",
       "zh": "保持原图构图，以紧凑的形体交叠突出主体",
-      "en": "Keep the original framing and emphasize subjects through compact overlapping forms",
+      "en": "Keep the source image’s composition and emphasize the subjects through compact overlapping forms",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "精整表面",
-      "explanation": "弱化散乱笔触，呈现细腻、整洁而有实体感的表面",
-      "evidence": "人物表面平整细腻，笔触不抢占形体和光泽的注意力。",
+      "label": "Refined surfaces",
+      "explanation": "Minimize scattered brushwork and create a delicate, clean surface with a tangible sense of volume",
+      "evidence": "The figure’s surface is smooth and refined; brushwork does not distract from form and sheen.",
       "zh": "弱化散乱笔触，呈现细腻、整洁而有实体感的表面",
-      "en": "Minimize loose marks and create a refined, clean surface with tangible volume",
+      "en": "Minimize scattered brushwork and create a delicate, clean surface with a tangible sense of volume",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "摩登自信",
-      "explanation": "营造冷静、自信、摩登的视觉气质",
-      "evidence": "紧凑姿态、硬朗体块与光滑表面共同形成摩登气质。",
+      "label": "Modern confidence",
+      "explanation": "Create a calm, confident and modern visual character",
+      "evidence": "The compact pose, firm volumes and smooth surface together create a modern character.",
       "zh": "营造冷静、自信、摩登的视觉气质",
-      "en": "Create a poised, confident and modern atmosphere",
+      "en": "Create a calm, confident and modern visual character",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": "Keep the source palette",
+      "explanation": "Keep the source image’s main hue relationships, adjusting only value and contrast.",
+      "evidence": "This is an optional variation for creating an image, not a description of the reference artwork.",
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -87,6 +87,6 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   }
 }

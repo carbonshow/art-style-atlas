@@ -1,10 +1,22 @@
 {
   "id": "AS-010",
-  "name": "浮世绘风 · 武侠人物",
+  "name": {
+    "zh": "浮世绘风 · 武侠人物",
+    "en": "Ukiyo-e-inspired · Wuxia Characters"
+  },
   "english_name": "Ukiyo-e-inspired Wuxia Characters",
-  "classification": "当代武侠人物插画：浮世绘武者绘与浪纹的视觉借鉴，融合夸张透视、动作海报构图和仿旧纸纹",
-  "summary": "这组竖幅人物插画以黑色轮廓、有限的哑光设色、卷浪、竖排题签和米黄旧纸效果建立浮世绘感，再把手掌、巨剑、头发和衣带推向观者，形成现代武侠动作海报的冲击力。系列统一性很强，乔峰的掌与龙、周伯通的双手与竹、黄药师的笛与海浪、杨过的剑与雕，又用不同物件提示人物身份。最值得学习的是“大动作—大色面—流动细线”的组织；主要不足是满幅裂纹与碎斑削弱疏密，部分黑发、衣袍、羽翼和山石相互粘连。四张中，黄药师的动静对照与色彩分区最突出，周伯通的表情与明暗分离较鲜明。",
-  "recognition": "先看人物是否由清楚墨线与少量色面构成，再看卷浪、衣褶、发丝和竖排题签如何统一方向。浮世绘是一种历史艺术语境，旧纸裂纹本身不足以成立；本组又有强烈的前景放大和现代人物塑造，宜称“浮世绘风武侠插画”。按画面题签，四人属于金庸武侠人物，而非《水浒传》人物。歌川国芳确曾以《水浒传》英雄作木版画系列，相关馆藏可作为武者绘背景比较，但不是这四张附件的出处或作者证据。",
+  "classification": {
+    "zh": "当代武侠人物插画：浮世绘武者绘与浪纹的视觉借鉴，融合夸张透视、动作海报构图和仿旧纸纹",
+    "en": "Contemporary wuxia character illustration: visual borrowing from ukiyo-e warrior prints and wave patterns, combined with exaggerated perspective, action-poster composition and simulated aged-paper texture"
+  },
+  "summary": {
+    "zh": "这组竖幅人物插画以黑色轮廓、有限的哑光设色、卷浪、竖排题签和米黄旧纸效果建立浮世绘感，再把手掌、巨剑、头发和衣带推向观者，形成现代武侠动作海报的冲击力。系列统一性很强，乔峰的掌与龙、周伯通的双手与竹、黄药师的笛与海浪、杨过的剑与雕，又用不同物件提示人物身份。最值得学习的是“大动作—大色面—流动细线”的组织；主要不足是满幅裂纹与碎斑削弱疏密，部分黑发、衣袍、羽翼和山石相互粘连。四张中，黄药师的动静对照与色彩分区最突出，周伯通的表情与明暗分离较鲜明。",
+    "en": "These vertical character illustrations create an ukiyo-e-inspired appearance through black contours, a limited matte palette, curling waves, vertical title cartouches and beige aged-paper effects. Palms, great swords, hair and sashes then project toward the viewer, producing the impact of contemporary wuxia action posters. The series is highly coherent, while distinct objects suggest each character’s identity: Qiao Feng’s palm and dragon, Zhou Botong’s hands and bamboo, Huang Yaoshi’s flute and waves, and Yang Guo’s sword and eagle. The most useful lesson is the organization of major action, broad color areas and flowing fine lines. The main limitation is that all-over cracks and mottling weaken variation in density, while some black hair, robes, wings and rocks merge. Of the four images, Huang Yaoshi’s contrast of stillness and movement and color divisions stand out most; Zhou Botong’s expression and light–dark separation are also especially clear."
+  },
+  "recognition": {
+    "zh": "先看人物是否由清楚墨线与少量色面构成，再看卷浪、衣褶、发丝和竖排题签如何统一方向。浮世绘是一种历史艺术语境，旧纸裂纹本身不足以成立；本组又有强烈的前景放大和现代人物塑造，宜称“浮世绘风武侠插画”。按画面题签，四人属于金庸武侠人物，而非《水浒传》人物。歌川国芳确曾以《水浒传》英雄作木版画系列，相关馆藏可作为武者绘背景比较，但不是这四张附件的出处或作者证据。",
+    "en": "First see whether clear ink lines and a few color areas define the character, then how curling waves, folds, hair and vertical cartouches establish a shared direction. Ukiyo-e has a historical art context; cracks in aged paper alone do not establish it. This group also features strongly enlarged foreground forms and modern character rendering, so “ukiyo-e-inspired wuxia illustration” is an appropriate description. According to the image labels, the four are characters from Jin Yong’s wuxia fiction, not Water Margin characters. Utagawa Kuniyoshi did create a woodblock-print series of Water Margin heroes; related collection records provide historical context for comparison with musha-e (warrior prints), but they are not the source of these four attachments or evidence of their authorship."
+  },
   "tags": [
     "浮世绘",
     "武侠人物",
@@ -47,121 +59,271 @@
   ],
   "palette": [
     {
-      "name": "旧纸米黄",
+      "name": {
+        "zh": "旧纸米黄",
+        "en": "Aged-paper beige"
+      },
       "hex": "#DAC09B"
     },
     {
-      "name": "墨黑",
+      "name": {
+        "zh": "墨黑",
+        "en": "Ink black"
+      },
       "hex": "#24211E"
     },
     {
-      "name": "深靛蓝",
+      "name": {
+        "zh": "深靛蓝",
+        "en": "Deep indigo"
+      },
       "hex": "#35424A"
     },
     {
-      "name": "灰青绿",
+      "name": {
+        "zh": "灰青绿",
+        "en": "Muted gray-green"
+      },
       "hex": "#565F50"
     },
     {
-      "name": "砖朱红",
+      "name": {
+        "zh": "砖朱红",
+        "en": "Brick vermilion"
+      },
       "hex": "#903F2D"
     }
   ],
-  "reuse_focus": "人物或动作照片最适合借用本组清楚墨线、有限配色、夸张但可读的衣褶和集中流向；先保留人物身份、身体结构与原动作，再组织色面和线条。风景照片可只取轮廓、卷曲水纹和靛蓝米黄关系，弱化动作海报感。学习者若使用自己的实拍，应先说清照片中的观察，参考中的侠客、龙、巨浪、神雕和兵器无需一并加入。",
-  "judgment_note": "四张均为用户提供的参考附件，按上传顺序和原字节保存，完整保留画幅、文字与印章；本次没有生成改绘。人物名称按图上题签记录，判断为金庸武侠题材，已更正请求中的“水浒人物”归类。插画作者、原始帖文、创作年代、真实媒介、制作软件及 AI 参与尚未核实；文件名和一致画风不足以推定来源。馆藏链接仅支持浮世绘、武者绘与浪纹的背景比较，不作为附件归属证据。色盘为视觉近似，逐图评价为本次品鉴，双语提示词为归纳的迁移建议。",
+  "reuse_focus": {
+    "zh": "人物或动作照片最适合借用本组清楚墨线、有限配色、夸张但可读的衣褶和集中流向；先保留人物身份、身体结构与原动作，再组织色面和线条。风景照片可只取轮廓、卷曲水纹和靛蓝米黄关系，弱化动作海报感。学习者若使用自己的实拍，应先说清照片中的观察，参考中的侠客、龙、巨浪、神雕和兵器无需一并加入。",
+    "en": "Portrait or action photographs are best suited to borrowing this group’s clear ink lines, limited palette, exaggerated but readable folds and concentrated flow. Preserve identity, anatomy and the original action first, then organize color areas and lines. Landscape photographs can borrow only contours, curling water patterns and the indigo–beige relationship, reducing the action-poster effect. When learners use their own photographs, they should first explain what they observed; martial heroes, dragons, giant waves, the divine eagle and weapons from the references need not be added together."
+  },
+  "judgment_note": {
+    "zh": "四张均为用户提供的参考附件，按上传顺序和原字节保存，完整保留画幅、文字与印章；本次没有生成改绘。人物名称按图上题签记录，判断为金庸武侠题材，已更正请求中的“水浒人物”归类。插画作者、原始帖文、创作年代、真实媒介、制作软件及 AI 参与尚未核实；文件名和一致画风不足以推定来源。馆藏链接仅支持浮世绘、武者绘与浪纹的背景比较，不作为附件归属证据。色盘为视觉近似，逐图评价为本次品鉴，双语提示词为归纳的迁移建议。",
+    "en": "All four are user-provided reference attachments, retained in upload order and as original bytes, with complete frames, text and seals preserved. No AI reinterpretation was generated in this task. Character names follow the image cartouches; the subject is identified as Jin Yong’s wuxia fiction, correcting the request’s classification as “Water Margin characters.” The illustrator, original post, creation date, actual medium, software and AI involvement remain unverified. Filenames and consistent style are insufficient grounds for inferring a source. Collection links support only contextual comparisons with ukiyo-e, musha-e and wave patterns; they are not evidence of the attachments’ attribution. Palette colors are visual approximations, image-by-image comments are judgments from this appreciation exercise, and the bilingual prompts are derived suggestions for style transfer."
+  },
   "references": [
     {
-      "caption": "附图 1 · 乔峰：掌势与龙形（依图中文字）",
-      "alt": "乔峰穿深蓝黑衣与红色头巾，一只放大的手掌伸向观者，背后灰色龙形盘旋，碎石与衣带卷动，右上保留乔峰和降龙震岳题签",
-      "focus": "前景大掌、脸部和上方龙首形成由近到远的三个焦点，掌势比一般人物肖像更有冲击力；灰龙与山石让朱红头巾和衣带成为醒目的节奏点。成功处是动作与龙形互相呼应，弱点是头发、龙鳞、衣褶和碎石都很密，身体外轮廓容易被淹没。迁移时先读清手掌与面部，再简化其背后的纹理。",
+      "caption": {
+        "zh": "附图 1 · 乔峰：掌势与龙形（依图中文字）",
+        "en": "Attached image 1 · Qiao Feng: Palm Gesture and Dragon Form (based on visible text)"
+      },
+      "alt": {
+        "zh": "乔峰穿深蓝黑衣与红色头巾，一只放大的手掌伸向观者，背后灰色龙形盘旋，碎石与衣带卷动，右上保留乔峰和降龙震岳题签",
+        "en": "Qiao Feng wears blue-black clothing and a red headscarf, extending an enlarged palm toward the viewer as a gray dragon coils behind him and rocks and sashes swirl. Labels at upper right retain “乔峰” (Qiao Feng) and “降龙震岳” (“Subduing the Dragon, Shaking the Mountains”; reading translation)"
+      },
+      "focus": {
+        "zh": "前景大掌、脸部和上方龙首形成由近到远的三个焦点，掌势比一般人物肖像更有冲击力；灰龙与山石让朱红头巾和衣带成为醒目的节奏点。成功处是动作与龙形互相呼应，弱点是头发、龙鳞、衣褶和碎石都很密，身体外轮廓容易被淹没。迁移时先读清手掌与面部，再简化其背后的纹理。",
+        "en": "The large foreground palm, face and dragon head above form three focal points from near to far. The palm gesture has greater impact than a conventional portrait; the gray dragon and rocks make the vermilion headscarf and sashes conspicuous rhythmic accents. The strength is the echo between action and dragon form. The weakness is that hair, dragon scales, folds and broken rocks are all dense, easily obscuring the body’s outer contour. In style transfer, make the palm and face readable first, then simplify the texture behind them."
+      },
       "file": "media/ukiyoe-wuxia-batch-input-01.webp",
       "kind": "user_reference",
-      "credit": "用户提供 · 金庸武侠题材；插画作者、原始出处及制作方式未核实",
-      "attribution_basis": "visible_character_labels_and_user_attachments",
-      "title_status": "visible_character_label_not_verified_artwork_title"
+      "credit": {
+        "zh": "用户提供 · 金庸武侠题材；插画作者、原始出处及制作方式未核实",
+        "en": "User-provided · Jin Yong wuxia subject matter; illustrator, original source and production method unverified"
+      },
+      "attribution_basis": {
+        "zh": "依据画面可见人物题签与用户附件，插画归属未核实",
+        "en": "Based on visible character labels and user attachments; illustration attribution unverified"
+      },
+      "title_status": {
+        "zh": "名称依据画面可见人物题签；英文题签释义仅供阅读，非经核实的作品题名",
+        "en": "Name follows visible character labels; English readings of inscriptions are for understanding, not verified artwork titles"
+      }
     },
     {
-      "caption": "附图 2 · 周伯通：双手动作与竹叶（依图中文字）",
-      "alt": "白发白须的周伯通前手出掌、后手举拳，深蓝衣袍和红腰带翻卷，黑色竹叶从两侧包围，右上题签为老顽童周伯通与左右互搏",
-      "focus": "白发在深衣上形成最清楚的明暗分离，前掌与后拳的不同方向呼应“左右互搏”；竹叶沿斜线穿插，给空中动作以节奏。眼神和嘴角比乔峰更活泼，是本组人物性格变化最明显的一张。不过近景出掌、低机位与飘带仍沿用同一模板，连续创作时可用身形、姿态和背景疏密进一步区分角色。",
+      "caption": {
+        "zh": "附图 2 · 周伯通：双手动作与竹叶（依图中文字）",
+        "en": "Attached image 2 · Zhou Botong: Two-Handed Action and Bamboo Leaves (based on visible text)"
+      },
+      "alt": {
+        "zh": "白发白须的周伯通前手出掌、后手举拳，深蓝衣袍和红腰带翻卷，黑色竹叶从两侧包围，右上题签为老顽童周伯通与左右互搏",
+        "en": "White-haired, white-bearded Zhou Botong extends his front palm and raises his rear fist. His deep blue robe and red sash billow, with black bamboo leaves enclosing him on both sides. Upper-right labels read “老顽童周伯通” (“Old Mischief Zhou Botong”) and “左右互搏” (“Left and Right Hands Fighting Each Other”); these English renderings are for reading"
+      },
+      "focus": {
+        "zh": "白发在深衣上形成最清楚的明暗分离，前掌与后拳的不同方向呼应“左右互搏”；竹叶沿斜线穿插，给空中动作以节奏。眼神和嘴角比乔峰更活泼，是本组人物性格变化最明显的一张。不过近景出掌、低机位与飘带仍沿用同一模板，连续创作时可用身形、姿态和背景疏密进一步区分角色。",
+        "en": "White hair against dark clothing provides the clearest separation of light and dark. The front palm and rear fist point in different directions, echoing the idea of the left and right hands fighting each other. Diagonally interwoven bamboo leaves give the airborne action rhythm. The eyes and corners of the mouth are livelier than Qiao Feng’s, making this the most distinct change of personality in the group. However, the foreground palm, low camera angle and fluttering ribbons still follow the same template. A series could differentiate characters further through physique, pose and background density."
+      },
       "file": "media/ukiyoe-wuxia-batch-input-02.webp",
       "kind": "user_reference",
-      "credit": "用户提供 · 金庸武侠题材；插画作者、原始出处及制作方式未核实",
-      "attribution_basis": "visible_character_labels_and_user_attachments",
-      "title_status": "visible_character_label_not_verified_artwork_title"
+      "credit": {
+        "zh": "用户提供 · 金庸武侠题材；插画作者、原始出处及制作方式未核实",
+        "en": "User-provided · Jin Yong wuxia subject matter; illustrator, original source and production method unverified"
+      },
+      "attribution_basis": {
+        "zh": "依据画面可见人物题签与用户附件，插画归属未核实",
+        "en": "Based on visible character labels and user attachments; illustration attribution unverified"
+      },
+      "title_status": {
+        "zh": "名称依据画面可见人物题签；英文题签释义仅供阅读，非经核实的作品题名",
+        "en": "Name follows visible character labels; English readings of inscriptions are for understanding, not verified artwork titles"
+      }
     },
     {
-      "caption": "附图 3 · 黄药师：横笛、花枝与巨浪（依图中文字）",
-      "alt": "黄药师穿灰绿长袍横持竹色笛子，左上红粉花枝伸入，右后为蓝色巨浪与卷曲白色浪花，右上保留东邪黄药师和碧海潮生题签",
-      "focus": "水平横笛稳定了斜向衣带与卷浪，灰绿衣袍、靛蓝海浪和红粉花瓣使本图的色彩区分最丰富；相对静止的人物与奔涌背景形成“以静御动”的意境。浪峰、爪状浪花和深蓝色面让人联想到北斋《神奈川冲浪里》，这是视觉比较，不能据此断定直接摹写。四张中它最适合学习色块分区与动静对照；人物手指、笛子握持及题字仍应独立检查。",
+      "caption": {
+        "zh": "附图 3 · 黄药师：横笛、花枝与巨浪（依图中文字）",
+        "en": "Attached image 3 · Huang Yaoshi: Transverse Flute, Flowering Branch and Giant Wave (based on visible text)"
+      },
+      "alt": {
+        "zh": "黄药师穿灰绿长袍横持竹色笛子，左上红粉花枝伸入，右后为蓝色巨浪与卷曲白色浪花，右上保留东邪黄药师和碧海潮生题签",
+        "en": "Huang Yaoshi wears a gray-green robe and holds a bamboo-colored flute horizontally. Red-pink blossoms enter at upper left, with a huge blue wave and curling white foam behind him on the right. Upper-right labels retain “东邪黄药师” (“Eastern Heretic Huang Yaoshi”) and “碧海潮生” (“Tides Rising on the Blue-Green Sea”); these English renderings are for reading"
+      },
+      "focus": {
+        "zh": "水平横笛稳定了斜向衣带与卷浪，灰绿衣袍、靛蓝海浪和红粉花瓣使本图的色彩区分最丰富；相对静止的人物与奔涌背景形成“以静御动”的意境。浪峰、爪状浪花和深蓝色面让人联想到北斋《神奈川冲浪里》，这是视觉比较，不能据此断定直接摹写。四张中它最适合学习色块分区与动静对照；人物手指、笛子握持及题字仍应独立检查。",
+        "en": "The horizontal flute steadies the diagonal sashes and curling waves. Gray-green robes, indigo waves and red-pink petals give this image the richest color divisions. The relatively still figure against a surging background suggests mastering motion through stillness. Wave crests, claw-like foam and deep blue areas recall Hokusai’s Under the Wave off Kanagawa (The Great Wave). This is a visual comparison and does not establish direct copying. Of the four, this is the best example for studying color divisions and the contrast between stillness and movement. The fingers, flute grip and lettering still need separate checking."
+      },
       "file": "media/ukiyoe-wuxia-batch-input-03.webp",
       "kind": "user_reference",
-      "credit": "用户提供 · 金庸武侠题材；插画作者、原始出处及制作方式未核实",
-      "attribution_basis": "visible_character_labels_and_user_attachments",
-      "title_status": "visible_character_label_not_verified_artwork_title"
+      "credit": {
+        "zh": "用户提供 · 金庸武侠题材；插画作者、原始出处及制作方式未核实",
+        "en": "User-provided · Jin Yong wuxia subject matter; illustrator, original source and production method unverified"
+      },
+      "attribution_basis": {
+        "zh": "依据画面可见人物题签与用户附件，插画归属未核实",
+        "en": "Based on visible character labels and user attachments; illustration attribution unverified"
+      },
+      "title_status": {
+        "zh": "名称依据画面可见人物题签；英文题签释义仅供阅读，非经核实的作品题名",
+        "en": "Name follows visible character labels; English readings of inscriptions are for understanding, not verified artwork titles"
+      }
     },
     {
-      "caption": "附图 4 · 杨过：斜向巨剑与神雕（依图中文字）",
-      "alt": "杨过持宽阔巨剑伸向右下前景，身后大雕展开深色羽翼，发丝和红腰带飘动，右侧远山间有亭阁，保留神雕侠杨过与神雕侠影题签",
-      "focus": "从握剑处伸向右下的大剑建立最强的近大远小关系，雕翼在上方形成压顶的大暗面，人物、武器与伙伴构成清楚的角色标识。问题是黑发、深衣和雕羽挤在同一片暗区，头肩轮廓不如周伯通清楚；剑身与岩石的斑驳也偏接近。可用纸白空隙或更淡的远层拆开剪影。杨过独臂这一人物设定，不能仅靠本图衣袖遮挡确认，另作角色创作时需核对。",
+      "caption": {
+        "zh": "附图 4 · 杨过：斜向巨剑与神雕（依图中文字）",
+        "en": "Attached image 4 · Yang Guo: Diagonal Great Sword and Divine Eagle (based on visible text)"
+      },
+      "alt": {
+        "zh": "杨过持宽阔巨剑伸向右下前景，身后大雕展开深色羽翼，发丝和红腰带飘动，右侧远山间有亭阁，保留神雕侠杨过与神雕侠影题签",
+        "en": "Yang Guo extends a broad great sword toward the lower-right foreground. A great eagle spreads dark wings behind him, hair and a red sash stream, and a pavilion stands among distant hills on the right. Labels retain “神雕侠杨过” (“Divine Eagle Hero Yang Guo”) and “神雕侠影” (“Shadow of the Divine Eagle Hero”); these English renderings are for reading"
+      },
+      "focus": {
+        "zh": "从握剑处伸向右下的大剑建立最强的近大远小关系，雕翼在上方形成压顶的大暗面，人物、武器与伙伴构成清楚的角色标识。问题是黑发、深衣和雕羽挤在同一片暗区，头肩轮廓不如周伯通清楚；剑身与岩石的斑驳也偏接近。可用纸白空隙或更淡的远层拆开剪影。杨过独臂这一人物设定，不能仅靠本图衣袖遮挡确认，另作角色创作时需核对。",
+        "en": "The great sword projecting from the grip toward the lower right creates the strongest sense of forms increasing in scale toward the viewer. The eagle’s wings form a large dark plane overhead; person, weapon and companion make the character clearly identifiable. The problem is that black hair, dark clothing and feathers crowd the same dark area, so the head and shoulder contour is less clear than Zhou Botong’s. Mottling on the blade and rocks is also too similar. Paper-white gaps or paler distant layers could separate the silhouettes. Yang Guo’s established one-armed identity cannot be confirmed solely from the sleeve’s occlusion in this image; it needs checking when creating another depiction."
+      },
       "file": "media/ukiyoe-wuxia-batch-input-04.webp",
       "kind": "user_reference",
-      "credit": "用户提供 · 金庸武侠题材；插画作者、原始出处及制作方式未核实",
-      "attribution_basis": "visible_character_labels_and_user_attachments",
-      "title_status": "visible_character_label_not_verified_artwork_title"
+      "credit": {
+        "zh": "用户提供 · 金庸武侠题材；插画作者、原始出处及制作方式未核实",
+        "en": "User-provided · Jin Yong wuxia subject matter; illustrator, original source and production method unverified"
+      },
+      "attribution_basis": {
+        "zh": "依据画面可见人物题签与用户附件，插画归属未核实",
+        "en": "Based on visible character labels and user attachments; illustration attribution unverified"
+      },
+      "title_status": {
+        "zh": "名称依据画面可见人物题签；英文题签释义仅供阅读，非经核实的作品题名",
+        "en": "Name follows visible character labels; English readings of inscriptions are for understanding, not verified artwork titles"
+      }
     }
   ],
   "type": "case",
   "schema_version": 1,
   "analysis": [
     {
-      "label": "轮廓与色面",
-      "text": "衣袖、掌缘、剑身与浪峰由深色边线界定，米黄纸地、墨黑、深靛蓝和少量砖红构成大关系，黄药师一图另加入灰绿与红粉。局部有排线和明暗塑造，但主要形体仍应先以轮廓和色块读清；不以写实高光或金属反射为中心。"
+      "label": {
+        "zh": "轮廓与色面",
+        "en": "Contours and color areas"
+      },
+      "text": {
+        "zh": "衣袖、掌缘、剑身与浪峰由深色边线界定，米黄纸地、墨黑、深靛蓝和少量砖红构成大关系，黄药师一图另加入灰绿与红粉。局部有排线和明暗塑造，但主要形体仍应先以轮廓和色块读清；不以写实高光或金属反射为中心。",
+        "en": "Dark outlines define sleeves, palm edges, blades and wave crests. Beige paper-like ground, ink black, deep indigo and a little brick red establish the broad color relationships; Huang Yaoshi’s image adds gray-green and red-pink. Local hatching and shading occur, but major forms should first read through contours and color masses, without centering realistic highlights or metallic reflections."
+      }
     },
     {
-      "label": "现代动作透视",
-      "text": "乔峰与周伯通的前掌、杨过的剑尖在近景大幅放大，人物躯干斜置，脚下岩石与右侧远山建立前后层次。这种镜头感在本组中很强，是融合现代动作插画的重要特征，不能把所有夸张透视都视为传统浮世绘的固定样式。"
+      "label": {
+        "zh": "现代动作透视",
+        "en": "Modern action perspective"
+      },
+      "text": {
+        "zh": "乔峰与周伯通的前掌、杨过的剑尖在近景大幅放大，人物躯干斜置，脚下岩石与右侧远山建立前后层次。这种镜头感在本组中很强，是融合现代动作插画的重要特征，不能把所有夸张透视都视为传统浮世绘的固定样式。",
+        "en": "Qiao Feng’s and Zhou Botong’s front palms and Yang Guo’s sword tip are greatly enlarged in the foreground. Torsos tilt diagonally, while rocks underfoot and distant mountains on the right establish layers from front to back. This strong camera-like perspective is an important sign of the group’s fusion with modern action illustration. Do not treat every instance of exaggerated perspective as a fixed convention of traditional ukiyo-e."
+      }
     },
     {
-      "label": "线条的流向",
-      "text": "发丝、衣褶、白色布带、红腰带、竹叶和浪花共同围绕人物旋转；长曲线串起大块暗色，短刻线解释局部形体。好的流向先服务人物动作，再服务装饰；线条一旦处处等密，视线就会被碎细节拉散。"
+      "label": {
+        "zh": "线条的流向",
+        "en": "Directional flow of lines"
+      },
+      "text": {
+        "zh": "发丝、衣褶、白色布带、红腰带、竹叶和浪花共同围绕人物旋转；长曲线串起大块暗色，短刻线解释局部形体。好的流向先服务人物动作，再服务装饰；线条一旦处处等密，视线就会被碎细节拉散。",
+        "en": "Hair, folds, white fabric ribbons, red sashes, bamboo leaves and foam rotate around the figures together. Long curves connect broad dark areas, while short incised-looking lines explain local forms. Good directional flow serves the figure’s action first and decoration second. Once lines become equally dense everywhere, small details scatter the eye."
+      }
     },
     {
-      "label": "武者绘的联想",
-      "text": "单一英雄占据竖幅主体，夸张动作、服饰细线、自然力量与题签共同塑造叙事，令人联想到浮世绘武者绘的表现语汇。歌川国芳《水浒传》英雄系列提供可核实的历史参照；这里是视觉比较，不是作者归属、年代或版印工艺认证。"
+      "label": {
+        "zh": "武者绘的联想",
+        "en": "Associations with musha-e"
+      },
+      "text": {
+        "zh": "单一英雄占据竖幅主体，夸张动作、服饰细线、自然力量与题签共同塑造叙事，令人联想到浮世绘武者绘的表现语汇。歌川国芳《水浒传》英雄系列提供可核实的历史参照；这里是视觉比较，不是作者归属、年代或版印工艺认证。",
+        "en": "A single hero fills the main part of a vertical frame. Exaggerated action, fine costume lines, natural forces and title cartouches build a narrative together, recalling the visual vocabulary of ukiyo-e musha-e (warrior prints). Utagawa Kuniyoshi’s Water Margin hero series offers a verifiable historical reference. This is visual comparison, not verification of authorship, date or printing technique."
+      }
     },
     {
-      "label": "自然物作性格线索",
-      "text": "龙形加强乔峰掌势，双手与竹叶对应周伯通的活泼动作，横笛与海浪形成黄药师的静动对照，重剑与大雕标记杨过。自然景物不是平均填空，而是角色性格与动作的延伸。用于照片迁移时，只保留原图里已有、确实有助叙事的对象。"
+      "label": {
+        "zh": "自然物作性格线索",
+        "en": "Natural motifs as character clues"
+      },
+      "text": {
+        "zh": "龙形加强乔峰掌势，双手与竹叶对应周伯通的活泼动作，横笛与海浪形成黄药师的静动对照，重剑与大雕标记杨过。自然景物不是平均填空，而是角色性格与动作的延伸。用于照片迁移时，只保留原图里已有、确实有助叙事的对象。",
+        "en": "The dragon form strengthens Qiao Feng’s palm gesture; hands and bamboo leaves correspond to Zhou Botong’s lively action; flute and sea waves create Huang Yaoshi’s contrast of stillness and movement; the heavy sword and great eagle identify Yang Guo. Natural elements extend personality and action rather than filling space evenly. For photo style transfer, retain only objects already present that clearly support the narrative."
+      }
     },
     {
-      "label": "题签与版面",
-      "text": "右上朱红长框、旁侧米白小题签和红印章构成统一版式，像一组角色图谱；文字承担身份识别，不只是花纹。原参考的题字与印章全部保留。另作海报时可借用这种层级，但姓名、招式及署名应先核对，文字适合在排版阶段加入。"
+      "label": {
+        "zh": "题签与版面",
+        "en": "Cartouches and layout"
+      },
+      "text": {
+        "zh": "右上朱红长框、旁侧米白小题签和红印章构成统一版式，像一组角色图谱；文字承担身份识别，不只是花纹。原参考的题字与印章全部保留。另作海报时可借用这种层级，但姓名、招式及署名应先核对，文字适合在排版阶段加入。",
+        "en": "A long vermilion frame at upper right, a small ivory cartouche beside it and red seals create a consistent layout, like a character atlas. Text identifies characters rather than functioning only as ornament. All inscriptions and seals in the original references are retained. Another poster can borrow this hierarchy, but names, techniques and signatures should be checked first; text is best added during layout."
+      }
     },
     {
-      "label": "仿旧肌理的尺度",
-      "text": "米黄底、斑驳墨面、细小裂纹和颗粒令画面显得陈旧，本组的裂纹甚至跨过皮肤、衣服和天空，是很强的整体表面效果。它能统一系列，也容易让皮肤像石头、剑身像岩石。宜把肌理降到次要层级，脸、手和主要物件留得更清楚；真实木版画工艺不能仅凭肌理判断。"
+      "label": {
+        "zh": "仿旧肌理的尺度",
+        "en": "The intensity of aged texture"
+      },
+      "text": {
+        "zh": "米黄底、斑驳墨面、细小裂纹和颗粒令画面显得陈旧，本组的裂纹甚至跨过皮肤、衣服和天空，是很强的整体表面效果。它能统一系列，也容易让皮肤像石头、剑身像岩石。宜把肌理降到次要层级，脸、手和主要物件留得更清楚；真实木版画工艺不能仅凭肌理判断。",
+        "en": "Beige ground, mottled ink areas, fine cracks and grain make the images appear aged. Here cracks even extend across skin, clothing and sky, creating a strong effect over the entire surface. This can unify the series, but can also make skin look like stone and blades like rocks. Texture should be secondary, leaving faces, hands and important objects clearer. Actual woodblock-printing technique cannot be established from texture alone."
+      }
     },
     {
-      "label": "系列的长处与限制",
-      "text": "统一画幅、纸色、题签和衣带让四张成组时很有辨识度；黄药师的横笛与冷绿衣袍提供必要变化。乔峰与周伯通的近景掌、四人的飘发与红带则较接近同一动作模板。创作系列可继续保持版式一致，同时改变主动作、剪影和留白，而不是只更换姓名与背景符号。"
+      "label": {
+        "zh": "系列的长处与限制",
+        "en": "Strengths and limits of the series"
+      },
+      "text": {
+        "zh": "统一画幅、纸色、题签和衣带让四张成组时很有辨识度；黄药师的横笛与冷绿衣袍提供必要变化。乔峰与周伯通的近景掌、四人的飘发与红带则较接近同一动作模板。创作系列可继续保持版式一致，同时改变主动作、剪影和留白，而不是只更换姓名与背景符号。",
+        "en": "Consistent frames, paper color, cartouches and sashes make the four images distinctive as a group; Huang Yaoshi’s flute and cool green robe provide necessary variation. Qiao Feng’s and Zhou Botong’s foreground palms, and all four figures’ flowing hair and red sashes, remain close to the same action template. A new series can retain a consistent layout while changing the main action, silhouettes and open space, rather than simply replacing names and background symbols."
+      }
     }
   ],
   "legacy_prompts": {
     "zh": "将输入图片改绘为浮世绘风的武侠插画视觉语言。保留原图主体的身份、姿态、身体结构、视点、遮挡关系、物件和完整画幅，内容以输入图片为准。用清楚的墨黑轮廓和简化的哑光色面构成主体，主色限制在米黄纸地、深靛蓝、墨黑和少量砖朱红；按原图需要加入灰青绿。用沿形体走的短刻线表现衣褶和体积，用少量长曲线统一头发、布料、叶片或水流的方向；保持主要动作和轮廓可读，面部与手部保留清楚的结构。仅在原图确有相应动作与近景物件时，适度加强近大远小；不重新摆姿势。加入轻微纸纤维、淡颗粒与局部墨面磨损，避免全幅重裂纹，主体细节与安静背景之间保持疏密变化。原图没有的人物、古装、龙、雕、兵器、浪花和山峰不要补入。默认不添加姓名、题签、印章或署名；需要海报文字时，预留浅色文字区，另行排入已核对的文字。避免写实摄影光泽、强烈三维渲染、满幅均匀噪点和模糊的手指。",
-    "en": "Reinterpret the input image using an ukiyo-e-inspired wuxia illustration language. Preserve the original subject identity, pose, anatomy, viewpoint, occlusion, objects, and full aspect ratio; let the input determine the content. Build readable silhouettes with ink-black outlines and simplified matte color areas. Limit the palette to warm paper beige, deep indigo, near-black, and small accents of brick vermilion, adding muted gray-green only where appropriate. Use short directional hatch marks to describe folds and form, and a few long flowing curves to coordinate existing hair, fabric, foliage, or water. Keep the main action, facial structure, and hands legible. Strengthen foreground scale only when supported by the original pose and objects; do not re-stage the subject. Add subtle paper fibers, light grain, and selective ink wear, with restrained texture on faces and hands and quieter areas behind important silhouettes. Do not introduce martial heroes, historical costumes, dragons, birds, weapons, waves, or mountains absent from the input. Add no names, title cartouches, seals, or signatures by default. If a poster needs text, reserve a quiet light area and typeset verified wording separately. Avoid photographic gloss, heavy 3D rendering, dense all-over crackle, uniform noise, and ambiguous fingers."
+    "en": "Reinterpret the input image using the visual language of ukiyo-e-inspired wuxia illustration. Preserve the original subject’s identity, pose, anatomy, viewpoint, overlaps, objects and complete frame; let the input image determine the content. Build the subject with clear ink-black contours and simplified matte color areas. Limit the main palette to a beige paper-like ground, deep indigo, ink black and a little brick vermilion; add muted gray-green as the original image requires. Use short incised-looking lines that follow the forms to describe folds and volume, and a few long curves to unify the direction of hair, fabric, leaves or water. Keep the main action and contours readable, with clear facial and hand structure. Moderately emphasize the increase in scale toward the viewer only where the original actually contains a corresponding action and foreground objects; do not change the pose. Add subtle paper fibers, light grain and localized ink wear, avoiding heavy cracks across the entire image and retaining differences in density between subject detail and a quiet background. Do not add people, historical clothing, dragons, eagles, weapons, waves or peaks absent from the original. Add no names, title cartouches, seals or signatures by default. If poster text is needed, reserve a pale text area and typeset checked wording separately. Avoid realistic photographic gloss, strong 3D rendering, uniform all-over noise and indistinct fingers."
   },
   "sources": [
     {
-      "title": "英国博物馆馆藏说明 · 歌川国芳《水浒传》英雄木版画（历史背景）",
+      "title": {
+        "zh": "英国博物馆馆藏说明 · 歌川国芳《水浒传》英雄木版画（历史背景）",
+        "en": "British Museum collection account · Utagawa Kuniyoshi’s woodblock prints of Water Margin heroes (historical context)"
+      },
       "url": "https://artsandculture.google.com/asset/utagawa-kuniyoshi-the-wrestler-roshi-ensei-a-colour-woodblock-print/rAGE5oXDDiv5Og?hl=en"
     },
     {
-      "title": "大都会艺术博物馆 · 北斋《神奈川冲浪里》（浪纹比较）",
+      "title": {
+        "zh": "大都会艺术博物馆 · 北斋《神奈川冲浪里》（浪纹比较）",
+        "en": "The Metropolitan Museum of Art · Hokusai’s Under the Wave off Kanagawa (comparison of wave patterns)"
+      },
       "url": "https://www.metmuseum.org/art/collection/search/39799"
     }
   ],
-  "artist": "作者未核实",
+  "artist": {
+    "zh": "作者未核实",
+    "en": "Artist unverified"
+  },
   "facets": {
     "tradition": [
       "ukiyoe-influence"
@@ -183,19 +345,37 @@
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "动作剪影",
-      "explanation": "保持原动作与透视，将主体概括为清楚有力的剪影",
-      "evidence": "乔峰与周伯通的前掌、杨过的剑尖在近景大幅放大，人物躯干斜置，脚下岩石与右侧远山建立前后层次。这种镜头感在本组中很强，是融合现代动作插画的重要特征，不能把所有夸张透视都视为传统浮世绘的固定样式。",
+      "label": {
+        "zh": "动作剪影",
+        "en": "Action silhouettes"
+      },
+      "explanation": {
+        "zh": "保持原动作与透视，将主体概括为清楚有力的剪影",
+        "en": "Keep the original action and perspective and simplify subjects into clear, forceful silhouettes"
+      },
+      "evidence": {
+        "zh": "乔峰与周伯通的前掌、杨过的剑尖在近景大幅放大，人物躯干斜置，脚下岩石与右侧远山建立前后层次。这种镜头感在本组中很强，是融合现代动作插画的重要特征，不能把所有夸张透视都视为传统浮世绘的固定样式。",
+        "en": "Qiao Feng’s and Zhou Botong’s front palms and Yang Guo’s sword tip are greatly enlarged in the foreground. Torsos tilt diagonally, while rocks underfoot and distant mountains on the right establish layers from front to back. This strong camera-like perspective is an important sign of the group’s fusion with modern action illustration. Do not treat every instance of exaggerated perspective as a fixed convention of traditional ukiyo-e."
+      },
       "zh": "保持原动作与透视，将主体概括为清楚有力的剪影",
-      "en": "Keep the original pose and perspective and simplify subjects into clear, forceful silhouettes",
+      "en": "Keep the original action and perspective and simplify subjects into clear, forceful silhouettes",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "流向墨线",
-      "explanation": "用深色轮廓与顺着动作流向的细线组织形体",
-      "evidence": "发丝、衣褶、白色布带、红腰带、竹叶和浪花共同围绕人物旋转；长曲线串起大块暗色，短刻线解释局部形体。好的流向先服务人物动作，再服务装饰；线条一旦处处等密，视线就会被碎细节拉散。",
+      "label": {
+        "zh": "流向墨线",
+        "en": "Flowing ink lines"
+      },
+      "explanation": {
+        "zh": "用深色轮廓与顺着动作流向的细线组织形体",
+        "en": "Use dark contours and fine lines following the action to organize forms"
+      },
+      "evidence": {
+        "zh": "发丝、衣褶、白色布带、红腰带、竹叶和浪花共同围绕人物旋转；长曲线串起大块暗色，短刻线解释局部形体。好的流向先服务人物动作，再服务装饰；线条一旦处处等密，视线就会被碎细节拉散。",
+        "en": "Hair, folds, white fabric ribbons, red sashes, bamboo leaves and foam rotate around the figures together. Long curves connect broad dark areas, while short incised-looking lines explain local forms. Good directional flow serves the figure’s action first and decoration second. Once lines become equally dense everywhere, small details scatter the eye."
+      },
       "zh": "用深色轮廓与顺着动作流向的细线组织形体",
       "en": "Use dark contours and fine lines following the action to organize forms",
       "default": true
@@ -203,40 +383,76 @@
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "米黄靛蓝砖红",
-      "explanation": "以米黄、墨黑、深靛蓝与少量砖红形成有限配色",
-      "evidence": "衣袖、掌缘、剑身与浪峰由深色边线界定，米黄纸地、墨黑、深靛蓝和少量砖红构成大关系，黄药师一图另加入灰绿与红粉。局部有排线和明暗塑造，但主要形体仍应先以轮廓和色块读清；不以写实高光或金属反射为中心。",
+      "label": {
+        "zh": "米黄靛蓝砖红",
+        "en": "Beige, indigo and brick red"
+      },
+      "explanation": {
+        "zh": "以米黄、墨黑、深靛蓝与少量砖红形成有限配色",
+        "en": "Use a limited palette of beige, ink black, deep indigo and a little brick red"
+      },
+      "evidence": {
+        "zh": "衣袖、掌缘、剑身与浪峰由深色边线界定，米黄纸地、墨黑、深靛蓝和少量砖红构成大关系，黄药师一图另加入灰绿与红粉。局部有排线和明暗塑造，但主要形体仍应先以轮廓和色块读清；不以写实高光或金属反射为中心。",
+        "en": "Dark outlines define sleeves, palm edges, blades and wave crests. Beige paper-like ground, ink black, deep indigo and a little brick red establish the broad color relationships; Huang Yaoshi’s image adds gray-green and red-pink. Local hatching and shading occur, but major forms should first read through contours and color masses, without centering realistic highlights or metallic reflections."
+      },
       "zh": "以米黄、墨黑、深靛蓝与少量砖红形成有限配色",
-      "en": "Use a limited palette of cream, ink black, deep indigo and restrained brick red",
+      "en": "Use a limited palette of beige, ink black, deep indigo and a little brick red",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "平涂与排线",
-      "explanation": "以平涂为主，局部排线说明体积，不追求写实高光",
-      "evidence": "衣袖、掌缘、剑身与浪峰由深色边线界定，米黄纸地、墨黑、深靛蓝和少量砖红构成大关系，黄药师一图另加入灰绿与红粉。局部有排线和明暗塑造，但主要形体仍应先以轮廓和色块读清；不以写实高光或金属反射为中心。",
+      "label": {
+        "zh": "平涂与排线",
+        "en": "Flat color and hatching"
+      },
+      "explanation": {
+        "zh": "以平涂为主，局部排线说明体积，不追求写实高光",
+        "en": "Use mostly flat color with local hatching to describe volume, without aiming for naturalistic highlights"
+      },
+      "evidence": {
+        "zh": "衣袖、掌缘、剑身与浪峰由深色边线界定，米黄纸地、墨黑、深靛蓝和少量砖红构成大关系，黄药师一图另加入灰绿与红粉。局部有排线和明暗塑造，但主要形体仍应先以轮廓和色块读清；不以写实高光或金属反射为中心。",
+        "en": "Dark outlines define sleeves, palm edges, blades and wave crests. Beige paper-like ground, ink black, deep indigo and a little brick red establish the broad color relationships; Huang Yaoshi’s image adds gray-green and red-pink. Local hatching and shading occur, but major forms should first read through contours and color masses, without centering realistic highlights or metallic reflections."
+      },
       "zh": "以平涂为主，局部排线说明体积，不追求写实高光",
-      "en": "Use mostly flat color with local hatching for volume, avoiding realistic highlights",
+      "en": "Use mostly flat color with local hatching to describe volume, without aiming for naturalistic highlights",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "方向集中",
-      "explanation": "在原构图中统一主动作方向，让次要细节服从主体",
-      "evidence": "右上朱红长框、旁侧米白小题签和红印章构成统一版式，像一组角色图谱；文字承担身份识别，不只是花纹。原参考的题字与印章全部保留。另作海报时可借用这种层级，但姓名、招式及署名应先核对，文字适合在排版阶段加入。",
+      "label": {
+        "zh": "方向集中",
+        "en": "Concentrated direction"
+      },
+      "explanation": {
+        "zh": "在原构图中统一主动作方向，让次要细节服从主体",
+        "en": "Unify the main direction of action within the original composition and make secondary details serve the subject"
+      },
+      "evidence": {
+        "zh": "右上朱红长框、旁侧米白小题签和红印章构成统一版式，像一组角色图谱；文字承担身份识别，不只是花纹。原参考的题字与印章全部保留。另作海报时可借用这种层级，但姓名、招式及署名应先核对，文字适合在排版阶段加入。",
+        "en": "A long vermilion frame at upper right, a small ivory cartouche beside it and red seals create a consistent layout, like a character atlas. Text identifies characters rather than functioning only as ornament. All inscriptions and seals in the original references are retained. Another poster can borrow this hierarchy, but names, techniques and signatures should be checked first; text is best added during layout."
+      },
       "zh": "在原构图中统一主动作方向，让次要细节服从主体",
-      "en": "Unify the main direction of movement within the original composition and subordinate minor details",
+      "en": "Unify the main direction of action within the original composition and make secondary details serve the subject",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "节制旧纸",
-      "explanation": "加入适度旧纸颗粒，在脸、手和主要物件上减弱裂纹",
-      "evidence": "米黄底、斑驳墨面、细小裂纹和颗粒令画面显得陈旧，本组的裂纹甚至跨过皮肤、衣服和天空，是很强的整体表面效果。它能统一系列，也容易让皮肤像石头、剑身像岩石。宜把肌理降到次要层级，脸、手和主要物件留得更清楚；真实木版画工艺不能仅凭肌理判断。",
+      "label": {
+        "zh": "节制旧纸",
+        "en": "Restrained aged-paper effect"
+      },
+      "explanation": {
+        "zh": "加入适度旧纸颗粒，在脸、手和主要物件上减弱裂纹",
+        "en": "Use restrained aged-paper grain, reducing cracks on faces, hands and key objects"
+      },
+      "evidence": {
+        "zh": "米黄底、斑驳墨面、细小裂纹和颗粒令画面显得陈旧，本组的裂纹甚至跨过皮肤、衣服和天空，是很强的整体表面效果。它能统一系列，也容易让皮肤像石头、剑身像岩石。宜把肌理降到次要层级，脸、手和主要物件留得更清楚；真实木版画工艺不能仅凭肌理判断。",
+        "en": "Beige ground, mottled ink areas, fine cracks and grain make the images appear aged. Here cracks even extend across skin, clothing and sky, creating a strong effect over the entire surface. This can unify the series, but can also make skin look like stone and blades like rocks. Texture should be secondary, leaving faces, hands and important objects clearer. Actual woodblock-printing technique cannot be established from texture alone."
+      },
       "zh": "加入适度旧纸颗粒，在脸、手和主要物件上减弱裂纹",
       "en": "Use restrained aged-paper grain, reducing cracks on faces, hands and key objects",
       "default": true
@@ -244,9 +460,18 @@
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "有力叙事",
-      "explanation": "营造有力、紧张且叙事清楚的画面气质",
-      "evidence": "统一画幅、纸色、题签和衣带让四张成组时很有辨识度；黄药师的横笛与冷绿衣袍提供必要变化。乔峰与周伯通的近景掌、四人的飘发与红带则较接近同一动作模板。创作系列可继续保持版式一致，同时改变主动作、剪影和留白，而不是只更换姓名与背景符号。",
+      "label": {
+        "zh": "有力叙事",
+        "en": "Forceful narrative"
+      },
+      "explanation": {
+        "zh": "营造有力、紧张且叙事清楚的画面气质",
+        "en": "Create a forceful, tense image with clear narrative"
+      },
+      "evidence": {
+        "zh": "统一画幅、纸色、题签和衣带让四张成组时很有辨识度；黄药师的横笛与冷绿衣袍提供必要变化。乔峰与周伯通的近景掌、四人的飘发与红带则较接近同一动作模板。创作系列可继续保持版式一致，同时改变主动作、剪影和留白，而不是只更换姓名与背景符号。",
+        "en": "Consistent frames, paper color, cartouches and sashes make the four images distinctive as a group; Huang Yaoshi’s flute and cool green robe provide necessary variation. Qiao Feng’s and Zhou Botong’s foreground palms, and all four figures’ flowing hair and red sashes, remain close to the same action template. A new series can retain a consistent layout while changing the main action, silhouettes and open space, rather than simply replacing names and background symbols."
+      },
       "zh": "营造有力、紧张且叙事清楚的画面气质",
       "en": "Create a forceful, tense image with clear narrative",
       "default": true
@@ -255,15 +480,27 @@
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": {
+        "zh": "沿用原图配色",
+        "en": "Keep the original palette"
+      },
+      "explanation": {
+        "zh": "保留原图的主要色相关系，只调整色阶与对比。",
+        "en": "Keep the source image’s main hue relationships, adjusting only value and contrast."
+      },
+      "evidence": {
+        "zh": "这是创作时可选的变体，不是对参考作品的描述。",
+        "en": "This is an optional variation for creation, not a description of the reference artwork."
+      },
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
     }
   ],
-  "observed_avoid": "避免把“浮世绘”简化成泛黄滤镜、全幅裂纹和随机印章；不要让肌理盖过脸、手、武器与身体轮廓，也不要把原照片强行改成出掌、持剑或古装英雄。参考中的夸张透视应从真实动作和物件关系出发，手指与关节要读得通。角色创作需核对身份与设定，尤其不要把金庸人物归入《水浒传》或把题签当作作者署名。",
+  "observed_avoid": {
+    "zh": "避免把“浮世绘”简化成泛黄滤镜、全幅裂纹和随机印章；不要让肌理盖过脸、手、武器与身体轮廓，也不要把原照片强行改成出掌、持剑或古装英雄。参考中的夸张透视应从真实动作和物件关系出发，手指与关节要读得通。角色创作需核对身份与设定，尤其不要把金庸人物归入《水浒传》或把题签当作作者署名。",
+    "en": "Avoid reducing “ukiyo-e” to a yellowing filter, all-over cracks and random seals. Do not let texture obscure faces, hands, weapons or body contours, and do not force the original photograph into a palm-strike pose, a sword-wielding pose or a hero in historical dress. The references’ exaggerated perspective should be grounded in the actual action and relationships among objects; fingers and joints must read coherently. Character creation requires checking identity and established traits, especially avoiding classifying Jin Yong characters as Water Margin characters or treating title cartouches as the artist’s signature."
+  },
   "avoid": {
     "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
     "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"

@@ -9,7 +9,7 @@ const epoch = Date.UTC(2026, 9, 20);
 const legacyChoiceKey = 'atlas.analytics.consent.v1';
 const choice = value => JSON.stringify({version:1, choice:value, expires:epoch+180*24*60*60*1000});
 
-function fixture({href=site+'catalog/', referrer='', saved, disabled=false, brokenStorage=false,
+function fixture({href=site+'catalog/', referrer='', saved, disabled=false, brokenStorage=false, localeRedirect=false,
   options={}, legacy=null}={}) {
   class Target {
     constructor() { this.listeners={}; }
@@ -23,6 +23,7 @@ function fixture({href=site+'catalog/', referrer='', saved, disabled=false, brok
   if (disabled) store.set(A.DISABLED_KEY,'1');
   const win=new Target(), doc=new Target();
   win.location={href};
+  win.atlasLocaleRedirecting=localeRedirect;
   win.Date=class extends Date { constructor() {super(epoch);} };
   win.localStorage={
     getItem(key) { if (brokenStorage) throw Error('blocked'); return store.get(key) ?? null; },
@@ -30,7 +31,7 @@ function fixture({href=site+'catalog/', referrer='', saved, disabled=false, brok
   };
   doc.referrer=referrer;
   // No consent UI or free-input elements exist in the fixture.
-  doc.getElementById=id=>{ assert.equal(id,'legacy-ids'); return elements[id] || null; };
+  doc.getElementById=id=>{ assert.ok(['legacy-ids','analytics-config'].includes(id)); return elements[id] || null; };
   doc.createElement=()=>({});
   doc.head={appendChild(script) {scripts.push(script);}};
   Object.defineProperty(doc,'cookie',{set:value=>deletedCookies.push(value)});
@@ -180,4 +181,25 @@ test('unavailable storage does not prevent default tracking; blocked script is n
   blocked.win.emit('focus');
   assert.equal(blocked.scripts.length,1);
   assert.equal(blocked.pvs().length,0);
+});
+
+test('language preference redirect does not load analytics or send an intermediate PV',()=>{
+  const f=fixture({href:site,localeRedirect:true,options:{page_location:site}});
+  assert.equal(f.scripts.length,0);assert.deepEqual(f.commands(),[]);
+});
+
+test('Chinese landing and known referrer paths are retained; language history adds no PV',()=>{
+  const f=fixture({href:site+'zh/compose/?source=AS-007&lang=zh#private',referrer:site+'zh/catalog/?q=private',
+    options:{page_location:site+'zh/compose/',page_title:'创作提示词 · 美术风格图鉴',public_paths:['compose/','zh/compose/','zh/catalog/']}});
+  f.scripts[0].onload();
+  assert.equal(f.pvs()[0][2].page_location,site+'zh/compose/');
+  assert.equal(f.pvs()[0][2].page_referrer,site+'zh/catalog/');
+  f.win.location.href=site+'compose/';f.win.emit('popstate');
+  f.win.location.href=site+'zh/compose/';f.win.emit('popstate');
+  assert.equal(f.pvs().length,1);assert.doesNotMatch(JSON.stringify(f.commands()),/private|source=|lang=/);
+  f.win.location.href=site+'compose/?source=private';
+  f.elements['analytics-config']={textContent:JSON.stringify({page_location:site+'compose/',page_title:'Prompt builder · Art Style Atlas'})};
+  f.win.emit('pageshow',{persisted:true});
+  assert.equal(f.pvs().length,2);assert.equal(f.pvs()[1][2].page_location,site+'compose/');
+  assert.equal(f.pvs()[1][2].page_title,'Prompt builder · Art Style Atlas');
 });

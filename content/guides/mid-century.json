@@ -1,6 +1,9 @@
 {
   "id": "mid-century",
-  "name": "世纪中叶现代主义插画",
+  "name": {
+    "zh": "世纪中叶现代主义插画",
+    "en": "Mid-century Modern Illustration"
+  },
   "english_name": "Mid-century Modern Illustration",
   "artist": "Mary Blair",
   "aliases": [
@@ -10,16 +13,40 @@
     "20 世纪中叶现代主义",
     "中世纪现代主义插画"
   ],
-  "kind": "时代与设计语境",
-  "summary": "大胆色彩与简洁形状共同讲故事。人物可以很小，画面依然通过形状、比例和冷暖让情绪一目了然。",
-  "definition": "这里的 Mid-century 指 20 世纪中叶，不是中世纪。Mary Blair 的动画概念设计以色彩组织和概括形状提供观察入口；“世纪中叶现代主义”覆盖多种设计实践，并非统一画法。",
+  "kind": {
+    "zh": "时代与设计语境",
+    "en": "Period and design context"
+  },
+  "summary": {
+    "zh": "大胆色彩与简洁形状共同讲故事。人物可以很小，画面依然通过形状、比例和冷暖让情绪一目了然。",
+    "en": "Bold colors and simple shapes tell a story together. Figures can be tiny, yet shape, proportion and warm–cool relationships still make the scene’s emotion clear at a glance."
+  },
+  "definition": {
+    "zh": "这里的 Mid-century 指 20 世纪中叶，不是中世纪。Mary Blair 的动画概念设计以色彩组织和概括形状提供观察入口；“世纪中叶现代主义”覆盖多种设计实践，并非统一画法。",
+    "en": "Here, “mid-century” means the middle of the 20th century, not the Middle Ages. Mary Blair’s animation concept designs offer a starting point through organized color and simplified shapes. Mid-century modernism covers many design practices, not a single painting method."
+  },
   "recognition": [
-    "缩小图片后，大色块是否仍能传达画面感受？",
-    "人物和环境能否被读成简单而有变化的形状？",
-    "非写实的色彩关系是否帮助突出故事焦点？"
+    {
+      "zh": "缩小图片后，大色块是否仍能传达画面感受？",
+      "en": "When the image is reduced in size, do the large color shapes still convey its mood?"
+    },
+    {
+      "zh": "人物和环境能否被读成简单而有变化的形状？",
+      "en": "Can the figures and setting be read as simple yet varied shapes?"
+    },
+    {
+      "zh": "非写实的色彩关系是否帮助突出故事焦点？",
+      "en": "Do non-naturalistic color relationships help emphasize the story’s focal point?"
+    }
   ],
-  "variations": "可使用不透明色面、拼贴般层次或更松动的手绘边缘；明快与幽暗都能成立。这里的两幅 Alice 概念图展示了不同的空间节奏。",
-  "confusion": "简化不等于把所有形状画成规则几何图。大小、方向和不对称的变化，能让平面设计保持活力。",
+  "variations": {
+    "zh": "可使用不透明色面、拼贴般层次或更松动的手绘边缘；明快与幽暗都能成立。这里的两幅 Alice 概念图展示了不同的空间节奏。",
+    "en": "This approach can use opaque color fields, collage-like layers or looser hand-painted edges; it can be bright or dark. The two Alice concept paintings here show different spatial rhythms."
+  },
+  "confusion": {
+    "zh": "简化不等于把所有形状画成规则几何图。大小、方向和不对称的变化，能让平面设计保持活力。",
+    "en": "Simplification does not mean making every shape a regular geometric figure. Variations in size, direction and asymmetry can keep a flat design lively."
+  },
   "type": "guide",
   "schema_version": 1,
   "cover": "media/guide-mid-century.webp",
@@ -43,42 +70,90 @@
   "references": [
     {
       "file": "media/guide-mid-century.webp",
-      "caption": "Alice looking at the White Rabbit’s house concept art",
-      "alt": "黄绿色的房屋亮面被深蓝、紫色树形包围。人物很小但位置清楚；倾斜与不等大的几何形给场景带来活力。",
-      "credit": "Mary Blair · Courtesy Pam Burns-Clair Family · © Disney · 图像提取自馆方公开图录",
+      "caption": {
+        "zh": "爱丽丝望向白兔的房子（概念设计；图录描述的中文译文）",
+        "en": "Alice looking at the White Rabbit’s house concept art"
+      },
+      "alt": {
+        "zh": "黄绿色的房屋亮面被深蓝、紫色树形包围。人物很小但位置清楚；倾斜与不等大的几何形给场景带来活力。",
+        "en": "The house’s bright yellow-green planes are surrounded by deep blue and purple tree shapes. The figure is small but clearly placed; tilted geometric shapes of unequal size bring energy to the scene."
+      },
+      "credit": {
+        "zh": "Mary Blair · 图片由 Pam Burns-Clair 家族提供 · © Disney · 图像提取自馆方公开图录",
+        "en": "Mary Blair · Courtesy Pam Burns-Clair Family · © Disney · Image extracted from the museum’s publicly available image index"
+      },
       "credit_url": "https://www.waltdisney.org/sites/default/files/Mary-Blair-Image-Index-Final.pdf",
       "artwork": {
-        "date_label": "约 1951",
-        "medium_label": "概念设计；所用图录未标明材料",
+        "date_label": {
+          "zh": "约 1951",
+          "en": "c. 1951"
+        },
+        "medium_label": {
+          "zh": "概念设计；所用图录未标明材料",
+          "en": "Concept art; the image index used does not state the materials"
+        },
         "artist": "Mary Blair"
       },
-      "focus": "黄绿色的房屋亮面被深蓝、紫色树形包围。人物很小但位置清楚；倾斜与不等大的几何形给场景带来活力。",
-      "relationship": "代表作品（本页观察入口）",
+      "focus": {
+        "zh": "黄绿色的房屋亮面被深蓝、紫色树形包围。人物很小但位置清楚；倾斜与不等大的几何形给场景带来活力。",
+        "en": "The house’s bright yellow-green planes are surrounded by deep blue and purple tree shapes. The figure is small but clearly placed; tilted geometric shapes of unequal size bring energy to the scene."
+      },
+      "relationship": {
+        "zh": "代表作品（本页观察入口）",
+        "en": "Representative work (the starting point for this page’s observations)"
+      },
       "image_source": "https://www.waltdisney.org/sites/default/files/Mary-Blair-Image-Index-Final.pdf"
     },
     {
       "file": "media/guide-mid-century-alice.webp",
-      "caption": "Alice falling down the rabbit hole concept art",
-      "alt": "Alice 在狭长、装饰性墙面与小家具之间下落的概念设计",
-      "credit": "Mary Blair · Courtesy Walt Disney Family Foundation, gift of Diane Disney Miller · © Disney",
+      "caption": {
+        "zh": "爱丽丝坠入兔子洞（概念设计；图录描述的中文译文）",
+        "en": "Alice falling down the rabbit hole concept art"
+      },
+      "alt": {
+        "zh": "Alice 在狭长、装饰性墙面与小家具之间下落的概念设计",
+        "en": "Concept art of Alice falling between tall, narrow decorative walls and small pieces of furniture"
+      },
+      "credit": {
+        "zh": "Mary Blair · 图片由 Walt Disney Family Foundation 提供，Diane Disney Miller 捐赠 · © Disney",
+        "en": "Mary Blair · Courtesy Walt Disney Family Foundation, gift of Diane Disney Miller · © Disney"
+      },
       "credit_url": "https://www.waltdisney.org/sites/default/files/Mary-Blair-Image-Index-Final.pdf",
       "artwork": {
-        "date_label": "1951",
+        "date_label": {
+          "zh": "1951",
+          "en": "1951"
+        },
         "artist": "Mary Blair",
-        "medium_label": "概念设计；所用图录未标明材料"
+        "medium_label": {
+          "zh": "概念设计；所用图录未标明材料",
+          "en": "Concept art; the image index used does not state the materials"
+        }
       },
-      "focus": "这张图改用狭长空间，重复的小图形与墙面纹样强化纵向节奏；人物的浅色与蓝色从暗底中读出。它与另一幅房屋图共享概括形状和主观色彩，构图差别却很大。",
-      "relationship": "变体",
+      "focus": {
+        "zh": "这张图改用狭长空间，重复的小图形与墙面纹样强化纵向节奏；人物的浅色与蓝色从暗底中读出。它与另一幅房屋图共享概括形状和主观色彩，构图差别却很大。",
+        "en": "This image instead uses a tall, narrow space. Repeated small shapes and wall patterns strengthen its vertical rhythm, while the figure’s pale and blue colors stand out from the dark ground. It shares simplified shapes and subjective color with the house image, despite their very different compositions."
+      },
+      "relationship": {
+        "zh": "变体",
+        "en": "Variant"
+      },
       "image_source": "https://www.waltdisney.org/sites/default/files/Mary-Blair-Image-Index-Final.pdf"
     }
   ],
   "sources": [
     {
-      "title": "Walt Disney Family Museum · Mary Blair 展览图录，第 1 页",
+      "title": {
+        "zh": "华特迪士尼家族博物馆 · Mary Blair 展览图像索引，第 1 页",
+        "en": "The Walt Disney Family Museum · Mary Blair exhibition image index, page 1"
+      },
       "url": "https://www.waltdisney.org/sites/default/files/Mary-Blair-Image-Index-Final.pdf"
     },
     {
-      "title": "Walt Disney Family Museum · MAGIC, COLOR, FLAIR 展览",
+      "title": {
+        "zh": "华特迪士尼家族博物馆 · MAGIC, COLOR, FLAIR 展览",
+        "en": "The Walt Disney Family Museum · MAGIC, COLOR, FLAIR exhibition"
+      },
       "url": "https://www.waltdisney.org/exhibitions/magic-color-flair-world-mary-blair"
     }
   ],
@@ -86,81 +161,153 @@
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "概括的形状",
-      "explanation": "将原有形体概括为有大小和方向变化的简单形状",
-      "evidence": "房屋、树冠与人物由简洁的大形组成，大小和倾斜方向有变化。",
+      "label": {
+        "zh": "概括的形状",
+        "en": "Simplified shapes"
+      },
+      "explanation": {
+        "zh": "将原有形体概括为有大小和方向变化的简单形状",
+        "en": "Simplify existing forms into simple shapes with varied sizes and directions"
+      },
+      "evidence": {
+        "zh": "房屋、树冠与人物由简洁的大形组成，大小和倾斜方向有变化。",
+        "en": "The house, treetops and figure are composed of simple large shapes, with varied sizes and angles."
+      },
       "zh": "将原有形体概括为有大小和方向变化的简单形状",
-      "en": "Simplify existing forms into simple shapes with varied size and direction",
+      "en": "Simplify existing forms into simple shapes with varied sizes and directions",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "以形代线",
-      "explanation": "主要用相邻色面的边界界定形体，减少统一描边",
-      "evidence": "不少形体靠相邻色块区分，外轮廓没有统一的黑色描边。",
+      "label": {
+        "zh": "以形代线",
+        "en": "Shape in place of line"
+      },
+      "explanation": {
+        "zh": "主要用相邻色面的边界界定形体，减少统一描边",
+        "en": "Define forms mainly through boundaries between adjacent color fields, reducing uniform outlines"
+      },
+      "evidence": {
+        "zh": "不少形体靠相邻色块区分，外轮廓没有统一的黑色描边。",
+        "en": "Many forms are distinguished by adjacent color shapes, without a uniform black outline."
+      },
       "zh": "主要用相邻色面的边界界定形体，减少统一描边",
-      "en": "Define forms mainly through adjoining color fields, reducing uniform outlines",
+      "en": "Define forms mainly through boundaries between adjacent color fields, reducing uniform outlines",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "大胆冷暖",
-      "explanation": "以深蓝紫承托黄绿亮色，建立明确的冷暖与明度对比",
-      "evidence": "房屋的黄绿亮部被蓝紫树林包围，冷暖与明度对比集中。",
+      "label": {
+        "zh": "大胆冷暖",
+        "en": "Bold warm–cool contrast"
+      },
+      "explanation": {
+        "zh": "以深蓝紫承托黄绿亮色，建立明确的冷暖与明度对比",
+        "en": "Set bright yellow-green against deep blue and violet to establish clear warm–cool and value contrasts"
+      },
+      "evidence": {
+        "zh": "房屋的黄绿亮部被蓝紫树林包围，冷暖与明度对比集中。",
+        "en": "The house’s yellow-green light areas are surrounded by blue-violet woods, concentrating warm–cool and value contrasts."
+      },
       "zh": "以深蓝紫承托黄绿亮色，建立明确的冷暖与明度对比",
-      "en": "Set bright yellow-green against deep blue and violet for clear temperature and value contrasts",
+      "en": "Set bright yellow-green against deep blue and violet to establish clear warm–cool and value contrasts",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "色块光感",
-      "explanation": "以明暗色块表达光感，避免写实的光学反射",
-      "evidence": "光感来自明亮房屋与深色环境的对照，而非均匀写实阴影。",
+      "label": {
+        "zh": "色块光感",
+        "en": "Light through color shapes"
+      },
+      "explanation": {
+        "zh": "以明暗色块表达光感，避免写实的光学反射",
+        "en": "Express light through light and dark color shapes, avoiding naturalistic optical reflections"
+      },
+      "evidence": {
+        "zh": "光感来自明亮房屋与深色环境的对照，而非均匀写实阴影。",
+        "en": "The sense of light comes from the contrast between the bright house and dark setting, rather than uniform naturalistic shadows."
+      },
       "zh": "以明暗色块表达光感，避免写实的光学反射",
-      "en": "Suggest light through value shapes rather than realistic optical reflections",
+      "en": "Express light through light and dark color shapes, avoiding naturalistic optical reflections",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "层叠空间",
-      "explanation": "保留原图前后关系，用遮挡和形状大小建立层叠空间",
-      "evidence": "前景树干与叶形遮挡中景，画面中心的空间被打开。",
+      "label": {
+        "zh": "层叠空间",
+        "en": "Layered space"
+      },
+      "explanation": {
+        "zh": "保留原图前后关系，用遮挡和形状大小建立层叠空间",
+        "en": "Keep the source image’s front-to-back relationships, using overlap and shape size to build layered space"
+      },
+      "evidence": {
+        "zh": "前景树干与叶形遮挡中景，画面中心的空间被打开。",
+        "en": "Foreground tree trunks and leaf shapes overlap the middle ground, opening up the space at the center."
+      },
       "zh": "保留原图前后关系，用遮挡和形状大小建立层叠空间",
-      "en": "Keep the original depth relationships and use overlap and shape size to build layered space",
+      "en": "Keep the source image’s front-to-back relationships, using overlap and shape size to build layered space",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "手绘色面",
-      "explanation": "保留不透明手绘色面的轻微笔触与不规则边缘",
-      "evidence": "色面略有不规则边缘和可见手绘变化；材料在所用图录中未注明。",
+      "label": {
+        "zh": "手绘色面",
+        "en": "Hand-painted color fields"
+      },
+      "explanation": {
+        "zh": "保留不透明手绘色面的轻微笔触与不规则边缘",
+        "en": "Retain subtle brushwork and irregular edges in opaque, hand-painted color fields"
+      },
+      "evidence": {
+        "zh": "色面略有不规则边缘和可见手绘变化；材料在所用图录中未注明。",
+        "en": "The color fields have slightly irregular edges and visible hand-painted variation; the image index used does not specify materials."
+      },
       "zh": "保留不透明手绘色面的轻微笔触与不规则边缘",
-      "en": "Keep subtle brush marks and irregular edges in opaque painted color fields",
+      "en": "Retain subtle brushwork and irregular edges in opaque, hand-painted color fields",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "童话的活力",
-      "explanation": "营造富于想象、轻盈而有活力的叙事氛围",
-      "evidence": "倾斜、异比例的形状与大胆颜色共同形成童话般活力。",
+      "label": {
+        "zh": "童话的活力",
+        "en": "Fairy-tale vitality"
+      },
+      "explanation": {
+        "zh": "营造富于想象、轻盈而有活力的叙事氛围",
+        "en": "Create an imaginative, light and lively narrative atmosphere"
+      },
+      "evidence": {
+        "zh": "倾斜、异比例的形状与大胆颜色共同形成童话般活力。",
+        "en": "Tilted shapes with unusual proportions combine with bold colors to create a fairy-tale vitality."
+      },
       "zh": "营造富于想象、轻盈而有活力的叙事氛围",
-      "en": "Create an imaginative, light and lively storytelling atmosphere",
+      "en": "Create an imaginative, light and lively narrative atmosphere",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": {
+        "zh": "沿用原图配色",
+        "en": "Keep the source palette"
+      },
+      "explanation": {
+        "zh": "保留原图的主要色相关系，只调整色阶与对比。",
+        "en": "Keep the source image’s main hue relationships, adjusting only value and contrast."
+      },
+      "evidence": {
+        "zh": "这是创作时可选的变体，不是对参考作品的描述。",
+        "en": "This is an optional variation for creating an image, not a description of the reference artwork."
+      },
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -168,7 +315,7 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   },
   "relations": [],
   "reviewed_at": "2026-10-16"

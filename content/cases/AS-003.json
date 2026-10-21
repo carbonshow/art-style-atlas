@@ -1,10 +1,22 @@
 {
   "id": "AS-003",
-  "name": "手绘质感 · 风格化 3D",
+  "name": {
+    "zh": "手绘质感 · 风格化 3D",
+    "en": "Painterly Texture · Stylized 3D"
+  },
   "english_name": "Painterly Stylized 3D Environment",
-  "classification": "手绘质感的风格化 3D 童话庄园",
-  "summary": "明确的建筑体积与柔和造型相结合。概括的材质、温暖日光和层次化植物，让场景呈现安静的童话庄园感。",
-  "recognition": "看体积、投影与透视，再看概括的材质笔触。3D、手绘质感与童话氛围描述的是不同层面的特点。",
+  "classification": {
+    "zh": "手绘质感的风格化 3D 童话庄园",
+    "en": "A stylized 3D fairy-tale manor with a hand-painted appearance"
+  },
+  "summary": {
+    "zh": "明确的建筑体积与柔和造型相结合。概括的材质、温暖日光和层次化植物，让场景呈现安静的童话庄园感。",
+    "en": "Clearly defined architectural volumes combine with softly shaped forms. Simplified material treatments, warm daylight and layered vegetation give the scene the atmosphere of a quiet fairy-tale manor."
+  },
+  "recognition": {
+    "zh": "看体积、投影与透视，再看概括的材质笔触。3D、手绘质感与童话氛围描述的是不同层面的特点。",
+    "en": "Look at volume, cast shadows and perspective, then at the simplified brushwork used to depict materials. 3D, a hand-painted appearance and a fairy-tale atmosphere describe different aspects of the image."
+  },
   "tags": [
     "风格化",
     "3D",
@@ -22,86 +34,170 @@
   ],
   "palette": [
     {
-      "name": "天空蓝",
+      "name": {
+        "zh": "天空蓝",
+        "en": "Sky blue"
+      },
       "hex": "#68B7CF"
     },
     {
-      "name": "石墙暖黄",
+      "name": {
+        "zh": "石墙暖黄",
+        "en": "Warm yellow stone walls"
+      },
       "hex": "#C3A87A"
     },
     {
-      "name": "瓦片蓝灰",
+      "name": {
+        "zh": "瓦片蓝灰",
+        "en": "Blue-gray roof tiles"
+      },
       "hex": "#53586A"
     },
     {
-      "name": "庭院绿",
+      "name": {
+        "zh": "庭院绿",
+        "en": "Garden green"
+      },
       "hex": "#36583D"
     },
     {
-      "name": "暖阳",
+      "name": {
+        "zh": "暖阳",
+        "en": "Warm sunlight"
+      },
       "hex": "#DFBA78"
     }
   ],
-  "reuse_focus": "保持原图物件和结构，优先简化形体、增强大块明暗，再让材质呈现有方向的绘画痕迹。",
-  "judgment_note": "原图署名 Addison Bacheller，并标注 artstation.com/lazulie；已核对作者主页。具体引擎与制作流程待补。",
+  "reuse_focus": {
+    "zh": "保持原图物件和结构，优先简化形体、增强大块明暗，再让材质呈现有方向的绘画痕迹。",
+    "en": "Keep the original image’s objects and structures. First simplify the forms and strengthen the broad light and dark masses, then introduce directional painted marks into the material surfaces."
+  },
+  "judgment_note": {
+    "zh": "原图署名 Addison Bacheller，并标注 artstation.com/lazulie；已核对作者主页。具体引擎与制作流程待补。",
+    "en": "The original image is signed Addison Bacheller and marked artstation.com/lazulie; the artist’s profile has been checked. The specific engine and production process remain unverified."
+  },
   "references": [
     {
       "file": "media/morning-input-04.webp",
-      "caption": "暖色日光中的欧式庄园",
-      "alt": "风格化三维欧式庄园，蓝灰色屋顶、暖黄色石墙、绿树花丛与前景野餐物件",
-      "credit": "原图署名：Addison Bacheller",
+      "caption": {
+        "zh": "暖色日光中的欧式庄园",
+        "en": "European-style manor in warm daylight"
+      },
+      "alt": {
+        "zh": "风格化三维欧式庄园，蓝灰色屋顶、暖黄色石墙、绿树花丛与前景野餐物件",
+        "en": "A stylized 3D European-style manor with a blue-gray roof, warm yellow stone walls, green trees, flower beds and picnic items in the foreground"
+      },
+      "credit": {
+        "zh": "原图署名：Addison Bacheller",
+        "en": "Signature on the original image: Addison Bacheller"
+      },
       "credit_url": "https://lazulie.artstation.com/"
     }
   ],
   "pipeline": [
     {
-      "label": "建模",
-      "text": "用清楚的大轮廓和适度柔化的边缘建立主体，控制小零件密度。"
+      "label": {
+        "zh": "建模",
+        "en": "Modeling"
+      },
+      "text": {
+        "zh": "用清楚的大轮廓和适度柔化的边缘建立主体，控制小零件密度。",
+        "en": "Build the main subject with clearly defined overall contours and moderately softened edges, controlling the density of small components."
+      }
     },
     {
-      "label": "材质",
-      "text": "用大块色彩变化与手绘纹理表达石材、瓦片和植被，保留材质差异。"
+      "label": {
+        "zh": "材质",
+        "en": "Materials"
+      },
+      "text": {
+        "zh": "用大块色彩变化与手绘纹理表达石材、瓦片和植被，保留材质差异。",
+        "en": "Depict stone, roof tiles and vegetation through broad color variations and hand-painted textures, preserving distinctions between materials."
+      }
     },
     {
-      "label": "灯光",
-      "text": "用暖色主光、柔和阴影与前后景亮度差建立主体层级。"
+      "label": {
+        "zh": "灯光",
+        "en": "Lighting"
+      },
+      "text": {
+        "zh": "用暖色主光、柔和阴影与前后景亮度差建立主体层级。",
+        "en": "Establish the main subject’s visual hierarchy with a warm key light, soft shadows and differences in brightness between foreground and background."
+      }
     }
   ],
   "type": "case",
   "schema_version": 1,
   "analysis": [
     {
-      "label": "轮廓与造型",
-      "text": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。"
+      "label": {
+        "zh": "轮廓与造型",
+        "en": "Contours and forms"
+      },
+      "text": {
+        "zh": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。",
+        "en": "Roofs, towers and window frames retain clearly defined volumes, with some edges softened; trees and flower beds are simplified into rhythmic masses."
+      }
     },
     {
-      "label": "色彩组织",
-      "text": "暖黄石墙、蓝灰屋顶与蓝色天空形成清楚分区；植物包围建筑，日光集中在主体。"
+      "label": {
+        "zh": "色彩组织",
+        "en": "Color organization"
+      },
+      "text": {
+        "zh": "暖黄石墙、蓝灰屋顶与蓝色天空形成清楚分区；植物包围建筑，日光集中在主体。",
+        "en": "Warm yellow stone walls, blue-gray roofs and blue sky form clearly separated areas; vegetation surrounds the architecture, and daylight is concentrated on the main subject."
+      }
     },
     {
-      "label": "材质表面",
-      "text": "石墙、瓦片与植物以概括色块和可读纹理表达材质，避免均匀的微小噪声覆盖表面。"
+      "label": {
+        "zh": "材质表面",
+        "en": "Material surfaces"
+      },
+      "text": {
+        "zh": "石墙、瓦片与植物以概括色块和可读纹理表达材质，避免均匀的微小噪声覆盖表面。",
+        "en": "Stone walls, roof tiles and plants convey their materials through simplified color blocks and legible textures, avoiding a uniform covering of fine noise."
+      }
     },
     {
-      "label": "光影与空间",
-      "text": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。"
+      "label": {
+        "zh": "光影与空间",
+        "en": "Light, shadow and space"
+      },
+      "text": {
+        "zh": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。",
+        "en": "Perspective, contact shadows and the shading of volumes establish depth; foreground leaves frame the view, and the main subject has a clear visual hierarchy."
+      }
     },
     {
-      "label": "题材与氛围",
-      "text": "欧式庄园、花园与柔和阳光组合成温暖宁静的童话田园。题材不等于渲染方法。"
+      "label": {
+        "zh": "题材与氛围",
+        "en": "Subject matter and atmosphere"
+      },
+      "text": {
+        "zh": "欧式庄园、花园与柔和阳光组合成温暖宁静的童话田园。题材不等于渲染方法。",
+        "en": "The European-style manor, garden and soft sunlight combine into a warm, peaceful fairy-tale pastoral setting. Subject matter is not the same as a rendering method."
+      }
     }
   ],
   "legacy_prompts": {
     "zh": "把输入照片转译为具有手绘质感的风格化 3D 场景。照片提供内容与构图，附加图片仅作风格参考。保留原图主体数量、人物身份与动作、物件关系、建筑结构、镜头视角和画幅。让主要物体具有清楚而简化的三维体积、自然透视和适度柔化的边缘；以概括色块、方向明确的手绘纹理与细微色彩变化表现不同材质。使用温暖柔和的日光、可读的接触阴影和有层次的前后景，营造宁静的童话氛围。以原场景已有颜色和材质为基础调整冷暖，不强行替换为欧式庄园。保留人物辨识度，面部处理与场景一致。避免全场塑料质感、写实扫描噪点、过重黑色轮廓线、强烈赛璐珞分段阴影、额外物件、文字或水印。",
-    "en": "Reinterpret the input photograph as a painterly stylized 3D environment. Use the photograph for content and composition, and references for style only. Preserve subject count, recognizable identities and poses, object relationships, architectural structure, camera viewpoint and aspect ratio. Give major objects clear, simplified three-dimensional volumes, coherent perspective and moderately softened edges. Express distinct materials with broad color blocks, directional hand-painted texture and subtle color variation. Use warm gentle daylight, readable contact shadows and layered depth for a peaceful storybook mood. Adjust warm and cool relationships from the original scene's existing colors and materials, without replacing its setting with a European manor. Keep faces recognizable and stylistically consistent. Avoid uniform plastic surfaces, photogrammetry-like noise, heavy black outlines, harsh cel-shaded bands, added objects, text or watermarks."
+    "en": "Reinterpret the input photograph as a stylized 3D scene with a hand-painted appearance. The photograph supplies content and composition; additional images serve only as style references. Preserve the original subject count, people’s identities and actions, object relationships, architectural structures, camera viewpoint and framing. Give the main objects clear, simplified three-dimensional volumes, natural perspective and moderately softened edges; express different materials through broad color blocks, directional hand-painted textures and subtle color variations. Use warm, soft daylight, legible contact shadows and layered foreground and background to create a peaceful fairy-tale atmosphere. Adjust warm–cool relationships based on the original scene’s existing colors and materials, without forcing it into a European-style manor setting. Keep people recognizable, and treat faces consistently with the scene. Avoid making the entire scene look plastic, realistic scan-like noise, overly heavy black outlines, strongly stepped cel-shaded shadows, extra objects, text or watermarks."
   },
   "sources": [
     {
-      "title": "Addison Bacheller · 作者主页",
+      "title": {
+        "zh": "Addison Bacheller · 作者主页",
+        "en": "Addison Bacheller · Artist’s profile"
+      },
       "url": "https://lazulie.artstation.com/"
     }
   ],
-  "artist": "Addison Bacheller",
+  "artist": {
+    "zh": "Addison Bacheller",
+    "en": "Addison Bacheller"
+  },
   "facets": {
     "tradition": [
       "stylized-3d"
@@ -123,40 +219,76 @@
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "柔化的体块",
-      "explanation": "保持原有主体的三维体积，柔化边角并概括小细节",
-      "evidence": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。",
+      "label": {
+        "zh": "柔化的体块",
+        "en": "Softened volumes"
+      },
+      "explanation": {
+        "zh": "保持原有主体的三维体积，柔化边角并概括小细节",
+        "en": "Keep the original subjects’ three-dimensional volumes, softening edges and corners and simplifying small details"
+      },
+      "evidence": {
+        "zh": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。",
+        "en": "Roofs, towers and window frames retain clearly defined volumes, with some edges softened; trees and flower beds are simplified into rhythmic masses."
+      },
       "zh": "保持原有主体的三维体积，柔化边角并概括小细节",
-      "en": "Keep the subjects’ three-dimensional volumes, softening corners and simplifying small details",
+      "en": "Keep the original subjects’ three-dimensional volumes, softening edges and corners and simplifying small details",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "柔和轮廓",
-      "explanation": "用柔和而清楚的边缘区分形体，减少过硬描边",
-      "evidence": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。",
+      "label": {
+        "zh": "柔和轮廓",
+        "en": "Soft contours"
+      },
+      "explanation": {
+        "zh": "用柔和而清楚的边缘区分形体，减少过硬描边",
+        "en": "Separate forms with soft but clear edges, reducing overly hard outlines"
+      },
+      "evidence": {
+        "zh": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。",
+        "en": "Roofs, towers and window frames retain clearly defined volumes, with some edges softened; trees and flower beds are simplified into rhythmic masses."
+      },
       "zh": "用柔和而清楚的边缘区分形体，减少过硬描边",
-      "en": "Separate forms with soft but clear edges and avoid harsh outlines",
+      "en": "Separate forms with soft but clear edges, reducing overly hard outlines",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "暖黄蓝灰",
-      "explanation": "使用暖黄、蓝灰与克制绿色的明快配色",
-      "evidence": "暖黄石墙、蓝灰屋顶与蓝色天空形成清楚分区；植物包围建筑，日光集中在主体。",
+      "label": {
+        "zh": "暖黄蓝灰",
+        "en": "Warm yellow and blue-gray"
+      },
+      "explanation": {
+        "zh": "使用暖黄、蓝灰与克制绿色的明快配色",
+        "en": "Use a bright palette of warm yellow, blue-gray and restrained greens"
+      },
+      "evidence": {
+        "zh": "暖黄石墙、蓝灰屋顶与蓝色天空形成清楚分区；植物包围建筑，日光集中在主体。",
+        "en": "Warm yellow stone walls, blue-gray roofs and blue sky form clearly separated areas; vegetation surrounds the architecture, and daylight is concentrated on the main subject."
+      },
       "zh": "使用暖黄、蓝灰与克制绿色的明快配色",
-      "en": "Use a cheerful palette of warm yellow, blue-gray and restrained greens",
+      "en": "Use a bright palette of warm yellow, blue-gray and restrained greens",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "柔光投影",
-      "explanation": "用柔和日光、体块明暗和接触阴影建立可信深度",
-      "evidence": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。",
+      "label": {
+        "zh": "柔光投影",
+        "en": "Soft light and cast shadows"
+      },
+      "explanation": {
+        "zh": "用柔和日光、体块明暗和接触阴影建立可信深度",
+        "en": "Build believable depth with soft daylight, form shading and contact shadows"
+      },
+      "evidence": {
+        "zh": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。",
+        "en": "Perspective, contact shadows and the shading of volumes establish depth; foreground leaves frame the view, and the main subject has a clear visual hierarchy."
+      },
       "zh": "用柔和日光、体块明暗和接触阴影建立可信深度",
       "en": "Build believable depth with soft daylight, form shading and contact shadows",
       "default": true
@@ -164,46 +296,85 @@
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "清楚透视",
-      "explanation": "保留原视角与透视，降低次要区域细节",
-      "evidence": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。",
+      "label": {
+        "zh": "清楚透视",
+        "en": "Clear perspective"
+      },
+      "explanation": {
+        "zh": "保留原视角与透视，降低次要区域细节",
+        "en": "Keep the original viewpoint and perspective, reducing detail in secondary areas"
+      },
+      "evidence": {
+        "zh": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。",
+        "en": "Perspective, contact shadows and the shading of volumes establish depth; foreground leaves frame the view, and the main subject has a clear visual hierarchy."
+      },
       "zh": "保留原视角与透视，降低次要区域细节",
-      "en": "Keep the original viewpoint and perspective and simplify secondary detail",
+      "en": "Keep the original viewpoint and perspective, reducing detail in secondary areas",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "手绘材质",
-      "explanation": "用概括笔触表现材质差异，避免均匀微噪声",
-      "evidence": "石墙、瓦片与植物以概括色块和可读纹理表达材质，避免均匀的微小噪声覆盖表面。",
+      "label": {
+        "zh": "手绘材质",
+        "en": "Hand-painted materials"
+      },
+      "explanation": {
+        "zh": "用概括笔触表现材质差异，避免均匀微噪声",
+        "en": "Use simplified brushwork to distinguish materials, avoiding uniform fine noise"
+      },
+      "evidence": {
+        "zh": "石墙、瓦片与植物以概括色块和可读纹理表达材质，避免均匀的微小噪声覆盖表面。",
+        "en": "Stone walls, roof tiles and plants convey their materials through simplified color blocks and legible textures, avoiding a uniform covering of fine noise."
+      },
       "zh": "用概括笔触表现材质差异，避免均匀微噪声",
-      "en": "Use simplified brushwork to distinguish materials, avoiding uniform micro-noise",
+      "en": "Use simplified brushwork to distinguish materials, avoiding uniform fine noise",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "温暖童话",
-      "explanation": "营造温暖宁静、有手工感的童话气质",
-      "evidence": "欧式庄园、花园与柔和阳光组合成温暖宁静的童话田园。题材不等于渲染方法。",
+      "label": {
+        "zh": "温暖童话",
+        "en": "Warm fairy-tale mood"
+      },
+      "explanation": {
+        "zh": "营造温暖宁静、有手工感的童话气质",
+        "en": "Create a warm, peaceful fairy-tale atmosphere with a handmade quality"
+      },
+      "evidence": {
+        "zh": "欧式庄园、花园与柔和阳光组合成温暖宁静的童话田园。题材不等于渲染方法。",
+        "en": "The European-style manor, garden and soft sunlight combine into a warm, peaceful fairy-tale pastoral setting. Subject matter is not the same as a rendering method."
+      },
       "zh": "营造温暖宁静、有手工感的童话气质",
-      "en": "Create a warm, peaceful storybook feeling with a handmade quality",
+      "en": "Create a warm, peaceful fairy-tale atmosphere with a handmade quality",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": {
+        "zh": "沿用原图配色",
+        "en": "Keep the original palette"
+      },
+      "explanation": {
+        "zh": "保留原图的主要色相关系，只调整色阶与对比。",
+        "en": "Keep the source image’s main hue relationships, adjusting only tonal values and contrast."
+      },
+      "evidence": {
+        "zh": "这是创作时可选的变体，不是对参考作品的描述。",
+        "en": "This is an optional creative variation, not a description of the reference artwork."
+      },
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
-      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "en": "Keep the source image’s main hue relationships, adjusting only tonal values and contrast",
       "default": false
     }
   ],
-  "observed_avoid": "避免全场统一为光滑塑料，或用过重轮廓线与分段阴影取代柔和体积感。",
+  "observed_avoid": {
+    "zh": "避免全场统一为光滑塑料，或用过重轮廓线与分段阴影取代柔和体积感。",
+    "en": "Avoid giving the entire scene the same smooth plastic appearance, or replacing softly modeled volume with heavy outlines and sharply stepped shading."
+  },
   "avoid": {
     "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
     "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"

@@ -1,85 +1,85 @@
 {
   "id": "painterly-portrait",
-  "name": "笔触写实肖像",
+  "name": "Painterly Realist Portrait",
   "features": [
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "可信的形体",
-      "explanation": "以准确的大比例和相连的明暗体块概括原图主体",
-      "evidence": "人物与沙发的体积可以由几组相连的明暗大面读出。",
+      "label": "Believable forms",
+      "explanation": "Simplify the source image’s subjects through accurate overall proportions and connected volumes of light and shadow",
+      "evidence": "The volumes of the figure and sofa can be read through a few connected broad planes of light and dark.",
       "zh": "以准确的大比例和相连的明暗体块概括原图主体",
-      "en": "Describe the original subjects with believable proportions and connected masses of light and shadow",
+      "en": "Simplify the source image’s subjects through accurate overall proportions and connected volumes of light and shadow",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "虚实边缘",
-      "explanation": "让关键轮廓清楚，次要边缘柔和地融入环境",
-      "evidence": "面部与手部较凝练，衣裙和沙发的部分边缘融入周围颜色。",
+      "label": "Hard and soft edges",
+      "explanation": "Keep key contours clear and let secondary edges merge softly into the surroundings",
+      "evidence": "The face and hands are more concisely rendered, while some edges of the dress and sofa merge into the surrounding colors.",
       "zh": "让关键轮廓清楚，次要边缘柔和地融入环境",
-      "en": "Keep key contours clear and let secondary edges merge softly into their surroundings",
+      "en": "Keep key contours clear and let secondary edges merge softly into the surroundings",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "银灰与暖色",
-      "explanation": "采用银灰、柔白和低饱和暖褐的色彩关系，保留少量冷色反光",
-      "evidence": "银灰与柔白衣料上穿插冷蓝、浅绿反光，背景有暖褐色。",
+      "label": "Silver gray and warm colors",
+      "explanation": "Use relationships between silver gray, soft white and muted warm browns, retaining a little cool reflected color",
+      "evidence": "Cool blue and pale green reflections appear in the silver-gray and soft-white fabric, with warm browns in the background.",
       "zh": "采用银灰、柔白和低饱和暖褐的色彩关系，保留少量冷色反光",
-      "en": "Use silver gray, soft white and muted warm browns, with restrained cool reflected colors",
+      "en": "Use relationships between silver gray, soft white and muted warm browns, retaining a little cool reflected color",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "宽阔的明暗面",
-      "explanation": "用宽阔而连贯的受光面塑造体积，减少零碎高光",
-      "evidence": "衣裙的大块亮面承托较小的折光，暗部仍有层次。",
+      "label": "Broad light and shadow planes",
+      "explanation": "Model volume through broad, continuous lit planes, reducing scattered highlights",
+      "evidence": "Large light areas on the dress support smaller reflected highlights, while the dark areas retain tonal variation.",
       "zh": "用宽阔而连贯的受光面塑造体积，减少零碎高光",
-      "en": "Model volume with broad connected light planes and restrained highlights",
+      "en": "Model volume through broad, continuous lit planes, reducing scattered highlights",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "主次清晰",
-      "explanation": "在原构图中集中描绘主体，降低次要区域的清晰度",
-      "evidence": "横卧的人物占据主要横向空间，背景细节相对弱化。",
+      "label": "Clear visual hierarchy",
+      "explanation": "Within the original composition, concentrate detail on the subjects and reduce sharpness in secondary areas",
+      "evidence": "The reclining figure occupies the main horizontal space, while background details are relatively subdued.",
       "zh": "在原构图中集中描绘主体，降低次要区域的清晰度",
-      "en": "Within the original composition, concentrate definition on the subjects and soften secondary areas",
+      "en": "Within the original composition, concentrate detail on the subjects and reduce sharpness in secondary areas",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "概括笔触",
-      "explanation": "保留顺着形体转折的可见笔触，细节由色块暗示",
-      "evidence": "裙摆上的斜向短笔让褶皱和反光同时可见。",
+      "label": "Economical brushwork",
+      "explanation": "Retain visible brushstrokes that follow changes in form, suggesting details through patches of color",
+      "evidence": "Short diagonal strokes on the skirt reveal both folds and reflected light.",
       "zh": "保留顺着形体转折的可见笔触，细节由色块暗示",
-      "en": "Keep visible strokes that follow the form, suggesting detail through patches of color",
+      "en": "Retain visible brushstrokes that follow changes in form, suggesting details through patches of color",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "安静的日常",
-      "explanation": "营造自然、从容、安静的观看感受",
-      "evidence": "放松的姿态、柔和边缘与低对比环境共同使节奏安静。",
+      "label": "Everyday quiet",
+      "explanation": "Create a natural, unhurried and quiet viewing experience",
+      "evidence": "The relaxed pose, soft edges and low-contrast setting together establish a quiet rhythm.",
       "zh": "营造自然、从容、安静的观看感受",
-      "en": "Create a natural, unhurried and quiet atmosphere",
+      "en": "Create a natural, unhurried and quiet viewing experience",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": "Keep the source palette",
+      "explanation": "Keep the source image’s main hue relationships, adjusting only value and contrast.",
+      "evidence": "This is an optional variation for creating an image, not a description of the reference artwork.",
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -87,6 +87,6 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   }
 }

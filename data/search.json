@@ -2,7 +2,7 @@
   {
     "id": "painterly-portrait",
     "type": "guide",
-    "name": "笔触写实肖像",
+    "name": "Painterly Realist Portrait",
     "english_name": "Painterly Realist Portrait",
     "artist": "John Singer Sargent",
     "aliases": [
@@ -11,7 +11,7 @@
       "古典写实油画",
       "Sargent"
     ],
-    "summary": "把形体画准，把笔触留下来。用明暗关系建立人物，再以松动的色块表达衣料与环境。",
+    "summary": "Render forms accurately and leave the brushwork visible. Establish the figure through light and shadow, then express fabric and surroundings through loose patches of color.",
     "cover": "media/guide-painterly-portrait.webp",
     "facets": {
       "tradition": [
@@ -27,13 +27,20 @@
       ]
     },
     "url": "guides/painterly-portrait/",
-    "kind": "视觉表现方法",
-    "search_text": "笔触写实肖像 Painterly Realist Portrait John Singer Sargent 把形体画准，把笔触留下来。用明暗关系建立人物，再以松动的色块表达衣料与环境。 萨金特 萨金特写实肖像 古典写实油画 Sargent 写实绘画 人物 可见笔触 空间纵深 戏剧光影 以准确的大比例和相连的明暗体块概括原图主体 Describe the original subjects with believable proportions and connected masses of light and shadow 可信的形体 让关键轮廓清楚，次要边缘柔和地融入环境 Keep key contours clear and let secondary edges merge softly into their surroundings 虚实边缘 采用银灰、柔白和低饱和暖褐的色彩关系，保留少量冷色反光 Use silver gray, soft white and muted warm browns, with restrained cool reflected colors 银灰与暖色 用宽阔而连贯的受光面塑造体积，减少零碎高光 Model volume with broad connected light planes and restrained highlights 宽阔的明暗面 在原构图中集中描绘主体，降低次要区域的清晰度 Within the original composition, concentrate definition on the subjects and soften secondary areas 主次清晰 保留顺着形体转折的可见笔触，细节由色块暗示 Keep visible strokes that follow the form, suggesting detail through patches of color 概括笔触 营造自然、从容、安静的观看感受 Create a natural, unhurried and quiet atmosphere 安静的日常 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Nonchaloir (Repose)《闲憩》 "
+    "kind": "Visual approach",
+    "search_text": "Painterly Realist Portrait Painterly Realist Portrait John Singer Sargent Render forms accurately and leave the brushwork visible. Establish the figure through light and shadow, then express fabric and surroundings through loose patches of color. 萨金特 萨金特写实肖像 古典写实油画 Sargent Realist Painting People Visible Brushwork Spatial Depth Dramatic Light and Shadow 以准确的大比例和相连的明暗体块概括原图主体 Simplify the source image’s subjects through accurate overall proportions and connected volumes of light and shadow Believable forms 让关键轮廓清楚，次要边缘柔和地融入环境 Keep key contours clear and let secondary edges merge softly into the surroundings Hard and soft edges 采用银灰、柔白和低饱和暖褐的色彩关系，保留少量冷色反光 Use relationships between silver gray, soft white and muted warm browns, retaining a little cool reflected color Silver gray and warm colors 用宽阔而连贯的受光面塑造体积，减少零碎高光 Model volume through broad, continuous lit planes, reducing scattered highlights Broad light and shadow planes 在原构图中集中描绘主体，降低次要区域的清晰度 Within the original composition, concentrate detail on the subjects and reduce sharpness in secondary areas Clear visual hierarchy 保留顺着形体转折的可见笔触，细节由色块暗示 Retain visible brushstrokes that follow changes in form, suggesting details through patches of color Economical brushwork 营造自然、从容、安静的观看感受 Create a natural, unhurried and quiet viewing experience Everyday quiet 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the source palette Nonchaloir (Repose)  笔触写实肖像 Painterly Realist Portrait John Singer Sargent 把形体画准，把笔触留下来。用明暗关系建立人物，再以松动的色块表达衣料与环境。 萨金特 萨金特写实肖像 古典写实油画 Sargent 写实绘画 人物 可见笔触 空间纵深 戏剧光影 以准确的大比例和相连的明暗体块概括原图主体 Simplify the source image’s subjects through accurate overall proportions and connected volumes of light and shadow 可信的形体 让关键轮廓清楚，次要边缘柔和地融入环境 Keep key contours clear and let secondary edges merge softly into the surroundings 虚实边缘 采用银灰、柔白和低饱和暖褐的色彩关系，保留少量冷色反光 Use relationships between silver gray, soft white and muted warm browns, retaining a little cool reflected color 银灰与暖色 用宽阔而连贯的受光面塑造体积，减少零碎高光 Model volume through broad, continuous lit planes, reducing scattered highlights 宽阔的明暗面 在原构图中集中描绘主体，降低次要区域的清晰度 Within the original composition, concentrate detail on the subjects and reduce sharpness in secondary areas 主次清晰 保留顺着形体转折的可见笔触，细节由色块暗示 Retain visible brushstrokes that follow changes in form, suggesting details through patches of color 概括笔触 营造自然、从容、安静的观看感受 Create a natural, unhurried and quiet viewing experience 安静的日常 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Nonchaloir (Repose)《闲憩》（中文译名） ",
+    "search_names": [
+      "Painterly Realist Portrait",
+      "笔触写实肖像",
+      "Painterly Realist Portrait",
+      "painterly-portrait"
+    ],
+    "search_artist": "John Singer Sargent John Singer Sargent"
   },
   {
     "id": "art-nouveau",
     "type": "guide",
-    "name": "新艺术",
+    "name": "Art Nouveau",
     "english_name": "Art Nouveau",
     "artist": "Alphonse Mucha",
     "aliases": [
@@ -41,7 +48,7 @@
       "Mucha",
       "新艺术运动"
     ],
-    "summary": "流动的轮廓把人物、衣褶与装饰组织在一起。先看线的节奏，再看画面怎样成为一个整体。",
+    "summary": "Flowing contours bring the figure, folds and ornament together. Look first at the rhythm of the lines, then at how the image becomes a unified whole.",
     "cover": "media/guide-art-nouveau.webp",
     "facets": {
       "tradition": [
@@ -59,13 +66,20 @@
       ]
     },
     "url": "guides/art-nouveau/",
-    "kind": "艺术与设计运动",
-    "search_text": "新艺术 Art Nouveau Alphonse Mucha 流动的轮廓把人物、衣褶与装饰组织在一起。先看线的节奏，再看画面怎样成为一个整体。 穆夏 Mucha 新艺术运动 新艺术 人物 植物 装饰曲线 明确轮廓 重复纹样 平面色块 将原有形体概括为优雅、连贯的长曲线与完整色面 Simplify existing forms into elegant flowing curves and coherent color fields 修长而概括 以粗细有节奏的清楚曲线勾勒主体，线条随形体自然转折 Outline subjects with clear rhythmic curves that flow with the form 流动轮廓 采用米白、低饱和橄榄绿和柔和暖红，保持大色面的秩序 Use ivory, muted olive green and soft warm reds in ordered color fields 柔和装饰色 降低写实明暗，让轮廓与色块成为主要识别线索 Reduce realistic shading so contours and color fields carry the image 弱化明暗 保持原视角，将原有形体组织成疏密有序的平面节奏 Keep the original viewpoint and organize existing forms into a balanced flat rhythm 平面秩序 使用哑光色面与精细线条，保留轻微手绘起伏 Use matte color fields and fine lines with subtle hand-drawn variation 印刷般表面 营造优雅、舒缓、富有装饰秩序的氛围 Create an elegant, gentle atmosphere with decorative order 优雅与装饰性 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Rêverie《遐想》  Art Nouveau Portrait 新艺术人物"
+    "kind": "Art and design movement",
+    "search_text": "Art Nouveau Art Nouveau Alphonse Mucha Flowing contours bring the figure, folds and ornament together. Look first at the rhythm of the lines, then at how the image becomes a unified whole. 穆夏 Mucha 新艺术运动 Art Nouveau People Plants Decorative Curves Defined Contours Repeating Patterns Flat Color Shapes 将原有形体概括为优雅、连贯的长曲线与完整色面 Simplify existing forms into elegant, continuous long curves and coherent color fields Elongated, simplified forms 以粗细有节奏的清楚曲线勾勒主体，线条随形体自然转折 Outline the subjects with clear curves of rhythmically varied thickness, letting the lines turn naturally with the forms Flowing contours 采用米白、低饱和橄榄绿和柔和暖红，保持大色面的秩序 Use ivory, muted olive green and soft warm reds, keeping the large color fields orderly Soft decorative colors 降低写实明暗，让轮廓与色块成为主要识别线索 Reduce naturalistic shading so contours and color fields become the main visual clues Reduced shading 保持原视角，将原有形体组织成疏密有序的平面节奏 Keep the original viewpoint and arrange existing forms in a flat rhythm of orderly dense and open areas Flat visual order 使用哑光色面与精细线条，保留轻微手绘起伏 Use matte color fields and fine lines, retaining subtle hand-drawn variation Print-like surface 营造优雅、舒缓、富有装饰秩序的氛围 Create an elegant, gentle atmosphere with decorative order Elegance and ornament 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the source palette Rêverie (reading translation: Daydream)  Art Nouveau Portrait Art Nouveau Figure Art 新艺术 Art Nouveau Alphonse Mucha 流动的轮廓把人物、衣褶与装饰组织在一起。先看线的节奏，再看画面怎样成为一个整体。 穆夏 Mucha 新艺术运动 新艺术 人物 植物 装饰曲线 明确轮廓 重复纹样 平面色块 将原有形体概括为优雅、连贯的长曲线与完整色面 Simplify existing forms into elegant, continuous long curves and coherent color fields 修长而概括 以粗细有节奏的清楚曲线勾勒主体，线条随形体自然转折 Outline the subjects with clear curves of rhythmically varied thickness, letting the lines turn naturally with the forms 流动轮廓 采用米白、低饱和橄榄绿和柔和暖红，保持大色面的秩序 Use ivory, muted olive green and soft warm reds, keeping the large color fields orderly 柔和装饰色 降低写实明暗，让轮廓与色块成为主要识别线索 Reduce naturalistic shading so contours and color fields become the main visual clues 弱化明暗 保持原视角，将原有形体组织成疏密有序的平面节奏 Keep the original viewpoint and arrange existing forms in a flat rhythm of orderly dense and open areas 平面秩序 使用哑光色面与精细线条，保留轻微手绘起伏 Use matte color fields and fine lines, retaining subtle hand-drawn variation 印刷般表面 营造优雅、舒缓、富有装饰秩序的氛围 Create an elegant, gentle atmosphere with decorative order 优雅与装饰性 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Rêverie《遐想》（中文译名）  Art Nouveau Portrait 新艺术人物",
+    "search_names": [
+      "Art Nouveau",
+      "新艺术",
+      "Art Nouveau",
+      "art-nouveau"
+    ],
+    "search_artist": "Alphonse Mucha Alphonse Mucha"
   },
   {
     "id": "art-deco",
     "type": "guide",
-    "name": "装饰艺术",
+    "name": "Art Deco",
     "english_name": "Art Deco",
     "artist": "Tamara de Lempicka",
     "aliases": [
@@ -74,7 +88,7 @@
       "Lempicka",
       "装饰艺术运动"
     ],
-    "summary": "把身体与衣料看作精确而有力的体块。几何化的转折、利落边缘和光泽让人物显得摩登。",
+    "summary": "See the body and fabric as precise, powerful volumes. Geometric transitions, crisp edges and sheen give the figure a modern presence.",
     "cover": "media/guide-art-deco.webp",
     "facets": {
       "tradition": [
@@ -90,13 +104,20 @@
       ]
     },
     "url": "guides/art-deco/",
-    "kind": "艺术与设计风格",
-    "search_text": "装饰艺术 Art Deco Tamara de Lempicka 把身体与衣料看作精确而有力的体块。几何化的转折、利落边缘和光泽让人物显得摩登。 莱姆皮卡 蓝碧嘉 Lempicka 装饰艺术运动 装饰艺术 人物 几何造型 明确轮廓 戏剧光影 将原有主体概括成紧凑、清楚的几何体块，保持身份可辨 Simplify original subjects into compact sculptural volumes while keeping identity recognizable 雕塑体块 用利落轮廓和清楚的转折界定形体 Define forms with crisp contours and decisive changes of plane 利落边缘 用深绿、冷灰与低饱和暖色形成克制的冷暖对比 Use deep green, cool gray and muted warm tones for restrained temperature contrast 冷绿与暖肤色 用连续的明暗渐变表现光滑体积，亮部集中在受光棱面 Use controlled tonal gradients for smooth volume, concentrating light on illuminated planes 光滑的面光 保持原图构图，以紧凑的形体交叠突出主体 Keep the original framing and emphasize subjects through compact overlapping forms 紧凑层次 弱化散乱笔触，呈现细腻、整洁而有实体感的表面 Minimize loose marks and create a refined, clean surface with tangible volume 精整表面 营造冷静、自信、摩登的视觉气质 Create a poised, confident and modern atmosphere 摩登自信 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Jeune fille en vert《绿衣少女》（又名戴手套的少女）  Art Deco Portrait 装饰艺术人物"
+    "kind": "Art and design style",
+    "search_text": "Art Deco Art Deco Tamara de Lempicka See the body and fabric as precise, powerful volumes. Geometric transitions, crisp edges and sheen give the figure a modern presence. 莱姆皮卡 蓝碧嘉 Lempicka 装饰艺术运动 Art Deco People Geometric Forms Defined Contours Dramatic Light and Shadow 将原有主体概括成紧凑、清楚的几何体块，保持身份可辨 Simplify the original subjects into compact, clearly defined geometric volumes while keeping their identities recognizable Sculptural volumes 用利落轮廓和清楚的转折界定形体 Define forms with crisp contours and clear changes of plane Crisp edges 用深绿、冷灰与低饱和暖色形成克制的冷暖对比 Use deep green, cool gray and muted warm tones for restrained warm–cool contrast Cool green and warm skin tones 用连续的明暗渐变表现光滑体积，亮部集中在受光棱面 Use continuous tonal gradients to show smooth volume, concentrating highlights on the lit facets Smoothly lit planes 保持原图构图，以紧凑的形体交叠突出主体 Keep the source image’s composition and emphasize the subjects through compact overlapping forms Compact layering 弱化散乱笔触，呈现细腻、整洁而有实体感的表面 Minimize scattered brushwork and create a delicate, clean surface with a tangible sense of volume Refined surfaces 营造冷静、自信、摩登的视觉气质 Create a calm, confident and modern visual character Modern confidence 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the source palette Jeune fille en vert (reading translation: Young Woman in Green; also titled Jeune fille aux gants, Young Woman with Gloves)  Art Deco Portrait Art Deco Figure Art 装饰艺术 Art Deco Tamara de Lempicka 把身体与衣料看作精确而有力的体块。几何化的转折、利落边缘和光泽让人物显得摩登。 莱姆皮卡 蓝碧嘉 Lempicka 装饰艺术运动 装饰艺术 人物 几何造型 明确轮廓 戏剧光影 将原有主体概括成紧凑、清楚的几何体块，保持身份可辨 Simplify the original subjects into compact, clearly defined geometric volumes while keeping their identities recognizable 雕塑体块 用利落轮廓和清楚的转折界定形体 Define forms with crisp contours and clear changes of plane 利落边缘 用深绿、冷灰与低饱和暖色形成克制的冷暖对比 Use deep green, cool gray and muted warm tones for restrained warm–cool contrast 冷绿与暖肤色 用连续的明暗渐变表现光滑体积，亮部集中在受光棱面 Use continuous tonal gradients to show smooth volume, concentrating highlights on the lit facets 光滑的面光 保持原图构图，以紧凑的形体交叠突出主体 Keep the source image’s composition and emphasize the subjects through compact overlapping forms 紧凑层次 弱化散乱笔触，呈现细腻、整洁而有实体感的表面 Minimize scattered brushwork and create a delicate, clean surface with a tangible sense of volume 精整表面 营造冷静、自信、摩登的视觉气质 Create a calm, confident and modern visual character 摩登自信 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Jeune fille en vert《绿衣少女》（又名《戴手套的少女》；均为中文译名）  Art Deco Portrait 装饰艺术人物",
+    "search_names": [
+      "Art Deco",
+      "装饰艺术",
+      "Art Deco",
+      "art-deco"
+    ],
+    "search_artist": "Tamara de Lempicka Tamara de Lempicka"
   },
   {
     "id": "expressionism",
     "type": "guide",
-    "name": "表现主义人物",
+    "name": "Expressionist Figure Painting",
     "english_name": "Expressionist Figure Painting",
     "artist": "Egon Schiele",
     "aliases": [
@@ -104,7 +125,7 @@
       "Schiele",
       "表现主义"
     ],
-    "summary": "形体不只记录外貌，也表达心理状态。折转的轮廓、不均匀的颜色和留白让情绪变得可见。",
+    "summary": "Form does more than record appearance: it expresses a psychological state. Angular contours, uneven color and blank space make emotion visible.",
     "cover": "media/guide-expressionism.webp",
     "facets": {
       "tradition": [
@@ -121,13 +142,20 @@
       ]
     },
     "url": "guides/expressionism/",
-    "kind": "艺术倾向与流派",
-    "search_text": "表现主义人物 Expressionist Figure Painting Egon Schiele 形体不只记录外貌，也表达心理状态。折转的轮廓、不均匀的颜色和留白让情绪变得可见。 席勒 Schiele 表现主义 表现主义 人物 植物 明确轮廓 留白与负空间 可见笔触 在保留身份与动作的前提下，适度强化形体转折与不对称 Preserve identity and pose while moderately emphasizing angular changes and asymmetry 带张力的形体 用有轻重变化的折转线条表达形体张力 Express tension through angular lines with varied weight 紧张折线 以土黄、灰绿、暗红和近黑组织不均匀的情绪性色块 Use ochre, gray-green, dark red and near-black in uneven expressive color patches 主观的肤色 让明暗分布略带断续，突出关键表情和结构 Use slightly broken tonal transitions to emphasize expression and structure 不均匀明暗 保留原图布局，简化次要细节，让主体周围有安静的空场 Keep the original layout, simplify secondary detail and leave quiet space around the subjects 空场中的主体 保留干涩、断续的色痕与局部露底，避免过度抛光 Keep dry broken marks and occasional exposed ground without polishing them away 断续色痕 表达克制而敏感的心理张力 Convey restrained, sensitive psychological tension 内向的张力 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Self-Portrait with Chinese Lantern Plant《灯笼果自画像》  Expressionist Figure Painting 表现主义人物"
+    "kind": "Artistic tendency and movement",
+    "search_text": "Expressionist Figure Painting Expressionist Figure Painting Egon Schiele Form does more than record appearance: it expresses a psychological state. Angular contours, uneven color and blank space make emotion visible. 席勒 Schiele 表现主义 Expressionism People Plants Defined Contours Blank and Negative Space Visible Brushwork 在保留身份与动作的前提下，适度强化形体转折与不对称 Preserve identity and actions while moderately emphasizing angular changes in form and asymmetry Forms under tension 用有轻重变化的折转线条表达形体张力 Express tension in the forms through angular lines of varied weight Tense angular lines 以土黄、灰绿、暗红和近黑组织不均匀的情绪性色块 Use ochre, gray-green, dark red and near-black in uneven, emotionally expressive color patches Subjective skin color 让明暗分布略带断续，突出关键表情和结构 Let light and shadow appear slightly broken, emphasizing key expressions and structures Uneven shading 保留原图布局，简化次要细节，让主体周围有安静的空场 Keep the source image’s layout, simplify secondary details and leave quiet open space around the subjects Subjects in open space 保留干涩、断续的色痕与局部露底，避免过度抛光 Retain dry, broken color marks and areas of exposed ground, avoiding an overpolished finish Broken color marks 表达克制而敏感的心理张力 Convey restrained, sensitive psychological tension Inward tension 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the source palette Self-Portrait with Chinese Lantern Plant  Expressionist Figure Painting Expressionist Figure Art 表现主义人物 Expressionist Figure Painting Egon Schiele 形体不只记录外貌，也表达心理状态。折转的轮廓、不均匀的颜色和留白让情绪变得可见。 席勒 Schiele 表现主义 表现主义 人物 植物 明确轮廓 留白与负空间 可见笔触 在保留身份与动作的前提下，适度强化形体转折与不对称 Preserve identity and actions while moderately emphasizing angular changes in form and asymmetry 带张力的形体 用有轻重变化的折转线条表达形体张力 Express tension in the forms through angular lines of varied weight 紧张折线 以土黄、灰绿、暗红和近黑组织不均匀的情绪性色块 Use ochre, gray-green, dark red and near-black in uneven, emotionally expressive color patches 主观的肤色 让明暗分布略带断续，突出关键表情和结构 Let light and shadow appear slightly broken, emphasizing key expressions and structures 不均匀明暗 保留原图布局，简化次要细节，让主体周围有安静的空场 Keep the source image’s layout, simplify secondary details and leave quiet open space around the subjects 空场中的主体 保留干涩、断续的色痕与局部露底，避免过度抛光 Retain dry, broken color marks and areas of exposed ground, avoiding an overpolished finish 断续色痕 表达克制而敏感的心理张力 Convey restrained, sensitive psychological tension 内向的张力 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Self-Portrait with Chinese Lantern Plant《灯笼果自画像》（中文译名）  Expressionist Figure Painting 表现主义人物",
+    "search_names": [
+      "Expressionist Figure Painting",
+      "表现主义人物",
+      "Expressionist Figure Painting",
+      "expressionism"
+    ],
+    "search_artist": "Egon Schiele Egon Schiele"
   },
   {
     "id": "nihonga",
     "type": "guide",
-    "name": "日本画人物",
+    "name": "Nihonga Figure Painting",
     "english_name": "Nihonga Figure Painting",
     "artist": "Uemura Shōen",
     "aliases": [
@@ -137,7 +165,7 @@
       "日本画",
       "美人画"
     ],
-    "summary": "用精炼的轮廓、节制的设色和姿态传达神韵。少量线条也能表达衣料、动作与人物的精神。",
+    "summary": "Refined contours, restrained color and pose convey the figure’s spirit. A few lines can express fabric, movement and character.",
     "cover": "media/guide-nihonga.webp",
     "facets": {
       "tradition": [
@@ -153,13 +181,20 @@
       ]
     },
     "url": "guides/nihonga/",
-    "kind": "绘画传统",
-    "search_text": "日本画人物 Nihonga Figure Painting Uemura Shōen 用精炼的轮廓、节制的设色和姿态传达神韵。少量线条也能表达衣料、动作与人物的精神。 上村松园 上村松園 Uemura Shoen 日本画 美人画 日本画 人物 明确轮廓 平面色块 留白与负空间 保留原有动作，概括细节，使主体姿态完整而清楚 Preserve the original pose and simplify detail into a clear, coherent silhouette 精炼姿态 以细而稳定、轻重有别的线条勾勒形体 Describe forms with fine, steady lines of subtly varied weight 克制细线 以柔和中性色承托少量朱红与浅色，避免颜色平均争夺注意 Support restrained vermilion and pale accents with soft neutral colors 节制设色 弱化投影，以细微色阶提示体积 Reduce cast shadows and suggest volume with subtle tonal steps 柔和体积 在原构图中降低背景细节，让空白承托主体 Reduce background detail within the original composition so open space supports the subjects 留白承托 呈现细腻哑光的色面和轻微纤维般质感 Use delicate matte color fields with a faint fiber-like texture 细腻哑光 营造沉静、端正而有内在力量的气质 Create a calm, composed atmosphere with inner strength 沉静端正 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 序の舞《序之舞》  Nihonga Figure Painting 日本画人物"
+    "kind": "Painting tradition",
+    "search_text": "Nihonga Figure Painting Nihonga Figure Painting Uemura Shōen Refined contours, restrained color and pose convey the figure’s spirit. A few lines can express fabric, movement and character. 上村松园 上村松園 Uemura Shoen 日本画 美人画 Nihonga People Defined Contours Flat Color Shapes Blank and Negative Space 保留原有动作，概括细节，使主体姿态完整而清楚 Preserve the original actions and simplify details so the subject’s posture remains complete and clear Refined pose 以细而稳定、轻重有别的线条勾勒形体 Describe forms with fine, steady lines of varied weight Restrained fine lines 以柔和中性色承托少量朱红与浅色，避免颜色平均争夺注意 Use soft neutrals to support limited vermilion and pale colors, avoiding equal competition for attention among all colors Restrained color 弱化投影，以细微色阶提示体积 Reduce cast shadows and suggest volume through subtle tonal gradations Soft volume 在原构图中降低背景细节，让空白承托主体 Reduce background detail within the original composition, letting blank space support the subjects Supporting open space 呈现细腻哑光的色面和轻微纤维般质感 Create delicate matte color fields with a faint fiber-like texture Delicate matte surface 营造沉静、端正而有内在力量的气质 Create a calm, composed character with inner strength Calm composure 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the source palette Jo-no-mai (original title: 序の舞)  Nihonga Figure Painting Nihonga Figure Painting 日本画人物 Nihonga Figure Painting Uemura Shōen 用精炼的轮廓、节制的设色和姿态传达神韵。少量线条也能表达衣料、动作与人物的精神。 上村松园 上村松園 Uemura Shoen 日本画 美人画 日本画 人物 明确轮廓 平面色块 留白与负空间 保留原有动作，概括细节，使主体姿态完整而清楚 Preserve the original actions and simplify details so the subject’s posture remains complete and clear 精炼姿态 以细而稳定、轻重有别的线条勾勒形体 Describe forms with fine, steady lines of varied weight 克制细线 以柔和中性色承托少量朱红与浅色，避免颜色平均争夺注意 Use soft neutrals to support limited vermilion and pale colors, avoiding equal competition for attention among all colors 节制设色 弱化投影，以细微色阶提示体积 Reduce cast shadows and suggest volume through subtle tonal gradations 柔和体积 在原构图中降低背景细节，让空白承托主体 Reduce background detail within the original composition, letting blank space support the subjects 留白承托 呈现细腻哑光的色面和轻微纤维般质感 Create delicate matte color fields with a faint fiber-like texture 细腻哑光 营造沉静、端正而有内在力量的气质 Create a calm, composed character with inner strength 沉静端正 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 序の舞《序之舞》（中文译名）  Nihonga Figure Painting 日本画人物",
+    "search_names": [
+      "Nihonga Figure Painting",
+      "日本画人物",
+      "Nihonga Figure Painting",
+      "nihonga"
+    ],
+    "search_artist": "Uemura Shōen Uemura Shōen"
   },
   {
     "id": "fantasy-comics",
     "type": "guide",
-    "name": "幻想漫画线描",
+    "name": "Fantasy Comics Linework",
     "english_name": "Fantasy Comics",
     "artist": "Moebius",
     "aliases": [
@@ -170,7 +205,7 @@
       "Arzak",
       "欧洲幻想漫画"
     ],
-    "summary": "清楚的轮廓配上有选择的细节，让陌生世界显得可信。人物设计与空间想象可以由精密线描承载。",
+    "summary": "Clear contours and selective detail make an unfamiliar world believable. Precise linework can carry both character design and imagined spaces.",
     "cover": "media/guide-fantasy-comics.webp",
     "facets": {
       "tradition": [
@@ -186,13 +221,20 @@
       ]
     },
     "url": "guides/fantasy-comics/",
-    "kind": "叙事与视觉语言",
-    "search_text": "幻想漫画线描 Fantasy Comics Moebius 清楚的轮廓配上有选择的细节，让陌生世界显得可信。人物设计与空间想象可以由精密线描承载。 墨比乌斯 莫比斯 Jean Giraud Arzach Arzak 欧洲幻想漫画 幻想漫画 人物 明确轮廓 排线 留白与负空间 先建立原有主体的清楚剪影，再补充有选择的结构细节 Establish clear silhouettes of existing subjects before adding selective structural detail 清楚剪影 使用干净、连贯的细墨线，局部以排线说明转折 Use clean continuous ink lines with localized hatching to explain changes in form 精密墨线 采用黑白关系与少量灰阶，让线条承担主要信息 Use black and white with restrained gray values so linework carries the information 黑白线描 以疏密有别的排线提示明暗，保留干净亮面 Suggest shading through varied hatching density while preserving clean light areas 排线明暗 在原构图中分开密集细节与开阔区域，保持阅读路径 Separate detailed and open areas within the original composition to preserve readability 疏密层次 呈现细致纸上墨迹的效果，避免统一噪点覆盖 Create the appearance of detailed ink on paper without a uniform noise overlay 纸上墨迹 营造安静、奇异而可信的幻想感 Create a quiet, unfamiliar yet believable sense of wonder 陌生而可信 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Arzach 系列角色线描（官网展示图）  Moebius Character Art Moebius 幻想漫画"
+    "kind": "Narrative and visual language",
+    "search_text": "Fantasy Comics Linework Fantasy Comics Moebius Clear contours and selective detail make an unfamiliar world believable. Precise linework can carry both character design and imagined spaces. 墨比乌斯 莫比斯 Jean Giraud Arzach Arzak 欧洲幻想漫画 Fantasy Comics People Defined Contours Hatching Blank and Negative Space 先建立原有主体的清楚剪影，再补充有选择的结构细节 Establish clear silhouettes of the existing subjects before adding selected structural details Clear silhouettes 使用干净、连贯的细墨线，局部以排线说明转折 Use clean, continuous fine ink lines, with localized hatching to describe changes in form Precise ink lines 采用黑白关系与少量灰阶，让线条承担主要信息 Use black and white with a small range of grays, letting linework carry the main information Black-and-white linework 以疏密有别的排线提示明暗，保留干净亮面 Suggest light and shade through varied hatching density while preserving clean light areas Shading through hatching 在原构图中分开密集细节与开阔区域，保持阅读路径 Separate densely detailed and open areas within the original composition, preserving a clear visual path Dense and open areas 呈现细致纸上墨迹的效果，避免统一噪点覆盖 Create the appearance of detailed ink marks on paper, avoiding a uniform noise overlay Ink-on-paper appearance 营造安静、奇异而可信的幻想感 Create a quiet, strange yet believable sense of fantasy Unfamiliar yet believable 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the source palette Character line drawing from the Arzach series (image shown on the official website)  Moebius Character Art Moebius Fantasy Comics 幻想漫画线描 Fantasy Comics Moebius 清楚的轮廓配上有选择的细节，让陌生世界显得可信。人物设计与空间想象可以由精密线描承载。 墨比乌斯 莫比斯 Jean Giraud Arzach Arzak 欧洲幻想漫画 幻想漫画 人物 明确轮廓 排线 留白与负空间 先建立原有主体的清楚剪影，再补充有选择的结构细节 Establish clear silhouettes of the existing subjects before adding selected structural details 清楚剪影 使用干净、连贯的细墨线，局部以排线说明转折 Use clean, continuous fine ink lines, with localized hatching to describe changes in form 精密墨线 采用黑白关系与少量灰阶，让线条承担主要信息 Use black and white with a small range of grays, letting linework carry the main information 黑白线描 以疏密有别的排线提示明暗，保留干净亮面 Suggest light and shade through varied hatching density while preserving clean light areas 排线明暗 在原构图中分开密集细节与开阔区域，保持阅读路径 Separate densely detailed and open areas within the original composition, preserving a clear visual path 疏密层次 呈现细致纸上墨迹的效果，避免统一噪点覆盖 Create the appearance of detailed ink marks on paper, avoiding a uniform noise overlay 纸上墨迹 营造安静、奇异而可信的幻想感 Create a quiet, strange yet believable sense of fantasy 陌生而可信 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Arzach 系列角色线描（官网展示图）  Moebius Character Art Moebius 幻想漫画",
+    "search_names": [
+      "Fantasy Comics Linework",
+      "幻想漫画线描",
+      "Fantasy Comics",
+      "fantasy-comics"
+    ],
+    "search_artist": "Moebius Moebius"
   },
   {
     "id": "mid-century",
     "type": "guide",
-    "name": "世纪中叶现代主义插画",
+    "name": "Mid-century Modern Illustration",
     "english_name": "Mid-century Modern Illustration",
     "artist": "Mary Blair",
     "aliases": [
@@ -202,7 +244,7 @@
       "20 世纪中叶现代主义",
       "中世纪现代主义插画"
     ],
-    "summary": "大胆色彩与简洁形状共同讲故事。人物可以很小，画面依然通过形状、比例和冷暖让情绪一目了然。",
+    "summary": "Bold colors and simple shapes tell a story together. Figures can be tiny, yet shape, proportion and warm–cool relationships still make the scene’s emotion clear at a glance.",
     "cover": "media/guide-mid-century.webp",
     "facets": {
       "tradition": [
@@ -222,13 +264,20 @@
       ]
     },
     "url": "guides/mid-century/",
-    "kind": "时代与设计语境",
-    "search_text": "世纪中叶现代主义插画 Mid-century Modern Illustration Mary Blair 大胆色彩与简洁形状共同讲故事。人物可以很小，画面依然通过形状、比例和冷暖让情绪一目了然。 玛丽·布莱尔 玛丽布莱尔 Mary Blair 20 世纪中叶现代主义 中世纪现代主义插画 世纪中叶现代主义 绘本插画 人物 建筑 植物 平面色块 几何造型 可见笔触 有限色彩 将原有形体概括为有大小和方向变化的简单形状 Simplify existing forms into simple shapes with varied size and direction 概括的形状 主要用相邻色面的边界界定形体，减少统一描边 Define forms mainly through adjoining color fields, reducing uniform outlines 以形代线 以深蓝紫承托黄绿亮色，建立明确的冷暖与明度对比 Set bright yellow-green against deep blue and violet for clear temperature and value contrasts 大胆冷暖 以明暗色块表达光感，避免写实的光学反射 Suggest light through value shapes rather than realistic optical reflections 色块光感 保留原图前后关系，用遮挡和形状大小建立层叠空间 Keep the original depth relationships and use overlap and shape size to build layered space 层叠空间 保留不透明手绘色面的轻微笔触与不规则边缘 Keep subtle brush marks and irregular edges in opaque painted color fields 手绘色面 营造富于想象、轻盈而有活力的叙事氛围 Create an imaginative, light and lively storytelling atmosphere 童话的活力 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 Alice looking at the White Rabbit’s house concept art  Alice falling down the rabbit hole concept art  Mid-century Modern Illustration 世纪中叶现代主义插画"
+    "kind": "Period and design context",
+    "search_text": "Mid-century Modern Illustration Mid-century Modern Illustration Mary Blair Bold colors and simple shapes tell a story together. Figures can be tiny, yet shape, proportion and warm–cool relationships still make the scene’s emotion clear at a glance. 玛丽·布莱尔 玛丽布莱尔 Mary Blair 20 世纪中叶现代主义 中世纪现代主义插画 Mid-century Modern Picture-book Illustration People Architecture Plants Flat Color Shapes Geometric Forms Visible Brushwork Limited Palette 将原有形体概括为有大小和方向变化的简单形状 Simplify existing forms into simple shapes with varied sizes and directions Simplified shapes 主要用相邻色面的边界界定形体，减少统一描边 Define forms mainly through boundaries between adjacent color fields, reducing uniform outlines Shape in place of line 以深蓝紫承托黄绿亮色，建立明确的冷暖与明度对比 Set bright yellow-green against deep blue and violet to establish clear warm–cool and value contrasts Bold warm–cool contrast 以明暗色块表达光感，避免写实的光学反射 Express light through light and dark color shapes, avoiding naturalistic optical reflections Light through color shapes 保留原图前后关系，用遮挡和形状大小建立层叠空间 Keep the source image’s front-to-back relationships, using overlap and shape size to build layered space Layered space 保留不透明手绘色面的轻微笔触与不规则边缘 Retain subtle brushwork and irregular edges in opaque, hand-painted color fields Hand-painted color fields 营造富于想象、轻盈而有活力的叙事氛围 Create an imaginative, light and lively narrative atmosphere Fairy-tale vitality 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the source palette Alice looking at the White Rabbit’s house concept art  Alice falling down the rabbit hole concept art  Mid-century Modern Illustration Mid-century Modern Illustration 世纪中叶现代主义插画 Mid-century Modern Illustration Mary Blair 大胆色彩与简洁形状共同讲故事。人物可以很小，画面依然通过形状、比例和冷暖让情绪一目了然。 玛丽·布莱尔 玛丽布莱尔 Mary Blair 20 世纪中叶现代主义 中世纪现代主义插画 世纪中叶现代主义 绘本插画 人物 建筑 植物 平面色块 几何造型 可见笔触 有限色彩 将原有形体概括为有大小和方向变化的简单形状 Simplify existing forms into simple shapes with varied sizes and directions 概括的形状 主要用相邻色面的边界界定形体，减少统一描边 Define forms mainly through boundaries between adjacent color fields, reducing uniform outlines 以形代线 以深蓝紫承托黄绿亮色，建立明确的冷暖与明度对比 Set bright yellow-green against deep blue and violet to establish clear warm–cool and value contrasts 大胆冷暖 以明暗色块表达光感，避免写实的光学反射 Express light through light and dark color shapes, avoiding naturalistic optical reflections 色块光感 保留原图前后关系，用遮挡和形状大小建立层叠空间 Keep the source image’s front-to-back relationships, using overlap and shape size to build layered space 层叠空间 保留不透明手绘色面的轻微笔触与不规则边缘 Retain subtle brushwork and irregular edges in opaque, hand-painted color fields 手绘色面 营造富于想象、轻盈而有活力的叙事氛围 Create an imaginative, light and lively narrative atmosphere 童话的活力 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 爱丽丝望向白兔的房子（概念设计；图录描述的中文译文）  爱丽丝坠入兔子洞（概念设计；图录描述的中文译文）  Mid-century Modern Illustration 世纪中叶现代主义插画",
+    "search_names": [
+      "Mid-century Modern Illustration",
+      "世纪中叶现代主义插画",
+      "Mid-century Modern Illustration",
+      "mid-century"
+    ],
+    "search_artist": "Mary Blair Mary Blair"
   },
   {
     "id": "minimalism",
     "type": "guide",
-    "name": "极简人物插画",
+    "name": "Minimalist Figure Illustration",
     "english_name": "Minimalist Figure Illustration",
     "artist": "Malika Favre",
     "aliases": [
@@ -238,7 +287,7 @@
       "负空间",
       "Minimalist Vector Portrait"
     ],
-    "summary": "只留下不可替代的形状。轮廓、负空间和少量颜色同时承担人物识别、光影与视觉趣味。",
+    "summary": "Keep only the shapes that are indispensable. Contours, negative space and a few colors work together to convey identity, light and shadow, and visual interest.",
     "cover": "media/guide-minimalism.webp",
     "facets": {
       "tradition": [
@@ -255,15 +304,22 @@
       ]
     },
     "url": "guides/minimalism/",
-    "kind": "视觉表现方法",
-    "search_text": "极简人物插画 Minimalist Figure Illustration Malika Favre 只留下不可替代的形状。轮廓、负空间和少量颜色同时承担人物识别、光影与视觉趣味。 马利卡·法夫尔 Malika Favre 极简插画 负空间 Minimalist Vector Portrait 极简插画 人物 平面色块 明确轮廓 留白与负空间 有限色彩 仅保留足以辨认原有主体的关键形状，删除次要细节 Keep only the essential shapes needed to recognize the original subjects and remove secondary detail 必要的形状 让轮廓转折精确清楚，避免多余的描边与装饰线 Use precise contour changes and avoid unnecessary outlines or decorative lines 精确轮廓 使用近黑与柔白两组清楚色面建立强对比 Use distinct near-black and soft-white fields for strong contrast 黑白对照 将光影归纳为少量完整形状，避免渐变与复杂反光 Reduce light and shadow to a few coherent shapes without gradients or complex reflections 明暗二分 保持原有位置关系，让主体与周围空白形成互补形状 Keep the original spatial relationships and make subjects and surrounding negative space form complementary shapes 正负形互补 呈现均匀、干净的平面色块，不叠加颗粒纹理 Use even, clean flat color fields without grain overlays 干净平面 营造鲜明、克制且易于一眼辨认的图形感 Create a bold, restrained graphic presence that reads at a glance 鲜明与克制 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 The Laureate · The New Yorker 封面  Minimalist Vector Portrait 极简矢量肖像"
+    "kind": "Visual approach",
+    "search_text": "Minimalist Figure Illustration Minimalist Figure Illustration Malika Favre Keep only the shapes that are indispensable. Contours, negative space and a few colors work together to convey identity, light and shadow, and visual interest. 马利卡·法夫尔 Malika Favre 极简插画 负空间 Minimalist Vector Portrait Minimalist Illustration People Flat Color Shapes Defined Contours Blank and Negative Space Limited Palette 仅保留足以辨认原有主体的关键形状，删除次要细节 Keep only the key shapes needed to recognize the original subjects and remove secondary details Essential shapes 让轮廓转折精确清楚，避免多余的描边与装饰线 Make contour changes precise and clear, avoiding unnecessary outlines and decorative lines Precise contours 使用近黑与柔白两组清楚色面建立强对比 Use two clearly defined groups of color fields, near-black and soft white, to establish strong contrast Black–white contrast 将光影归纳为少量完整形状，避免渐变与复杂反光 Reduce light and shadow to a few coherent shapes, avoiding gradients and complex reflections Two-part light and shadow 保持原有位置关系，让主体与周围空白形成互补形状 Keep the original spatial relationships, making the subjects and surrounding blank space form complementary shapes Complementary positive and negative shapes 呈现均匀、干净的平面色块，不叠加颗粒纹理 Create even, clean flat color shapes without adding grain textures Clean flat surfaces 营造鲜明、克制且易于一眼辨认的图形感 Create a bold, restrained graphic character that can be recognized at a glance Bold and restrained 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the source palette The Laureate · cover for The New Yorker  Minimalist Vector Portrait Minimalist Vector Portrait 极简人物插画 Minimalist Figure Illustration Malika Favre 只留下不可替代的形状。轮廓、负空间和少量颜色同时承担人物识别、光影与视觉趣味。 马利卡·法夫尔 Malika Favre 极简插画 负空间 Minimalist Vector Portrait 极简插画 人物 平面色块 明确轮廓 留白与负空间 有限色彩 仅保留足以辨认原有主体的关键形状，删除次要细节 Keep only the key shapes needed to recognize the original subjects and remove secondary details 必要的形状 让轮廓转折精确清楚，避免多余的描边与装饰线 Make contour changes precise and clear, avoiding unnecessary outlines and decorative lines 精确轮廓 使用近黑与柔白两组清楚色面建立强对比 Use two clearly defined groups of color fields, near-black and soft white, to establish strong contrast 黑白对照 将光影归纳为少量完整形状，避免渐变与复杂反光 Reduce light and shadow to a few coherent shapes, avoiding gradients and complex reflections 明暗二分 保持原有位置关系，让主体与周围空白形成互补形状 Keep the original spatial relationships, making the subjects and surrounding blank space form complementary shapes 正负形互补 呈现均匀、干净的平面色块，不叠加颗粒纹理 Create even, clean flat color shapes without adding grain textures 干净平面 营造鲜明、克制且易于一眼辨认的图形感 Create a bold, restrained graphic character that can be recognized at a glance 鲜明与克制 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 The Laureate《获奖者》（中文译名）·《纽约客》封面  Minimalist Vector Portrait 极简矢量肖像",
+    "search_names": [
+      "Minimalist Figure Illustration",
+      "极简人物插画",
+      "Minimalist Figure Illustration",
+      "minimalism"
+    ],
+    "search_artist": "Malika Favre Malika Favre"
   },
   {
     "id": "AS-001",
     "type": "case",
-    "name": "新艺术 · 金箔森林",
+    "name": "Art Nouveau · Forest with a Gold-Leaf Effect",
     "english_name": "Gilded Botanical Fairy Tale",
-    "artist": "作者未核实",
+    "artist": "Artist unverified",
     "aliases": [
       "装饰插画",
       "新艺术式装饰性森林童话插画",
@@ -272,7 +328,6 @@
       "金箔",
       "金线",
       "植物纹样",
-      "装饰插画",
       "森林童话",
       "深蓝",
       "民俗",
@@ -280,7 +335,7 @@
       "botanical",
       "enchanted forest"
     ],
-    "summary": "金色枝叶织成浓密森林。深蓝夜色、朱红点缀与蜿蜒小径，共同建立华丽而神秘的童话空间。",
+    "summary": "Golden branches and foliage weave a dense forest. Deep blue night, vermilion accents and a winding path together create a lavish, mysterious fairy-tale setting.",
     "cover": "media/morning-input-01.webp",
     "facets": {
       "tradition": [
@@ -300,14 +355,21 @@
     },
     "url": "cases/AS-001/",
     "kind": "",
-    "search_text": "新艺术 · 金箔森林 Gilded Botanical Fairy Tale 作者未核实 金色枝叶织成浓密森林。深蓝夜色、朱红点缀与蜿蜒小径，共同建立华丽而神秘的童话空间。 装饰插画 新艺术式装饰性森林童话插画 新艺术 Art Nouveau 金箔 金线 植物纹样 装饰插画 森林童话 深蓝 民俗 gilded botanical enchanted forest 新艺术 风景 植物 动物 装饰曲线 金线 重复纹样 空间纵深 将原有形体概括为修长、完整的装饰性剪影 Simplify existing forms into elongated, coherent decorative silhouettes 修长形体 用流动曲线与细线刻画原有形体，局部加入细金线 Use flowing curves and fine lines on existing forms, with restrained gold accents 连续曲线 以深蓝近黑承托金赭与浅金，少量朱红作为焦点 Set golden ochre and pale gold against deep blue and near-black, with small vermilion accents 深蓝与金赭 弱化写实反光，让金色以哑光色面呈现 Reduce realistic reflections and render gold as matte color fields 哑光亮度 保留原构图，以连续的方向节奏串联现有形体 Keep the composition and link existing forms through continuous directional rhythms 纵向节奏 在原有形体内组织细密而有疏密的重复纹样 Organize fine repeated patterns within existing forms with varied density 精细纹样 营造幽静、神秘而有装饰性的童话氛围 Create a quiet, mysterious and decorative storybook mood 幽静童话 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 森林、金色小径与黑色狐狸 "
+    "search_text": "Art Nouveau · Forest with a Gold-Leaf Effect Gilded Botanical Fairy Tale Artist unverified Golden branches and foliage weave a dense forest. Deep blue night, vermilion accents and a winding path together create a lavish, mysterious fairy-tale setting. 装饰插画 新艺术式装饰性森林童话插画 新艺术 Art Nouveau 金箔 金线 植物纹样 装饰插画 森林童话 深蓝 民俗 gilded botanical enchanted forest Art Nouveau Landscapes Plants Animals Decorative Curves Gold Lines Repeating Patterns Spatial Depth 将原有形体概括为修长、完整的装饰性剪影 Simplify existing forms into elongated, coherent decorative silhouettes Elongated forms 用流动曲线与细线刻画原有形体，局部加入细金线 Describe existing forms with flowing curves and fine lines, adding fine gold lines in selected areas Continuous curves 以深蓝近黑承托金赭与浅金，少量朱红作为焦点 Set golden ochre and pale gold against deep blue and near-black, with small vermilion accents as focal points Deep blue and golden ochre 弱化写实反光，让金色以哑光色面呈现 Reduce realistic reflections and render gold as matte color fields Matte luminosity 保留原构图，以连续的方向节奏串联现有形体 Keep the original composition and link existing forms through continuous directional rhythms Vertical rhythm 在原有形体内组织细密而有疏密的重复纹样 Organize fine repeated patterns within existing forms, varying their density Fine patterns 营造幽静、神秘而有装饰性的童话氛围 Create a quiet, mysterious and decorative fairy-tale atmosphere Quiet fairy-tale mood 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only tonal values and contrast Keep the original palette Forest, golden path and black fox  新艺术 · 金箔森林 Gilded Botanical Fairy Tale 作者未核实 金色枝叶织成浓密森林。深蓝夜色、朱红点缀与蜿蜒小径，共同建立华丽而神秘的童话空间。 装饰插画 新艺术式装饰性森林童话插画 新艺术 Art Nouveau 金箔 金线 植物纹样 装饰插画 森林童话 深蓝 民俗 gilded botanical enchanted forest 新艺术 风景 植物 动物 装饰曲线 金线 重复纹样 空间纵深 将原有形体概括为修长、完整的装饰性剪影 Simplify existing forms into elongated, coherent decorative silhouettes 修长形体 用流动曲线与细线刻画原有形体，局部加入细金线 Describe existing forms with flowing curves and fine lines, adding fine gold lines in selected areas 连续曲线 以深蓝近黑承托金赭与浅金，少量朱红作为焦点 Set golden ochre and pale gold against deep blue and near-black, with small vermilion accents as focal points 深蓝与金赭 弱化写实反光，让金色以哑光色面呈现 Reduce realistic reflections and render gold as matte color fields 哑光亮度 保留原构图，以连续的方向节奏串联现有形体 Keep the original composition and link existing forms through continuous directional rhythms 纵向节奏 在原有形体内组织细密而有疏密的重复纹样 Organize fine repeated patterns within existing forms, varying their density 精细纹样 营造幽静、神秘而有装饰性的童话氛围 Create a quiet, mysterious and decorative fairy-tale atmosphere 幽静童话 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only tonal values and contrast 沿用原图配色 森林、金色小径与黑色狐狸 ",
+    "search_names": [
+      "Art Nouveau · Forest with a Gold-Leaf Effect",
+      "新艺术 · 金箔森林",
+      "Gilded Botanical Fairy Tale",
+      "AS-001"
+    ],
+    "search_artist": "Artist unverified 作者未核实"
   },
   {
     "id": "AS-002",
     "type": "case",
-    "name": "新艺术 · 金线田园",
+    "name": "Art Nouveau · Gold-Line Pastoral Scene",
     "english_name": "Golden-Line Pastoral Illustration",
-    "artist": "作者未核实",
+    "artist": "Artist unverified",
     "aliases": [
       "装饰插画",
       "新艺术与工艺美术气质融合的装饰性田园插画",
@@ -324,7 +386,7 @@
       "pastoral",
       "botanical"
     ],
-    "summary": "以钴蓝天空与清新绿色打开画面。细金线贯穿叶脉、枝条和云纹，让自然景观具有精密的装饰秩序。",
+    "summary": "Cobalt blue sky and fresh greens open up the image. Fine gold lines run through leaf veins, branches and cloud patterns, giving the natural landscape an intricate ornamental order.",
     "cover": "media/morning-input-02.webp",
     "facets": {
       "tradition": [
@@ -344,12 +406,19 @@
     },
     "url": "cases/AS-002/",
     "kind": "",
-    "search_text": "新艺术 · 金线田园 Golden-Line Pastoral Illustration 作者未核实 以钴蓝天空与清新绿色打开画面。细金线贯穿叶脉、枝条和云纹，让自然景观具有精密的装饰秩序。 装饰插画 新艺术与工艺美术气质融合的装饰性田园插画 新艺术 Art Nouveau Arts and Crafts 工艺美术 金线 田园 植物插画 钴蓝 翠绿 童话 pastoral botanical 新艺术 工艺美术 风景 植物 装饰曲线 金线 重复纹样 空间纵深 以清楚色面概括原有形体，保持轮廓可读 Simplify existing forms into clear color fields with readable contours 概括的形块 沿原有轮廓与结构布置轻盈的细金线 Place delicate fine gold lines along existing contours and structures 细金线 以钴蓝、层次丰富的绿色和象牙白形成明亮关系 Use cobalt blue, varied greens and ivory in a bright palette 明亮蓝绿 呈现清透而柔和的日光，避免强烈金属高光 Use clear soft daylight without harsh metallic highlights 柔和日光 保留原有透视，以装饰性前景与较简洁远景形成层次 Keep perspective, contrasting decorative foreground detail with simpler distance 平面与纵深 让重复纹样带有轻微手工变化，避免整齐复制 Give repeated patterns subtle handmade variations rather than exact duplication 手工图案 营造清新、宁静、理想化的氛围 Create a fresh, peaceful and idealized atmosphere 宁静田园 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 蓝天、金线云纹与繁密植物 "
+    "search_text": "Art Nouveau · Gold-Line Pastoral Scene Golden-Line Pastoral Illustration Artist unverified Cobalt blue sky and fresh greens open up the image. Fine gold lines run through leaf veins, branches and cloud patterns, giving the natural landscape an intricate ornamental order. 装饰插画 新艺术与工艺美术气质融合的装饰性田园插画 新艺术 Art Nouveau Arts and Crafts 工艺美术 金线 田园 植物插画 钴蓝 翠绿 童话 pastoral botanical Art Nouveau Arts and Crafts Landscapes Plants Decorative Curves Gold Lines Repeating Patterns Spatial Depth 以清楚色面概括原有形体，保持轮廓可读 Simplify existing forms into clear color fields, keeping their contours readable Simplified forms 沿原有轮廓与结构布置轻盈的细金线 Place delicate, fine gold lines along existing contours and structures Fine gold lines 以钴蓝、层次丰富的绿色和象牙白形成明亮关系 Create a bright color relationship with cobalt blue, richly varied greens and ivory Bright blues and greens 呈现清透而柔和的日光，避免强烈金属高光 Render clear, soft daylight, avoiding harsh metallic highlights Soft daylight 保留原有透视，以装饰性前景与较简洁远景形成层次 Keep the original perspective, creating depth through a decorative foreground and a simpler distance Flatness and depth 让重复纹样带有轻微手工变化，避免整齐复制 Give repeated patterns subtle handmade variations, avoiding uniform duplication Handmade patterns 营造清新、宁静、理想化的氛围 Create a fresh, peaceful and idealized atmosphere Peaceful pastoral mood 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only tonal values and contrast Keep the original palette Blue sky, gold-lined cloud patterns and dense vegetation  新艺术 · 金线田园 Golden-Line Pastoral Illustration 作者未核实 以钴蓝天空与清新绿色打开画面。细金线贯穿叶脉、枝条和云纹，让自然景观具有精密的装饰秩序。 装饰插画 新艺术与工艺美术气质融合的装饰性田园插画 新艺术 Art Nouveau Arts and Crafts 工艺美术 金线 田园 植物插画 钴蓝 翠绿 童话 pastoral botanical 新艺术 工艺美术 风景 植物 装饰曲线 金线 重复纹样 空间纵深 以清楚色面概括原有形体，保持轮廓可读 Simplify existing forms into clear color fields, keeping their contours readable 概括的形块 沿原有轮廓与结构布置轻盈的细金线 Place delicate, fine gold lines along existing contours and structures 细金线 以钴蓝、层次丰富的绿色和象牙白形成明亮关系 Create a bright color relationship with cobalt blue, richly varied greens and ivory 明亮蓝绿 呈现清透而柔和的日光，避免强烈金属高光 Render clear, soft daylight, avoiding harsh metallic highlights 柔和日光 保留原有透视，以装饰性前景与较简洁远景形成层次 Keep the original perspective, creating depth through a decorative foreground and a simpler distance 平面与纵深 让重复纹样带有轻微手工变化，避免整齐复制 Give repeated patterns subtle handmade variations, avoiding uniform duplication 手工图案 营造清新、宁静、理想化的氛围 Create a fresh, peaceful and idealized atmosphere 宁静田园 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only tonal values and contrast 沿用原图配色 蓝天、金线云纹与繁密植物 ",
+    "search_names": [
+      "Art Nouveau · Gold-Line Pastoral Scene",
+      "新艺术 · 金线田园",
+      "Golden-Line Pastoral Illustration",
+      "AS-002"
+    ],
+    "search_artist": "Artist unverified 作者未核实"
   },
   {
     "id": "AS-003",
     "type": "case",
-    "name": "手绘质感 · 风格化 3D",
+    "name": "Painterly Texture · Stylized 3D",
     "english_name": "Painterly Stylized 3D Environment",
     "artist": "Addison Bacheller",
     "aliases": [
@@ -369,7 +438,7 @@
       "Storybook Manor",
       "Addison Bacheller"
     ],
-    "summary": "明确的建筑体积与柔和造型相结合。概括的材质、温暖日光和层次化植物，让场景呈现安静的童话庄园感。",
+    "summary": "Clearly defined architectural volumes combine with softly shaped forms. Simplified material treatments, warm daylight and layered vegetation give the scene the atmosphere of a quiet fairy-tale manor.",
     "cover": "media/morning-input-04.webp",
     "facets": {
       "tradition": [
@@ -388,14 +457,21 @@
     },
     "url": "cases/AS-003/",
     "kind": "",
-    "search_text": "手绘质感 · 风格化 3D Painterly Stylized 3D Environment Addison Bacheller 明确的建筑体积与柔和造型相结合。概括的材质、温暖日光和层次化植物，让场景呈现安静的童话庄园感。 3D 场景 手绘质感的风格化 3D 童话庄园 风格化 3D 手绘 庄园 场景美术 游戏美术 材质 暖色日光 Stylized 3D Painterly Rendering Cozy Fantasy Storybook Manor Addison Bacheller 风格化 3D 建筑 植物 风景 几何造型 空间纵深 可见笔触 保持原有主体的三维体积，柔化边角并概括小细节 Keep the subjects’ three-dimensional volumes, softening corners and simplifying small details 柔化的体块 用柔和而清楚的边缘区分形体，减少过硬描边 Separate forms with soft but clear edges and avoid harsh outlines 柔和轮廓 使用暖黄、蓝灰与克制绿色的明快配色 Use a cheerful palette of warm yellow, blue-gray and restrained greens 暖黄蓝灰 用柔和日光、体块明暗和接触阴影建立可信深度 Build believable depth with soft daylight, form shading and contact shadows 柔光投影 保留原视角与透视，降低次要区域细节 Keep the original viewpoint and perspective and simplify secondary detail 清楚透视 用概括笔触表现材质差异，避免均匀微噪声 Use simplified brushwork to distinguish materials, avoiding uniform micro-noise 手绘材质 营造温暖宁静、有手工感的童话气质 Create a warm, peaceful storybook feeling with a handmade quality 温暖童话 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 暖色日光中的欧式庄园  Stylized 3D Character Art 风格化 3D 角色"
+    "search_text": "Painterly Texture · Stylized 3D Painterly Stylized 3D Environment Addison Bacheller Clearly defined architectural volumes combine with softly shaped forms. Simplified material treatments, warm daylight and layered vegetation give the scene the atmosphere of a quiet fairy-tale manor. 3D 场景 手绘质感的风格化 3D 童话庄园 风格化 3D 手绘 庄园 场景美术 游戏美术 材质 暖色日光 Stylized 3D Painterly Rendering Cozy Fantasy Storybook Manor Addison Bacheller Stylized 3D Architecture Plants Landscapes Geometric Forms Spatial Depth Visible Brushwork 保持原有主体的三维体积，柔化边角并概括小细节 Keep the original subjects’ three-dimensional volumes, softening edges and corners and simplifying small details Softened volumes 用柔和而清楚的边缘区分形体，减少过硬描边 Separate forms with soft but clear edges, reducing overly hard outlines Soft contours 使用暖黄、蓝灰与克制绿色的明快配色 Use a bright palette of warm yellow, blue-gray and restrained greens Warm yellow and blue-gray 用柔和日光、体块明暗和接触阴影建立可信深度 Build believable depth with soft daylight, form shading and contact shadows Soft light and cast shadows 保留原视角与透视，降低次要区域细节 Keep the original viewpoint and perspective, reducing detail in secondary areas Clear perspective 用概括笔触表现材质差异，避免均匀微噪声 Use simplified brushwork to distinguish materials, avoiding uniform fine noise Hand-painted materials 营造温暖宁静、有手工感的童话气质 Create a warm, peaceful fairy-tale atmosphere with a handmade quality Warm fairy-tale mood 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only tonal values and contrast Keep the original palette European-style manor in warm daylight  Stylized 3D Character Art Stylized 3D Characters 手绘质感 · 风格化 3D Painterly Stylized 3D Environment Addison Bacheller 明确的建筑体积与柔和造型相结合。概括的材质、温暖日光和层次化植物，让场景呈现安静的童话庄园感。 3D 场景 手绘质感的风格化 3D 童话庄园 风格化 3D 手绘 庄园 场景美术 游戏美术 材质 暖色日光 Stylized 3D Painterly Rendering Cozy Fantasy Storybook Manor Addison Bacheller 风格化 3D 建筑 植物 风景 几何造型 空间纵深 可见笔触 保持原有主体的三维体积，柔化边角并概括小细节 Keep the original subjects’ three-dimensional volumes, softening edges and corners and simplifying small details 柔化的体块 用柔和而清楚的边缘区分形体，减少过硬描边 Separate forms with soft but clear edges, reducing overly hard outlines 柔和轮廓 使用暖黄、蓝灰与克制绿色的明快配色 Use a bright palette of warm yellow, blue-gray and restrained greens 暖黄蓝灰 用柔和日光、体块明暗和接触阴影建立可信深度 Build believable depth with soft daylight, form shading and contact shadows 柔光投影 保留原视角与透视，降低次要区域细节 Keep the original viewpoint and perspective, reducing detail in secondary areas 清楚透视 用概括笔触表现材质差异，避免均匀微噪声 Use simplified brushwork to distinguish materials, avoiding uniform fine noise 手绘材质 营造温暖宁静、有手工感的童话气质 Create a warm, peaceful fairy-tale atmosphere with a handmade quality 温暖童话 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only tonal values and contrast 沿用原图配色 暖色日光中的欧式庄园  Stylized 3D Character Art 风格化 3D 角色",
+    "search_names": [
+      "Painterly Texture · Stylized 3D",
+      "手绘质感 · 风格化 3D",
+      "Painterly Stylized 3D Environment",
+      "AS-003"
+    ],
+    "search_artist": "Addison Bacheller Addison Bacheller"
   },
   {
     "id": "AS-004",
     "type": "case",
-    "name": "版画质感 · 奇幻绘本",
+    "name": "Printmaking-Like Texture · Fantasy Storybook",
     "english_name": "Textured Fantasy Storybook",
-    "artist": "作者未核实",
+    "artist": "Artist unverified",
     "aliases": [
       "奇幻绘本",
       "水粉／粉彩干刷效果与版画装饰语言结合的当代奇幻绘本插画",
@@ -416,7 +492,7 @@
       "Woodcut",
       "Hatching"
     ],
-    "summary": "不透明的粗颗粒颜料、刻线般的植物剪影与小比例人物，让环境参与叙事。冷绿蓝色盘中，橙红色承担情绪焦点。",
+    "summary": "Opaque, coarsely textured paint effects, incised-looking plant silhouettes and small-scale figures make the environment part of the storytelling. Orange-red carries the emotional focus within a cool green and blue palette.",
     "cover": "media/storybook-input-01.webp",
     "facets": {
       "tradition": [
@@ -436,14 +512,21 @@
     },
     "url": "cases/AS-004/",
     "kind": "",
-    "search_text": "版画质感 · 奇幻绘本 Textured Fantasy Storybook 作者未核实 不透明的粗颗粒颜料、刻线般的植物剪影与小比例人物，让环境参与叙事。冷绿蓝色盘中，橙红色承担情绪焦点。 奇幻绘本 水粉／粉彩干刷效果与版画装饰语言结合的当代奇幻绘本插画 版画 水粉 粉彩 干刷 粗纹纸 绘本 奇幻 森林 冷绿蓝 橙红 高俯视 Fantasy Storybook Gouache Pastel Woodcut Hatching 绘本插画 人物 植物 风景 纸张颗粒 平面色块 排线 可见笔触 保留主体身份与动作，用简化剪影和少量细节表达 Keep identity and pose, describing subjects through simplified silhouettes and few details 简化剪影 用略有毛糙的轮廓和局部排线说明形体 Describe forms with slightly rough contours and localized hatching 刻印边缘 以墨绿、蓝绿与深蓝为主，用少量橙红强调已有焦点 Use dark green, teal and deep blue, with restrained orange-red on existing focal points 冷绿暖橙 压低光学反光，用不透明色面区分明暗 Reduce optical reflections and separate values through opaque color fields 不透明色面 保留原构图与画幅，强化原有形体的视线引导 Keep composition and aspect ratio, strengthening the viewing path of existing forms 路径引导 加入有方向的干刷、擦痕和适度粗纸颗粒 Use directional dry brush marks, scuffs and restrained coarse paper grain 干刷颗粒 营造宁静、辽阔、带探索感的幻想氛围 Create a quiet, expansive atmosphere of imaginative exploration 辽阔幻想 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 01 · 草地旅人  02 · 林中火光  03 · 雪地足迹  04 · 岩台与红鱼 "
+    "search_text": "Printmaking-Like Texture · Fantasy Storybook Textured Fantasy Storybook Artist unverified Opaque, coarsely textured paint effects, incised-looking plant silhouettes and small-scale figures make the environment part of the storytelling. Orange-red carries the emotional focus within a cool green and blue palette. 奇幻绘本 水粉／粉彩干刷效果与版画装饰语言结合的当代奇幻绘本插画 版画 水粉 粉彩 干刷 粗纹纸 绘本 奇幻 森林 冷绿蓝 橙红 高俯视 Fantasy Storybook Gouache Pastel Woodcut Hatching Picture-book Illustration People Plants Landscapes Paper Grain Flat Color Shapes Hatching Visible Brushwork 保留主体身份与动作，用简化剪影和少量细节表达 Keep the subjects’ identities and actions, expressing them through simplified silhouettes and a few details Simplified silhouettes 用略有毛糙的轮廓和局部排线说明形体 Describe forms with slightly rough contours and localized hatching Incised-looking edges 以墨绿、蓝绿与深蓝为主，用少量橙红强调已有焦点 Use mainly dark green, blue-green and deep blue, with small amounts of orange-red to emphasize existing focal points Cool greens and warm orange 压低光学反光，用不透明色面区分明暗 Reduce optical reflections and distinguish light and dark through opaque color fields Opaque color fields 保留原构图与画幅，强化原有形体的视线引导 Keep the original composition and framing, strengthening how existing forms guide the eye Guiding the eye 加入有方向的干刷、擦痕和适度粗纸颗粒 Add directional dry-brush marks, scuffs and a moderate amount of coarse paper grain Dry-brush grain 营造宁静、辽阔、带探索感的幻想氛围 Create a quiet, expansive fantasy atmosphere with a sense of exploration Expansive fantasy mood 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only tonal values and contrast Keep the original palette 01 · Traveler in the Meadow  02 · Firelight in the Forest  03 · Tracks in the Snow  04 · Rock Ledge and Red Fish  版画质感 · 奇幻绘本 Textured Fantasy Storybook 作者未核实 不透明的粗颗粒颜料效果、刻线般的植物剪影与小比例人物，让环境参与叙事。冷绿蓝色盘中，橙红色承担情绪焦点。 奇幻绘本 水粉／粉彩干刷效果与版画装饰语言结合的当代奇幻绘本插画 版画 水粉 粉彩 干刷 粗纹纸 绘本 奇幻 森林 冷绿蓝 橙红 高俯视 Fantasy Storybook Gouache Pastel Woodcut Hatching 绘本插画 人物 植物 风景 纸张颗粒 平面色块 排线 可见笔触 保留主体身份与动作，用简化剪影和少量细节表达 Keep the subjects’ identities and actions, expressing them through simplified silhouettes and a few details 简化剪影 用略有毛糙的轮廓和局部排线说明形体 Describe forms with slightly rough contours and localized hatching 刻印边缘 以墨绿、蓝绿与深蓝为主，用少量橙红强调已有焦点 Use mainly dark green, blue-green and deep blue, with small amounts of orange-red to emphasize existing focal points 冷绿暖橙 压低光学反光，用不透明色面区分明暗 Reduce optical reflections and distinguish light and dark through opaque color fields 不透明色面 保留原构图与画幅，强化原有形体的视线引导 Keep the original composition and framing, strengthening how existing forms guide the eye 路径引导 加入有方向的干刷、擦痕和适度粗纸颗粒 Add directional dry-brush marks, scuffs and a moderate amount of coarse paper grain 干刷颗粒 营造宁静、辽阔、带探索感的幻想氛围 Create a quiet, expansive fantasy atmosphere with a sense of exploration 辽阔幻想 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only tonal values and contrast 沿用原图配色 01 · 草地旅人  02 · 林中火光  03 · 雪地足迹  04 · 岩台与红鱼 ",
+    "search_names": [
+      "Printmaking-Like Texture · Fantasy Storybook",
+      "版画质感 · 奇幻绘本",
+      "Textured Fantasy Storybook",
+      "AS-004"
+    ],
+    "search_artist": "Artist unverified 作者未核实"
   },
   {
     "id": "AS-005",
     "type": "case",
-    "name": "油画质感 · 微光雨夜花园",
+    "name": "Oil-Paint-Like Texture · Glimmering Garden on a Rainy Night",
     "english_name": "Luminous Rain Garden",
-    "artist": "发布者 JenPanepinto；作者未核实",
+    "artist": "Posted by JenPanepinto; artist unverified",
     "aliases": [
       "绘画动景",
       "油画般碎笔触与浪漫幻想气氛结合的植物动景，具有印象派式色彩倾向",
@@ -473,7 +556,7 @@
       "JenPanepinto",
       "quantumspirit"
     ],
-    "summary": "繁密花丛从深蓝夜幕中浮现，奶白、粉紫与金黄花瓣点亮冷蓝和青绿色的植物。细雨、金色微光与水波般的局部形变，共同形成潮湿、浪漫而略带迷幻的花园动景。",
+    "summary": "Dense flowers emerge from the deep blue night; creamy white, pinkish-purple and golden-yellow petals illuminate the cool blue and blue-green plants. Fine rain, golden glimmers and localized water-ripple-like deformation together create a damp, romantic, slightly psychedelic animated garden scene.",
     "cover": "media/x-2105866106053271986-frame-07.webp",
     "facets": {
       "tradition": [
@@ -490,12 +573,19 @@
     },
     "url": "cases/AS-005/",
     "kind": "",
-    "search_text": "油画质感 · 微光雨夜花园 Luminous Rain Garden 发布者 JenPanepinto；作者未核实 繁密花丛从深蓝夜幕中浮现，奶白、粉紫与金黄花瓣点亮冷蓝和青绿色的植物。细雨、金色微光与水波般的局部形变，共同形成潮湿、浪漫而略带迷幻的花园动景。 绘画动景 油画般碎笔触与浪漫幻想气氛结合的植物动景，具有印象派式色彩倾向 油画质感 雨夜花园 微光 动态形变 印象派倾向 浪漫幻想 花卉 繁花 深蓝 冷暖对比 金色光点 液态扭曲 雨丝 循环动图 oil-paint-like texture painterly botanical Impressionistic romantic fantasy luminous garden rain golden glimmers liquid distortion micro loop JenPanepinto quantumspirit 绘画质感表现 植物 可见笔触 厚重笔触 戏剧光影 保留可辨形体，以交叠碎色块提示结构 Keep recognizable forms and suggest structure through overlapping broken color patches 结构与碎色 让部分边缘融入邻近颜色，同时保留关键形状 Merge some edges into adjacent colors while preserving key shapes 融化边缘 以深靛蓝、青绿和冷蓝承托少量奶白、淡粉与金黄 Use deep indigo, teal and cool blue with restrained cream, pale pink and gold 冷夜暖光 在已有受光部位安排柔和局部亮光，保持大片暗部 Place soft local light on existing illuminated areas and preserve broad shadows 局部微光 保留原布局，让密集细节与安静暗部形成对照 Keep the layout and contrast dense detail with quiet shadow areas 疏密对照 用不透明短笔、点触与局部厚重色块表现油彩般质感 Use opaque short strokes, dabs and localized thick color for an oil-paint-like surface 油彩般碎笔 营造潮湿、柔和、浪漫幻想的夜间气氛 Create a damp, soft and romantically dreamlike night atmosphere 潮湿梦幻 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 01 · 微光雨夜花园 · 原帖动图 "
+    "search_text": "Oil-Paint-Like Texture · Glimmering Garden on a Rainy Night Luminous Rain Garden Posted by JenPanepinto; artist unverified Dense flowers emerge from the deep blue night; creamy white, pinkish-purple and golden-yellow petals illuminate the cool blue and blue-green plants. Fine rain, golden glimmers and localized water-ripple-like deformation together create a damp, romantic, slightly psychedelic animated garden scene. 绘画动景 油画般碎笔触与浪漫幻想气氛结合的植物动景，具有印象派式色彩倾向 油画质感 雨夜花园 微光 动态形变 印象派倾向 浪漫幻想 花卉 繁花 深蓝 冷暖对比 金色光点 液态扭曲 雨丝 循环动图 oil-paint-like texture painterly botanical Impressionistic romantic fantasy luminous garden rain golden glimmers liquid distortion micro loop JenPanepinto quantumspirit Painterly Surface Effects Plants Visible Brushwork Heavy Brushwork Dramatic Light and Shadow 保留可辨形体，以交叠碎色块提示结构 Keep recognizable forms and suggest structure through overlapping patches of broken color Structure and broken color 让部分边缘融入邻近颜色，同时保留关键形状 Let some edges merge into adjacent colors while preserving key shapes Merging edges 以深靛蓝、青绿和冷蓝承托少量奶白、淡粉与金黄 Set small amounts of creamy white, pale pink and golden yellow against deep indigo, blue-green and cool blue Cool night and warm light 在已有受光部位安排柔和局部亮光，保持大片暗部 Place soft localized highlights on already illuminated areas, preserving broad dark areas Localized glimmers 保留原布局，让密集细节与安静暗部形成对照 Keep the original layout, contrasting dense detail with quiet dark areas Dense and open areas 用不透明短笔、点触与局部厚重色块表现油彩般质感 Use opaque short strokes, dabs and localized thick-looking color patches to create an oil-paint-like texture Oil-paint-like broken brushwork 营造潮湿、柔和、浪漫幻想的夜间气氛 Create a damp, soft nighttime atmosphere of romantic fantasy Damp, dreamlike mood 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only tonal values and contrast Keep the original palette 01 · Glimmering Garden on a Rainy Night · Animation from the original post  油画质感 · 微光雨夜花园 Luminous Rain Garden 发布者 JenPanepinto；作者未核实 繁密花丛从深蓝夜幕中浮现，奶白、粉紫与金黄花瓣点亮冷蓝和青绿色的植物。细雨、金色微光与水波般的局部形变，共同形成潮湿、浪漫而略带迷幻的花园动景。 绘画动景 油画般碎笔触与浪漫幻想气氛结合的植物动景，具有印象派式色彩倾向 油画质感 雨夜花园 微光 动态形变 印象派倾向 浪漫幻想 花卉 繁花 深蓝 冷暖对比 金色光点 液态扭曲 雨丝 循环动图 oil-paint-like texture painterly botanical Impressionistic romantic fantasy luminous garden rain golden glimmers liquid distortion micro loop JenPanepinto quantumspirit 绘画质感表现 植物 可见笔触 厚重笔触 戏剧光影 保留可辨形体，以交叠碎色块提示结构 Keep recognizable forms and suggest structure through overlapping patches of broken color 结构与碎色 让部分边缘融入邻近颜色，同时保留关键形状 Let some edges merge into adjacent colors while preserving key shapes 融化边缘 以深靛蓝、青绿和冷蓝承托少量奶白、淡粉与金黄 Set small amounts of creamy white, pale pink and golden yellow against deep indigo, blue-green and cool blue 冷夜暖光 在已有受光部位安排柔和局部亮光，保持大片暗部 Place soft localized highlights on already illuminated areas, preserving broad dark areas 局部微光 保留原布局，让密集细节与安静暗部形成对照 Keep the original layout, contrasting dense detail with quiet dark areas 疏密对照 用不透明短笔、点触与局部厚重色块表现油彩般质感 Use opaque short strokes, dabs and localized thick-looking color patches to create an oil-paint-like texture 油彩般碎笔 营造潮湿、柔和、浪漫幻想的夜间气氛 Create a damp, soft nighttime atmosphere of romantic fantasy 潮湿梦幻 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only tonal values and contrast 沿用原图配色 01 · 微光雨夜花园 · 原帖动图 ",
+    "search_names": [
+      "Oil-Paint-Like Texture · Glimmering Garden on a Rainy Night",
+      "油画质感 · 微光雨夜花园",
+      "Luminous Rain Garden",
+      "AS-005"
+    ],
+    "search_artist": "Posted by JenPanepinto; artist unverified 发布者 JenPanepinto；作者未核实"
   },
   {
     "id": "AS-006",
     "type": "case",
-    "name": "Franklin Carmichael · 秋色风景",
+    "name": "Franklin Carmichael · Autumn Landscapes",
     "english_name": "Franklin Carmichael · Rhythmic Autumn Landscapes",
     "artist": "Franklin Carmichael",
     "aliases": [
@@ -526,7 +616,7 @@
       "broken brushwork",
       "birch trees"
     ],
-    "summary": "山丘像波浪般层层展开，云带与坡面相互呼应；明亮的橙红、金黄与冷蓝远景形成强烈对照。秋林中的白桦和深色针叶树构成竖向骨架，短笔触把叶丛、岩石和光斑织成有秩序的色块。本条以三幅可对应作品的用户复现图归纳风格。",
+    "summary": "Hills unfold in successive waves, with cloud bands echoing the slopes; bright orange-red and golden yellow contrast strongly with cool blue distance. Birches and dark conifers form a vertical framework in the autumn woods, while short brushstrokes weave foliage, rocks and patches of light into ordered color masses. This entry summarizes the style from three user-provided reproductions that can be matched to identified artworks.",
     "cover": "media/carmichael-batch-input-02.webp",
     "facets": {
       "tradition": [
@@ -544,12 +634,19 @@
     },
     "url": "cases/AS-006/",
     "kind": "",
-    "search_text": "Franklin Carmichael · 秋色风景 Franklin Carmichael · Rhythmic Autumn Landscapes Franklin Carmichael 山丘像波浪般层层展开，云带与坡面相互呼应；明亮的橙红、金黄与冷蓝远景形成强烈对照。秋林中的白桦和深色针叶树构成竖向骨架，短笔触把叶丛、岩石和光斑织成有秩序的色块。本条以三幅可对应作品的用户复现图归纳风格。 风景绘画 加拿大七人画派的风景绘画：后印象派式色彩概括、装饰性轮廓与有节奏的地形 Franklin Carmichael 弗兰克林·卡迈克尔 弗兰克林·卡尔迈克尔 加拿大 七人画派 Group of Seven 秋色风景 后印象派式 装饰性风景 地形节奏 白桦 山丘 云层 冷暖对比 油画 Autumn October Gold Festive Autumn Autumn in the Northland Canadian landscape Post-Impressionist rhythmic hills broken brushwork birch trees 加拿大七人画派 植物 风景 可见笔触 明确轮廓 空间纵深 将现有形体概括为起伏、交叠的弧形与带状色面 Simplify existing forms into rolling overlapping arcs and bands of color 起伏色面 保持轮廓清楚，以重复但不等距的节奏组织边线 Keep contours clear with repeated but unevenly spaced rhythms 装饰轮廓 用金黄、橙赭受光色对照深青、蓝绿阴影 Contrast golden yellow and orange-ochre lights with deep teal and blue-green shadows 金橙与冷青 以清楚的受光与背光分区表现日光 Show daylight through clear divisions between light and shade 分区日光 保留原有遮挡，以较冷较浅的远景建立深度 Keep original overlaps and use cooler, lighter distance to build depth 冷暖远近 用短笔、条带和点触顺着原有形体方向塑造表面 Use short strokes, bands and dabs following the direction of existing forms 方向笔触 营造明朗、蓬勃而有节奏的观看感受 Create a clear, lively and rhythmic visual feeling 明朗节奏 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 01 · Autumn《秋》· 1940（局部） Autumn 02 · October Gold《十月金色》· 1922 October Gold 03 · Festive Autumn《绚烂之秋》· 1921 Festive Autumn"
+    "search_text": "Franklin Carmichael · Autumn Landscapes Franklin Carmichael · Rhythmic Autumn Landscapes Franklin Carmichael Hills unfold in successive waves, with cloud bands echoing the slopes; bright orange-red and golden yellow contrast strongly with cool blue distance. Birches and dark conifers form a vertical framework in the autumn woods, while short brushstrokes weave foliage, rocks and patches of light into ordered color masses. This entry summarizes the style from three user-provided reproductions that can be matched to identified artworks. 风景绘画 加拿大七人画派的风景绘画：后印象派式色彩概括、装饰性轮廓与有节奏的地形 Franklin Carmichael 弗兰克林·卡迈克尔 弗兰克林·卡尔迈克尔 加拿大 七人画派 Group of Seven 秋色风景 后印象派式 装饰性风景 地形节奏 白桦 山丘 云层 冷暖对比 油画 Autumn October Gold Festive Autumn Autumn in the Northland Canadian landscape Post-Impressionist rhythmic hills broken brushwork birch trees Canadian Group of Seven Plants Landscapes Visible Brushwork Defined Contours Spatial Depth 将现有形体概括为起伏、交叠的弧形与带状色面 Simplify existing forms into rolling overlapping arcs and bands of color Undulating color areas 保持轮廓清楚，以重复但不等距的节奏组织边线 Keep contours clear with repeated but unevenly spaced rhythms Decorative contours 用金黄、橙赭受光色对照深青、蓝绿阴影 Contrast golden yellow and orange-ochre lights with deep teal and blue-green shadows Gold and orange against cool teal 以清楚的受光与背光分区表现日光 Show daylight through clear divisions between light and shade Sunlight in distinct planes 保留原有遮挡，以较冷较浅的远景建立深度 Keep original overlaps and use cooler, lighter distance to build depth Warm–cool depth 用短笔、条带和点触顺着原有形体方向塑造表面 Model surfaces with short strokes, bands and dabs that follow the direction of existing forms Directional brushwork 营造明朗、蓬勃而有节奏的观看感受 Create a bright, lively and rhythmic visual impression Bright rhythm 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the original palette 01 · Autumn · 1940 (detail) Autumn 02 · October Gold · 1922 October Gold 03 · Festive Autumn · 1921 Festive Autumn Franklin Carmichael · 秋色风景 Franklin Carmichael · Rhythmic Autumn Landscapes Franklin Carmichael 山丘像波浪般层层展开，云带与坡面相互呼应；明亮的橙红、金黄与冷蓝远景形成强烈对照。秋林中的白桦和深色针叶树构成竖向骨架，短笔触把叶丛、岩石和光斑织成有秩序的色块。本条以三幅可对应作品的用户复现图归纳风格。 风景绘画 加拿大七人画派的风景绘画：后印象派式色彩概括、装饰性轮廓与有节奏的地形 Franklin Carmichael 弗兰克林·卡迈克尔 弗兰克林·卡尔迈克尔 加拿大 七人画派 Group of Seven 秋色风景 后印象派式 装饰性风景 地形节奏 白桦 山丘 云层 冷暖对比 油画 Autumn October Gold Festive Autumn Autumn in the Northland Canadian landscape Post-Impressionist rhythmic hills broken brushwork birch trees 加拿大七人画派 植物 风景 可见笔触 明确轮廓 空间纵深 将现有形体概括为起伏、交叠的弧形与带状色面 Simplify existing forms into rolling overlapping arcs and bands of color 起伏色面 保持轮廓清楚，以重复但不等距的节奏组织边线 Keep contours clear with repeated but unevenly spaced rhythms 装饰轮廓 用金黄、橙赭受光色对照深青、蓝绿阴影 Contrast golden yellow and orange-ochre lights with deep teal and blue-green shadows 金橙与冷青 以清楚的受光与背光分区表现日光 Show daylight through clear divisions between light and shade 分区日光 保留原有遮挡，以较冷较浅的远景建立深度 Keep original overlaps and use cooler, lighter distance to build depth 冷暖远近 用短笔、条带和点触顺着原有形体方向塑造表面 Model surfaces with short strokes, bands and dabs that follow the direction of existing forms 方向笔触 营造明朗、蓬勃而有节奏的观看感受 Create a bright, lively and rhythmic visual impression 明朗节奏 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 01 · Autumn《秋》· 1940（局部） Autumn 02 · October Gold《十月金色》· 1922 October Gold 03 · Festive Autumn《绚烂之秋》· 1921 Festive Autumn",
+    "search_names": [
+      "Franklin Carmichael · Autumn Landscapes",
+      "Franklin Carmichael · 秋色风景",
+      "Franklin Carmichael · Rhythmic Autumn Landscapes",
+      "AS-006"
+    ],
+    "search_artist": "Franklin Carmichael Franklin Carmichael"
   },
   {
     "id": "AS-007",
     "type": "case",
-    "name": "Albert Bierstadt · 崇高风景与暮色",
+    "name": "Albert Bierstadt · Sublime Landscapes and Dusk",
     "english_name": "Albert Bierstadt · Sublime Landscapes and Luminous Dusk",
     "artist": "Albert Bierstadt",
     "aliases": [
@@ -589,7 +686,7 @@
       "urban skyline",
       "cloudscape"
     ],
-    "summary": "比尔施塔特把山谷、湖岸和草原组织成宏阔而富于情绪的空间。深色树群与岩壁围住远处的亮天、薄雾和水面；暖金受光区在蓝灰风暴云、暗绿树林与褐紫阴影间展开。近景的细节与远景的柔和过渡共同制造可走入的深度。本条以六幅已对应作品的用户复现图归纳风格，另两张同批附图暂存于待核实区。",
+    "summary": "Bierstadt organizes valleys, lakeshores and prairies into expansive, emotionally charged spaces. Dark trees and rock faces frame bright skies, haze and water in the distance; warm golden areas of light open among blue-gray storm clouds, dark green woodland and brown-violet shadows. Foreground detail and soft transitions in the distance together create depth that seems inviting to enter. This entry summarizes the style from six user-provided reproductions matched to identified artworks; two other images from the same batch are retained in the unverified section.",
     "cover": "media/bierstadt-batch-input-01.webp",
     "facets": {
       "tradition": [
@@ -606,12 +703,19 @@
     },
     "url": "cases/AS-007/",
     "kind": "",
-    "search_text": "Albert Bierstadt · 崇高风景与暮色 Albert Bierstadt · Sublime Landscapes and Luminous Dusk Albert Bierstadt 比尔施塔特把山谷、湖岸和草原组织成宏阔而富于情绪的空间。深色树群与岩壁围住远处的亮天、薄雾和水面；暖金受光区在蓝灰风暴云、暗绿树林与褐紫阴影间展开。近景的细节与远景的柔和过渡共同制造可走入的深度。本条以六幅已对应作品的用户复现图归纳风格，另两张同批附图暂存于待核实区。 风景绘画 19 世纪美国浪漫主义风景 · 哈德逊河画派背景 · 戏剧性明暗、空气透视与发光的天水 Albert Bierstadt 阿尔伯特·比尔施塔特 比尔斯塔特 比尔施泰特 Hudson River School 哈德逊河画派 Romantic landscape 浪漫主义风景 sublime 崇高 chiaroscuro 明暗对比 atmospheric perspective 空气透视 穿云光 golden dusk 金色暮光 Yosemite 优胜美地 Lake Tahoe 太浩湖 The Rocky Mountains, Lander's Peak A Storm in the Rocky Mountains, Mt. Rosalie Valley of the Yosemite The Buffalo Trail Twilight, Lake Tahoe Sunset in the Yosemite Valley 城市云景 城市天际线 厚云 city panorama urban skyline cloudscape 浪漫主义风景 风景 动物 空间纵深 戏剧光影 保持原有主体轮廓与体积，以明暗塑造大形 Keep original silhouettes and volumes, modeling major forms with light and shadow 可信体积 近处轮廓清楚，远处轮廓逐渐柔化 Keep nearby contours clear and gradually soften distant edges 远近边缘 以金黄暖光对照冷灰蓝、深绿与褐紫暗部 Contrast golden warm light with cool gray-blue, deep green and brown-violet shadows 金暖冷灰 让大面积深影承托局部明亮光域，保留光线逻辑 Support a localized luminous area with broad deep shadows and coherent lighting 穿透光域 在原构图中加强近深远浅、近实远虚的空气透视 Within the original composition, strengthen atmospheric perspective with darker sharper foregrounds and lighter softer distance 空气透视 近处保留细致变化，远处逐渐减少纹理 Keep varied fine detail nearby and gradually reduce texture in the distance 选择性细节 营造宏阔、安静而有诗意的光影氛围 Create a grand, quiet and poetic atmosphere through light 宏阔诗意 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 附图 1 · A Storm in the Rocky Mountains, Mt. Rosalie《落基山脉的风暴，罗莎莉山》 A Storm in the Rocky Mountains, Mt. Rosalie 附图 2 · Rocky Mountains, \"Lander's Peak\"《落基山脉，兰德峰》 Rocky Mountains, \"Lander's Peak\" 附图 3 · Valley of the Yosemite《优胜美地山谷》 Valley of the Yosemite 附图 4 · The Buffalo Trail《野牛迁徙之路》 The Buffalo Trail 附图 5 · Twilight, Lake Tahoe《太浩湖暮色》 Twilight, Lake Tahoe 附图 6 · Sunset in the Yosemite Valley《优胜美地山谷日落》 Sunset in the Yosemite Valley"
+    "search_text": "Albert Bierstadt · Sublime Landscapes and Dusk Albert Bierstadt · Sublime Landscapes and Luminous Dusk Albert Bierstadt Bierstadt organizes valleys, lakeshores and prairies into expansive, emotionally charged spaces. Dark trees and rock faces frame bright skies, haze and water in the distance; warm golden areas of light open among blue-gray storm clouds, dark green woodland and brown-violet shadows. Foreground detail and soft transitions in the distance together create depth that seems inviting to enter. This entry summarizes the style from six user-provided reproductions matched to identified artworks; two other images from the same batch are retained in the unverified section. 风景绘画 19 世纪美国浪漫主义风景 · 哈德逊河画派背景 · 戏剧性明暗、空气透视与发光的天水 Albert Bierstadt 阿尔伯特·比尔施塔特 比尔斯塔特 比尔施泰特 Hudson River School 哈德逊河画派 Romantic landscape 浪漫主义风景 sublime 崇高 chiaroscuro 明暗对比 atmospheric perspective 空气透视 穿云光 golden dusk 金色暮光 Yosemite 优胜美地 Lake Tahoe 太浩湖 The Rocky Mountains, Lander's Peak A Storm in the Rocky Mountains, Mt. Rosalie Valley of the Yosemite The Buffalo Trail Twilight, Lake Tahoe Sunset in the Yosemite Valley 城市云景 城市天际线 厚云 city panorama urban skyline cloudscape Romantic Landscape Painting Landscapes Animals Spatial Depth Dramatic Light and Shadow 保持原有主体轮廓与体积，以明暗塑造大形 Keep original subject contours and volumes, modeling major forms with light and shadow Convincing volume 近处轮廓清楚，远处轮廓逐渐柔化 Keep nearby contours clear and gradually soften distant edges Near and distant edges 以金黄暖光对照冷灰蓝、深绿与褐紫暗部 Contrast golden warm light with cool gray-blue, deep green and brown-violet shadows Warm gold and cool gray 让大面积深影承托局部明亮光域，保留光线逻辑 Support a localized luminous area with broad deep shadows and coherent lighting Light breaking through 在原构图中加强近深远浅、近实远虚的空气透视 Within the original composition, strengthen atmospheric perspective with darker, sharper foregrounds and lighter, softer distance Atmospheric perspective 近处保留细致变化，远处逐渐减少纹理 Keep varied fine detail nearby and gradually reduce texture in the distance Selective detail 营造宏阔、安静而有诗意的光影氛围 Create an expansive, quiet and poetic atmosphere through light and shadow Expansive and poetic 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the original palette Attached image 1 · A Storm in the Rocky Mountains, Mt. Rosalie A Storm in the Rocky Mountains, Mt. Rosalie Attached image 2 · Rocky Mountains, “Lander’s Peak” Rocky Mountains, \"Lander's Peak\" Attached image 3 · Valley of the Yosemite Valley of the Yosemite Attached image 4 · The Buffalo Trail The Buffalo Trail Attached image 5 · Twilight, Lake Tahoe Twilight, Lake Tahoe Attached image 6 · Sunset in the Yosemite Valley Sunset in the Yosemite Valley Albert Bierstadt · 崇高风景与暮色 Albert Bierstadt · Sublime Landscapes and Luminous Dusk Albert Bierstadt 比尔施塔特把山谷、湖岸和草原组织成宏阔而富于情绪的空间。深色树群与岩壁围住远处的亮天、薄雾和水面；暖金受光区在蓝灰风暴云、暗绿树林与褐紫阴影间展开。近景的细节与远景的柔和过渡共同制造可走入的深度。本条以六幅已对应作品的用户复现图归纳风格，另两张同批附图暂存于待核实区。 风景绘画 19 世纪美国浪漫主义风景 · 哈德逊河画派背景 · 戏剧性明暗、空气透视与发光的天水 Albert Bierstadt 阿尔伯特·比尔施塔特 比尔斯塔特 比尔施泰特 Hudson River School 哈德逊河画派 Romantic landscape 浪漫主义风景 sublime 崇高 chiaroscuro 明暗对比 atmospheric perspective 空气透视 穿云光 golden dusk 金色暮光 Yosemite 优胜美地 Lake Tahoe 太浩湖 The Rocky Mountains, Lander's Peak A Storm in the Rocky Mountains, Mt. Rosalie Valley of the Yosemite The Buffalo Trail Twilight, Lake Tahoe Sunset in the Yosemite Valley 城市云景 城市天际线 厚云 city panorama urban skyline cloudscape 浪漫主义风景 风景 动物 空间纵深 戏剧光影 保持原有主体轮廓与体积，以明暗塑造大形 Keep original subject contours and volumes, modeling major forms with light and shadow 可信体积 近处轮廓清楚，远处轮廓逐渐柔化 Keep nearby contours clear and gradually soften distant edges 远近边缘 以金黄暖光对照冷灰蓝、深绿与褐紫暗部 Contrast golden warm light with cool gray-blue, deep green and brown-violet shadows 金暖冷灰 让大面积深影承托局部明亮光域，保留光线逻辑 Support a localized luminous area with broad deep shadows and coherent lighting 穿透光域 在原构图中加强近深远浅、近实远虚的空气透视 Within the original composition, strengthen atmospheric perspective with darker, sharper foregrounds and lighter, softer distance 空气透视 近处保留细致变化，远处逐渐减少纹理 Keep varied fine detail nearby and gradually reduce texture in the distance 选择性细节 营造宏阔、安静而有诗意的光影氛围 Create an expansive, quiet and poetic atmosphere through light and shadow 宏阔诗意 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 附图 1 · A Storm in the Rocky Mountains, Mt. Rosalie《落基山脉的风暴，罗莎莉山》 A Storm in the Rocky Mountains, Mt. Rosalie 附图 2 · Rocky Mountains, \"Lander's Peak\"《落基山脉，兰德峰》 Rocky Mountains, \"Lander's Peak\" 附图 3 · Valley of the Yosemite《优胜美地山谷》 Valley of the Yosemite 附图 4 · The Buffalo Trail《野牛迁徙之路》 The Buffalo Trail 附图 5 · Twilight, Lake Tahoe《太浩湖暮色》 Twilight, Lake Tahoe 附图 6 · Sunset in the Yosemite Valley《优胜美地山谷日落》 Sunset in the Yosemite Valley",
+    "search_names": [
+      "Albert Bierstadt · Sublime Landscapes and Dusk",
+      "Albert Bierstadt · 崇高风景与暮色",
+      "Albert Bierstadt · Sublime Landscapes and Luminous Dusk",
+      "AS-007"
+    ],
+    "search_artist": "Albert Bierstadt Albert Bierstadt"
   },
   {
     "id": "AS-008",
     "type": "case",
-    "name": "Peggy Nille · 繁花秘境",
+    "name": "Peggy Nille · Hidden Worlds in Bloom",
     "english_name": "Peggy Nille · Ornamental Dream Gardens",
     "artist": "Peggy Nille",
     "aliases": [
@@ -620,7 +724,6 @@
       "Peggy Nille",
       "佩吉·尼勒",
       "繁花秘境",
-      "装饰插画",
       "植物纹样",
       "幻想绘本",
       "童话森林",
@@ -643,7 +746,7 @@
       "jungle",
       "storybook"
     ],
-    "summary": "这里的森林像一张可以不断寻找细节的彩色织毯：树冠、羽毛、花瓣与房屋各有自己的纹样，小人物和动物隐入其间。大轮廓让画面远看成立，细密图案让近看充满发现；黑底暖色、蓝紫幻想、明亮白底与深蓝月夜，是同一装饰语言的不同展开。",
+    "summary": "The forests here resemble colorful tapestries with details to keep discovering: canopies, feathers, petals and houses each have their own patterns, with small figures and animals hidden among them. Broad contours hold the image together at a distance, while fine patterns reward close looking. Warm colors on black, blue-violet fantasy, bright white grounds and deep blue moonlit nights unfold as different versions of the same decorative language.",
     "cover": "media/peggy-nille-batch-input-01.webp",
     "facets": {
       "tradition": [
@@ -663,14 +766,21 @@
     },
     "url": "cases/AS-008/",
     "kind": "",
-    "search_text": "Peggy Nille · 繁花秘境 Peggy Nille · Ornamental Dream Gardens Peggy Nille 这里的森林像一张可以不断寻找细节的彩色织毯：树冠、羽毛、花瓣与房屋各有自己的纹样，小人物和动物隐入其间。大轮廓让画面远看成立，细密图案让近看充满发现；黑底暖色、蓝紫幻想、明亮白底与深蓝月夜，是同一装饰语言的不同展开。 装饰插画 当代装饰性绘本插画：平涂色块、繁密植物纹样与幻想叙事 Peggy Nille 佩吉·尼勒 繁花秘境 装饰插画 植物纹样 幻想绘本 童话森林 热带丛林 平涂 高饱和 密集构图 寻觅细节 孔雀羽纹 月夜 蓝白 Cachés dans les rêves ornamental botanical decorative illustration flat color pattern-filled silhouettes dream garden seek and find jungle storybook 绘本插画 人物 植物 动物 建筑 平面色块 重复纹样 明确轮廓 先概括原有形体的大剪影，再分层安排小纹样 Establish large silhouettes of existing forms before arranging smaller patterns 大形先行 用内部细线和边缘色差说明结构 Describe structure through fine internal lines and color differences at edges 细线说明 用稳定深色承托有集中与重复的鲜明局部色 Set concentrated, repeated bright local colors against stable dark fields 深底鲜色 弱化体积明暗，让局部色与纹样承担形体信息 Reduce volumetric shading so local color and pattern describe forms 压低体积 保留原有物件关系，用重叠与大小差异建立层次 Keep object relationships and build layers through overlap and size differences 重叠分层 在现有形体内组织大形、纹样簇和小点线三个尺度 Within existing forms, organize three scales: large shapes, pattern clusters and tiny marks 纹样尺度 营造丰富、幻想、值得细看的叙事趣味 Create a rich imaginative narrative atmosphere that rewards close looking 寻觅趣味 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 附图 1 · 黑底彩树与童话村落（图鉴描述名）  附图 2 · 蓝紫扇纹与放射状白花（图鉴描述名）  附图 3 · 灯笼与奇幻蘑菇森林（《Cachés dans les rêves》官网对应画面） Cachés dans les rêves · illustration 附图 4 · 蓝白鸟园与中央留白（图鉴描述名）  附图 5 · 月下丛林与隐现动物（图鉴描述名） "
+    "search_text": "Peggy Nille · Hidden Worlds in Bloom Peggy Nille · Ornamental Dream Gardens Peggy Nille The forests here resemble colorful tapestries with details to keep discovering: canopies, feathers, petals and houses each have their own patterns, with small figures and animals hidden among them. Broad contours hold the image together at a distance, while fine patterns reward close looking. Warm colors on black, blue-violet fantasy, bright white grounds and deep blue moonlit nights unfold as different versions of the same decorative language. 装饰插画 当代装饰性绘本插画：平涂色块、繁密植物纹样与幻想叙事 Peggy Nille 佩吉·尼勒 繁花秘境 装饰插画 植物纹样 幻想绘本 童话森林 热带丛林 平涂 高饱和 密集构图 寻觅细节 孔雀羽纹 月夜 蓝白 Cachés dans les rêves ornamental botanical decorative illustration flat color pattern-filled silhouettes dream garden seek and find jungle storybook Picture-book Illustration People Plants Animals Architecture Flat Color Shapes Repeating Patterns Defined Contours 先概括原有形体的大剪影，再分层安排小纹样 First simplify existing forms into large silhouettes, then arrange small patterns in layers Large shapes first 用内部细线和边缘色差说明结构 Describe structure through fine internal lines and color differences at edges Fine lines explain structure 用稳定深色承托有集中与重复的鲜明局部色 Set concentrated, repeated bright local colors against stable dark fields Bright colors on a dark ground 弱化体积明暗，让局部色与纹样承担形体信息 Reduce volumetric shading so local color and pattern describe forms Reduced volume 保留原有物件关系，用重叠与大小差异建立层次 Keep object relationships and build layers through overlap and size differences Layers through overlap 在现有形体内组织大形、纹样簇和小点线三个尺度 Within existing forms, organize three scales: large shapes, pattern clusters, and small dots and lines Scales of pattern 营造丰富、幻想、值得细看的叙事趣味 Create a rich imaginative narrative atmosphere that rewards close looking The pleasure of discovery 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the original palette Attached image 1 · Colorful Trees and a Fairytale Village on Black (descriptive title assigned by the atlas)  Attached image 2 · Blue-Violet Fans and Radiating White Flowers (descriptive title assigned by the atlas)  Attached image 3 · Lanterns and a Fantasy Mushroom Forest (image matched to the official Cachés dans les rêves gallery) Cachés dans les rêves · illustration Attached image 4 · Blue-and-White Bird Garden with Open Space at the Center (descriptive title assigned by the atlas)  Attached image 5 · Moonlit Jungle and Partly Hidden Animals (descriptive title assigned by the atlas)  Peggy Nille · 繁花秘境 Peggy Nille · Ornamental Dream Gardens Peggy Nille 这里的森林像一张可以不断寻找细节的彩色织毯：树冠、羽毛、花瓣与房屋各有自己的纹样，小人物和动物隐入其间。大轮廓让画面远看成立，细密图案让近看充满发现；黑底暖色、蓝紫幻想、明亮白底与深蓝月夜，是同一装饰语言的不同展开。 装饰插画 当代装饰性绘本插画：平涂色块、繁密植物纹样与幻想叙事 Peggy Nille 佩吉·尼勒 繁花秘境 装饰插画 植物纹样 幻想绘本 童话森林 热带丛林 平涂 高饱和 密集构图 寻觅细节 孔雀羽纹 月夜 蓝白 Cachés dans les rêves ornamental botanical decorative illustration flat color pattern-filled silhouettes dream garden seek and find jungle storybook 绘本插画 人物 植物 动物 建筑 平面色块 重复纹样 明确轮廓 先概括原有形体的大剪影，再分层安排小纹样 First simplify existing forms into large silhouettes, then arrange small patterns in layers 大形先行 用内部细线和边缘色差说明结构 Describe structure through fine internal lines and color differences at edges 细线说明 用稳定深色承托有集中与重复的鲜明局部色 Set concentrated, repeated bright local colors against stable dark fields 深底鲜色 弱化体积明暗，让局部色与纹样承担形体信息 Reduce volumetric shading so local color and pattern describe forms 压低体积 保留原有物件关系，用重叠与大小差异建立层次 Keep object relationships and build layers through overlap and size differences 重叠分层 在现有形体内组织大形、纹样簇和小点线三个尺度 Within existing forms, organize three scales: large shapes, pattern clusters, and small dots and lines 纹样尺度 营造丰富、幻想、值得细看的叙事趣味 Create a rich imaginative narrative atmosphere that rewards close looking 寻觅趣味 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 附图 1 · 黑底彩树与童话村落（图鉴描述名）  附图 2 · 蓝紫扇纹与放射状白花（图鉴描述名）  附图 3 · 灯笼与奇幻蘑菇森林（《Cachés dans les rêves》官网对应画面） Cachés dans les rêves · illustration 附图 4 · 蓝白鸟园与中央留白（图鉴描述名）  附图 5 · 月下丛林与隐现动物（图鉴描述名） ",
+    "search_names": [
+      "Peggy Nille · Hidden Worlds in Bloom",
+      "Peggy Nille · 繁花秘境",
+      "Peggy Nille · Ornamental Dream Gardens",
+      "AS-008"
+    ],
+    "search_artist": "Peggy Nille Peggy Nille"
   },
   {
     "id": "AS-009",
     "type": "case",
-    "name": "新中式插画 · 古诗山水",
+    "name": "Contemporary Chinese-style Illustration · Landscapes Inspired by Classical Poetry",
     "english_name": "Contemporary Chinese Illustration · Poetic Landscapes",
-    "artist": "作者未核实",
+    "artist": "Artist unverified",
     "aliases": [
       "装饰插画",
       "新中式装饰山水插画：古诗叙事、青绿朱红设色、细线勾勒、纸本颗粒与长卷式留白",
@@ -719,7 +829,7 @@
       "poetic landscape",
       "poster illustration"
     ],
-    "summary": "这组图把古诗中的一个瞬间放进狭长画幅：密集树冠围出河道、小径或白墙，视线沿浅色空隙缓缓移动，最后停在独钓、指路、停泊、荷尖蜻蜓或越墙花枝上。它的长处是用“大色块—小叙事—细密纹理”建立远近观看的层次；青绿与朱红最鲜明，蓝灰雪景、桃粉花海和荷塘绿调则证明，同一构图语言可以承载不同季节。作为海报，系列统一、主题易读；作为诗意插图，部分画面的华美与热烈也会减弱诗句中的清寒、怅惘或今昔之感。",
+    "summary": "This group places a moment from a classical Chinese poem within a narrow, elongated frame. Dense canopies surround a river, path or white wall, and the eye moves slowly along pale openings before resting on solitary fishing, a pointing gesture, a moored boat, a dragonfly on a lotus tip or a flowering branch reaching over a wall. Its strength is the progression from large color areas to small narratives to fine texture, creating different experiences at a distance and up close. Blue-green and vermilion are the most striking colors, but blue-gray snow scenes, peach-pink blossom fields and green lotus ponds show how the same compositional language can carry different seasons. As posters, the series is coherent and its subjects are easy to read; as poetic illustrations, the splendor and exuberance of some images can also diminish the chill, melancholy or contrast between past and present in the poems.",
     "cover": "media/poetry-landscape-batch-input-04.webp",
     "facets": {
       "tradition": [
@@ -740,14 +850,21 @@
     },
     "url": "cases/AS-009/",
     "kind": "",
-    "search_text": "新中式插画 · 古诗山水 Contemporary Chinese Illustration · Poetic Landscapes 作者未核实 这组图把古诗中的一个瞬间放进狭长画幅：密集树冠围出河道、小径或白墙，视线沿浅色空隙缓缓移动，最后停在独钓、指路、停泊、荷尖蜻蜓或越墙花枝上。它的长处是用“大色块—小叙事—细密纹理”建立远近观看的层次；青绿与朱红最鲜明，蓝灰雪景、桃粉花海和荷塘绿调则证明，同一构图语言可以承载不同季节。作为海报，系列统一、主题易读；作为诗意插图，部分画面的华美与热烈也会减弱诗句中的清寒、怅惘或今昔之感。 装饰插画 新中式装饰山水插画：古诗叙事、青绿朱红设色、细线勾勒、纸本颗粒与长卷式留白 新中式插画 古诗山水 装饰山水 青绿朱红 长卷式留白 纸本颗粒 中式新插画 新中式装饰山水插画 古诗意境 · 青绿朱红长卷 青绿朱红长卷 contemporary Chinese illustration neo-Chinese illustration 古诗意境 长卷式构图 留白 密林小景 古诗海报 国风插画 S形动线 冷暖对比 细线勾勒 江雪 清明 乌衣巷 泊秦淮 大林寺桃花 枫桥夜泊 小池 游园不值 柳宗元 杜牧 刘禹锡 白居易 张继 杨万里 叶绍翁 Chinese poetry teal vermilion negative space scroll composition paper grain poetic landscape poster illustration 新中式插画 人物 植物 风景 建筑 平面色块 留白与负空间 纸张颗粒 明确轮廓 以团块与清楚骨架概括原有形体，保留动作关系 Simplify original forms into clusters and clear structural lines while retaining action relationships 概括大形 用清楚细线和局部点簇边缘区分材质与结构 Use clear fine lines and localized dotted edges to distinguish material and structure 细线与碎边 以米白、墨青绿与少量朱红建立有限色彩关系 Build a limited palette of ivory, dark teal-green and restrained vermilion 米白青绿朱红 以哑光色面和细微明度差表达层次，避免高光塑料感 Use matte color fields and subtle value steps rather than glossy plastic highlights 哑光层次 在原图已有空隙中强化连续留白，保持原视角与画幅 Strengthen connected open spaces already present in the source while keeping viewpoint and aspect ratio 连续留白 使用细颗粒与轻微纸色起伏，保持主要形体清楚 Use fine grain and subtle paper-tone variation while keeping main forms clear 细纸颗粒 营造含蓄、安静、有小叙事的诗意氛围 Create a restrained, quiet and poetic atmosphere with subtle narrative 含蓄诗意 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 附图 1 ·《江雪》主题海报（依图中文字）  附图 2 ·《清明》主题海报（依图中文字）  附图 3 ·《乌衣巷》主题海报（依图中文字）  附图 4 ·《泊秦淮》主题海报（依图中文字）  附图 5 ·《大林寺桃花》主题海报（依图中文字）  附图 6 ·《枫桥夜泊》主题海报（依图中文字）  附图 7 ·《小池》主题海报（依图中文字）  附图 8 ·《游园不值》主题海报（依图中文字） "
+    "search_text": "Contemporary Chinese-style Illustration · Landscapes Inspired by Classical Poetry Contemporary Chinese Illustration · Poetic Landscapes Artist unverified This group places a moment from a classical Chinese poem within a narrow, elongated frame. Dense canopies surround a river, path or white wall, and the eye moves slowly along pale openings before resting on solitary fishing, a pointing gesture, a moored boat, a dragonfly on a lotus tip or a flowering branch reaching over a wall. Its strength is the progression from large color areas to small narratives to fine texture, creating different experiences at a distance and up close. Blue-green and vermilion are the most striking colors, but blue-gray snow scenes, peach-pink blossom fields and green lotus ponds show how the same compositional language can carry different seasons. As posters, the series is coherent and its subjects are easy to read; as poetic illustrations, the splendor and exuberance of some images can also diminish the chill, melancholy or contrast between past and present in the poems. 装饰插画 新中式装饰山水插画：古诗叙事、青绿朱红设色、细线勾勒、纸本颗粒与长卷式留白 新中式插画 古诗山水 装饰山水 青绿朱红 长卷式留白 纸本颗粒 中式新插画 新中式装饰山水插画 古诗意境 · 青绿朱红长卷 青绿朱红长卷 contemporary Chinese illustration neo-Chinese illustration 古诗意境 长卷式构图 留白 密林小景 古诗海报 国风插画 S形动线 冷暖对比 细线勾勒 江雪 清明 乌衣巷 泊秦淮 大林寺桃花 枫桥夜泊 小池 游园不值 柳宗元 杜牧 刘禹锡 白居易 张继 杨万里 叶绍翁 Chinese poetry teal vermilion negative space scroll composition paper grain poetic landscape poster illustration Contemporary Chinese-style Illustration People Plants Landscapes Architecture Flat Color Shapes Blank and Negative Space Paper Grain Defined Contours 以团块与清楚骨架概括原有形体，保留动作关系 Simplify original forms into clusters and clear structural lines while retaining action relationships Simplified major forms 用清楚细线和局部点簇边缘区分材质与结构 Use clear fine lines and localized dotted edges to distinguish material and structure Fine lines and broken edges 以米白、墨青绿与少量朱红建立有限色彩关系 Build a limited palette of ivory, dark teal-green and restrained vermilion Ivory, blue-green and vermilion 以哑光色面和细微明度差表达层次，避免高光塑料感 Express layers with matte color areas and subtle value differences; avoid glossy, plastic-looking highlights Matte tonal layers 在原图已有空隙中强化连续留白，保持原视角与画幅 Strengthen continuous open space within the original image’s existing gaps while keeping its viewpoint and full frame Continuous open space 使用细颗粒与轻微纸色起伏，保持主要形体清楚 Use fine grain and subtle paper-tone variation while keeping main forms clear Fine paper-like grain 营造含蓄、安静、有小叙事的诗意氛围 Create a restrained, quiet and poetic atmosphere with subtle narrative Restrained poetry 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the original palette Attached image 1 · River Snow-themed poster (reading translation of the visible poem title)  Attached image 2 · Qingming-themed poster (visible poem title)  Attached image 3 · Wuyi Lane-themed poster (reading translation of the visible poem title)  Attached image 4 · Mooring on the Qinhuai-themed poster (reading translation of the visible poem title)  Attached image 5 · Peach Blossoms at Dalin Temple-themed poster (reading translation of the visible poem title)  Attached image 6 · Night Mooring by Maple Bridge-themed poster (reading translation of the visible poem title)  Attached image 7 · Small Pond-themed poster (reading translation of the visible poem title)  Attached image 8 · An Unsuccessful Visit to a Garden-themed poster (reading translation of the visible poem title)  新中式插画 · 古诗山水 Contemporary Chinese Illustration · Poetic Landscapes 作者未核实 这组图把古诗中的一个瞬间放进狭长画幅：密集树冠围出河道、小径或白墙，视线沿浅色空隙缓缓移动，最后停在独钓、指路、停泊、荷尖蜻蜓或越墙花枝上。它的长处是用“大色块—小叙事—细密纹理”建立远近观看的层次；青绿与朱红最鲜明，蓝灰雪景、桃粉花海和荷塘绿调则证明，同一构图语言可以承载不同季节。作为海报，系列统一、主题易读；作为诗意插图，部分画面的华美与热烈也会减弱诗句中的清寒、怅惘或今昔之感。 装饰插画 新中式装饰山水插画：古诗叙事、青绿朱红设色、细线勾勒、纸本颗粒与长卷式留白 新中式插画 古诗山水 装饰山水 青绿朱红 长卷式留白 纸本颗粒 中式新插画 新中式装饰山水插画 古诗意境 · 青绿朱红长卷 青绿朱红长卷 contemporary Chinese illustration neo-Chinese illustration 古诗意境 长卷式构图 留白 密林小景 古诗海报 国风插画 S形动线 冷暖对比 细线勾勒 江雪 清明 乌衣巷 泊秦淮 大林寺桃花 枫桥夜泊 小池 游园不值 柳宗元 杜牧 刘禹锡 白居易 张继 杨万里 叶绍翁 Chinese poetry teal vermilion negative space scroll composition paper grain poetic landscape poster illustration 新中式插画 人物 植物 风景 建筑 平面色块 留白与负空间 纸张颗粒 明确轮廓 以团块与清楚骨架概括原有形体，保留动作关系 Simplify original forms into clusters and clear structural lines while retaining action relationships 概括大形 用清楚细线和局部点簇边缘区分材质与结构 Use clear fine lines and localized dotted edges to distinguish material and structure 细线与碎边 以米白、墨青绿与少量朱红建立有限色彩关系 Build a limited palette of ivory, dark teal-green and restrained vermilion 米白青绿朱红 以哑光色面和细微明度差表达层次，避免高光塑料感 Express layers with matte color areas and subtle value differences; avoid glossy, plastic-looking highlights 哑光层次 在原图已有空隙中强化连续留白，保持原视角与画幅 Strengthen continuous open space within the original image’s existing gaps while keeping its viewpoint and full frame 连续留白 使用细颗粒与轻微纸色起伏，保持主要形体清楚 Use fine grain and subtle paper-tone variation while keeping main forms clear 细纸颗粒 营造含蓄、安静、有小叙事的诗意氛围 Create a restrained, quiet and poetic atmosphere with subtle narrative 含蓄诗意 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 附图 1 ·《江雪》主题海报（依图中文字）  附图 2 ·《清明》主题海报（依图中文字）  附图 3 ·《乌衣巷》主题海报（依图中文字）  附图 4 ·《泊秦淮》主题海报（依图中文字）  附图 5 ·《大林寺桃花》主题海报（依图中文字）  附图 6 ·《枫桥夜泊》主题海报（依图中文字）  附图 7 ·《小池》主题海报（依图中文字）  附图 8 ·《游园不值》主题海报（依图中文字） ",
+    "search_names": [
+      "Contemporary Chinese-style Illustration · Landscapes Inspired by Classical Poetry",
+      "新中式插画 · 古诗山水",
+      "Contemporary Chinese Illustration · Poetic Landscapes",
+      "AS-009"
+    ],
+    "search_artist": "Artist unverified 作者未核实"
   },
   {
     "id": "AS-010",
     "type": "case",
-    "name": "浮世绘风 · 武侠人物",
+    "name": "Ukiyo-e-inspired · Wuxia Characters",
     "english_name": "Ukiyo-e-inspired Wuxia Characters",
-    "artist": "作者未核实",
+    "artist": "Artist unverified",
     "aliases": [
       "版画与绘本",
       "当代武侠人物插画：浮世绘武者绘与浪纹的视觉借鉴，融合夸张透视、动作海报构图和仿旧纸纹",
@@ -790,7 +907,7 @@
       "aged paper",
       "foreshortening"
     ],
-    "summary": "这组竖幅人物插画以黑色轮廓、有限的哑光设色、卷浪、竖排题签和米黄旧纸效果建立浮世绘感，再把手掌、巨剑、头发和衣带推向观者，形成现代武侠动作海报的冲击力。系列统一性很强，乔峰的掌与龙、周伯通的双手与竹、黄药师的笛与海浪、杨过的剑与雕，又用不同物件提示人物身份。最值得学习的是“大动作—大色面—流动细线”的组织；主要不足是满幅裂纹与碎斑削弱疏密，部分黑发、衣袍、羽翼和山石相互粘连。四张中，黄药师的动静对照与色彩分区最突出，周伯通的表情与明暗分离较鲜明。",
+    "summary": "These vertical character illustrations create an ukiyo-e-inspired appearance through black contours, a limited matte palette, curling waves, vertical title cartouches and beige aged-paper effects. Palms, great swords, hair and sashes then project toward the viewer, producing the impact of contemporary wuxia action posters. The series is highly coherent, while distinct objects suggest each character’s identity: Qiao Feng’s palm and dragon, Zhou Botong’s hands and bamboo, Huang Yaoshi’s flute and waves, and Yang Guo’s sword and eagle. The most useful lesson is the organization of major action, broad color areas and flowing fine lines. The main limitation is that all-over cracks and mottling weaken variation in density, while some black hair, robes, wings and rocks merge. Of the four images, Huang Yaoshi’s contrast of stillness and movement and color divisions stand out most; Zhou Botong’s expression and light–dark separation are also especially clear.",
     "cover": "media/ukiyoe-wuxia-batch-input-03.webp",
     "facets": {
       "tradition": [
@@ -809,6 +926,13 @@
     },
     "url": "cases/AS-010/",
     "kind": "",
-    "search_text": "浮世绘风 · 武侠人物 Ukiyo-e-inspired Wuxia Characters 作者未核实 这组竖幅人物插画以黑色轮廓、有限的哑光设色、卷浪、竖排题签和米黄旧纸效果建立浮世绘感，再把手掌、巨剑、头发和衣带推向观者，形成现代武侠动作海报的冲击力。系列统一性很强，乔峰的掌与龙、周伯通的双手与竹、黄药师的笛与海浪、杨过的剑与雕，又用不同物件提示人物身份。最值得学习的是“大动作—大色面—流动细线”的组织；主要不足是满幅裂纹与碎斑削弱疏密，部分黑发、衣袍、羽翼和山石相互粘连。四张中，黄药师的动静对照与色彩分区最突出，周伯通的表情与明暗分离较鲜明。 版画与绘本 当代武侠人物插画：浮世绘武者绘与浪纹的视觉借鉴，融合夸张透视、动作海报构图和仿旧纸纹 浮世绘 武侠人物 武者绘 仿木版画 旧纸质感 动作海报 浮世绘风 日式浮世绘 金庸 乔峰 周伯通 黄药师 杨过 老顽童 东邪 神雕侠 降龙震岳 左右互搏 碧海潮生 神雕侠影 墨线 限定色盘 竖排题签 夸张透视 卷浪 武侠插画 ukiyo-e musha-e wuxia woodblock-inspired Qiao Feng Zhou Botong Huang Yaoshi Yang Guo indigo vermilion aged paper foreshortening 浮世绘视觉借鉴 人物 动物 平面色块 排线 明确轮廓 纸张颗粒 保持原动作与透视，将主体概括为清楚有力的剪影 Keep the original pose and perspective and simplify subjects into clear, forceful silhouettes 动作剪影 用深色轮廓与顺着动作流向的细线组织形体 Use dark contours and fine lines following the action to organize forms 流向墨线 以米黄、墨黑、深靛蓝与少量砖红形成有限配色 Use a limited palette of cream, ink black, deep indigo and restrained brick red 米黄靛蓝砖红 以平涂为主，局部排线说明体积，不追求写实高光 Use mostly flat color with local hatching for volume, avoiding realistic highlights 平涂与排线 在原构图中统一主动作方向，让次要细节服从主体 Unify the main direction of movement within the original composition and subordinate minor details 方向集中 加入适度旧纸颗粒，在脸、手和主要物件上减弱裂纹 Use restrained aged-paper grain, reducing cracks on faces, hands and key objects 节制旧纸 营造有力、紧张且叙事清楚的画面气质 Create a forceful, tense image with clear narrative 有力叙事 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 附图 1 · 乔峰：掌势与龙形（依图中文字）  附图 2 · 周伯通：双手动作与竹叶（依图中文字）  附图 3 · 黄药师：横笛、花枝与巨浪（依图中文字）  附图 4 · 杨过：斜向巨剑与神雕（依图中文字） "
+    "search_text": "Ukiyo-e-inspired · Wuxia Characters Ukiyo-e-inspired Wuxia Characters Artist unverified These vertical character illustrations create an ukiyo-e-inspired appearance through black contours, a limited matte palette, curling waves, vertical title cartouches and beige aged-paper effects. Palms, great swords, hair and sashes then project toward the viewer, producing the impact of contemporary wuxia action posters. The series is highly coherent, while distinct objects suggest each character’s identity: Qiao Feng’s palm and dragon, Zhou Botong’s hands and bamboo, Huang Yaoshi’s flute and waves, and Yang Guo’s sword and eagle. The most useful lesson is the organization of major action, broad color areas and flowing fine lines. The main limitation is that all-over cracks and mottling weaken variation in density, while some black hair, robes, wings and rocks merge. Of the four images, Huang Yaoshi’s contrast of stillness and movement and color divisions stand out most; Zhou Botong’s expression and light–dark separation are also especially clear. 版画与绘本 当代武侠人物插画：浮世绘武者绘与浪纹的视觉借鉴，融合夸张透视、动作海报构图和仿旧纸纹 浮世绘 武侠人物 武者绘 仿木版画 旧纸质感 动作海报 浮世绘风 日式浮世绘 金庸 乔峰 周伯通 黄药师 杨过 老顽童 东邪 神雕侠 降龙震岳 左右互搏 碧海潮生 神雕侠影 墨线 限定色盘 竖排题签 夸张透视 卷浪 武侠插画 ukiyo-e musha-e wuxia woodblock-inspired Qiao Feng Zhou Botong Huang Yaoshi Yang Guo indigo vermilion aged paper foreshortening Visual Influences from Ukiyo-e People Animals Flat Color Shapes Hatching Defined Contours Paper Grain 保持原动作与透视，将主体概括为清楚有力的剪影 Keep the original action and perspective and simplify subjects into clear, forceful silhouettes Action silhouettes 用深色轮廓与顺着动作流向的细线组织形体 Use dark contours and fine lines following the action to organize forms Flowing ink lines 以米黄、墨黑、深靛蓝与少量砖红形成有限配色 Use a limited palette of beige, ink black, deep indigo and a little brick red Beige, indigo and brick red 以平涂为主，局部排线说明体积，不追求写实高光 Use mostly flat color with local hatching to describe volume, without aiming for naturalistic highlights Flat color and hatching 在原构图中统一主动作方向，让次要细节服从主体 Unify the main direction of action within the original composition and make secondary details serve the subject Concentrated direction 加入适度旧纸颗粒，在脸、手和主要物件上减弱裂纹 Use restrained aged-paper grain, reducing cracks on faces, hands and key objects Restrained aged-paper effect 营造有力、紧张且叙事清楚的画面气质 Create a forceful, tense image with clear narrative Forceful narrative 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast Keep the original palette Attached image 1 · Qiao Feng: Palm Gesture and Dragon Form (based on visible text)  Attached image 2 · Zhou Botong: Two-Handed Action and Bamboo Leaves (based on visible text)  Attached image 3 · Huang Yaoshi: Transverse Flute, Flowering Branch and Giant Wave (based on visible text)  Attached image 4 · Yang Guo: Diagonal Great Sword and Divine Eagle (based on visible text)  浮世绘风 · 武侠人物 Ukiyo-e-inspired Wuxia Characters 作者未核实 这组竖幅人物插画以黑色轮廓、有限的哑光设色、卷浪、竖排题签和米黄旧纸效果建立浮世绘感，再把手掌、巨剑、头发和衣带推向观者，形成现代武侠动作海报的冲击力。系列统一性很强，乔峰的掌与龙、周伯通的双手与竹、黄药师的笛与海浪、杨过的剑与雕，又用不同物件提示人物身份。最值得学习的是“大动作—大色面—流动细线”的组织；主要不足是满幅裂纹与碎斑削弱疏密，部分黑发、衣袍、羽翼和山石相互粘连。四张中，黄药师的动静对照与色彩分区最突出，周伯通的表情与明暗分离较鲜明。 版画与绘本 当代武侠人物插画：浮世绘武者绘与浪纹的视觉借鉴，融合夸张透视、动作海报构图和仿旧纸纹 浮世绘 武侠人物 武者绘 仿木版画 旧纸质感 动作海报 浮世绘风 日式浮世绘 金庸 乔峰 周伯通 黄药师 杨过 老顽童 东邪 神雕侠 降龙震岳 左右互搏 碧海潮生 神雕侠影 墨线 限定色盘 竖排题签 夸张透视 卷浪 武侠插画 ukiyo-e musha-e wuxia woodblock-inspired Qiao Feng Zhou Botong Huang Yaoshi Yang Guo indigo vermilion aged paper foreshortening 浮世绘视觉借鉴 人物 动物 平面色块 排线 明确轮廓 纸张颗粒 保持原动作与透视，将主体概括为清楚有力的剪影 Keep the original action and perspective and simplify subjects into clear, forceful silhouettes 动作剪影 用深色轮廓与顺着动作流向的细线组织形体 Use dark contours and fine lines following the action to organize forms 流向墨线 以米黄、墨黑、深靛蓝与少量砖红形成有限配色 Use a limited palette of beige, ink black, deep indigo and a little brick red 米黄靛蓝砖红 以平涂为主，局部排线说明体积，不追求写实高光 Use mostly flat color with local hatching to describe volume, without aiming for naturalistic highlights 平涂与排线 在原构图中统一主动作方向，让次要细节服从主体 Unify the main direction of action within the original composition and make secondary details serve the subject 方向集中 加入适度旧纸颗粒，在脸、手和主要物件上减弱裂纹 Use restrained aged-paper grain, reducing cracks on faces, hands and key objects 节制旧纸 营造有力、紧张且叙事清楚的画面气质 Create a forceful, tense image with clear narrative 有力叙事 保留原图的主要色相关系，只调整色阶与对比 Keep the source image’s main hue relationships, adjusting only value and contrast 沿用原图配色 附图 1 · 乔峰：掌势与龙形（依图中文字）  附图 2 · 周伯通：双手动作与竹叶（依图中文字）  附图 3 · 黄药师：横笛、花枝与巨浪（依图中文字）  附图 4 · 杨过：斜向巨剑与神雕（依图中文字） ",
+    "search_names": [
+      "Ukiyo-e-inspired · Wuxia Characters",
+      "浮世绘风 · 武侠人物",
+      "Ukiyo-e-inspired Wuxia Characters",
+      "AS-010"
+    ],
+    "search_artist": "Artist unverified 作者未核实"
   }
 ]

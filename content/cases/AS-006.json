@@ -1,10 +1,22 @@
 {
   "id": "AS-006",
-  "name": "Franklin Carmichael · 秋色风景",
+  "name": {
+    "zh": "Franklin Carmichael · 秋色风景",
+    "en": "Franklin Carmichael · Autumn Landscapes"
+  },
   "english_name": "Franklin Carmichael · Rhythmic Autumn Landscapes",
-  "classification": "加拿大七人画派的风景绘画：后印象派式色彩概括、装饰性轮廓与有节奏的地形",
-  "summary": "山丘像波浪般层层展开，云带与坡面相互呼应；明亮的橙红、金黄与冷蓝远景形成强烈对照。秋林中的白桦和深色针叶树构成竖向骨架，短笔触把叶丛、岩石和光斑织成有秩序的色块。本条以三幅可对应作品的用户复现图归纳风格。",
-  "recognition": "先看地形与云层的方向节奏，再看暖色亮部、冷色阴影和简化树形之间的关系。它与已有装饰插画的植物题材有交集，但更依靠风景的地形、光照与色块建立结构；既保留空间纵深，也有鲜明的平面设计感。",
+  "classification": {
+    "zh": "加拿大七人画派的风景绘画：后印象派式色彩概括、装饰性轮廓与有节奏的地形",
+    "en": "Landscape painting of Canada’s Group of Seven: Post-Impressionist-like simplification of color, decorative contours and rhythmic terrain"
+  },
+  "summary": {
+    "zh": "山丘像波浪般层层展开，云带与坡面相互呼应；明亮的橙红、金黄与冷蓝远景形成强烈对照。秋林中的白桦和深色针叶树构成竖向骨架，短笔触把叶丛、岩石和光斑织成有秩序的色块。本条以三幅可对应作品的用户复现图归纳风格。",
+    "en": "Hills unfold in successive waves, with cloud bands echoing the slopes; bright orange-red and golden yellow contrast strongly with cool blue distance. Birches and dark conifers form a vertical framework in the autumn woods, while short brushstrokes weave foliage, rocks and patches of light into ordered color masses. This entry summarizes the style from three user-provided reproductions that can be matched to identified artworks."
+  },
+  "recognition": {
+    "zh": "先看地形与云层的方向节奏，再看暖色亮部、冷色阴影和简化树形之间的关系。它与已有装饰插画的植物题材有交集，但更依靠风景的地形、光照与色块建立结构；既保留空间纵深，也有鲜明的平面设计感。",
+    "en": "First look at the directional rhythms of the land and clouds, then at the relationships among warm highlights, cool shadows and simplified tree forms. Plant subjects overlap with those in the atlas’s decorative illustration examples, but here terrain, light and color masses do more of the structural work. Spatial depth coexists with a strong sense of flat graphic design."
+  },
   "tags": [
     "Franklin Carmichael",
     "弗兰克林·卡迈克尔",
@@ -33,156 +45,357 @@
   ],
   "palette": [
     {
-      "name": "赭红坡面",
+      "name": {
+        "zh": "赭红坡面",
+        "en": "Russet slopes"
+      },
       "hex": "#A74025"
     },
     {
-      "name": "橙红秋叶",
+      "name": {
+        "zh": "橙红秋叶",
+        "en": "Orange-red autumn leaves"
+      },
       "hex": "#ED6C23"
     },
     {
-      "name": "金黄亮部",
+      "name": {
+        "zh": "金黄亮部",
+        "en": "Golden-yellow highlights"
+      },
       "hex": "#E6BE42"
     },
     {
-      "name": "远山冷蓝",
+      "name": {
+        "zh": "远山冷蓝",
+        "en": "Cool blue distant hills"
+      },
       "hex": "#637F98"
     },
     {
-      "name": "深青暗部",
+      "name": {
+        "zh": "深青暗部",
+        "en": "Deep teal shadows"
+      },
       "hex": "#123436"
     }
   ],
-  "reuse_focus": "先按原照片重建大色块与明暗，再让笔触顺着已有形体走。开阔场景可侧重山势与云带的节奏；树林可侧重浅色树干、深色树群与暖色碎笔触。把参考色盘用于既有对象，保留原场景的结构和人物身份。",
-  "judgment_note": "作品信息与风格判断分开记录：年代、媒介和馆藏据各图下方所链来源；“后印象派式”“装饰性”是本图鉴对可见语言的概括。《Autumn》（1940）信息据 DailyArt 的 McMichael 专题，本次未取得馆藏数据库登记号；用户附图是裁去下部前景的局部。《Festive Autumn》采用 AGO 现行馆藏题名，另保留 Autumn in the Northland 作为复现品检索用名。中文作品名为图鉴译名。所有展示图均为用户提供的作品复现图，保留原文件与可见署名；同批旋纹森林另列为归属待核实对照。",
+  "reuse_focus": {
+    "zh": "先按原照片重建大色块与明暗，再让笔触顺着已有形体走。开阔场景可侧重山势与云带的节奏；树林可侧重浅色树干、深色树群与暖色碎笔触。把参考色盘用于既有对象，保留原场景的结构和人物身份。",
+    "en": "Reconstruct the large color masses and light–dark structure from the original photograph first, then let the brushwork follow its existing forms. In open scenes, emphasize the rhythms of hills and cloud bands; in woodland, emphasize pale trunks, dark tree masses and warm broken brushwork. Apply the reference palette to existing objects while preserving the original scene’s structure and people’s identities."
+  },
+  "judgment_note": {
+    "zh": "作品信息与风格判断分开记录：年代、媒介和馆藏据各图下方所链来源；“后印象派式”“装饰性”是本图鉴对可见语言的概括。《Autumn》（1940）信息据 DailyArt 的 McMichael 专题，本次未取得馆藏数据库登记号；用户附图是裁去下部前景的局部。《Festive Autumn》采用 AGO 现行馆藏题名，另保留 Autumn in the Northland 作为复现品检索用名。中文作品名为图鉴译名。所有展示图均为用户提供的作品复现图，保留原文件与可见署名；同批旋纹森林另列为归属待核实对照。",
+    "en": "Artwork information is recorded separately from stylistic judgments: dates, media and collections follow the sources linked below each image; “Post-Impressionist-like” and “decorative” are this atlas’s summaries of the visible pictorial language. Information on Autumn (1940) comes from DailyArt’s McMichael feature; no collection-database accession number was obtained in this review. The user’s image is a detail with the lower foreground cropped out. Festive Autumn uses the AGO’s current collection title; Autumn in the Northland is also retained as a search name used for reproductions. Chinese artwork titles are translations made for this atlas. All displayed images are user-provided reproductions of artworks, with the original files and visible signatures retained. The swirling forest from the same batch is listed separately as a comparison image with unverified attribution."
+  },
   "references": [
     {
       "file": "media/carmichael-batch-input-02.webp",
       "kind": "user_artwork_reproduction",
-      "caption": "01 · Autumn《秋》· 1940（局部）",
-      "alt": "Franklin Carmichael《Autumn》局部复现图：起伏山丘以橙红、赭黄和深青分区，上方有冷蓝与浅灰色的横向云带",
-      "credit": "Franklin Carmichael · 用户复现图 · 信息据 DailyArt",
+      "caption": {
+        "zh": "01 · Autumn《秋》· 1940（局部）",
+        "en": "01 · Autumn · 1940 (detail)"
+      },
+      "alt": {
+        "zh": "Franklin Carmichael《Autumn》局部复现图：起伏山丘以橙红、赭黄和深青分区，上方有冷蓝与浅灰色的横向云带",
+        "en": "Detail reproduction of Franklin Carmichael’s Autumn: rolling hills divided into orange-red, yellow ochre and deep teal areas, beneath horizontal cloud bands of cool blue and pale gray"
+      },
+      "credit": {
+        "zh": "Franklin Carmichael · 用户复现图 · 信息据 DailyArt",
+        "en": "Franklin Carmichael · User-provided reproduction · Information from DailyArt"
+      },
       "credit_url": "https://www.getdailyart.com/en/25012/franklin-carmichael/autumn",
       "artwork": {
-        "title": "Autumn",
-        "title_zh": "秋",
-        "artist": "Franklin Carmichael",
-        "date_label": "1940",
-        "medium_label": "油彩／硬质纤维板（oil on hardboard）",
-        "dimensions_label": "原作 96.5 × 122 cm",
-        "collection": "McMichael Canadian Art Collection（据 DailyArt）",
-        "verification_note": "与 DailyArt 复现图的山脊和云层逐一对应；附图裁去了原作下部的岩石与更多前景，不能视作完整原作画幅。"
+        "title": {
+          "zh": "Autumn",
+          "en": "Autumn"
+        },
+        "title_zh": {
+          "zh": "秋",
+          "en": "Autumn (Chinese title translated by the atlas)"
+        },
+        "artist": {
+          "zh": "Franklin Carmichael",
+          "en": "Franklin Carmichael"
+        },
+        "date_label": {
+          "zh": "1940",
+          "en": "1940"
+        },
+        "medium_label": {
+          "zh": "油彩／硬质纤维板（oil on hardboard）",
+          "en": "Oil on hardboard"
+        },
+        "dimensions_label": {
+          "zh": "原作 96.5 × 122 cm",
+          "en": "Original artwork: 96.5 × 122 cm"
+        },
+        "collection": {
+          "zh": "McMichael Canadian Art Collection（据 DailyArt）",
+          "en": "McMichael Canadian Art Collection (according to DailyArt)"
+        },
+        "verification_note": {
+          "zh": "与 DailyArt 复现图的山脊和云层逐一对应；附图裁去了原作下部的岩石与更多前景，不能视作完整原作画幅。",
+          "en": "The ridgelines and clouds correspond point by point to the DailyArt reproduction. The attached image crops out rocks and additional foreground at the bottom of the original, so it must not be treated as the full composition."
+        }
       },
-      "focus": "观察冷色云带与暖色山丘之间的呼应，以及暗色前景如何托起金黄亮部。"
+      "focus": {
+        "zh": "观察冷色云带与暖色山丘之间的呼应，以及暗色前景如何托起金黄亮部。",
+        "en": "Observe how the cool cloud bands echo the warm hills, and how the dark foreground supports the golden-yellow highlights."
+      }
     },
     {
       "file": "media/carmichael-batch-input-03.webp",
       "kind": "user_artwork_reproduction",
-      "caption": "02 · October Gold《十月金色》· 1922",
-      "alt": "Franklin Carmichael《October Gold》复现图：白桦树干和金黄色碎叶在右侧与前景交错，橙色树冠铺向远方，深色谷地贯穿画面",
-      "credit": "Franklin Carmichael · 用户复现图 · McMichael 馆藏信息",
+      "caption": {
+        "zh": "02 · October Gold《十月金色》· 1922",
+        "en": "02 · October Gold · 1922"
+      },
+      "alt": {
+        "zh": "Franklin Carmichael《October Gold》复现图：白桦树干和金黄色碎叶在右侧与前景交错，橙色树冠铺向远方，深色谷地贯穿画面",
+        "en": "Reproduction of Franklin Carmichael’s October Gold: birch trunks and golden foliage in small patches interweave on the right and in the foreground, orange canopies extend into the distance, and a dark valley runs through the image"
+      },
+      "credit": {
+        "zh": "Franklin Carmichael · 用户复现图 · McMichael 馆藏信息",
+        "en": "Franklin Carmichael · User-provided reproduction · McMichael collection information"
+      },
       "credit_url": "https://shop.mcmichael.com/products/october-gold-large-reproduction-franklin-carmichael",
       "artwork": {
-        "title": "October Gold",
-        "title_zh": "十月金色",
-        "artist": "Franklin Carmichael",
-        "date_label": "1922",
-        "medium_label": "油彩／画布（oil on canvas）",
-        "dimensions_label": "原作 119.5 × 98 cm",
-        "collection": "McMichael Canadian Art Collection",
+        "title": {
+          "zh": "October Gold",
+          "en": "October Gold"
+        },
+        "title_zh": {
+          "zh": "十月金色",
+          "en": "October Gold (Chinese title translated by the atlas)"
+        },
+        "artist": {
+          "zh": "Franklin Carmichael",
+          "en": "Franklin Carmichael"
+        },
+        "date_label": {
+          "zh": "1922",
+          "en": "1922"
+        },
+        "medium_label": {
+          "zh": "油彩／画布（oil on canvas）",
+          "en": "Oil on canvas"
+        },
+        "dimensions_label": {
+          "zh": "原作 119.5 × 98 cm",
+          "en": "Original artwork: 119.5 × 98 cm"
+        },
+        "collection": {
+          "zh": "McMichael Canadian Art Collection",
+          "en": "McMichael Canadian Art Collection"
+        },
         "accession_number": "1966.16.1",
-        "verification_note": "作品资料据 McMichael 官方页面；用户复现图的色彩与边缘可能受复制版本影响，原文件保留。"
+        "verification_note": {
+          "zh": "作品资料据 McMichael 官方页面；用户复现图的色彩与边缘可能受复制版本影响，原文件保留。",
+          "en": "Artwork information follows McMichael’s official page. Color and edges in the user’s reproduction may reflect the particular reproduction version; the original file is retained."
+        }
       },
-      "focus": "白色树干与金色叶片建立近景节奏，林间深色通道和蓝绿远景支撑空间纵深。"
+      "focus": {
+        "zh": "白色树干与金色叶片建立近景节奏，林间深色通道和蓝绿远景支撑空间纵深。",
+        "en": "White trunks and golden leaves establish a foreground rhythm; a dark passage through the woods and blue-green distance support spatial depth."
+      }
     },
     {
       "file": "media/carmichael-batch-input-04.webp",
       "kind": "user_artwork_reproduction",
-      "caption": "03 · Festive Autumn《绚烂之秋》· 1921",
-      "alt": "Franklin Carmichael《Festive Autumn》复现图：红橙与黄绿色秋树立在斑驳受光的岩坡上，前景有树桩与倒木，背景是蓝色远山和浅粉色天空，右下保留原图署名",
-      "credit": "Franklin Carmichael · 用户复现图 · AGO 馆藏记录",
+      "caption": {
+        "zh": "03 · Festive Autumn《绚烂之秋》· 1921",
+        "en": "03 · Festive Autumn · 1921"
+      },
+      "alt": {
+        "zh": "Franklin Carmichael《Festive Autumn》复现图：红橙与黄绿色秋树立在斑驳受光的岩坡上，前景有树桩与倒木，背景是蓝色远山和浅粉色天空，右下保留原图署名",
+        "en": "Reproduction of Franklin Carmichael’s Festive Autumn: red-orange and yellow-green autumn trees stand on a rocky slope mottled with light; stumps and fallen logs occupy the foreground, with blue distant hills and a pale pink sky behind; the original image’s signature remains at lower right"
+      },
+      "credit": {
+        "zh": "Franklin Carmichael · 用户复现图 · AGO 馆藏记录",
+        "en": "Franklin Carmichael · User-provided reproduction · AGO collection record"
+      },
       "credit_url": "https://art.ago.ca/objects/3776/festive-autumn",
       "artwork": {
-        "title": "Festive Autumn",
-        "title_zh": "绚烂之秋",
-        "artist": "Franklin Carmichael",
-        "date_label": "1921",
-        "medium_label": "油彩／画布（oil on canvas）",
-        "dimensions_label": "原作 76.4 × 91.7 cm",
-        "collection": "The Thomson Collection · Art Gallery of Ontario",
+        "title": {
+          "zh": "Festive Autumn",
+          "en": "Festive Autumn"
+        },
+        "title_zh": {
+          "zh": "绚烂之秋",
+          "en": "Festive Autumn (Chinese title translated by the atlas)"
+        },
+        "artist": {
+          "zh": "Franklin Carmichael",
+          "en": "Franklin Carmichael"
+        },
+        "date_label": {
+          "zh": "1921",
+          "en": "1921"
+        },
+        "medium_label": {
+          "zh": "油彩／画布（oil on canvas）",
+          "en": "Oil on canvas"
+        },
+        "dimensions_label": {
+          "zh": "原作 76.4 × 91.7 cm",
+          "en": "Original artwork: 76.4 × 91.7 cm"
+        },
+        "collection": {
+          "zh": "The Thomson Collection · Art Gallery of Ontario",
+          "en": "The Thomson Collection · Art Gallery of Ontario"
+        },
         "accession_number": "AGOID.104085",
-        "reproduction_search_name": "Autumn in the Northland",
-        "verification_note": "画面与 AGO 馆藏图一致；以其现行题名为准。Autumn in the Northland 为复现品页面所用名称，保留为检索线索。"
+        "reproduction_search_name": {
+          "zh": "Autumn in the Northland",
+          "en": "Autumn in the Northland"
+        },
+        "verification_note": {
+          "zh": "画面与 AGO 馆藏图一致；以其现行题名为准。Autumn in the Northland 为复现品页面所用名称，保留为检索线索。",
+          "en": "The image matches the AGO collection image, whose current title is used. Autumn in the Northland is a name used on reproduction pages and is retained as a search clue."
+        }
       },
-      "focus": "浅色天空、冷蓝远山与橙红秋叶交错；地面碎色光斑和倾斜阴影形成方向感。"
+      "focus": {
+        "zh": "浅色天空、冷蓝远山与橙红秋叶交错；地面碎色光斑和倾斜阴影形成方向感。",
+        "en": "Pale sky, cool blue distant hills and orange-red autumn leaves interweave; broken patches of light on the ground and slanting shadows establish direction."
+      }
     }
   ],
   "unverified_references": [
     {
       "file": "media/carmichael-batch-input-01.webp",
       "kind": "unverified_user_reference",
-      "caption": "附图 1 · 旋纹森林（图鉴描述名）",
-      "alt": "深色背景中，彩色云团和树冠由密集平行旋纹与细碎团簇构成，细长树干和弯曲地面延伸入森林",
-      "credit": "用户提供 · 作者、作品名与制作方法待核实",
-      "attribution_status": "未取得可信作品记录；不归入 Franklin Carmichael 原作",
-      "focus": "可见密集的平行旋纹、团簇状树冠和近似浮雕的层叠表面。这些是画面特征；实际媒介、制作方法及 AI 参与情况均未知。与本条三幅作品的笔触组织差异明显，暂存为独立对照资料。"
+      "caption": {
+        "zh": "附图 1 · 旋纹森林（图鉴描述名）",
+        "en": "Attached image 1 · Swirling Forest (descriptive title assigned by the atlas)"
+      },
+      "alt": {
+        "zh": "深色背景中，彩色云团和树冠由密集平行旋纹与细碎团簇构成，细长树干和弯曲地面延伸入森林",
+        "en": "Against a dark background, colorful cloud masses and tree canopies are formed from dense parallel swirls and fine clusters, while slender trunks and curved ground lead into the forest"
+      },
+      "credit": {
+        "zh": "用户提供 · 作者、作品名与制作方法待核实",
+        "en": "User-provided · Artist, artwork title and production method unverified"
+      },
+      "attribution_status": {
+        "zh": "未取得可信作品记录；不归入 Franklin Carmichael 原作",
+        "en": "No reliable artwork record obtained; not classified as an original work by Franklin Carmichael"
+      },
+      "focus": {
+        "zh": "可见密集的平行旋纹、团簇状树冠和近似浮雕的层叠表面。这些是画面特征；实际媒介、制作方法及 AI 参与情况均未知。与本条三幅作品的笔触组织差异明显，暂存为独立对照资料。",
+        "en": "Dense parallel swirls, clustered canopies and layered surfaces resembling relief are visible. These are image characteristics; the actual medium, production method and any AI involvement remain unknown. The organization of marks differs clearly from the three artworks in this entry, so the image is retained separately for comparison."
+      }
     }
   ],
   "type": "case",
   "schema_version": 1,
   "analysis": [
     {
-      "label": "地形与轮廓",
-      "text": "山脊、谷地和云层被概括为交叠的弧形与带状色面，重复但不等距。坡面的轮廓与笔触一起顺着地形转折，形成起伏、流动的节奏。"
+      "label": {
+        "zh": "地形与轮廓",
+        "en": "Terrain and contours"
+      },
+      "text": {
+        "zh": "山脊、谷地和云层被概括为交叠的弧形与带状色面，重复但不等距。坡面的轮廓与笔触一起顺着地形转折，形成起伏、流动的节奏。",
+        "en": "Ridgelines, valleys and clouds are simplified into overlapping arcs and bands of color, repeated at uneven intervals. The contours and brushwork on slopes follow the turns of the terrain together, creating an undulating, flowing rhythm."
+      }
     },
     {
-      "label": "冷暖与明暗",
-      "text": "金黄、橙红和赭红集中在受光坡面与叶丛；深青、蓝绿和冷蓝组织林间、背光面与远景。同一山丘上的明暗分区清楚，暖色鲜艳处仍有深色支撑。"
+      "label": {
+        "zh": "冷暖与明暗",
+        "en": "Warm–cool and light–dark relationships"
+      },
+      "text": {
+        "zh": "金黄、橙红和赭红集中在受光坡面与叶丛；深青、蓝绿和冷蓝组织林间、背光面与远景。同一山丘上的明暗分区清楚，暖色鲜艳处仍有深色支撑。",
+        "en": "Golden yellow, orange-red and russet concentrate on sunlit slopes and foliage; deep teal, blue-green and cool blue organize woodland interiors, shaded planes and the distance. Light and shade on each hill are clearly divided, while dark colors still support the vivid warm areas."
+      }
     },
     {
-      "label": "笔触与色块",
-      "text": "大形先用相对完整的色面组织，再以短笔、条带、点触和不规则碎色块塑造细部。方向性的笔触交代山势、云带与地面，而树叶常以分离的小亮色块点出。"
+      "label": {
+        "zh": "笔触与色块",
+        "en": "Brushwork and color masses"
+      },
+      "text": {
+        "zh": "大形先用相对完整的色面组织，再以短笔、条带、点触和不规则碎色块塑造细部。方向性的笔触交代山势、云带与地面，而树叶常以分离的小亮色块点出。",
+        "en": "Major forms are first organized as relatively continuous color areas, then details are shaped with short strokes, bands, dabs and irregular patches of broken color. Directional brushwork describes hills, cloud bands and ground, while leaves are often indicated with separate small patches of bright color."
+      }
     },
     {
-      "label": "树木的骨架",
-      "text": "白桦树干与细枝提供浅色、弯曲的竖线，深色针叶树呈紧凑剪影，暖色树冠以概括轮廓组织。这些形体在秋林样例中交错，既框景，也把视线送入谷地。"
+      "label": {
+        "zh": "树木的骨架",
+        "en": "The framework of trees"
+      },
+      "text": {
+        "zh": "白桦树干与细枝提供浅色、弯曲的竖线，深色针叶树呈紧凑剪影，暖色树冠以概括轮廓组织。这些形体在秋林样例中交错，既框景，也把视线送入谷地。",
+        "en": "Birch trunks and fine branches provide pale, curved vertical lines; dark conifers form compact silhouettes, and warm canopies are organized with simplified contours. These forms interweave in the autumn woodland examples, both framing the view and directing the eye into the valley."
+      }
     },
     {
-      "label": "空间与光照",
-      "text": "前景保留岩石、树干与强烈暗部，远景使用较冷、较浅的蓝绿色；坡面的斑块亮部带出日光。空间层次由遮挡、色温和明暗共同建立，局部形式则保持装饰性。"
+      "label": {
+        "zh": "空间与光照",
+        "en": "Space and light"
+      },
+      "text": {
+        "zh": "前景保留岩石、树干与强烈暗部，远景使用较冷、较浅的蓝绿色；坡面的斑块亮部带出日光。空间层次由遮挡、色温和明暗共同建立，局部形式则保持装饰性。",
+        "en": "Rocks, trunks and strong shadows remain in the foreground, while cooler, lighter blue-greens occupy the distance; patches of light on the slopes suggest sunlight. Overlap, color temperature and value work together to establish spatial layers, while individual forms retain a decorative character."
+      }
     },
     {
-      "label": "样例的变化",
-      "text": "《Autumn》（1940）偏重宽阔山势与云层；《October Gold》（1922）以白桦和密集金叶框住深色谷地；《Festive Autumn》（1921）用树木、伐木遗迹、岩石和散布光斑形成明亮的前景。三幅共享色彩与形体节奏，笔触疏密各有不同。"
+      "label": {
+        "zh": "样例的变化",
+        "en": "Variations among examples"
+      },
+      "text": {
+        "zh": "《Autumn》（1940）偏重宽阔山势与云层；《October Gold》（1922）以白桦和密集金叶框住深色谷地；《Festive Autumn》（1921）用树木、伐木遗迹、岩石和散布光斑形成明亮的前景。三幅共享色彩与形体节奏，笔触疏密各有不同。",
+        "en": "Autumn (1940) emphasizes broad hills and clouds; October Gold (1922) frames a dark valley with birches and dense golden foliage; Festive Autumn (1921) creates a bright foreground from trees, traces of logging, rocks and scattered patches of light. The three share rhythms of color and form, while varying in brushstroke density."
+      }
     }
   ],
   "legacy_prompts": {
     "zh": "将输入照片完整改绘为 Franklin Carmichael 秋色风景所体现的绘画语言：概括而有节奏的形体、鲜明冷暖色块与方向性的短笔触。输入照片决定内容、构图和空间；附加参考仅提供风格。保留原图主体数量、人物身份与姿态、主要物件关系、地形或建筑结构、视角和画幅比例。先用交叠的大色面重建明暗，把已有山势、道路、云层、树冠或建筑体块整理为清晰、有机的轮廓，让弧线与带状色面顺着实际形体起伏。以深青、蓝绿和冷蓝组织阴影及远景，以金黄、橙红和赭红处理原场景已有的受光面与暖色对象；保留浅色天空或背景的呼吸空间，避免所有区域同样鲜艳。以短笔、条带、点触与不规则碎色表现已有叶丛、岩石、织物和地面，方向随形体变化，保持笔触疏密与清晰的大结构。植物可概括为浅色树干、深色树群和暖色叶簇；人物面部保留可辨认特征，并用与全画一致的笔触重绘。近景有明确遮挡和暗部，远景较冷、较浅，使装饰性色块仍有空间纵深。不要从参考导入山丘、白桦、树桩、倒木或新人物；不要强行改变季节、镜头或画幅。避免均匀旋纹、连续等距刻槽、满屏细节、摄影贴片、塑料光泽、文字、水印，以及仅叠加鲜艳色彩滤镜。",
-    "en": "Repaint the input photograph using the visual language of Franklin Carmichael's autumn landscapes: simplified rhythmic forms, distinct warm and cool color masses, and directional broken brushwork. Let the photograph determine content, composition and space; use references for style only. Preserve subject count, recognizable identities and poses, key object relationships, landscape or architectural structure, viewpoint and aspect ratio. Establish broad overlapping light and dark shapes, then organize existing hills, paths, clouds, foliage or building masses into clear organic contours. Let curves and bands follow the actual forms. Use deep teal, blue-green and cool blue for shadows and distance; apply golden yellow, orange and russet to existing sunlit surfaces and warm subjects. Retain breathing space in light sky or background areas and vary saturation. Render existing foliage, rocks, fabric and ground with short strokes, bands, dabs and irregular broken color, varying direction and density while preserving the large structure. Simplify vegetation into pale trunks, dark tree masses and warm leaf clusters where appropriate. Keep faces recognizable and consistently painted. Use overlapping foreground forms and darker near planes, with cooler, lighter distance, so decorative color shapes retain depth. Do not import hills, birches, stumps, fallen logs or extra people, or force a new season, camera or aspect ratio. Avoid uniform swirls, evenly spaced grooves, excessive detail, photographic patches, plastic gloss, lettering, watermarks and a simple saturation filter."
+    "en": "Repaint the entire input photograph using the visual language of Franklin Carmichael’s autumn landscapes: simplified rhythmic forms, distinct warm and cool color masses, and directional short brushstrokes. Let the input photograph determine content, composition and space; use additional references for style only. Preserve the original subject count, people’s identities and poses, key object relationships, terrain or architectural structure, viewpoint and aspect ratio. Reconstruct light and shade with broad overlapping color areas first, then organize existing hills, paths, clouds, canopies or building masses into clear organic contours, letting arcs and bands of color rise and fall with the actual forms. Use deep teal, blue-green and cool blue for shadows and distance, and golden yellow, orange-red and russet for the original scene’s existing sunlit planes and warm-colored objects. Retain breathing room in a pale sky or background and avoid making every area equally vivid. Render existing foliage, rocks, fabric and ground with short strokes, bands, dabs and irregular broken color, varying direction with the forms and preserving varied brushstroke density and a clear overall structure. Vegetation may be simplified into pale trunks, dark tree masses and warm leaf clusters. Retain recognizable facial features and repaint them with brushwork consistent with the whole image. Keep clear overlaps and shadows in the foreground and cooler, lighter distance, so decorative color masses still have spatial depth. Do not import hills, birches, stumps, fallen logs or new people from the references; do not force a change of season, camera view or frame. Avoid uniform swirls, continuous evenly spaced grooves, detail filling the entire image, photographic patches, plastic gloss, text, watermarks, and merely overlaying a vivid color filter."
   },
   "sources": [
     {
-      "title": "McMichael · October Gold 作品资料",
+      "title": {
+        "zh": "McMichael · October Gold 作品资料",
+        "en": "McMichael · Artwork information for October Gold"
+      },
       "url": "https://shop.mcmichael.com/products/october-gold-large-reproduction-franklin-carmichael"
     },
     {
-      "title": "AGO · Festive Autumn 馆藏记录",
+      "title": {
+        "zh": "AGO · Festive Autumn 馆藏记录",
+        "en": "AGO · Collection record for Festive Autumn"
+      },
       "url": "https://art.ago.ca/objects/3776/festive-autumn"
     },
     {
-      "title": "DailyArt · McMichael 专题中的 Autumn（1940）",
+      "title": {
+        "zh": "DailyArt · McMichael 专题中的 Autumn（1940）",
+        "en": "DailyArt · Autumn (1940) in the McMichael feature"
+      },
       "url": "https://www.getdailyart.com/en/25012/franklin-carmichael/autumn"
     },
     {
-      "title": "AGO · 七人画派的历史背景",
+      "title": {
+        "zh": "AGO · 七人画派的历史背景",
+        "en": "AGO · Historical background of the Group of Seven"
+      },
       "url": "https://ago.ca/collection/group-of-seven-ago"
     },
     {
-      "title": "NGC 官方商店 · Autumn in the Northland 复现品用名",
+      "title": {
+        "zh": "NGC 官方商店 · Autumn in the Northland 复现品用名",
+        "en": "NGC official shop · Autumn in the Northland as a reproduction title"
+      },
       "url": "https://boutique.gallery.ca/products/autumn-in-the-northland-poster"
     }
   ],
-  "artist": "Franklin Carmichael",
+  "artist": {
+    "zh": "Franklin Carmichael",
+    "en": "Franklin Carmichael"
+  },
   "facets": {
     "tradition": [
       "group-of-seven"
@@ -203,9 +416,18 @@
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "起伏色面",
-      "explanation": "将现有形体概括为起伏、交叠的弧形与带状色面",
-      "evidence": "山脊、谷地和云层被概括为交叠的弧形与带状色面，重复但不等距。坡面的轮廓与笔触一起顺着地形转折，形成起伏、流动的节奏。",
+      "label": {
+        "zh": "起伏色面",
+        "en": "Undulating color areas"
+      },
+      "explanation": {
+        "zh": "将现有形体概括为起伏、交叠的弧形与带状色面",
+        "en": "Simplify existing forms into rolling overlapping arcs and bands of color"
+      },
+      "evidence": {
+        "zh": "山脊、谷地和云层被概括为交叠的弧形与带状色面，重复但不等距。坡面的轮廓与笔触一起顺着地形转折，形成起伏、流动的节奏。",
+        "en": "Ridgelines, valleys and clouds are simplified into overlapping arcs and bands of color, repeated at uneven intervals. The contours and brushwork on slopes follow the turns of the terrain together, creating an undulating, flowing rhythm."
+      },
       "zh": "将现有形体概括为起伏、交叠的弧形与带状色面",
       "en": "Simplify existing forms into rolling overlapping arcs and bands of color",
       "default": true
@@ -213,9 +435,18 @@
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "装饰轮廓",
-      "explanation": "保持轮廓清楚，以重复但不等距的节奏组织边线",
-      "evidence": "白桦树干与细枝提供浅色、弯曲的竖线，深色针叶树呈紧凑剪影，暖色树冠以概括轮廓组织。这些形体在秋林样例中交错，既框景，也把视线送入谷地。",
+      "label": {
+        "zh": "装饰轮廓",
+        "en": "Decorative contours"
+      },
+      "explanation": {
+        "zh": "保持轮廓清楚，以重复但不等距的节奏组织边线",
+        "en": "Keep contours clear with repeated but unevenly spaced rhythms"
+      },
+      "evidence": {
+        "zh": "白桦树干与细枝提供浅色、弯曲的竖线，深色针叶树呈紧凑剪影，暖色树冠以概括轮廓组织。这些形体在秋林样例中交错，既框景，也把视线送入谷地。",
+        "en": "Birch trunks and fine branches provide pale, curved vertical lines; dark conifers form compact silhouettes, and warm canopies are organized with simplified contours. These forms interweave in the autumn woodland examples, both framing the view and directing the eye into the valley."
+      },
       "zh": "保持轮廓清楚，以重复但不等距的节奏组织边线",
       "en": "Keep contours clear with repeated but unevenly spaced rhythms",
       "default": true
@@ -223,9 +454,18 @@
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "金橙与冷青",
-      "explanation": "用金黄、橙赭受光色对照深青、蓝绿阴影",
-      "evidence": "金黄、橙红和赭红集中在受光坡面与叶丛；深青、蓝绿和冷蓝组织林间、背光面与远景。同一山丘上的明暗分区清楚，暖色鲜艳处仍有深色支撑。",
+      "label": {
+        "zh": "金橙与冷青",
+        "en": "Gold and orange against cool teal"
+      },
+      "explanation": {
+        "zh": "用金黄、橙赭受光色对照深青、蓝绿阴影",
+        "en": "Contrast golden yellow and orange-ochre lights with deep teal and blue-green shadows"
+      },
+      "evidence": {
+        "zh": "金黄、橙红和赭红集中在受光坡面与叶丛；深青、蓝绿和冷蓝组织林间、背光面与远景。同一山丘上的明暗分区清楚，暖色鲜艳处仍有深色支撑。",
+        "en": "Golden yellow, orange-red and russet concentrate on sunlit slopes and foliage; deep teal, blue-green and cool blue organize woodland interiors, shaded planes and the distance. Light and shade on each hill are clearly divided, while dark colors still support the vivid warm areas."
+      },
       "zh": "用金黄、橙赭受光色对照深青、蓝绿阴影",
       "en": "Contrast golden yellow and orange-ochre lights with deep teal and blue-green shadows",
       "default": true,
@@ -234,9 +474,18 @@
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "分区日光",
-      "explanation": "以清楚的受光与背光分区表现日光",
-      "evidence": "前景保留岩石、树干与强烈暗部，远景使用较冷、较浅的蓝绿色；坡面的斑块亮部带出日光。空间层次由遮挡、色温和明暗共同建立，局部形式则保持装饰性。",
+      "label": {
+        "zh": "分区日光",
+        "en": "Sunlight in distinct planes"
+      },
+      "explanation": {
+        "zh": "以清楚的受光与背光分区表现日光",
+        "en": "Show daylight through clear divisions between light and shade"
+      },
+      "evidence": {
+        "zh": "前景保留岩石、树干与强烈暗部，远景使用较冷、较浅的蓝绿色；坡面的斑块亮部带出日光。空间层次由遮挡、色温和明暗共同建立，局部形式则保持装饰性。",
+        "en": "Rocks, trunks and strong shadows remain in the foreground, while cooler, lighter blue-greens occupy the distance; patches of light on the slopes suggest sunlight. Overlap, color temperature and value work together to establish spatial layers, while individual forms retain a decorative character."
+      },
       "zh": "以清楚的受光与背光分区表现日光",
       "en": "Show daylight through clear divisions between light and shade",
       "default": true
@@ -244,9 +493,18 @@
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "冷暖远近",
-      "explanation": "保留原有遮挡，以较冷较浅的远景建立深度",
-      "evidence": "前景保留岩石、树干与强烈暗部，远景使用较冷、较浅的蓝绿色；坡面的斑块亮部带出日光。空间层次由遮挡、色温和明暗共同建立，局部形式则保持装饰性。",
+      "label": {
+        "zh": "冷暖远近",
+        "en": "Warm–cool depth"
+      },
+      "explanation": {
+        "zh": "保留原有遮挡，以较冷较浅的远景建立深度",
+        "en": "Keep original overlaps and use cooler, lighter distance to build depth"
+      },
+      "evidence": {
+        "zh": "前景保留岩石、树干与强烈暗部，远景使用较冷、较浅的蓝绿色；坡面的斑块亮部带出日光。空间层次由遮挡、色温和明暗共同建立，局部形式则保持装饰性。",
+        "en": "Rocks, trunks and strong shadows remain in the foreground, while cooler, lighter blue-greens occupy the distance; patches of light on the slopes suggest sunlight. Overlap, color temperature and value work together to establish spatial layers, while individual forms retain a decorative character."
+      },
       "zh": "保留原有遮挡，以较冷较浅的远景建立深度",
       "en": "Keep original overlaps and use cooler, lighter distance to build depth",
       "default": true
@@ -254,36 +512,66 @@
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "方向笔触",
-      "explanation": "用短笔、条带和点触顺着原有形体方向塑造表面",
-      "evidence": "大形先用相对完整的色面组织，再以短笔、条带、点触和不规则碎色块塑造细部。方向性的笔触交代山势、云带与地面，而树叶常以分离的小亮色块点出。",
+      "label": {
+        "zh": "方向笔触",
+        "en": "Directional brushwork"
+      },
+      "explanation": {
+        "zh": "用短笔、条带和点触顺着原有形体方向塑造表面",
+        "en": "Model surfaces with short strokes, bands and dabs that follow the direction of existing forms"
+      },
+      "evidence": {
+        "zh": "大形先用相对完整的色面组织，再以短笔、条带、点触和不规则碎色块塑造细部。方向性的笔触交代山势、云带与地面，而树叶常以分离的小亮色块点出。",
+        "en": "Major forms are first organized as relatively continuous color areas, then details are shaped with short strokes, bands, dabs and irregular patches of broken color. Directional brushwork describes hills, cloud bands and ground, while leaves are often indicated with separate small patches of bright color."
+      },
       "zh": "用短笔、条带和点触顺着原有形体方向塑造表面",
-      "en": "Use short strokes, bands and dabs following the direction of existing forms",
+      "en": "Model surfaces with short strokes, bands and dabs that follow the direction of existing forms",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "明朗节奏",
-      "explanation": "营造明朗、蓬勃而有节奏的观看感受",
-      "evidence": "《Autumn》（1940）偏重宽阔山势与云层；《October Gold》（1922）以白桦和密集金叶框住深色谷地；《Festive Autumn》（1921）用树木、伐木遗迹、岩石和散布光斑形成明亮的前景。三幅共享色彩与形体节奏，笔触疏密各有不同。",
+      "label": {
+        "zh": "明朗节奏",
+        "en": "Bright rhythm"
+      },
+      "explanation": {
+        "zh": "营造明朗、蓬勃而有节奏的观看感受",
+        "en": "Create a bright, lively and rhythmic visual impression"
+      },
+      "evidence": {
+        "zh": "《Autumn》（1940）偏重宽阔山势与云层；《October Gold》（1922）以白桦和密集金叶框住深色谷地；《Festive Autumn》（1921）用树木、伐木遗迹、岩石和散布光斑形成明亮的前景。三幅共享色彩与形体节奏，笔触疏密各有不同。",
+        "en": "Autumn (1940) emphasizes broad hills and clouds; October Gold (1922) frames a dark valley with birches and dense golden foliage; Festive Autumn (1921) creates a bright foreground from trees, traces of logging, rocks and scattered patches of light. The three share rhythms of color and form, while varying in brushstroke density."
+      },
       "zh": "营造明朗、蓬勃而有节奏的观看感受",
-      "en": "Create a clear, lively and rhythmic visual feeling",
+      "en": "Create a bright, lively and rhythmic visual impression",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": {
+        "zh": "沿用原图配色",
+        "en": "Keep the original palette"
+      },
+      "explanation": {
+        "zh": "保留原图的主要色相关系，只调整色阶与对比。",
+        "en": "Keep the source image’s main hue relationships, adjusting only value and contrast."
+      },
+      "evidence": {
+        "zh": "这是创作时可选的变体，不是对参考作品的描述。",
+        "en": "This is an optional variation for creation, not a description of the reference artwork."
+      },
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
     }
   ],
-  "observed_avoid": "避免把照片机械改成秋天山林，或把所有表面填满同样的旋纹；避免过度平涂丢掉空间层次，或只增加鲜艳滤镜而不重画形体、光影与笔触。",
+  "observed_avoid": {
+    "zh": "避免把照片机械改成秋天山林，或把所有表面填满同样的旋纹；避免过度平涂丢掉空间层次，或只增加鲜艳滤镜而不重画形体、光影与笔触。",
+    "en": "Avoid mechanically turning photographs into autumn mountain forests or filling every surface with identical swirls. Avoid flattening color so much that spatial depth is lost, or merely adding a vivid color filter without repainting forms, light, shadow and brushwork."
+  },
   "avoid": {
     "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
     "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"

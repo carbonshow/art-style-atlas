@@ -1,6 +1,9 @@
 {
   "id": "art-nouveau",
-  "name": "新艺术",
+  "name": {
+    "zh": "新艺术",
+    "en": "Art Nouveau"
+  },
   "english_name": "Art Nouveau",
   "artist": "Alphonse Mucha",
   "aliases": [
@@ -8,16 +11,40 @@
     "Mucha",
     "新艺术运动"
   ],
-  "kind": "艺术与设计运动",
-  "summary": "流动的轮廓把人物、衣褶与装饰组织在一起。先看线的节奏，再看画面怎样成为一个整体。",
-  "definition": "新艺术是跨越多种设计门类的历史运动，自然形态与流动线条是重要线索。Mucha 的人物海报是其中鲜明的一支；花卉圆框、理想化人物并非所有新艺术作品的必备元素。",
+  "kind": {
+    "zh": "艺术与设计运动",
+    "en": "Art and design movement"
+  },
+  "summary": {
+    "zh": "流动的轮廓把人物、衣褶与装饰组织在一起。先看线的节奏，再看画面怎样成为一个整体。",
+    "en": "Flowing contours bring the figure, folds and ornament together. Look first at the rhythm of the lines, then at how the image becomes a unified whole."
+  },
+  "definition": {
+    "zh": "新艺术是跨越多种设计门类的历史运动，自然形态与流动线条是重要线索。Mucha 的人物海报是其中鲜明的一支；花卉圆框、理想化人物并非所有新艺术作品的必备元素。",
+    "en": "Art Nouveau was a historical movement spanning many design disciplines, with natural forms and flowing lines as important clues. Mucha’s figure posters form one distinctive strand; floral circular frames and idealized figures are not essential to every Art Nouveau work."
+  },
   "recognition": [
-    "人物外轮廓是否与衣褶、装饰形成连贯曲线？",
-    "人物与背景是否像图案一样相互嵌合？",
-    "细线与大色面之间是否有清楚的疏密秩序？"
+    {
+      "zh": "人物外轮廓是否与衣褶、装饰形成连贯曲线？",
+      "en": "Do the figure’s outer contours form continuous curves with the folds and ornament?"
+    },
+    {
+      "zh": "人物与背景是否像图案一样相互嵌合？",
+      "en": "Do the figure and background interlock like elements of a pattern?"
+    },
+    {
+      "zh": "细线与大色面之间是否有清楚的疏密秩序？",
+      "en": "Is there a clear rhythm of dense and open areas between the fine lines and large color fields?"
+    }
   ],
-  "variations": "可以是柔和的印刷色，也可以是鲜明的装饰配色。金线、金箔、圆形花框都是可选变化，不是定义。",
-  "confusion": "与装饰艺术比较：新艺术常借有机曲线组织形状；装饰艺术更常突出几何节奏。两者并不以“是否华丽”区分。",
+  "variations": {
+    "zh": "可以是柔和的印刷色，也可以是鲜明的装饰配色。金线、金箔、圆形花框都是可选变化，不是定义。",
+    "en": "The palette can be soft and print-like or vividly decorative. Gold lines, gold leaf and circular floral frames are optional variations, not defining requirements."
+  },
+  "confusion": {
+    "zh": "与装饰艺术比较：新艺术常借有机曲线组织形状；装饰艺术更常突出几何节奏。两者并不以“是否华丽”区分。",
+    "en": "Compared with Art Deco, Art Nouveau often organizes shapes through organic curves, whereas Art Deco more often emphasizes geometric rhythms. The distinction is not whether a work is ornate."
+  },
   "type": "guide",
   "schema_version": 1,
   "cover": "media/guide-art-nouveau.webp",
@@ -39,27 +66,54 @@
   "references": [
     {
       "file": "media/guide-art-nouveau.webp",
-      "caption": "Rêverie《遐想》",
-      "alt": "人物衣褶、书本和身后的花卉圆形形成层层嵌套。线条连接面部、手臂与下摆，米色大面让密集的花纹有了停顿。",
-      "credit": "Alphonse Mucha · 作品资料及图像来自 Mucha Foundation",
+      "caption": {
+        "zh": "Rêverie《遐想》（中文译名）",
+        "en": "Rêverie (reading translation: Daydream)"
+      },
+      "alt": {
+        "zh": "人物衣褶、书本和身后的花卉圆形形成层层嵌套。线条连接面部、手臂与下摆，米色大面让密集的花纹有了停顿。",
+        "en": "The figure’s folds, the book and the floral disk behind her form nested layers. Lines connect the face, arms and hem, while broad beige areas provide pauses within the dense ornament."
+      },
+      "credit": {
+        "zh": "Alphonse Mucha · 作品资料及图像来自 Mucha Foundation",
+        "en": "Alphonse Mucha · Artwork information and image from the Mucha Foundation"
+      },
       "credit_url": "https://www.muchafoundation.org/en/gallery/browse-works/object_type/decorative-designs/object/78",
       "artwork": {
-        "date_label": "1898",
-        "medium_label": "彩色石版画",
+        "date_label": {
+          "zh": "1898",
+          "en": "1898"
+        },
+        "medium_label": {
+          "zh": "彩色石版画",
+          "en": "Color lithograph"
+        },
         "artist": "Alphonse Mucha"
       },
-      "focus": "人物衣褶、书本和身后的花卉圆形形成层层嵌套。线条连接面部、手臂与下摆，米色大面让密集的花纹有了停顿。",
-      "relationship": "代表作品（本页观察入口）",
+      "focus": {
+        "zh": "人物衣褶、书本和身后的花卉圆形形成层层嵌套。线条连接面部、手臂与下摆，米色大面让密集的花纹有了停顿。",
+        "en": "The figure’s folds, the book and the floral disk behind her form nested layers. Lines connect the face, arms and hem, while broad beige areas provide pauses within the dense ornament."
+      },
+      "relationship": {
+        "zh": "代表作品（本页观察入口）",
+        "en": "Representative work (the starting point for this page’s observations)"
+      },
       "image_source": "https://www.muchafoundation.org/media//w620h560/lithograph/MF_Reverie.jpg"
     }
   ],
   "sources": [
     {
-      "title": "Mucha Foundation · Rêverie",
+      "title": {
+        "zh": "穆夏基金会 · Rêverie",
+        "en": "Mucha Foundation · Rêverie"
+      },
       "url": "https://www.muchafoundation.org/en/gallery/browse-works/object_type/decorative-designs/object/78"
     },
     {
-      "title": "V&A · Art Nouveau: an international style",
+      "title": {
+        "zh": "V&A · 新艺术：一种国际风格",
+        "en": "V&A · Art Nouveau: an international style"
+      },
       "url": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style"
     }
   ],
@@ -67,70 +121,133 @@
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "修长而概括",
-      "explanation": "将原有形体概括为优雅、连贯的长曲线与完整色面",
-      "evidence": "人物手臂、肩颈和衣摆被概括成连续、舒展的曲线。",
+      "label": {
+        "zh": "修长而概括",
+        "en": "Elongated, simplified forms"
+      },
+      "explanation": {
+        "zh": "将原有形体概括为优雅、连贯的长曲线与完整色面",
+        "en": "Simplify existing forms into elegant, continuous long curves and coherent color fields"
+      },
+      "evidence": {
+        "zh": "人物手臂、肩颈和衣摆被概括成连续、舒展的曲线。",
+        "en": "The figure’s arms, shoulders, neck and hem are simplified into continuous, sweeping curves."
+      },
       "zh": "将原有形体概括为优雅、连贯的长曲线与完整色面",
-      "en": "Simplify existing forms into elegant flowing curves and coherent color fields",
+      "en": "Simplify existing forms into elegant, continuous long curves and coherent color fields",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "流动轮廓",
-      "explanation": "以粗细有节奏的清楚曲线勾勒主体，线条随形体自然转折",
-      "evidence": "外轮廓较明确，内部衣褶与花纹使用更细的线。",
+      "label": {
+        "zh": "流动轮廓",
+        "en": "Flowing contours"
+      },
+      "explanation": {
+        "zh": "以粗细有节奏的清楚曲线勾勒主体，线条随形体自然转折",
+        "en": "Outline the subjects with clear curves of rhythmically varied thickness, letting the lines turn naturally with the forms"
+      },
+      "evidence": {
+        "zh": "外轮廓较明确，内部衣褶与花纹使用更细的线。",
+        "en": "The outer contours are clearly defined, while the internal folds and patterns use finer lines."
+      },
       "zh": "以粗细有节奏的清楚曲线勾勒主体，线条随形体自然转折",
-      "en": "Outline subjects with clear rhythmic curves that flow with the form",
+      "en": "Outline the subjects with clear curves of rhythmically varied thickness, letting the lines turn naturally with the forms",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "柔和装饰色",
-      "explanation": "采用米白、低饱和橄榄绿和柔和暖红，保持大色面的秩序",
-      "evidence": "米白衣服、橄榄绿线面和暖红花卉形成柔和印刷色关系。",
+      "label": {
+        "zh": "柔和装饰色",
+        "en": "Soft decorative colors"
+      },
+      "explanation": {
+        "zh": "采用米白、低饱和橄榄绿和柔和暖红，保持大色面的秩序",
+        "en": "Use ivory, muted olive green and soft warm reds, keeping the large color fields orderly"
+      },
+      "evidence": {
+        "zh": "米白衣服、橄榄绿线面和暖红花卉形成柔和印刷色关系。",
+        "en": "Ivory clothing, olive-green lines and fields, and warm red flowers create a softly printed color relationship."
+      },
       "zh": "采用米白、低饱和橄榄绿和柔和暖红，保持大色面的秩序",
-      "en": "Use ivory, muted olive green and soft warm reds in ordered color fields",
+      "en": "Use ivory, muted olive green and soft warm reds, keeping the large color fields orderly",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "弱化明暗",
-      "explanation": "降低写实明暗，让轮廓与色块成为主要识别线索",
-      "evidence": "身体仍有少量明暗，但整体读图主要依靠线与色面。",
+      "label": {
+        "zh": "弱化明暗",
+        "en": "Reduced shading"
+      },
+      "explanation": {
+        "zh": "降低写实明暗，让轮廓与色块成为主要识别线索",
+        "en": "Reduce naturalistic shading so contours and color fields become the main visual clues"
+      },
+      "evidence": {
+        "zh": "身体仍有少量明暗，但整体读图主要依靠线与色面。",
+        "en": "The body retains some shading, but the image is read mainly through lines and color fields."
+      },
       "zh": "降低写实明暗，让轮廓与色块成为主要识别线索",
-      "en": "Reduce realistic shading so contours and color fields carry the image",
+      "en": "Reduce naturalistic shading so contours and color fields become the main visual clues",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "平面秩序",
-      "explanation": "保持原视角，将原有形体组织成疏密有序的平面节奏",
-      "evidence": "花卉圆形与人物层层嵌套，密集纹样旁保留较大浅色区域。",
+      "label": {
+        "zh": "平面秩序",
+        "en": "Flat visual order"
+      },
+      "explanation": {
+        "zh": "保持原视角，将原有形体组织成疏密有序的平面节奏",
+        "en": "Keep the original viewpoint and arrange existing forms in a flat rhythm of orderly dense and open areas"
+      },
+      "evidence": {
+        "zh": "花卉圆形与人物层层嵌套，密集纹样旁保留较大浅色区域。",
+        "en": "The floral disk and figure form nested layers, with large light-colored areas beside dense patterns."
+      },
       "zh": "保持原视角，将原有形体组织成疏密有序的平面节奏",
-      "en": "Keep the original viewpoint and organize existing forms into a balanced flat rhythm",
+      "en": "Keep the original viewpoint and arrange existing forms in a flat rhythm of orderly dense and open areas",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "印刷般表面",
-      "explanation": "使用哑光色面与精细线条，保留轻微手绘起伏",
-      "evidence": "细密印刷线与均匀色面并存，没有厚重颜料堆积的外观。",
+      "label": {
+        "zh": "印刷般表面",
+        "en": "Print-like surface"
+      },
+      "explanation": {
+        "zh": "使用哑光色面与精细线条，保留轻微手绘起伏",
+        "en": "Use matte color fields and fine lines, retaining subtle hand-drawn variation"
+      },
+      "evidence": {
+        "zh": "细密印刷线与均匀色面并存，没有厚重颜料堆积的外观。",
+        "en": "Fine printed lines coexist with even color fields, without the appearance of thick paint buildup."
+      },
       "zh": "使用哑光色面与精细线条，保留轻微手绘起伏",
-      "en": "Use matte color fields and fine lines with subtle hand-drawn variation",
+      "en": "Use matte color fields and fine lines, retaining subtle hand-drawn variation",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "优雅与装饰性",
-      "explanation": "营造优雅、舒缓、富有装饰秩序的氛围",
-      "evidence": "舒展的线条和有序装饰共同营造理想化、优雅的气质。",
+      "label": {
+        "zh": "优雅与装饰性",
+        "en": "Elegance and ornament"
+      },
+      "explanation": {
+        "zh": "营造优雅、舒缓、富有装饰秩序的氛围",
+        "en": "Create an elegant, gentle atmosphere with decorative order"
+      },
+      "evidence": {
+        "zh": "舒展的线条和有序装饰共同营造理想化、优雅的气质。",
+        "en": "Sweeping lines and orderly ornament together create an idealized, elegant character."
+      },
       "zh": "营造优雅、舒缓、富有装饰秩序的氛围",
       "en": "Create an elegant, gentle atmosphere with decorative order",
       "default": true
@@ -139,9 +256,18 @@
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": {
+        "zh": "沿用原图配色",
+        "en": "Keep the source palette"
+      },
+      "explanation": {
+        "zh": "保留原图的主要色相关系，只调整色阶与对比。",
+        "en": "Keep the source image’s main hue relationships, adjusting only value and contrast."
+      },
+      "evidence": {
+        "zh": "这是创作时可选的变体，不是对参考作品的描述。",
+        "en": "This is an optional variation for creating an image, not a description of the reference artwork."
+      },
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -149,7 +275,7 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   },
   "relations": [],
   "reviewed_at": "2026-10-16"

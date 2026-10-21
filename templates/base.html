@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="$html_lang">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,19 +11,27 @@
   <meta property="og:type" content="website">
   <meta property="og:image" content="$og_image">
   <link rel="canonical" href="$canonical">
+  <link rel="alternate" hreflang="en" href="$en_url">
+  <link rel="alternate" hreflang="zh-CN" href="$zh_url">
+  <link rel="alternate" hreflang="x-default" href="$en_url">
   <title>$title · 美术风格图鉴</title>
-  <link rel="icon" href="$root/assets/icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="$root/assets/site.css">
-  <script defer src="$root/assets/core.js"></script>
+  <link rel="icon" href="$asset_root/assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="$asset_root/assets/site.css">
+  <script defer src="$asset_root/assets/prompt-ui.js"></script>
+  <script defer src="$asset_root/assets/core.js"></script>
+  <script id="locale-config" type="application/json">$locale_config</script>
+  <script id="ui-config" type="application/json">$ui_config</script>
+  <script defer src="$asset_root/assets/locale.js"></script>
   <script id="analytics-config" type="application/json">$analytics_config</script>
-  <script defer src="$root/assets/analytics.js"></script>
-  <script defer src="$root/assets/site.js"></script>
+  <script defer src="$asset_root/assets/analytics.js"></script>
+  <script defer src="$asset_root/assets/site.js"></script>
 </head>
-<body data-root="$root/" data-page="$page">
+<body data-root="$root/" data-assets="$asset_root/" data-page="$page" data-locale="$locale" data-route="$route">
   <a class="skip-link" href="#main">跳到正文</a>
   <header class="site-header">
-    <a class="brand" href="$root/" aria-label="美术风格图鉴首页"><span class="brand-mark" aria-hidden="true">艺</span><span>美术风格图鉴<small>ART STYLE ATLAS</small></span></a>
+    <a class="brand" href="$root/$home_suffix" aria-label="美术风格图鉴首页"><span class="brand-mark" aria-hidden="true">艺</span><span>$site_title<small>观察 · 理解 · 创作</small></span></a>
     <nav aria-label="主导航">$navigation</nav>
+    $language_switch
   </header>
   <main id="main">$content</main>
   <footer class="site-footer"><div><strong>从观察开始，把风格说清楚。</strong><p>作品用于风格学习与比较。原作版权归相应权利人；各页保留出处与核实说明。</p></div><div><a href="$root/about/">关于与内容维护</a><a href="https://github.com/carbonshow/art-style-atlas">GitHub 仓库 ↗</a><span>内容核对 · $updated_at</span></div></footer>

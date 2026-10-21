@@ -1,6 +1,9 @@
 {
   "id": "nihonga",
-  "name": "日本画人物",
+  "name": {
+    "zh": "日本画人物",
+    "en": "Nihonga Figure Painting"
+  },
   "english_name": "Nihonga Figure Painting",
   "artist": "Uemura Shōen",
   "aliases": [
@@ -10,16 +13,40 @@
     "日本画",
     "美人画"
   ],
-  "kind": "绘画传统",
-  "summary": "用精炼的轮廓、节制的设色和姿态传达神韵。少量线条也能表达衣料、动作与人物的精神。",
-  "definition": "日本画是特定历史与材料语境下发展的绘画传统；“美人画”是人物题材，两者并非同义。本页以 Uemura Shōen 的《序之舞》观察人物造型，不把所有日本画缩减为女性肖像。",
+  "kind": {
+    "zh": "绘画传统",
+    "en": "Painting tradition"
+  },
+  "summary": {
+    "zh": "用精炼的轮廓、节制的设色和姿态传达神韵。少量线条也能表达衣料、动作与人物的精神。",
+    "en": "Refined contours, restrained color and pose convey the figure’s spirit. A few lines can express fabric, movement and character."
+  },
+  "definition": {
+    "zh": "日本画是特定历史与材料语境下发展的绘画传统；“美人画”是描绘美丽女性的人物题材，两者并非同义。本页以 Uemura Shōen 的《序之舞》观察人物造型，不把所有日本画缩减为女性肖像。",
+    "en": "Nihonga is a painting tradition that developed within specific historical and material contexts. Bijin-ga is a subject category depicting beautiful women, so the two terms are not synonymous. This page uses Uemura Shōen’s Jo-no-mai to study the treatment of the figure, without reducing all Nihonga to portraits of women."
+  },
   "recognition": [
-    "面部细节是否节制，姿态是否承担了更多表达？",
-    "衣服外轮廓与内部褶线是否有明确分工？",
-    "背景是否让位于完整的人物剪影？"
+    {
+      "zh": "面部细节是否节制，姿态是否承担了更多表达？",
+      "en": "Are facial details restrained, with more expression carried by the pose?"
+    },
+    {
+      "zh": "衣服外轮廓与内部褶线是否有明确分工？",
+      "en": "Do the clothing’s outer contours and inner fold lines have clearly different roles?"
+    },
+    {
+      "zh": "背景是否让位于完整的人物剪影？",
+      "en": "Does the background give priority to the figure’s complete silhouette?"
+    }
   ],
-  "variations": "日本画可涵盖风景、花鸟和多种人物形式。本例鲜明的朱红衣服与素背景是一种选择，并非统一配色。",
-  "confusion": "日本画与浮世绘在历史语境、媒介及观看方式上有差异。不能只凭平涂、和服或细线就判为其中任何一种。",
+  "variations": {
+    "zh": "日本画可涵盖风景、花鸟和多种人物形式。本例鲜明的朱红衣服与素背景是一种选择，并非统一配色。",
+    "en": "Nihonga can encompass landscapes, birds and flowers, and many forms of figure painting. The vivid vermilion clothing and plain background in this example are one choice, not a standard palette."
+  },
+  "confusion": {
+    "zh": "日本画与浮世绘在历史语境、媒介及观看方式上有差异。不能只凭平涂、和服或细线就判为其中任何一种。",
+    "en": "Nihonga and ukiyo-e differ in historical context, media and modes of viewing. Flat color, a kimono or fine lines alone cannot identify an image as either one."
+  },
   "type": "guide",
   "schema_version": 1,
   "cover": "media/guide-nihonga.webp",
@@ -39,27 +66,54 @@
   "references": [
     {
       "file": "media/guide-nihonga.webp",
-      "caption": "序の舞《序之舞》",
-      "alt": "张开的手臂、扇与垂直衣摆形成平稳的方向关系。线条清晰，背景克制，人物的精神主要由姿态而非复杂表情传达。",
-      "credit": "上村松園 · 东京艺术大学藏 · 官网低分辨率预览，细节请参见馆方资料",
+      "caption": {
+        "zh": "序の舞《序之舞》（中文译名）",
+        "en": "Jo-no-mai (original title: 序の舞)"
+      },
+      "alt": {
+        "zh": "张开的手臂、扇与垂直衣摆形成平稳的方向关系。线条清晰，背景克制，人物的精神主要由姿态而非复杂表情传达。",
+        "en": "The outstretched arms, fan and vertical hem form a stable arrangement of directions. Lines are clear and the background restrained; the figure’s spirit is conveyed mainly through pose rather than a complex facial expression."
+      },
+      "credit": {
+        "zh": "上村松園 · 东京艺术大学藏 · 官网低分辨率预览，细节请参见馆方资料",
+        "en": "Uemura Shōen · Collection of Tokyo University of the Arts · Low-resolution preview from the official website; consult the museum’s information for details"
+      },
       "credit_url": "https://museum.geidai.ac.jp/exhibit/2009/07/collection200907.html",
       "artwork": {
-        "date_label": "1936",
-        "medium_label": "绢本设色",
+        "date_label": {
+          "zh": "1936",
+          "en": "1936"
+        },
+        "medium_label": {
+          "zh": "绢本设色",
+          "en": "Color on silk"
+        },
         "artist": "Uemura Shōen"
       },
-      "focus": "张开的手臂、扇与垂直衣摆形成平稳的方向关系。线条清晰，背景克制，人物的精神主要由姿态而非复杂表情传达。",
-      "relationship": "代表作品（本页观察入口）",
+      "focus": {
+        "zh": "张开的手臂、扇与垂直衣摆形成平稳的方向关系。线条清晰，背景克制，人物的精神主要由姿态而非复杂表情传达。",
+        "en": "The outstretched arms, fan and vertical hem form a stable arrangement of directions. Lines are clear and the background restrained; the figure’s spirit is conveyed mainly through pose rather than a complex facial expression."
+      },
+      "relationship": {
+        "zh": "代表作品（本页观察入口）",
+        "en": "Representative work (the starting point for this page’s observations)"
+      },
       "image_source": "https://museum.geidai.ac.jp/exhibit/file/jyonomai.jpg"
     }
   ],
   "sources": [
     {
-      "title": "东京艺术大学大学美术馆 · 藝大コレクション展",
+      "title": {
+        "zh": "东京艺术大学大学美术馆 · 馆藏的诞生、成长与变迁——艺大美术馆藏品精选（展览原题译文）",
+        "en": "The University Art Museum, Tokyo University of the Arts · Birth, Growth and Transformation of a Collection — Selected Works from the Geidai Museum (reading translation of the exhibition title)"
+      },
       "url": "https://museum.geidai.ac.jp/exhibit/2009/07/collection200907.html"
     },
     {
-      "title": "东京艺术大学 · 理想の女性像：序の舞への系譜",
+      "title": {
+        "zh": "东京艺术大学大学美术馆 · 日本东西部美人画名作：《序之舞》的发展脉络（展览原题译文）",
+        "en": "The University Art Museum, Tokyo University of the Arts · Masterpieces of Bijin-ga from Eastern and Western Japan: The Lineage of Jo-no-mai (reading translation of the exhibition title)"
+      },
       "url": "https://museum.geidai.ac.jp/exhibit/2018/bijinga/bijinga_ja.htm"
     }
   ],
@@ -67,81 +121,153 @@
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "精炼姿态",
-      "explanation": "保留原有动作，概括细节，使主体姿态完整而清楚",
-      "evidence": "张开的手臂、扇与垂直衣摆共同构成完整而平稳的姿态。",
+      "label": {
+        "zh": "精炼姿态",
+        "en": "Refined pose"
+      },
+      "explanation": {
+        "zh": "保留原有动作，概括细节，使主体姿态完整而清楚",
+        "en": "Preserve the original actions and simplify details so the subject’s posture remains complete and clear"
+      },
+      "evidence": {
+        "zh": "张开的手臂、扇与垂直衣摆共同构成完整而平稳的姿态。",
+        "en": "The outstretched arms, fan and vertical hem together form a complete, stable pose."
+      },
       "zh": "保留原有动作，概括细节，使主体姿态完整而清楚",
-      "en": "Preserve the original pose and simplify detail into a clear, coherent silhouette",
+      "en": "Preserve the original actions and simplify details so the subject’s posture remains complete and clear",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "克制细线",
-      "explanation": "以细而稳定、轻重有别的线条勾勒形体",
-      "evidence": "衣服外轮廓清楚，面部细节和内部褶线相对节制。",
+      "label": {
+        "zh": "克制细线",
+        "en": "Restrained fine lines"
+      },
+      "explanation": {
+        "zh": "以细而稳定、轻重有别的线条勾勒形体",
+        "en": "Describe forms with fine, steady lines of varied weight"
+      },
+      "evidence": {
+        "zh": "衣服外轮廓清楚，面部细节和内部褶线相对节制。",
+        "en": "The clothing’s outer contours are clear, while facial details and inner fold lines are relatively restrained."
+      },
       "zh": "以细而稳定、轻重有别的线条勾勒形体",
-      "en": "Describe forms with fine, steady lines of subtly varied weight",
+      "en": "Describe forms with fine, steady lines of varied weight",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "节制设色",
-      "explanation": "以柔和中性色承托少量朱红与浅色，避免颜色平均争夺注意",
-      "evidence": "朱红衣服是主要色块，浅色衣摆和素背景让它更加集中。",
+      "label": {
+        "zh": "节制设色",
+        "en": "Restrained color"
+      },
+      "explanation": {
+        "zh": "以柔和中性色承托少量朱红与浅色，避免颜色平均争夺注意",
+        "en": "Use soft neutrals to support limited vermilion and pale colors, avoiding equal competition for attention among all colors"
+      },
+      "evidence": {
+        "zh": "朱红衣服是主要色块，浅色衣摆和素背景让它更加集中。",
+        "en": "The vermilion clothing is the main color shape, made more focused by the pale hem and plain background."
+      },
       "zh": "以柔和中性色承托少量朱红与浅色，避免颜色平均争夺注意",
-      "en": "Support restrained vermilion and pale accents with soft neutral colors",
+      "en": "Use soft neutrals to support limited vermilion and pale colors, avoiding equal competition for attention among all colors",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "柔和体积",
-      "explanation": "弱化投影，以细微色阶提示体积",
-      "evidence": "体积主要由轻微色差提示，未见强烈的地面投影。",
+      "label": {
+        "zh": "柔和体积",
+        "en": "Soft volume"
+      },
+      "explanation": {
+        "zh": "弱化投影，以细微色阶提示体积",
+        "en": "Reduce cast shadows and suggest volume through subtle tonal gradations"
+      },
+      "evidence": {
+        "zh": "体积主要由轻微色差提示，未见强烈的地面投影。",
+        "en": "Volume is suggested mainly through small color differences, with no strong cast shadow visible on the ground."
+      },
       "zh": "弱化投影，以细微色阶提示体积",
-      "en": "Reduce cast shadows and suggest volume with subtle tonal steps",
+      "en": "Reduce cast shadows and suggest volume through subtle tonal gradations",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "留白承托",
-      "explanation": "在原构图中降低背景细节，让空白承托主体",
-      "evidence": "背景细节很少，人物周围保留大面积空场。",
+      "label": {
+        "zh": "留白承托",
+        "en": "Supporting open space"
+      },
+      "explanation": {
+        "zh": "在原构图中降低背景细节，让空白承托主体",
+        "en": "Reduce background detail within the original composition, letting blank space support the subjects"
+      },
+      "evidence": {
+        "zh": "背景细节很少，人物周围保留大面积空场。",
+        "en": "The background has very little detail, leaving a broad open area around the figure."
+      },
       "zh": "在原构图中降低背景细节，让空白承托主体",
-      "en": "Reduce background detail within the original composition so open space supports the subjects",
+      "en": "Reduce background detail within the original composition, letting blank space support the subjects",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "细腻哑光",
-      "explanation": "呈现细腻哑光的色面和轻微纤维般质感",
-      "evidence": "馆藏记录注明绢本设色；小尺寸网页预览只能支持细腻哑光的整体观察。",
+      "label": {
+        "zh": "细腻哑光",
+        "en": "Delicate matte surface"
+      },
+      "explanation": {
+        "zh": "呈现细腻哑光的色面和轻微纤维般质感",
+        "en": "Create delicate matte color fields with a faint fiber-like texture"
+      },
+      "evidence": {
+        "zh": "馆藏记录注明绢本设色；小尺寸网页预览只能支持细腻哑光的整体观察。",
+        "en": "The collection record specifies color on silk; the small web preview supports only an overall observation of a delicate matte appearance."
+      },
       "zh": "呈现细腻哑光的色面和轻微纤维般质感",
-      "en": "Use delicate matte color fields with a faint fiber-like texture",
+      "en": "Create delicate matte color fields with a faint fiber-like texture",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "沉静端正",
-      "explanation": "营造沉静、端正而有内在力量的气质",
-      "evidence": "动作舒展但不过度夸张，面部表达克制，整体沉静端正。",
+      "label": {
+        "zh": "沉静端正",
+        "en": "Calm composure"
+      },
+      "explanation": {
+        "zh": "营造沉静、端正而有内在力量的气质",
+        "en": "Create a calm, composed character with inner strength"
+      },
+      "evidence": {
+        "zh": "动作舒展但不过度夸张，面部表达克制，整体沉静端正。",
+        "en": "The pose is expansive but not exaggerated, with a restrained facial expression and an overall sense of calm composure."
+      },
       "zh": "营造沉静、端正而有内在力量的气质",
-      "en": "Create a calm, composed atmosphere with inner strength",
+      "en": "Create a calm, composed character with inner strength",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": {
+        "zh": "沿用原图配色",
+        "en": "Keep the source palette"
+      },
+      "explanation": {
+        "zh": "保留原图的主要色相关系，只调整色阶与对比。",
+        "en": "Keep the source image’s main hue relationships, adjusting only value and contrast."
+      },
+      "evidence": {
+        "zh": "这是创作时可选的变体，不是对参考作品的描述。",
+        "en": "This is an optional variation for creating an image, not a description of the reference artwork."
+      },
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -149,7 +275,7 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   },
   "relations": [],
   "reviewed_at": "2026-10-16"

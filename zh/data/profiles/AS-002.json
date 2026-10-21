@@ -1,0 +1,92 @@
+{
+  "id": "AS-002",
+  "name": "新艺术 · 金线田园",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "概括的形块",
+      "explanation": "以清楚色面概括原有形体，保持轮廓可读",
+      "evidence": "细金线勾勒叶脉与枝条；云朵中的卷曲线条，把自然形态转化为装饰图案。",
+      "zh": "以清楚色面概括原有形体，保持轮廓可读",
+      "en": "Simplify existing forms into clear color fields, keeping their contours readable",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "细金线",
+      "explanation": "沿原有轮廓与结构布置轻盈的细金线",
+      "evidence": "细金线勾勒叶脉与枝条；云朵中的卷曲线条，把自然形态转化为装饰图案。",
+      "zh": "沿原有轮廓与结构布置轻盈的细金线",
+      "en": "Place delicate, fine gold lines along existing contours and structures",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "明亮蓝绿",
+      "explanation": "以钴蓝、层次丰富的绿色和象牙白形成明亮关系",
+      "evidence": "钴蓝天空与层次丰富的绿色形成主色关系，象牙白花朵和金色线条带出日光。",
+      "zh": "以钴蓝、层次丰富的绿色和象牙白形成明亮关系",
+      "en": "Create a bright color relationship with cobalt blue, richly varied greens and ivory",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "柔和日光",
+      "explanation": "呈现清透而柔和的日光，避免强烈金属高光",
+      "evidence": "钴蓝天空与层次丰富的绿色形成主色关系，象牙白花朵和金色线条带出日光。",
+      "zh": "呈现清透而柔和的日光，避免强烈金属高光",
+      "en": "Render clear, soft daylight, avoiding harsh metallic highlights",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "平面与纵深",
+      "explanation": "保留原有透视，以装饰性前景与较简洁远景形成层次",
+      "evidence": "前景叶片近似平面装饰，树林、溪流与山坡仍有纵深；细节集中在植物和轮廓上。",
+      "zh": "保留原有透视，以装饰性前景与较简洁远景形成层次",
+      "en": "Keep the original perspective, creating depth through a decorative foreground and a simpler distance",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "手工图案",
+      "explanation": "让重复纹样带有轻微手工变化，避免整齐复制",
+      "evidence": "密集但清晰的植物重复、细小花朵与纸面笔触，形成壁纸、织毯般的手工观感。",
+      "zh": "让重复纹样带有轻微手工变化，避免整齐复制",
+      "en": "Give repeated patterns subtle handmade variations, avoiding uniform duplication",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "宁静田园",
+      "explanation": "营造清新、宁静、理想化的氛围",
+      "evidence": "清新、宁静、理想化的田园世界。迁移时优先保留原场景，不必新增溪流或蘑菇。",
+      "zh": "营造清新、宁静、理想化的氛围",
+      "en": "Create a fresh, peaceful and idealized atmosphere",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only tonal values and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  }
+}

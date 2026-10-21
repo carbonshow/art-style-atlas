@@ -2,199 +2,343 @@
   "dimensions": [
     {
       "id": "shape",
-      "name": "造型"
+      "name": {
+        "zh": "造型",
+        "en": "Form and Shape"
+      }
     },
     {
       "id": "line",
-      "name": "线条"
+      "name": {
+        "zh": "线条",
+        "en": "Line"
+      }
     },
     {
       "id": "color",
-      "name": "色彩"
+      "name": {
+        "zh": "色彩",
+        "en": "Color"
+      }
     },
     {
       "id": "light",
-      "name": "光影"
+      "name": {
+        "zh": "光影",
+        "en": "Light and Shadow"
+      }
     },
     {
       "id": "space",
-      "name": "构图与空间"
+      "name": {
+        "zh": "构图与空间",
+        "en": "Composition and Space"
+      }
     },
     {
       "id": "texture",
-      "name": "笔触与肌理"
+      "name": {
+        "zh": "笔触与肌理",
+        "en": "Brushwork and Texture"
+      }
     },
     {
       "id": "mood",
-      "name": "氛围"
+      "name": {
+        "zh": "氛围",
+        "en": "Mood"
+      }
     }
   ],
   "facets": {
     "tradition": {
-      "name": "风格与传统",
+      "name": {
+        "zh": "风格与传统",
+        "en": "Styles and Traditions"
+      },
       "values": [
         {
           "id": "painterly-realism",
-          "name": "写实绘画"
+          "name": {
+            "zh": "写实绘画",
+            "en": "Realist Painting"
+          }
         },
         {
           "id": "art-nouveau",
-          "name": "新艺术"
+          "name": {
+            "zh": "新艺术",
+            "en": "Art Nouveau"
+          }
         },
         {
           "id": "art-deco",
-          "name": "装饰艺术"
+          "name": {
+            "zh": "装饰艺术",
+            "en": "Art Deco"
+          }
         },
         {
           "id": "expressionism",
-          "name": "表现主义"
+          "name": {
+            "zh": "表现主义",
+            "en": "Expressionism"
+          }
         },
         {
           "id": "nihonga",
-          "name": "日本画"
+          "name": {
+            "zh": "日本画",
+            "en": "Nihonga"
+          }
         },
         {
           "id": "fantasy-comics",
-          "name": "幻想漫画"
+          "name": {
+            "zh": "幻想漫画",
+            "en": "Fantasy Comics"
+          }
         },
         {
           "id": "mid-century",
-          "name": "世纪中叶现代主义"
+          "name": {
+            "zh": "世纪中叶现代主义",
+            "en": "Mid-century Modern"
+          }
         },
         {
           "id": "minimalism",
-          "name": "极简插画"
+          "name": {
+            "zh": "极简插画",
+            "en": "Minimalist Illustration"
+          }
         },
         {
           "id": "arts-crafts",
-          "name": "工艺美术"
+          "name": {
+            "zh": "工艺美术",
+            "en": "Arts and Crafts"
+          }
         },
         {
           "id": "stylized-3d",
-          "name": "风格化 3D"
+          "name": {
+            "zh": "风格化 3D",
+            "en": "Stylized 3D"
+          }
         },
         {
           "id": "storybook",
-          "name": "绘本插画"
+          "name": {
+            "zh": "绘本插画",
+            "en": "Picture-book Illustration"
+          }
         },
         {
           "id": "romantic-landscape",
-          "name": "浪漫主义风景"
+          "name": {
+            "zh": "浪漫主义风景",
+            "en": "Romantic Landscape Painting"
+          }
         },
         {
           "id": "group-of-seven",
-          "name": "加拿大七人画派"
+          "name": {
+            "zh": "加拿大七人画派",
+            "en": "Canadian Group of Seven"
+          }
         },
         {
           "id": "chinese-contemporary",
-          "name": "新中式插画"
+          "name": {
+            "zh": "新中式插画",
+            "en": "Contemporary Chinese-style Illustration"
+          }
         },
         {
           "id": "ukiyoe-influence",
-          "name": "浮世绘视觉借鉴"
+          "name": {
+            "zh": "浮世绘视觉借鉴",
+            "en": "Visual Influences from Ukiyo-e"
+          }
         },
         {
           "id": "painterly-surface",
-          "name": "绘画质感表现"
+          "name": {
+            "zh": "绘画质感表现",
+            "en": "Painterly Surface Effects"
+          }
         }
       ]
     },
     "subject": {
-      "name": "参考题材",
+      "name": {
+        "zh": "参考题材",
+        "en": "Reference Subjects"
+      },
       "values": [
         {
           "id": "people",
-          "name": "人物"
+          "name": {
+            "zh": "人物",
+            "en": "People"
+          }
         },
         {
           "id": "landscape",
-          "name": "风景"
+          "name": {
+            "zh": "风景",
+            "en": "Landscapes"
+          }
         },
         {
           "id": "architecture",
-          "name": "建筑"
+          "name": {
+            "zh": "建筑",
+            "en": "Architecture"
+          }
         },
         {
           "id": "plants",
-          "name": "植物"
+          "name": {
+            "zh": "植物",
+            "en": "Plants"
+          }
         },
         {
           "id": "animals",
-          "name": "动物"
+          "name": {
+            "zh": "动物",
+            "en": "Animals"
+          }
         }
       ]
     },
     "effect": {
-      "name": "画面效果",
+      "name": {
+        "zh": "画面效果",
+        "en": "Visual Effects"
+      },
       "values": [
         {
           "id": "flat",
-          "name": "平面色块"
+          "name": {
+            "zh": "平面色块",
+            "en": "Flat Color Shapes"
+          }
         },
         {
           "id": "contour",
-          "name": "明确轮廓"
+          "name": {
+            "zh": "明确轮廓",
+            "en": "Defined Contours"
+          }
         },
         {
           "id": "geometry",
-          "name": "几何造型"
+          "name": {
+            "zh": "几何造型",
+            "en": "Geometric Forms"
+          }
         },
         {
           "id": "grain",
-          "name": "纸张颗粒"
+          "name": {
+            "zh": "纸张颗粒",
+            "en": "Paper Grain"
+          }
         },
         {
           "id": "brush",
-          "name": "可见笔触"
+          "name": {
+            "zh": "可见笔触",
+            "en": "Visible Brushwork"
+          }
         },
         {
           "id": "impasto",
-          "name": "厚重笔触"
+          "name": {
+            "zh": "厚重笔触",
+            "en": "Heavy Brushwork"
+          }
         },
         {
           "id": "gold",
-          "name": "金线"
+          "name": {
+            "zh": "金线",
+            "en": "Gold Lines"
+          }
         },
         {
           "id": "organic",
-          "name": "装饰曲线"
+          "name": {
+            "zh": "装饰曲线",
+            "en": "Decorative Curves"
+          }
         },
         {
           "id": "negative-space",
-          "name": "留白与负空间"
+          "name": {
+            "zh": "留白与负空间",
+            "en": "Blank and Negative Space"
+          }
         },
         {
           "id": "depth",
-          "name": "空间纵深"
+          "name": {
+            "zh": "空间纵深",
+            "en": "Spatial Depth"
+          }
         },
         {
           "id": "light",
-          "name": "戏剧光影"
+          "name": {
+            "zh": "戏剧光影",
+            "en": "Dramatic Light and Shadow"
+          }
         },
         {
           "id": "pattern",
-          "name": "重复纹样"
+          "name": {
+            "zh": "重复纹样",
+            "en": "Repeating Patterns"
+          }
         },
         {
           "id": "hatching",
-          "name": "排线"
+          "name": {
+            "zh": "排线",
+            "en": "Hatching"
+          }
         },
         {
           "id": "limited",
-          "name": "有限色彩"
+          "name": {
+            "zh": "有限色彩",
+            "en": "Limited Palette"
+          }
         }
       ]
     },
     "type": {
-      "name": "内容类型",
+      "name": {
+        "zh": "内容类型",
+        "en": "Content Type"
+      },
       "values": [
         {
           "id": "guide",
-          "name": "风格指南"
+          "name": {
+            "zh": "风格指南",
+            "en": "Style Guide"
+          }
         },
         {
           "id": "case",
-          "name": "参考案例"
+          "name": {
+            "zh": "参考案例",
+            "en": "Reference Case"
+          }
         }
       ]
     }

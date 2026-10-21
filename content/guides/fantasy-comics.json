@@ -1,6 +1,9 @@
 {
   "id": "fantasy-comics",
-  "name": "幻想漫画线描",
+  "name": {
+    "zh": "幻想漫画线描",
+    "en": "Fantasy Comics Linework"
+  },
   "english_name": "Fantasy Comics",
   "artist": "Moebius",
   "aliases": [
@@ -11,16 +14,40 @@
     "Arzak",
     "欧洲幻想漫画"
   ],
-  "kind": "叙事与视觉语言",
-  "summary": "清楚的轮廓配上有选择的细节，让陌生世界显得可信。人物设计与空间想象可以由精密线描承载。",
-  "definition": "幻想漫画是宽泛的叙事方向，不是单一历史流派。Moebius 的 Arzach 是重要的观察入口；本页先用官网的黑白角色图研究线条，再把颜色视为可选变化。",
+  "kind": {
+    "zh": "叙事与视觉语言",
+    "en": "Narrative and visual language"
+  },
+  "summary": {
+    "zh": "清楚的轮廓配上有选择的细节，让陌生世界显得可信。人物设计与空间想象可以由精密线描承载。",
+    "en": "Clear contours and selective detail make an unfamiliar world believable. Precise linework can carry both character design and imagined spaces."
+  },
+  "definition": {
+    "zh": "幻想漫画是宽泛的叙事方向，不是单一历史流派。Moebius 的 Arzach 是重要的观察入口；本页先用官网的黑白角色图研究线条，再把颜色视为可选变化。",
+    "en": "Fantasy comics are a broad narrative direction, not a single historical movement. Moebius’s Arzach offers an important starting point. This page first studies linework through a black-and-white character image on the official website, then treats color as an optional variation."
+  },
   "recognition": [
-    "大轮廓是否先于细小纹理被读到？",
-    "排线是否顺着形体而非平均铺满？",
-    "服装与形体的细节是否形成可读的尺度层级？"
+    {
+      "zh": "大轮廓是否先于细小纹理被读到？",
+      "en": "Are the large contours read before the fine textures?"
+    },
+    {
+      "zh": "排线是否顺着形体而非平均铺满？",
+      "en": "Does hatching follow the forms instead of covering everything evenly?"
+    },
+    {
+      "zh": "服装与形体的细节是否形成可读的尺度层级？",
+      "en": "Do details of clothing and forms create a legible hierarchy of scale?"
+    }
   ],
-  "variations": "黑白线描、淡彩和强烈平涂都可以出现在幻想漫画中。人物设定、叙事分镜和环境插画也有不同信息密度。",
-  "confusion": "“清晰线条”可以是一种可见特征；法比漫画中的 Ligne claire 另有具体语境，不能把所有清楚墨线都归为同一传统。",
+  "variations": {
+    "zh": "黑白线描、淡彩和强烈平涂都可以出现在幻想漫画中。人物设定、叙事分镜和环境插画也有不同信息密度。",
+    "en": "Black-and-white linework, light washes of color and bold flat colors can all appear in fantasy comics. Character designs, narrative panels and environmental illustrations also have different information densities."
+  },
+  "confusion": {
+    "zh": "“清晰线条”可以是一种可见特征；法比漫画中的 Ligne claire 另有具体语境，不能把所有清楚墨线都归为同一传统。",
+    "en": "“Clear lines” can describe a visible feature. Ligne claire has a more specific context within Franco-Belgian comics; not all clear ink outlines belong to that same tradition."
+  },
   "type": "guide",
   "schema_version": 1,
   "cover": "media/guide-fantasy-comics.webp",
@@ -40,23 +67,47 @@
   "references": [
     {
       "file": "media/guide-fantasy-comics.webp",
-      "caption": "Arzach 系列角色线描（官网展示图）",
-      "alt": "头盔与肩部构成简明外形，排线集中在凹陷和转折，大片白色区域让小纹理保持清楚。",
-      "credit": "Moebius / Jean Giraud · 官网 Arzak 图库；作品版权归相应权利人",
+      "caption": {
+        "zh": "Arzach 系列角色线描（官网展示图）",
+        "en": "Character line drawing from the Arzach series (image shown on the official website)"
+      },
+      "alt": {
+        "zh": "头盔与肩部构成简明外形，排线集中在凹陷和转折，大片白色区域让小纹理保持清楚。",
+        "en": "The helmet and shoulders form a simple outline. Hatching is concentrated in recesses and changes of plane, while broad white areas keep the small textures legible."
+      },
+      "credit": {
+        "zh": "Moebius / Jean Giraud · 官网 Arzak 图库；作品版权归相应权利人",
+        "en": "Moebius / Jean Giraud · Official Arzak gallery; artwork copyright belongs to the respective rights holders"
+      },
       "credit_url": "https://www.moebius.fr/Arzak",
       "artwork": {
-        "date_label": "此图年代未在所用页面标明",
-        "medium_label": "媒介未在所用页面标明",
+        "date_label": {
+          "zh": "此图年代未在所用页面标明",
+          "en": "The page used does not state the date of this image"
+        },
+        "medium_label": {
+          "zh": "媒介未在所用页面标明",
+          "en": "The page used does not state the medium"
+        },
         "artist": "Moebius"
       },
-      "focus": "头盔与肩部构成简明外形，排线集中在凹陷和转折，大片白色区域让小纹理保持清楚。",
-      "relationship": "代表作品（本页观察入口）",
+      "focus": {
+        "zh": "头盔与肩部构成简明外形，排线集中在凹陷和转折，大片白色区域让小纹理保持清楚。",
+        "en": "The helmet and shoulders form a simple outline. Hatching is concentrated in recesses and changes of plane, while broad white areas keep the small textures legible."
+      },
+      "relationship": {
+        "zh": "代表作品（本页观察入口）",
+        "en": "Representative work (the starting point for this page’s observations)"
+      },
       "image_source": "https://www.moebius.fr/uploads/1556736046823-Profil-Arzak-2.jpg"
     }
   ],
   "sources": [
     {
-      "title": "Moebius 官方网站 · Arzak",
+      "title": {
+        "zh": "Moebius 官方网站 · Arzak",
+        "en": "Moebius official website · Arzak"
+      },
       "url": "https://www.moebius.fr/Arzak"
     }
   ],
@@ -64,81 +115,153 @@
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "清楚剪影",
-      "explanation": "先建立原有主体的清楚剪影，再补充有选择的结构细节",
-      "evidence": "头盔与肩部先形成可读的外轮廓，再进入衣服小细节。",
+      "label": {
+        "zh": "清楚剪影",
+        "en": "Clear silhouettes"
+      },
+      "explanation": {
+        "zh": "先建立原有主体的清楚剪影，再补充有选择的结构细节",
+        "en": "Establish clear silhouettes of the existing subjects before adding selected structural details"
+      },
+      "evidence": {
+        "zh": "头盔与肩部先形成可读的外轮廓，再进入衣服小细节。",
+        "en": "The helmet and shoulders establish a legible outer contour before the eye moves to smaller clothing details."
+      },
       "zh": "先建立原有主体的清楚剪影，再补充有选择的结构细节",
-      "en": "Establish clear silhouettes of existing subjects before adding selective structural detail",
+      "en": "Establish clear silhouettes of the existing subjects before adding selected structural details",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "精密墨线",
-      "explanation": "使用干净、连贯的细墨线，局部以排线说明转折",
-      "evidence": "轮廓由连贯墨线构成，短线与细点用于局部说明。",
+      "label": {
+        "zh": "精密墨线",
+        "en": "Precise ink lines"
+      },
+      "explanation": {
+        "zh": "使用干净、连贯的细墨线，局部以排线说明转折",
+        "en": "Use clean, continuous fine ink lines, with localized hatching to describe changes in form"
+      },
+      "evidence": {
+        "zh": "轮廓由连贯墨线构成，短线与细点用于局部说明。",
+        "en": "Continuous ink lines form the contours, with short strokes and fine dots describing selected areas."
+      },
       "zh": "使用干净、连贯的细墨线，局部以排线说明转折",
-      "en": "Use clean continuous ink lines with localized hatching to explain changes in form",
+      "en": "Use clean, continuous fine ink lines, with localized hatching to describe changes in form",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "黑白线描",
-      "explanation": "采用黑白关系与少量灰阶，让线条承担主要信息",
-      "evidence": "这张官网示例以黑白呈现；不能据此认为作者只画黑白。",
+      "label": {
+        "zh": "黑白线描",
+        "en": "Black-and-white linework"
+      },
+      "explanation": {
+        "zh": "采用黑白关系与少量灰阶，让线条承担主要信息",
+        "en": "Use black and white with a small range of grays, letting linework carry the main information"
+      },
+      "evidence": {
+        "zh": "这张官网示例以黑白呈现；不能据此认为作者只画黑白。",
+        "en": "This official website example is shown in black and white; it does not mean the artist worked only in black and white."
+      },
       "zh": "采用黑白关系与少量灰阶，让线条承担主要信息",
-      "en": "Use black and white with restrained gray values so linework carries the information",
+      "en": "Use black and white with a small range of grays, letting linework carry the main information",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "排线明暗",
-      "explanation": "以疏密有别的排线提示明暗，保留干净亮面",
-      "evidence": "帽子与衣服中的排线疏密变化提示了转折与凹陷。",
+      "label": {
+        "zh": "排线明暗",
+        "en": "Shading through hatching"
+      },
+      "explanation": {
+        "zh": "以疏密有别的排线提示明暗，保留干净亮面",
+        "en": "Suggest light and shade through varied hatching density while preserving clean light areas"
+      },
+      "evidence": {
+        "zh": "帽子与衣服中的排线疏密变化提示了转折与凹陷。",
+        "en": "Varying hatching density in the headgear and clothing suggests changes of plane and recesses."
+      },
       "zh": "以疏密有别的排线提示明暗，保留干净亮面",
-      "en": "Suggest shading through varied hatching density while preserving clean light areas",
+      "en": "Suggest light and shade through varied hatching density while preserving clean light areas",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "疏密层次",
-      "explanation": "在原构图中分开密集细节与开阔区域，保持阅读路径",
-      "evidence": "白色空场与人物内部较密的线条形成疏密对照。",
+      "label": {
+        "zh": "疏密层次",
+        "en": "Dense and open areas"
+      },
+      "explanation": {
+        "zh": "在原构图中分开密集细节与开阔区域，保持阅读路径",
+        "en": "Separate densely detailed and open areas within the original composition, preserving a clear visual path"
+      },
+      "evidence": {
+        "zh": "白色空场与人物内部较密的线条形成疏密对照。",
+        "en": "The white open ground contrasts with the denser lines inside the figure."
+      },
       "zh": "在原构图中分开密集细节与开阔区域，保持阅读路径",
-      "en": "Separate detailed and open areas within the original composition to preserve readability",
+      "en": "Separate densely detailed and open areas within the original composition, preserving a clear visual path",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "纸上墨迹",
-      "explanation": "呈现细致纸上墨迹的效果，避免统一噪点覆盖",
-      "evidence": "可见墨线与短排线的纸上效果，页面未标明此图具体媒介。",
+      "label": {
+        "zh": "纸上墨迹",
+        "en": "Ink-on-paper appearance"
+      },
+      "explanation": {
+        "zh": "呈现细致纸上墨迹的效果，避免统一噪点覆盖",
+        "en": "Create the appearance of detailed ink marks on paper, avoiding a uniform noise overlay"
+      },
+      "evidence": {
+        "zh": "可见墨线与短排线的纸上效果，页面未标明此图具体媒介。",
+        "en": "The image has the appearance of ink lines and short hatching on paper; the page does not state its specific medium."
+      },
       "zh": "呈现细致纸上墨迹的效果，避免统一噪点覆盖",
-      "en": "Create the appearance of detailed ink on paper without a uniform noise overlay",
+      "en": "Create the appearance of detailed ink marks on paper, avoiding a uniform noise overlay",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "陌生而可信",
-      "explanation": "营造安静、奇异而可信的幻想感",
-      "evidence": "奇异服装由严谨线条组织，陌生感与可读性同时存在。",
+      "label": {
+        "zh": "陌生而可信",
+        "en": "Unfamiliar yet believable"
+      },
+      "explanation": {
+        "zh": "营造安静、奇异而可信的幻想感",
+        "en": "Create a quiet, strange yet believable sense of fantasy"
+      },
+      "evidence": {
+        "zh": "奇异服装由严谨线条组织，陌生感与可读性同时存在。",
+        "en": "Precise lines organize the unusual clothing, combining unfamiliarity with legibility."
+      },
       "zh": "营造安静、奇异而可信的幻想感",
-      "en": "Create a quiet, unfamiliar yet believable sense of wonder",
+      "en": "Create a quiet, strange yet believable sense of fantasy",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": {
+        "zh": "沿用原图配色",
+        "en": "Keep the source palette"
+      },
+      "explanation": {
+        "zh": "保留原图的主要色相关系，只调整色阶与对比。",
+        "en": "Keep the source image’s main hue relationships, adjusting only value and contrast."
+      },
+      "evidence": {
+        "zh": "这是创作时可选的变体，不是对参考作品的描述。",
+        "en": "This is an optional variation for creating an image, not a description of the reference artwork."
+      },
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -146,7 +269,7 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   },
   "relations": [],
   "reviewed_at": "2026-10-16"

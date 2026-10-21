@@ -1,0 +1,92 @@
+{
+  "id": "expressionism",
+  "name": "表现主义人物",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "带张力的形体",
+      "explanation": "在保留身份与动作的前提下，适度强化形体转折与不对称",
+      "evidence": "头颈与肩部的倾斜、局部不对称带来不稳定感。",
+      "zh": "在保留身份与动作的前提下，适度强化形体转折与不对称",
+      "en": "Preserve identity and actions while moderately emphasizing angular changes in form and asymmetry",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "紧张折线",
+      "explanation": "用有轻重变化的折转线条表达形体张力",
+      "evidence": "颈部、下颌和眼周的轮廓收紧，转折明显。",
+      "zh": "用有轻重变化的折转线条表达形体张力",
+      "en": "Express tension in the forms through angular lines of varied weight",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "主观的肤色",
+      "explanation": "以土黄、灰绿、暗红和近黑组织不均匀的情绪性色块",
+      "evidence": "脸部并非均匀肤色，土黄、灰绿与暖红色痕交错。",
+      "zh": "以土黄、灰绿、暗红和近黑组织不均匀的情绪性色块",
+      "en": "Use ochre, gray-green, dark red and near-black in uneven, emotionally expressive color patches",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "不均匀明暗",
+      "explanation": "让明暗分布略带断续，突出关键表情和结构",
+      "evidence": "脸部明暗以断续色痕出现，与大面积深色衣服对照。",
+      "zh": "让明暗分布略带断续，突出关键表情和结构",
+      "en": "Let light and shadow appear slightly broken, emphasizing key expressions and structures",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "空场中的主体",
+      "explanation": "保留原图布局，简化次要细节，让主体周围有安静的空场",
+      "evidence": "人物集中在右侧，左侧空场与红色灯笼果形成平衡。",
+      "zh": "保留原图布局，简化次要细节，让主体周围有安静的空场",
+      "en": "Keep the source image’s layout, simplify secondary details and leave quiet open space around the subjects",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "断续色痕",
+      "explanation": "保留干涩、断续的色痕与局部露底，避免过度抛光",
+      "evidence": "面部色痕、衣服中的线与露出的浅底保留了干涩感。",
+      "zh": "保留干涩、断续的色痕与局部露底，避免过度抛光",
+      "en": "Retain dry, broken color marks and areas of exposed ground, avoiding an overpolished finish",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "内向的张力",
+      "explanation": "表达克制而敏感的心理张力",
+      "evidence": "直视的眼神与偏转的头部方向不同，增添敏感而紧张的感受。",
+      "zh": "表达克制而敏感的心理张力",
+      "en": "Convey restrained, sensitive psychological tension",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
+  }
+}

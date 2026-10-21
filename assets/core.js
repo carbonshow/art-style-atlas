@@ -1,9 +1,9 @@
 /* Shared browser / Node functions. No model calls or image uploads. */
 (function (root, factory) {
-  const api = factory();
+  const api = factory(typeof module === 'object' && module.exports ? require('./prompt-ui.js') : root.AtlasPromptUI);
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.Atlas = api;
-})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+})(typeof globalThis !== 'undefined' ? globalThis : this, function (messages) {
   'use strict';
   const FACETS = ['tradition', 'subject', 'effect', 'type'];
   const PAGE_SIZE = 24;
@@ -12,16 +12,16 @@
   function score(entry, query) {
     const q = normalize(query);
     if (!q) return 1;
-    const names = [entry.name, entry.english_name, entry.id].map(normalize);
+    const names = (entry.search_names || [entry.name, entry.english_name, entry.id]).map(normalize);
     const aliases = (entry.aliases || []).map(normalize);
-    const text = normalize([entry.search_text, ...names, ...aliases, entry.artist].join(' '));
+    const text = normalize([entry.search_text, ...names, ...aliases, entry.search_artist || entry.artist].join(' '));
     if (!tokens(q).every(t => text.includes(t))) return 0;
     if (names.includes(q)) return 1000;
     if (aliases.includes(q)) return 900;
-    if (normalize(entry.artist) === q) return 800;
+    if (normalize(entry.search_artist || entry.artist) === q) return 800;
     if (names.some(n => n.includes(q))) return 700;
     if (aliases.some(n => n.includes(q))) return 600;
-    if (normalize(entry.artist).includes(q)) return 500;
+    if (normalize(entry.search_artist || entry.artist).includes(q)) return 500;
     return 100;
   }
   function search(entries, state) {
@@ -64,16 +64,11 @@
       return true;
     }).sort((a,b) => order.indexOf(a.dimension)-order.indexOf(b.dimension));
   }
-  const PRESERVE = [
-    {id:'identity', zh:'保留原图主体身份与数量', en:'Preserve the identity and count of the original subjects'},
-    {id:'relationships', zh:'保留动作及物件关系', en:'Preserve poses and relationships between objects'},
-    {id:'viewpoint', zh:'保留构图与视角', en:'Preserve the original composition and viewpoint'},
-    {id:'aspect', zh:'保留原画幅比例', en:'Preserve the original aspect ratio'}
-  ];
+  const PRESERVE = ['identity','relationships','viewpoint','aspect'].map(id => ({id,...messages[id]}));
   function compose(profile, state, lang) {
     lang = lang === 'en' ? 'en' : 'zh';
-    const headings = lang === 'en' ? ['Goal','Visual features','Preserve','Avoid'] : ['改绘目标','视觉特征','保留要求','避免项'];
-    const goal = state.goal.trim() || (lang === 'en' ? 'Repaint the original image using the selected visual features.' : '按所选视觉特征改绘原图。');
+    const headings = ['goal','features','preserve','avoid'].map(k => messages[k][lang]);
+    const goal = state.goal.trim() || messages.default_goal[lang];
     const features = selectedFeatures(profile, state.selected).map(f => f[lang]);
     const keep = PRESERVE.filter(p => state.preserve.includes(p.id)).map(p => p[lang]);
     if (state.customKeep.trim()) keep.push(state.customKeep);

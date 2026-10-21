@@ -1,0 +1,92 @@
+{
+  "id": "nihonga",
+  "name": "日本画人物",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "精炼姿态",
+      "explanation": "保留原有动作，概括细节，使主体姿态完整而清楚",
+      "evidence": "张开的手臂、扇与垂直衣摆共同构成完整而平稳的姿态。",
+      "zh": "保留原有动作，概括细节，使主体姿态完整而清楚",
+      "en": "Preserve the original actions and simplify details so the subject’s posture remains complete and clear",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "克制细线",
+      "explanation": "以细而稳定、轻重有别的线条勾勒形体",
+      "evidence": "衣服外轮廓清楚，面部细节和内部褶线相对节制。",
+      "zh": "以细而稳定、轻重有别的线条勾勒形体",
+      "en": "Describe forms with fine, steady lines of varied weight",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "节制设色",
+      "explanation": "以柔和中性色承托少量朱红与浅色，避免颜色平均争夺注意",
+      "evidence": "朱红衣服是主要色块，浅色衣摆和素背景让它更加集中。",
+      "zh": "以柔和中性色承托少量朱红与浅色，避免颜色平均争夺注意",
+      "en": "Use soft neutrals to support limited vermilion and pale colors, avoiding equal competition for attention among all colors",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "柔和体积",
+      "explanation": "弱化投影，以细微色阶提示体积",
+      "evidence": "体积主要由轻微色差提示，未见强烈的地面投影。",
+      "zh": "弱化投影，以细微色阶提示体积",
+      "en": "Reduce cast shadows and suggest volume through subtle tonal gradations",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "留白承托",
+      "explanation": "在原构图中降低背景细节，让空白承托主体",
+      "evidence": "背景细节很少，人物周围保留大面积空场。",
+      "zh": "在原构图中降低背景细节，让空白承托主体",
+      "en": "Reduce background detail within the original composition, letting blank space support the subjects",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "细腻哑光",
+      "explanation": "呈现细腻哑光的色面和轻微纤维般质感",
+      "evidence": "馆藏记录注明绢本设色；小尺寸网页预览只能支持细腻哑光的整体观察。",
+      "zh": "呈现细腻哑光的色面和轻微纤维般质感",
+      "en": "Create delicate matte color fields with a faint fiber-like texture",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "沉静端正",
+      "explanation": "营造沉静、端正而有内在力量的气质",
+      "evidence": "动作舒展但不过度夸张，面部表达克制，整体沉静端正。",
+      "zh": "营造沉静、端正而有内在力量的气质",
+      "en": "Create a calm, composed character with inner strength",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
+  }
+}

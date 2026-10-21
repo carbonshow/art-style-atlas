@@ -1,0 +1,92 @@
+{
+  "id": "AS-003",
+  "name": "手绘质感 · 风格化 3D",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "柔化的体块",
+      "explanation": "保持原有主体的三维体积，柔化边角并概括小细节",
+      "evidence": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。",
+      "zh": "保持原有主体的三维体积，柔化边角并概括小细节",
+      "en": "Keep the original subjects’ three-dimensional volumes, softening edges and corners and simplifying small details",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "柔和轮廓",
+      "explanation": "用柔和而清楚的边缘区分形体，减少过硬描边",
+      "evidence": "屋顶、塔楼与窗框保留清楚体积，局部边缘柔化；树木与花丛被概括为有节奏的形块。",
+      "zh": "用柔和而清楚的边缘区分形体，减少过硬描边",
+      "en": "Separate forms with soft but clear edges, reducing overly hard outlines",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "暖黄蓝灰",
+      "explanation": "使用暖黄、蓝灰与克制绿色的明快配色",
+      "evidence": "暖黄石墙、蓝灰屋顶与蓝色天空形成清楚分区；植物包围建筑，日光集中在主体。",
+      "zh": "使用暖黄、蓝灰与克制绿色的明快配色",
+      "en": "Use a bright palette of warm yellow, blue-gray and restrained greens",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "柔光投影",
+      "explanation": "用柔和日光、体块明暗和接触阴影建立可信深度",
+      "evidence": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。",
+      "zh": "用柔和日光、体块明暗和接触阴影建立可信深度",
+      "en": "Build believable depth with soft daylight, form shading and contact shadows",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "清楚透视",
+      "explanation": "保留原视角与透视，降低次要区域细节",
+      "evidence": "透视、接触阴影和体块明暗建立深度；前景树叶形成框景，主体有清楚的视觉层级。",
+      "zh": "保留原视角与透视，降低次要区域细节",
+      "en": "Keep the original viewpoint and perspective, reducing detail in secondary areas",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "手绘材质",
+      "explanation": "用概括笔触表现材质差异，避免均匀微噪声",
+      "evidence": "石墙、瓦片与植物以概括色块和可读纹理表达材质，避免均匀的微小噪声覆盖表面。",
+      "zh": "用概括笔触表现材质差异，避免均匀微噪声",
+      "en": "Use simplified brushwork to distinguish materials, avoiding uniform fine noise",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "温暖童话",
+      "explanation": "营造温暖宁静、有手工感的童话气质",
+      "evidence": "欧式庄园、花园与柔和阳光组合成温暖宁静的童话田园。题材不等于渲染方法。",
+      "zh": "营造温暖宁静、有手工感的童话气质",
+      "en": "Create a warm, peaceful fairy-tale atmosphere with a handmade quality",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only tonal values and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  }
+}

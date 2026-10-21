@@ -1,6 +1,9 @@
 {
   "id": "painterly-portrait",
-  "name": "笔触写实肖像",
+  "name": {
+    "zh": "笔触写实肖像",
+    "en": "Painterly Realist Portrait"
+  },
   "english_name": "Painterly Realist Portrait",
   "artist": "John Singer Sargent",
   "aliases": [
@@ -9,16 +12,40 @@
     "古典写实油画",
     "Sargent"
   ],
-  "kind": "视觉表现方法",
-  "summary": "把形体画准，把笔触留下来。用明暗关系建立人物，再以松动的色块表达衣料与环境。",
-  "definition": "“笔触写实”在这里是一种观察路径，不是独立的历史画派。Sargent 的人物绘画兼顾形体可信度和用笔概括；本例为晚期非正式人物习作，不能代表他所有正式肖像。",
+  "kind": {
+    "zh": "视觉表现方法",
+    "en": "Visual approach"
+  },
+  "summary": {
+    "zh": "把形体画准，把笔触留下来。用明暗关系建立人物，再以松动的色块表达衣料与环境。",
+    "en": "Render forms accurately and leave the brushwork visible. Establish the figure through light and shadow, then express fabric and surroundings through loose patches of color."
+  },
+  "definition": {
+    "zh": "“笔触写实”在这里是一种观察路径，不是独立的历史画派。Sargent 的人物绘画兼顾形体可信度和用笔概括；本例为晚期非正式人物习作，不能代表他所有正式肖像。",
+    "en": "“Painterly realism” here is a way of looking, not an independent historical school. Sargent’s figure paintings combine believable forms with economical brushwork. This example is a late, informal figure study and cannot represent all his formal portraits."
+  },
   "recognition": [
-    "先眯眼看：人物的亮面能否从环境中读出来？",
-    "近看衣料：一笔色块是否同时交代了方向与反光？",
-    "沿轮廓看：清楚与融入背景的边缘是否交替？"
+    {
+      "zh": "先眯眼看：人物的亮面能否从环境中读出来？",
+      "en": "First, squint: can you distinguish the figure’s lit planes from its surroundings?"
+    },
+    {
+      "zh": "近看衣料：一笔色块是否同时交代了方向与反光？",
+      "en": "Look closely at the fabric: does a single brushstroke describe both direction and reflected light?"
+    },
+    {
+      "zh": "沿轮廓看：清楚与融入背景的边缘是否交替？",
+      "en": "Follow the contours: do clear edges alternate with edges that merge into the background?"
+    }
   ],
-  "variations": "正式肖像可以更庄重、轮廓更收紧；非正式人物画的姿态和笔触常更松动。本例的银灰衣料与横卧构图是作品选择。",
-  "confusion": "写实不等于照相般均匀清晰；保留笔触也不等于随意模糊。先看形体与明暗是否仍然可信。",
+  "variations": {
+    "zh": "正式肖像可以更庄重、轮廓更收紧；非正式人物画的姿态和笔触常更松动。本例的银灰衣料与横卧构图是作品选择。",
+    "en": "Formal portraits can be more solemn, with tighter contours; poses and brushwork in informal figure paintings are often looser. The silver-gray fabric and reclining composition here are choices specific to this work."
+  },
+  "confusion": {
+    "zh": "写实不等于照相般均匀清晰；保留笔触也不等于随意模糊。先看形体与明暗是否仍然可信。",
+    "en": "Realism does not require everything to be equally sharp as in a photograph, and retaining brushwork does not mean arbitrary blurring. First check whether the forms and light–dark relationships remain believable."
+  },
   "type": "guide",
   "schema_version": 1,
   "cover": "media/guide-painterly-portrait.webp",
@@ -38,23 +65,47 @@
   "references": [
     {
       "file": "media/guide-painterly-portrait.webp",
-      "caption": "Nonchaloir (Repose)《闲憩》",
-      "alt": "衣裙的短笔与折光很活跃，脸和手相对凝练；沙发和背景的边缘较软。横向展开的形体使节奏放慢。",
-      "credit": "John Singer Sargent · National Gallery of Art, Gift of Curt H. Reisinger, 1948.16.1 · Public domain",
+      "caption": {
+        "zh": "Nonchaloir (Repose)《闲憩》（中文译名）",
+        "en": "Nonchaloir (Repose)"
+      },
+      "alt": {
+        "zh": "衣裙的短笔与折光很活跃，脸和手相对凝练；沙发和背景的边缘较软。横向展开的形体使节奏放慢。",
+        "en": "Short brushstrokes and reflected light animate the dress, while the face and hands are more concisely rendered; the sofa and background have softer edges. The horizontally extended figure slows the visual rhythm."
+      },
+      "credit": {
+        "zh": "John Singer Sargent · 美国国家美术馆，Curt H. Reisinger 捐赠，1948.16.1 · 公共领域",
+        "en": "John Singer Sargent · National Gallery of Art, Gift of Curt H. Reisinger, 1948.16.1 · Public domain"
+      },
       "credit_url": "https://www.nga.gov/artworks/35080-nonchaloir-repose",
       "artwork": {
-        "date_label": "1911",
-        "medium_label": "布面油画",
+        "date_label": {
+          "zh": "1911",
+          "en": "1911"
+        },
+        "medium_label": {
+          "zh": "布面油画",
+          "en": "Oil on canvas"
+        },
         "artist": "John Singer Sargent"
       },
-      "focus": "衣裙的短笔与折光很活跃，脸和手相对凝练；沙发和背景的边缘较软。横向展开的形体使节奏放慢。",
-      "relationship": "代表作品（本页观察入口）",
+      "focus": {
+        "zh": "衣裙的短笔与折光很活跃，脸和手相对凝练；沙发和背景的边缘较软。横向展开的形体使节奏放慢。",
+        "en": "Short brushstrokes and reflected light animate the dress, while the face and hands are more concisely rendered; the sofa and background have softer edges. The horizontally extended figure slows the visual rhythm."
+      },
+      "relationship": {
+        "zh": "代表作品（本页观察入口）",
+        "en": "Representative work (the starting point for this page’s observations)"
+      },
       "image_source": "https://api.nga.gov/iiif/718e014f-fb5f-4702-a95a-db496abefeb7/full/%21800%2C800/0/default.jpg"
     }
   ],
   "sources": [
     {
-      "title": "National Gallery of Art · Nonchaloir (Repose)",
+      "title": {
+        "zh": "美国国家美术馆 · Nonchaloir (Repose)",
+        "en": "National Gallery of Art · Nonchaloir (Repose)"
+      },
       "url": "https://www.nga.gov/artworks/35080-nonchaloir-repose"
     }
   ],
@@ -62,81 +113,153 @@
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "可信的形体",
-      "explanation": "以准确的大比例和相连的明暗体块概括原图主体",
-      "evidence": "人物与沙发的体积可以由几组相连的明暗大面读出。",
+      "label": {
+        "zh": "可信的形体",
+        "en": "Believable forms"
+      },
+      "explanation": {
+        "zh": "以准确的大比例和相连的明暗体块概括原图主体",
+        "en": "Simplify the source image’s subjects through accurate overall proportions and connected volumes of light and shadow"
+      },
+      "evidence": {
+        "zh": "人物与沙发的体积可以由几组相连的明暗大面读出。",
+        "en": "The volumes of the figure and sofa can be read through a few connected broad planes of light and dark."
+      },
       "zh": "以准确的大比例和相连的明暗体块概括原图主体",
-      "en": "Describe the original subjects with believable proportions and connected masses of light and shadow",
+      "en": "Simplify the source image’s subjects through accurate overall proportions and connected volumes of light and shadow",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "虚实边缘",
-      "explanation": "让关键轮廓清楚，次要边缘柔和地融入环境",
-      "evidence": "面部与手部较凝练，衣裙和沙发的部分边缘融入周围颜色。",
+      "label": {
+        "zh": "虚实边缘",
+        "en": "Hard and soft edges"
+      },
+      "explanation": {
+        "zh": "让关键轮廓清楚，次要边缘柔和地融入环境",
+        "en": "Keep key contours clear and let secondary edges merge softly into the surroundings"
+      },
+      "evidence": {
+        "zh": "面部与手部较凝练，衣裙和沙发的部分边缘融入周围颜色。",
+        "en": "The face and hands are more concisely rendered, while some edges of the dress and sofa merge into the surrounding colors."
+      },
       "zh": "让关键轮廓清楚，次要边缘柔和地融入环境",
-      "en": "Keep key contours clear and let secondary edges merge softly into their surroundings",
+      "en": "Keep key contours clear and let secondary edges merge softly into the surroundings",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "银灰与暖色",
-      "explanation": "采用银灰、柔白和低饱和暖褐的色彩关系，保留少量冷色反光",
-      "evidence": "银灰与柔白衣料上穿插冷蓝、浅绿反光，背景有暖褐色。",
+      "label": {
+        "zh": "银灰与暖色",
+        "en": "Silver gray and warm colors"
+      },
+      "explanation": {
+        "zh": "采用银灰、柔白和低饱和暖褐的色彩关系，保留少量冷色反光",
+        "en": "Use relationships between silver gray, soft white and muted warm browns, retaining a little cool reflected color"
+      },
+      "evidence": {
+        "zh": "银灰与柔白衣料上穿插冷蓝、浅绿反光，背景有暖褐色。",
+        "en": "Cool blue and pale green reflections appear in the silver-gray and soft-white fabric, with warm browns in the background."
+      },
       "zh": "采用银灰、柔白和低饱和暖褐的色彩关系，保留少量冷色反光",
-      "en": "Use silver gray, soft white and muted warm browns, with restrained cool reflected colors",
+      "en": "Use relationships between silver gray, soft white and muted warm browns, retaining a little cool reflected color",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "宽阔的明暗面",
-      "explanation": "用宽阔而连贯的受光面塑造体积，减少零碎高光",
-      "evidence": "衣裙的大块亮面承托较小的折光，暗部仍有层次。",
+      "label": {
+        "zh": "宽阔的明暗面",
+        "en": "Broad light and shadow planes"
+      },
+      "explanation": {
+        "zh": "用宽阔而连贯的受光面塑造体积，减少零碎高光",
+        "en": "Model volume through broad, continuous lit planes, reducing scattered highlights"
+      },
+      "evidence": {
+        "zh": "衣裙的大块亮面承托较小的折光，暗部仍有层次。",
+        "en": "Large light areas on the dress support smaller reflected highlights, while the dark areas retain tonal variation."
+      },
       "zh": "用宽阔而连贯的受光面塑造体积，减少零碎高光",
-      "en": "Model volume with broad connected light planes and restrained highlights",
+      "en": "Model volume through broad, continuous lit planes, reducing scattered highlights",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "主次清晰",
-      "explanation": "在原构图中集中描绘主体，降低次要区域的清晰度",
-      "evidence": "横卧的人物占据主要横向空间，背景细节相对弱化。",
+      "label": {
+        "zh": "主次清晰",
+        "en": "Clear visual hierarchy"
+      },
+      "explanation": {
+        "zh": "在原构图中集中描绘主体，降低次要区域的清晰度",
+        "en": "Within the original composition, concentrate detail on the subjects and reduce sharpness in secondary areas"
+      },
+      "evidence": {
+        "zh": "横卧的人物占据主要横向空间，背景细节相对弱化。",
+        "en": "The reclining figure occupies the main horizontal space, while background details are relatively subdued."
+      },
       "zh": "在原构图中集中描绘主体，降低次要区域的清晰度",
-      "en": "Within the original composition, concentrate definition on the subjects and soften secondary areas",
+      "en": "Within the original composition, concentrate detail on the subjects and reduce sharpness in secondary areas",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "概括笔触",
-      "explanation": "保留顺着形体转折的可见笔触，细节由色块暗示",
-      "evidence": "裙摆上的斜向短笔让褶皱和反光同时可见。",
+      "label": {
+        "zh": "概括笔触",
+        "en": "Economical brushwork"
+      },
+      "explanation": {
+        "zh": "保留顺着形体转折的可见笔触，细节由色块暗示",
+        "en": "Retain visible brushstrokes that follow changes in form, suggesting details through patches of color"
+      },
+      "evidence": {
+        "zh": "裙摆上的斜向短笔让褶皱和反光同时可见。",
+        "en": "Short diagonal strokes on the skirt reveal both folds and reflected light."
+      },
       "zh": "保留顺着形体转折的可见笔触，细节由色块暗示",
-      "en": "Keep visible strokes that follow the form, suggesting detail through patches of color",
+      "en": "Retain visible brushstrokes that follow changes in form, suggesting details through patches of color",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "安静的日常",
-      "explanation": "营造自然、从容、安静的观看感受",
-      "evidence": "放松的姿态、柔和边缘与低对比环境共同使节奏安静。",
+      "label": {
+        "zh": "安静的日常",
+        "en": "Everyday quiet"
+      },
+      "explanation": {
+        "zh": "营造自然、从容、安静的观看感受",
+        "en": "Create a natural, unhurried and quiet viewing experience"
+      },
+      "evidence": {
+        "zh": "放松的姿态、柔和边缘与低对比环境共同使节奏安静。",
+        "en": "The relaxed pose, soft edges and low-contrast setting together establish a quiet rhythm."
+      },
       "zh": "营造自然、从容、安静的观看感受",
-      "en": "Create a natural, unhurried and quiet atmosphere",
+      "en": "Create a natural, unhurried and quiet viewing experience",
       "default": true
     },
     {
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": {
+        "zh": "沿用原图配色",
+        "en": "Keep the source palette"
+      },
+      "explanation": {
+        "zh": "保留原图的主要色相关系，只调整色阶与对比。",
+        "en": "Keep the source image’s main hue relationships, adjusting only value and contrast."
+      },
+      "evidence": {
+        "zh": "这是创作时可选的变体，不是对参考作品的描述。",
+        "en": "This is an optional variation for creating an image, not a description of the reference artwork."
+      },
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -144,7 +267,7 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   },
   "relations": [],
   "reviewed_at": "2026-10-16"

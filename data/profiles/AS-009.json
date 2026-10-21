@@ -1,13 +1,13 @@
 {
   "id": "AS-009",
-  "name": "新中式插画 · 古诗山水",
+  "name": "Contemporary Chinese-style Illustration · Landscapes Inspired by Classical Poetry",
   "features": [
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "概括大形",
-      "explanation": "以团块与清楚骨架概括原有形体，保留动作关系",
-      "evidence": "先看见团块树冠和深色分枝，再看见密集的叶点、碎边与细小亮斑。点粒随树冠分区改变深浅，黑枝保持连贯，让“密”仍有结构；砖瓦、石阶、栏杆和荷脉则以较清楚的细线说明形体。",
+      "label": "Simplified major forms",
+      "explanation": "Simplify original forms into clusters and clear structural lines while retaining action relationships",
+      "evidence": "Massed canopies and dark branching structures register first, followed by dense leaf dots, broken edges and tiny highlights. Dots vary in value across canopy divisions, while continuous black branches keep the density structured. Bricks and tiles, steps, railings and lotus veins use clearer fine lines to describe form.",
       "zh": "以团块与清楚骨架概括原有形体，保留动作关系",
       "en": "Simplify original forms into clusters and clear structural lines while retaining action relationships",
       "default": true
@@ -15,9 +15,9 @@
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "细线与碎边",
-      "explanation": "用清楚细线和局部点簇边缘区分材质与结构",
-      "evidence": "先看见团块树冠和深色分枝，再看见密集的叶点、碎边与细小亮斑。点粒随树冠分区改变深浅，黑枝保持连贯，让“密”仍有结构；砖瓦、石阶、栏杆和荷脉则以较清楚的细线说明形体。",
+      "label": "Fine lines and broken edges",
+      "explanation": "Use clear fine lines and localized dotted edges to distinguish material and structure",
+      "evidence": "Massed canopies and dark branching structures register first, followed by dense leaf dots, broken edges and tiny highlights. Dots vary in value across canopy divisions, while continuous black branches keep the density structured. Bricks and tiles, steps, railings and lotus veins use clearer fine lines to describe form.",
       "zh": "用清楚细线和局部点簇边缘区分材质与结构",
       "en": "Use clear fine lines and localized dotted edges to distinguish material and structure",
       "default": true
@@ -25,9 +25,9 @@
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "米白青绿朱红",
-      "explanation": "以米白、墨青绿与少量朱红建立有限色彩关系",
-      "evidence": "米白纸地承担河水、道路或天空感；墨青绿稳定大面积，瓦青与朱红组成冷暖对照。雪景收敛为蓝灰、近黑与米白，桃花图让粉色占主导，荷塘以绿调配少量红。迁移时选择一组变体，避免把所有颜色平均铺满。",
+      "label": "Ivory, blue-green and vermilion",
+      "explanation": "Build a limited palette of ivory, dark teal-green and restrained vermilion",
+      "evidence": "An ivory paper-like ground suggests rivers, roads or sky. Dark blue-green stabilizes large areas, while tile turquoise and vermilion create warm–cool contrast. Snow scenes reduce the palette to blue-gray, near-black and ivory; pink dominates the peach-blossom image; pond scenes pair greens with a little red. Choose one variation for style transfer rather than spreading all colors evenly everywhere.",
       "zh": "以米白、墨青绿与少量朱红建立有限色彩关系",
       "en": "Build a limited palette of ivory, dark teal-green and restrained vermilion",
       "default": true,
@@ -36,29 +36,29 @@
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "哑光层次",
-      "explanation": "以哑光色面和细微明度差表达层次，避免高光塑料感",
-      "evidence": "建筑和枝干边缘相对明确，树冠边缘则由点簇打散；哑光色面、细颗粒和略有起伏的纸色共同形成印刷插画般观感。这里描述的是可见效果，不把“纸本”“版画感”写成已核实的材质或制作工艺。",
+      "label": "Matte tonal layers",
+      "explanation": "Express layers with matte color areas and subtle value differences; avoid glossy, plastic-looking highlights",
+      "evidence": "Building and branch edges are relatively definite, while clusters of dots break up canopy edges. Matte color areas, fine grain and slight variations in paper-like tone combine into the appearance of printed illustration. These are visible effects: “paper-like” and “printmaking-like” do not establish a verified material or production process.",
       "zh": "以哑光色面和细微明度差表达层次，避免高光塑料感",
-      "en": "Use matte color fields and subtle value steps rather than glossy plastic highlights",
+      "en": "Express layers with matte color areas and subtle value differences; avoid glossy, plastic-looking highlights",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "连续留白",
-      "explanation": "在原图已有空隙中强化连续留白，保持原视角与画幅",
-      "evidence": "河流、村路、石阶间空地或墙面连成贯穿画幅的浅色通道；大片留白本身就是主形。植被细节集中于两侧，常以折线或 S 形引导视线。留白并非什么都不画，少量水纹、落花和倒影足以提示材质。",
+      "label": "Continuous open space",
+      "explanation": "Strengthen continuous open space within the original image’s existing gaps while keeping its viewpoint and full frame",
+      "evidence": "Rivers, village roads, gaps around stone steps and wall surfaces connect into pale passages running through the frame; large open areas are themselves major shapes. Plant detail concentrates on both sides, often guiding the eye along angular or S-shaped routes. Open space does not mean drawing nothing: a few water lines, fallen petals and reflections can suggest materials.",
       "zh": "在原图已有空隙中强化连续留白，保持原视角与画幅",
-      "en": "Strengthen connected open spaces already present in the source while keeping viewpoint and aspect ratio",
+      "en": "Strengthen continuous open space within the original image’s existing gaps while keeping its viewpoint and full frame",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "细纸颗粒",
-      "explanation": "使用细颗粒与轻微纸色起伏，保持主要形体清楚",
-      "evidence": "建筑和枝干边缘相对明确，树冠边缘则由点簇打散；哑光色面、细颗粒和略有起伏的纸色共同形成印刷插画般观感。这里描述的是可见效果，不把“纸本”“版画感”写成已核实的材质或制作工艺。",
+      "label": "Fine paper-like grain",
+      "explanation": "Use fine grain and subtle paper-tone variation while keeping main forms clear",
+      "evidence": "Building and branch edges are relatively definite, while clusters of dots break up canopy edges. Matte color areas, fine grain and slight variations in paper-like tone combine into the appearance of printed illustration. These are visible effects: “paper-like” and “printmaking-like” do not establish a verified material or production process.",
       "zh": "使用细颗粒与轻微纸色起伏，保持主要形体清楚",
       "en": "Use fine grain and subtle paper-tone variation while keeping main forms clear",
       "default": true
@@ -66,9 +66,9 @@
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "含蓄诗意",
-      "explanation": "营造含蓄、安静、有小叙事的诗意氛围",
-      "evidence": "渔者垂钓、牧童指路、燕子飞行、旅人登阶、蜻蜓落在荷尖、花枝越墙，都是可一眼读懂的动作。人物通常很小，物件关系却清楚；画面焦点由动作、位置和局部色差决定，未必是面积最大的建筑。",
+      "label": "Restrained poetry",
+      "explanation": "Create a restrained, quiet and poetic atmosphere with subtle narrative",
+      "evidence": "A person fishing, a herder pointing the way, swallows flying, a traveler climbing steps, a dragonfly resting on a lotus tip and a flowering branch crossing a wall are all actions readable at a glance. Figures are usually small, yet object relationships remain clear. Action, position and local color contrast determine the focus, which need not be the largest building.",
       "zh": "营造含蓄、安静、有小叙事的诗意氛围",
       "en": "Create a restrained, quiet and poetic atmosphere with subtle narrative",
       "default": true
@@ -77,9 +77,9 @@
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": "Keep the original palette",
+      "explanation": "Keep the source image’s main hue relationships, adjusting only value and contrast.",
+      "evidence": "This is an optional variation for creation, not a description of the reference artwork.",
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false

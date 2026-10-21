@@ -1,0 +1,92 @@
+{
+  "id": "art-nouveau",
+  "name": "新艺术",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "修长而概括",
+      "explanation": "将原有形体概括为优雅、连贯的长曲线与完整色面",
+      "evidence": "人物手臂、肩颈和衣摆被概括成连续、舒展的曲线。",
+      "zh": "将原有形体概括为优雅、连贯的长曲线与完整色面",
+      "en": "Simplify existing forms into elegant, continuous long curves and coherent color fields",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "流动轮廓",
+      "explanation": "以粗细有节奏的清楚曲线勾勒主体，线条随形体自然转折",
+      "evidence": "外轮廓较明确，内部衣褶与花纹使用更细的线。",
+      "zh": "以粗细有节奏的清楚曲线勾勒主体，线条随形体自然转折",
+      "en": "Outline the subjects with clear curves of rhythmically varied thickness, letting the lines turn naturally with the forms",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "柔和装饰色",
+      "explanation": "采用米白、低饱和橄榄绿和柔和暖红，保持大色面的秩序",
+      "evidence": "米白衣服、橄榄绿线面和暖红花卉形成柔和印刷色关系。",
+      "zh": "采用米白、低饱和橄榄绿和柔和暖红，保持大色面的秩序",
+      "en": "Use ivory, muted olive green and soft warm reds, keeping the large color fields orderly",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "弱化明暗",
+      "explanation": "降低写实明暗，让轮廓与色块成为主要识别线索",
+      "evidence": "身体仍有少量明暗，但整体读图主要依靠线与色面。",
+      "zh": "降低写实明暗，让轮廓与色块成为主要识别线索",
+      "en": "Reduce naturalistic shading so contours and color fields become the main visual clues",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "平面秩序",
+      "explanation": "保持原视角，将原有形体组织成疏密有序的平面节奏",
+      "evidence": "花卉圆形与人物层层嵌套，密集纹样旁保留较大浅色区域。",
+      "zh": "保持原视角，将原有形体组织成疏密有序的平面节奏",
+      "en": "Keep the original viewpoint and arrange existing forms in a flat rhythm of orderly dense and open areas",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "印刷般表面",
+      "explanation": "使用哑光色面与精细线条，保留轻微手绘起伏",
+      "evidence": "细密印刷线与均匀色面并存，没有厚重颜料堆积的外观。",
+      "zh": "使用哑光色面与精细线条，保留轻微手绘起伏",
+      "en": "Use matte color fields and fine lines, retaining subtle hand-drawn variation",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "优雅与装饰性",
+      "explanation": "营造优雅、舒缓、富有装饰秩序的氛围",
+      "evidence": "舒展的线条和有序装饰共同营造理想化、优雅的气质。",
+      "zh": "营造优雅、舒缓、富有装饰秩序的氛围",
+      "en": "Create an elegant, gentle atmosphere with decorative order",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "AS-005",
+  "name": "油画质感 · 微光雨夜花园",
+  "features": [
+    {
+      "id": "shape-recommended",
+      "dimension": "shape",
+      "label": "结构与碎色",
+      "explanation": "保留可辨形体，以交叠碎色块提示结构",
+      "evidence": "花瓣和叶片保留可辨认的结构与体积，表面由交叠的碎色块、短小点触和斑驳亮部组成；局部有油彩堆叠般的厚重感，边缘柔化、融入周围色彩。",
+      "zh": "保留可辨形体，以交叠碎色块提示结构",
+      "en": "Keep recognizable forms and suggest structure through overlapping patches of broken color",
+      "default": true
+    },
+    {
+      "id": "line-recommended",
+      "dimension": "line",
+      "label": "融化边缘",
+      "explanation": "让部分边缘融入邻近颜色，同时保留关键形状",
+      "evidence": "花瓣和叶片保留可辨认的结构与体积，表面由交叠的碎色块、短小点触和斑驳亮部组成；局部有油彩堆叠般的厚重感，边缘柔化、融入周围色彩。",
+      "zh": "让部分边缘融入邻近颜色，同时保留关键形状",
+      "en": "Let some edges merge into adjacent colors while preserving key shapes",
+      "default": true
+    },
+    {
+      "id": "color-recommended",
+      "dimension": "color",
+      "label": "冷夜暖光",
+      "explanation": "以深靛蓝、青绿和冷蓝承托少量奶白、淡粉与金黄",
+      "evidence": "深靛蓝、青绿和冷钴蓝构成大片底色；奶白、淡粉、紫红和小面积金黄分散在花簇中。暖色光点在冷色暗部上更醒目，花朵亮部承担主要视觉支点。",
+      "zh": "以深靛蓝、青绿和冷蓝承托少量奶白、淡粉与金黄",
+      "en": "Set small amounts of creamy white, pale pink and golden yellow against deep indigo, blue-green and cool blue",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-recommended",
+      "dimension": "light",
+      "label": "局部微光",
+      "explanation": "在已有受光部位安排柔和局部亮光，保持大片暗部",
+      "evidence": "细小金色亮点与花瓣上的柔和高光穿插于暗场，营造潮湿、梦幻的夜光。植物结构相对具体，整体颜色和亮点分布则带有浪漫幻想感。",
+      "zh": "在已有受光部位安排柔和局部亮光，保持大片暗部",
+      "en": "Place soft localized highlights on already illuminated areas, preserving broad dark areas",
+      "default": true
+    },
+    {
+      "id": "space-recommended",
+      "dimension": "space",
+      "label": "疏密对照",
+      "explanation": "保留原布局，让密集细节与安静暗部形成对照",
+      "evidence": "花丛集中在中下部，两侧抬高、中央降低，形成向夜幕打开的凹口。前景花朵较大、后方细碎花簇较小；上部深色留白与下部高密度纹理形成疏密对照。",
+      "zh": "保留原布局，让密集细节与安静暗部形成对照",
+      "en": "Keep the original layout, contrasting dense detail with quiet dark areas",
+      "default": true
+    },
+    {
+      "id": "texture-recommended",
+      "dimension": "texture",
+      "label": "油彩般碎笔",
+      "explanation": "用不透明短笔、点触与局部厚重色块表现油彩般质感",
+      "evidence": "花瓣和叶片保留可辨认的结构与体积，表面由交叠的碎色块、短小点触和斑驳亮部组成；局部有油彩堆叠般的厚重感，边缘柔化、融入周围色彩。",
+      "zh": "用不透明短笔、点触与局部厚重色块表现油彩般质感",
+      "en": "Use opaque short strokes, dabs and localized thick-looking color patches to create an oil-paint-like texture",
+      "default": true
+    },
+    {
+      "id": "mood-recommended",
+      "dimension": "mood",
+      "label": "潮湿梦幻",
+      "explanation": "营造潮湿、柔和、浪漫幻想的夜间气氛",
+      "evidence": "细小金色亮点与花瓣上的柔和高光穿插于暗场，营造潮湿、梦幻的夜光。植物结构相对具体，整体颜色和亮点分布则带有浪漫幻想感。",
+      "zh": "营造潮湿、柔和、浪漫幻想的夜间气氛",
+      "en": "Create a damp, soft nighttime atmosphere of romantic fantasy",
+      "default": true
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "group": "palette",
+      "label": "沿用原图配色",
+      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
+      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "zh": "保留原图的主要色相关系，只调整色阶与对比",
+      "en": "Keep the source image’s main hue relationships, adjusting only tonal values and contrast",
+      "default": false
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的人物、建筑、动物或道具；不复制参考图题字与水印；避免细节密度平均、材质噪声过重",
+    "en": "Do not add people, buildings, animals or props absent from the source; do not copy reference lettering or watermarks; avoid uniform detail density and excessive texture noise"
+  }
+}

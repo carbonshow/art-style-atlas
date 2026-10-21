@@ -1,8 +1,14 @@
 {
-  "title": "美术风格图鉴",
-  "description": "从作品观察出发，理解美术风格，提取视觉特征，组装自己的创作提示词。",
+  "title": {
+    "zh": "美术风格图鉴",
+    "en": "Art Style Atlas"
+  },
+  "description": {
+    "zh": "从作品观察出发，理解美术风格，提取视觉特征，组装自己的创作提示词。",
+    "en": "Observe artworks to understand art styles, identify visual features and assemble your own creative prompts."
+  },
   "url": "https://carbonshow.github.io/art-style-atlas/",
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-21",
   "schema_version": 2,
   "analytics": {
     "enabled": true,

@@ -112,13 +112,27 @@
       else load();
     }
     function start() {
-      if (!eligible) return;
+      if (!eligible || win.atlasLocaleRedirecting) return;
       const legacy = doc.getElementById('legacy-ids');
       if (legacy && JSON.parse(legacy.textContent).includes(here.hash.slice(1))) return;
       win.addEventListener('storage', event => {
         if (event.key === DISABLED_KEY || event.key === null) sync();
       });
-      win.addEventListener('pageshow', event => { if (event.persisted) { sent = false; sync(); } });
+      win.addEventListener('pageshow', event => {
+        if (!event.persisted) return;
+        // An in-document language switch changes only the next restored view's
+        // static metadata. It never sends an extra view at switch time.
+        try {
+          const node = doc.getElementById('analytics-config');
+          const current = node && JSON.parse(node.textContent);
+          const url = current && new URL(current.page_location);
+          if (url && url.origin === site.origin && publicPath(url.pathname, site, paths) !== null) {
+            fields.page_location = cleanLocation(win.location.href, url.href);
+            fields.page_title = current.page_title;
+          }
+        } catch (_) { /* Keep the last verified public metadata. */ }
+        sent = false; sync();
+      });
       win.addEventListener('focus', sync);
       doc.addEventListener('visibilitychange', sync);
       sync();

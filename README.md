@@ -16,7 +16,21 @@
 - `content/media.json`：公开媒体路径、尺寸与 SHA-256 摘要。
 - `media/`：公开参考媒体；旧文件名和地址继续保留。
 - `templates/`、`assets/`、`scripts/`：页面模板、浏览器代码与 Python 静态构建。
-- `data/`、各页面 `index.html`、`sitemap.xml` 和 `.build-manifest.json` 为构建输出，不直接编辑。
+- `data/`、`zh/`、各页面 `index.html`、`sitemap.xml` 和 `.build-manifest.json` 为构建输出，不直接编辑。
+
+## 中英双语
+
+既有路径提供英文，`/zh/` 下提供对应中文页，两种语言都预生成完整 HTML。首次打开普通首页默认英文；用户点击页头 `English / 中文` 后记住主动选择，不读取浏览器语言。普通首页再次访问时读取偏好，`/?lang=en` 明确进入英文，`/zh/` 明确进入中文；内容深链接以路径为准。旧 `/#AS-001` 链接继续跳转到相应语言的案例。
+
+语言切换保留当前内容、搜索词、筛选、分页、锚点、展开状态和创作输入。另一语言的页面及交互数据准备齐全后才替换当前文档；加载失败保留当前页面。关闭 JavaScript 后仍可使用语言链接阅读静态内容，目录检索和提示词组装需要 JavaScript。
+
+提示词首次跟随页面语言，手动选择输出语言后独立记忆。仅 `atlas.language.v1` 与 `atlas.prompt-language.v1` 保存语言值；自由输入只在内存中保留，不写入网址、偏好或统计。跨页面导航、刷新和关闭页面不保存草稿。
+
+展示文本使用 `{ "zh": "中文", "en": "English" }`，ID、分类值、URL、媒体路径、原文检索词与专名共享。运行时 `data/` 和 `zh/data/` 提供当前语言普通字符串；创作特征、避免项与历史阅读译文保留语言对。`english_name` 是兼容搜索的旧名称，当前展示英文以 `name.en` 为准。检索使用同一份合并后的双语文本，切换语言不改变命中条目及顺序。
+
+`content/ui.json`、`content/prompt-ui.json` 集中维护界面和提示词固定文案；`assets/prompt-ui.js` 是构建输出。参见[项目术语表](docs/translation/glossary.md)与[综合审校记录](docs/translation/review.md)。
+
+改动任一语言时，按术语表逐段检查事实、数字、专名、否定、范围和不确定性，并更新对应审校记录。完成复核后，使用 `scripts/i18n.py` 的 `digest()` 计算规范化 JSON SHA-256，更新 `content/translation-review.json` 对应 `files` 和 `items` 及版本、日期。不要通过批量刷新指纹代替审校；构建仅校验，不签发审校版本。历史 `execution_prompt` 保留实际执行原文；`execution_prompt_reading` 是明确标注的阅读译文。
 
 ## 本地构建与检查
 
@@ -28,10 +42,10 @@ python3 -m unittest discover -s tests
 node --test tests/*.test.cjs
 python3 scripts/build.py --check
 git diff --check
-python3 -m http.server 8000 --bind 127.0.0.1
+python3 scripts/serve.py --port 8000
 ```
 
-浏览 `http://127.0.0.1:8000/`。不要用 `file://` 打开：目录检索与提示词按需加载 JSON。检查首页、组合筛选、详情大图、改绘滑块、中英文提示词、手机布局和旧链接 `/#AS-001`。
+浏览 `http://127.0.0.1:8000/`。预览服务器只监听回环地址，同时支持生产路径挂载及中英文 404；本地不会启动线上统计。不要用 `file://` 打开：目录检索与提示词按需加载 JSON。检查首页、组合筛选、详情大图、改绘滑块、中英文提示词、手机布局和旧链接 `/#AS-001`。
 
 `--check` 不写文件：核对内容和媒体，检查全部内部链接、锚点，以及输出是否与源码同步。新增媒体后按 `content/media.json` 格式登记尺寸和 SHA-256；不得修改摘要来放行私人图片。构建程序保留已排除图片的摘要阻断规则。
 
@@ -60,7 +74,7 @@ GitHub Pages 继续从 `main` 分支的仓库根目录发布，`.nojekyll` 保�
 
 正式站点默认自动加载 Google tag，不显示统计提示或页脚选择入口，也不再读取旧版的 `atlas.analytics.consent.v1` 选择。仅允许分析存储，广告存储、广告用户数据和广告个性化始终关闭。Cookie 使用 `atlas` 前缀、host-only domain 和站点路径，避免混用其他项目。存储不可用或脚本被拦截不影响网站功能。
 
-每份 HTML 文档只手动发送一次 `page_view`，BFCache 返回重新计一次。搜索、筛选、分页、切换创作参考不增加 PV；旧 AS 链接仅计最终页面，404 统一为 `/404.html`。统计在页面逻辑运行前保存净化后的落地地址：仅保留合法的 `utm_source`、`utm_medium`、`utm_campaign`（1—64 位小写英文字母、数字、下划线或短横线），不采集搜索词、提示词及未知参数。外部来源仅保留 origin，站内来源仅保留已知公开路径。
+每份 HTML 文档只手动发送一次 `page_view`，BFCache 返回重新计一次。搜索、筛选、分页、切换创作参考和原地语言切换不增加 PV；首页语言偏好与旧 AS 链接只计最终页面。中英文路径分别识别，404 统一为相应语言的 `/404.html` 或 `/zh/404.html`。统计在页面逻辑运行前保存净化后的落地地址：仅保留合法的 `utm_source`、`utm_medium`、`utm_campaign`（1—64 位小写英文字母、数字、下划线或短横线），不采集搜索词、提示词及未知参数。外部来源仅保留 origin，站内来源仅保留已知公开路径。
 
 GA4 后台必须同时配置：在“增强型衡量 → 网页浏览量 → 高级设置”中取消“根据浏览器历史记录事件判断的页面更改”，并关闭站内搜索、表单、外链、滚动、视频和下载事件。界面中的“网页加载次数”是不可取消的基础项，由代码的 `send_page_view:false` 关闭自动发送；不要仅凭增强型衡量总开关判断历史事件是否关闭。另外关闭 Google signals、用户提供的数据、广告个性化，不关联广告或启用 User-ID。事件与用户数据保留 14 个月，关闭“新活动重置”。
 

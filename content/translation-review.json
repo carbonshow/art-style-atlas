@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-21",
+  "version": "bilingual-v1-r2",
+  "method": "AI translation, paragraph-by-paragraph comparison, independent-agent cross-review, and integrated revision; not human expert certification.",
+  "record": "docs/translation/review.md",
+  "files": {
+    "content/cases/AS-001.json": "4b3a895c0401a282c890e01a7d007e8602af850220186175f3d09e61dbad2f48",
+    "content/cases/AS-002.json": "6a143e51d5558d2c37681346a4a907a993d8cabb18ae04d7ee29b92eb7b0c317",
+    "content/cases/AS-003.json": "77b3a00d9e6da223fae5006ea3d79ce92a02f1c83b21a4c79f1a1999b77f5c56",
+    "content/cases/AS-004.json": "7a0d03ba31ef68baf443d75fb78a83dcd659caaaf5d946a84d92be418ced028d",
+    "content/cases/AS-005.json": "bf889b11718bfa354c9ef0adb29b9daea795c8c3c08f490f9e80f7609606f867",
+    "content/cases/AS-006.json": "2cff2f9b3db2e25f420b861846077ead348e7fb8e09fb68839983c8a9d8c8463",
+    "content/cases/AS-007.json": "d927baef2e1be72f7e427b4b64f04481157a4b3a22b0fb34c117061f13b9c83e",
+    "content/cases/AS-008.json": "65def629e5caba0d553f67c6b3347ee9586a8097a0a6b69cc8b480ff5e63a38c",
+    "content/cases/AS-009.json": "6319ab915e149febc3a82465f753f4d330976bf223a4c3862f04f88f17ce4064",
+    "content/cases/AS-010.json": "da02074da20f467fe91e97cb75dbf20285bbdaab1b45bbaa455dbb10dd41d44d",
+    "content/guides/art-deco.json": "f18aa4cb386c6e5f0088790a090396200aedc56cf395e9312a9c27285adf0bb2",
+    "content/guides/art-nouveau.json": "35c1d8a4ed8a55e68a4d70d19eefa2a8fbb22caa0d62340922b124fc554089dc",
+    "content/guides/expressionism.json": "d45c93fa8e0968ed669bcfe55b7e6b269e8d49f70b09aeae7dc81c1499f21097",
+    "content/guides/fantasy-comics.json": "a432ba1dc4c6cb57cd9729fba362ce214ad3cb5811aa4ce865a3b9d9f2ab5580",
+    "content/guides/mid-century.json": "f535b24a1b07936906e4669b6ed4e623e78d88b7d0ae68046a1533d8d9e401c9",
+    "content/guides/minimalism.json": "810dda99bdd54c2c1d57426708d0cd05b6cb2ac768a6c486a092f621ea4accfb",
+    "content/guides/nihonga.json": "3f0b4d01d894e541be70efada2f5508ded9bfcd2dc49eb0ed08e0231aade6a45",
+    "content/guides/painterly-portrait.json": "50f6ff5a8b79328a7b4cd4853b27d31a3a4a7b32fea2cbad86be31246ad6b903",
+    "content/learning.json": "ecea8864f039602870471af004bcacd1a4c21baf20a01c16dd5b5da35e8fa827",
+    "content/prompt-ui.json": "a8139c1c39406cdd0c0e8e848994a2ea5bb9c6f378d2d59f8b13a2a43b0eccf3",
+    "content/site.json": "a501b2f7c8f60fa52d5dbbb3247ddb12cedd50a0b3c6a5ca6f2e498a1bf4adde",
+    "content/taxonomy.json": "1059a4072698afa57564323dc991dfa8e46be30e6c5178cf0f62ac508ccd1520",
+    "content/terms.json": "88bfc72d086b9dc9ec31ae11286ac1bf9b13ce80f76053d5e674a08bd360ff43",
+    "content/ui.json": "225c86e8a2fac0fc86313f63e53c5353bd98199f9a9a4f35c53ea270db48c540"
+  },
+  "items": {
+    "painterly-portrait": {
+      "version": "bilingual-v1-r2",
+      "sha256": "50f6ff5a8b79328a7b4cd4853b27d31a3a4a7b32fea2cbad86be31246ad6b903"
+    },
+    "art-nouveau": {
+      "version": "bilingual-v1-r2",
+      "sha256": "35c1d8a4ed8a55e68a4d70d19eefa2a8fbb22caa0d62340922b124fc554089dc"
+    },
+    "art-deco": {
+      "version": "bilingual-v1-r2",
+      "sha256": "f18aa4cb386c6e5f0088790a090396200aedc56cf395e9312a9c27285adf0bb2"
+    },
+    "expressionism": {
+      "version": "bilingual-v1-r2",
+      "sha256": "d45c93fa8e0968ed669bcfe55b7e6b269e8d49f70b09aeae7dc81c1499f21097"
+    },
+    "nihonga": {
+      "version": "bilingual-v1-r2",
+      "sha256": "3f0b4d01d894e541be70efada2f5508ded9bfcd2dc49eb0ed08e0231aade6a45"
+    },
+    "fantasy-comics": {
+      "version": "bilingual-v1-r2",
+      "sha256": "a432ba1dc4c6cb57cd9729fba362ce214ad3cb5811aa4ce865a3b9d9f2ab5580"
+    },
+    "mid-century": {
+      "version": "bilingual-v1-r2",
+      "sha256": "f535b24a1b07936906e4669b6ed4e623e78d88b7d0ae68046a1533d8d9e401c9"
+    },
+    "minimalism": {
+      "version": "bilingual-v1-r2",
+      "sha256": "810dda99bdd54c2c1d57426708d0cd05b6cb2ac768a6c486a092f621ea4accfb"
+    },
+    "AS-001": {
+      "version": "bilingual-v1-r2",
+      "sha256": "4b3a895c0401a282c890e01a7d007e8602af850220186175f3d09e61dbad2f48"
+    },
+    "AS-002": {
+      "version": "bilingual-v1-r2",
+      "sha256": "6a143e51d5558d2c37681346a4a907a993d8cabb18ae04d7ee29b92eb7b0c317"
+    },
+    "AS-003": {
+      "version": "bilingual-v1-r2",
+      "sha256": "77b3a00d9e6da223fae5006ea3d79ce92a02f1c83b21a4c79f1a1999b77f5c56"
+    },
+    "AS-004": {
+      "version": "bilingual-v1-r2",
+      "sha256": "7a0d03ba31ef68baf443d75fb78a83dcd659caaaf5d946a84d92be418ced028d"
+    },
+    "AS-005": {
+      "version": "bilingual-v1-r2",
+      "sha256": "bf889b11718bfa354c9ef0adb29b9daea795c8c3c08f490f9e80f7609606f867"
+    },
+    "AS-006": {
+      "version": "bilingual-v1-r2",
+      "sha256": "2cff2f9b3db2e25f420b861846077ead348e7fb8e09fb68839983c8a9d8c8463"
+    },
+    "AS-007": {
+      "version": "bilingual-v1-r2",
+      "sha256": "d927baef2e1be72f7e427b4b64f04481157a4b3a22b0fb34c117061f13b9c83e"
+    },
+    "AS-008": {
+      "version": "bilingual-v1-r2",
+      "sha256": "65def629e5caba0d553f67c6b3347ee9586a8097a0a6b69cc8b480ff5e63a38c"
+    },
+    "AS-009": {
+      "version": "bilingual-v1-r2",
+      "sha256": "6319ab915e149febc3a82465f753f4d330976bf223a4c3862f04f88f17ce4064"
+    },
+    "AS-010": {
+      "version": "bilingual-v1-r2",
+      "sha256": "da02074da20f467fe91e97cb75dbf20285bbdaab1b45bbaa455dbb10dd41d44d"
+    },
+    "term-01": {
+      "version": "bilingual-v1-r2",
+      "sha256": "91b3dd50d8b7575c559d67be3abe6ece0fcae66d21bded664229a533dfc58aea"
+    },
+    "term-02": {
+      "version": "bilingual-v1-r2",
+      "sha256": "dfdcb1957d5c78aaa556eb29aaa011891e68c94d9ca09890fe9fd8cdb4409038"
+    },
+    "term-03": {
+      "version": "bilingual-v1-r2",
+      "sha256": "f88999c26d3549dc3d1121cf8518f3cda62e6a6fff17696bce8aed5135fa8b9f"
+    },
+    "term-04": {
+      "version": "bilingual-v1-r2",
+      "sha256": "8f473814c2c80637b78dca0344f60e6d5c7ea2fc188f85d54c545372fd3ecd0d"
+    },
+    "term-05": {
+      "version": "bilingual-v1-r2",
+      "sha256": "3282a192d74aa7ab00d35f2d71e2eef9ec50bce0e2efbe7f031489fad2d5e902"
+    },
+    "term-06": {
+      "version": "bilingual-v1-r2",
+      "sha256": "81726809018f9f9f469d613170a1328168ff2f4722482d40ea0ff84e17e520c6"
+    },
+    "term-07": {
+      "version": "bilingual-v1-r2",
+      "sha256": "d99e687e8c07a8679e4328b0107f9b21b2c88bfea2d9927813d518168893307e"
+    },
+    "term-08": {
+      "version": "bilingual-v1-r2",
+      "sha256": "51a2e3e0e93389c8ff34381d0d785a578a89b813564fb793824066d2f134f095"
+    },
+    "term-09": {
+      "version": "bilingual-v1-r2",
+      "sha256": "873844089db5e802ba5f44fdf680a3c60c2751d77b13dc67d7ba05539897abab"
+    },
+    "term-10": {
+      "version": "bilingual-v1-r2",
+      "sha256": "bec31f67b026ae25e0093d75703653c2454c5b0c66db79313ea0447a5dbd110e"
+    },
+    "term-11": {
+      "version": "bilingual-v1-r2",
+      "sha256": "f3ec90ef4a02b6fa60c22f1cd5a0031ccb45c4b65e7e04818c40922a8e5f475c"
+    },
+    "term-12": {
+      "version": "bilingual-v1-r2",
+      "sha256": "21220cce669d296154765ca72ba362f582750cadbbb5f0fa6fe2dca3139cb4ef"
+    },
+    "term-13": {
+      "version": "bilingual-v1-r2",
+      "sha256": "ad8d5d7255da4835fe851d667388dae7314ebbcd13c955b0193f550cb8fb4b27"
+    },
+    "term-14": {
+      "version": "bilingual-v1-r2",
+      "sha256": "81ae2ca730ac9e832e33b3e83cd9ac433daf3cb3c0daa81b4fc92530b202837e"
+    },
+    "term-15": {
+      "version": "bilingual-v1-r2",
+      "sha256": "086d4361579da3abc374b2b6b40d33678c112741e0f3212c169f769ac341b14d"
+    },
+    "term-16": {
+      "version": "bilingual-v1-r2",
+      "sha256": "6de821db1080660b4ac6ea22ddea6eea8ac2814336b69a8d8c305a7a3194ed13"
+    },
+    "term-17": {
+      "version": "bilingual-v1-r2",
+      "sha256": "f43b7204f6d010e6445dcd50cbd2c45bd153651f1016d84093487b0a894df08a"
+    },
+    "term-18": {
+      "version": "bilingual-v1-r2",
+      "sha256": "59c96cea0d7aae4f7b22d0f739f2a493fd6c8be2a786deaa5552aeac80bce53c"
+    },
+    "term-19": {
+      "version": "bilingual-v1-r2",
+      "sha256": "54c6ad1117b9bf20d0d574da6b28c40220042addf1bed386d49c36a54893af49"
+    },
+    "term-20": {
+      "version": "bilingual-v1-r2",
+      "sha256": "98be3ce165b5ec499a685fe628cac2e27dbb5fb1a9d453642f879cd042c86236"
+    },
+    "term-21": {
+      "version": "bilingual-v1-r2",
+      "sha256": "e00a6d98732e6437195f58c17480cceba9e9e10a27d765bb7acf66a6dc4eab6a"
+    },
+    "term-22": {
+      "version": "bilingual-v1-r2",
+      "sha256": "3a73c7e602c7dadaf2d5e6dbefd135f78cb0ba15a93c7fe4a0dc485bc5ecf019"
+    },
+    "term-23": {
+      "version": "bilingual-v1-r2",
+      "sha256": "6f088e633a879bf40e1b0c61a5d41077cadadcb41141c0e8e2869b81e461f177"
+    },
+    "term-24": {
+      "version": "bilingual-v1-r2",
+      "sha256": "f3992c179bd688341bf0d4c0e05458b74e8275b1fe464ff7505f4c406b525c78"
+    },
+    "term-25": {
+      "version": "bilingual-v1-r2",
+      "sha256": "dafc061f7bf728ee3d57e2872d6bd0b253944b7eb1c56ae9071de17997239f65"
+    },
+    "term-26": {
+      "version": "bilingual-v1-r2",
+      "sha256": "367331cfce2e0235a060c51d4499f128bbdc10371041383abb3790e0eb2ebd61"
+    },
+    "term-27": {
+      "version": "bilingual-v1-r2",
+      "sha256": "a363ab65dfce8895525d3c8c75f2792166d70e5d6854f8cbb9cc7ce17b7c018d"
+    },
+    "term-28": {
+      "version": "bilingual-v1-r2",
+      "sha256": "1f38be900820b527e74ab9e2ae4aef9415d0e9791c33449d5f4416b258d7d63b"
+    },
+    "term-29": {
+      "version": "bilingual-v1-r2",
+      "sha256": "3d3a23acf2a0ada1a7f67131b1287569bf3da2aa5097b892483a9fcbf8f47ec0"
+    },
+    "term-30": {
+      "version": "bilingual-v1-r2",
+      "sha256": "809e808ea959869e61de4d3fc75908bb71df2173ba1eb5acdeb9486b8ebb24b2"
+    },
+    "term-31": {
+      "version": "bilingual-v1-r2",
+      "sha256": "bace0f1e7b3d0f2ffb6b3e68ad0b6b9291cbb264b38e53c23f05d96c81ab858c"
+    },
+    "term-32": {
+      "version": "bilingual-v1-r2",
+      "sha256": "f9e72ebc8b78949130a029ad8ed1259dd518b7a55ecf9b05d9fadb2a58c1e2da"
+    },
+    "term-33": {
+      "version": "bilingual-v1-r2",
+      "sha256": "a89c6fbfd6c471cf5f4a866eab304e1b79f87523688d1fe835e775c40b8c3d31"
+    },
+    "term-34": {
+      "version": "bilingual-v1-r2",
+      "sha256": "813c276e7107d851caf56cc17f786e4fca1543647d2fcbf48225718f79aa4b3d"
+    },
+    "term-35": {
+      "version": "bilingual-v1-r2",
+      "sha256": "e8ed19e7a4cfab538969ffeff257555536d3ee4e7f4b7b834334646e55818bc0"
+    },
+    "term-36": {
+      "version": "bilingual-v1-r2",
+      "sha256": "b978cebfaebd75e47ad009cc462c3a57e73e49e38ede4f0c80b2fa5faefee528"
+    },
+    "term-37": {
+      "version": "bilingual-v1-r2",
+      "sha256": "2438c2c60484aa51fadbc68173d04b1fdeb076a6bc028da63fca134bac901889"
+    },
+    "term-38": {
+      "version": "bilingual-v1-r2",
+      "sha256": "2b0b3096076186ecc03bd5081ebb98e4a237c6a8e95e86bf150a08834a2ca48c"
+    },
+    "term-39": {
+      "version": "bilingual-v1-r2",
+      "sha256": "a26d737dae1b2a19837adb619db6ff3ad9bdfc4b28ca93aba9b1b61f31c227c1"
+    },
+    "term-40": {
+      "version": "bilingual-v1-r2",
+      "sha256": "830d850fdd49c0c46f348585d71559f8b997f22aa91db43c81d22b9c23636950"
+    },
+    "term-41": {
+      "version": "bilingual-v1-r2",
+      "sha256": "aca7d579e215b77f571529f636778f2384099b8c166d548fe98bd3d1ce4523d0"
+    },
+    "term-42": {
+      "version": "bilingual-v1-r2",
+      "sha256": "df24e22dd4b372bf42b79e421df13ef26c0444556ed18c33e5ddf74d767e3b4c"
+    },
+    "term-43": {
+      "version": "bilingual-v1-r2",
+      "sha256": "f74e27c8298554bf5908c3f7c41de8a7a17de436ad3cd55df57ac11c4afbc2d1"
+    },
+    "term-44": {
+      "version": "bilingual-v1-r2",
+      "sha256": "274614f978b3e8246c0be319ded49c5bdb6504bc06508a9b9e7a95309f8d6cac"
+    },
+    "term-45": {
+      "version": "bilingual-v1-r2",
+      "sha256": "3dc1d6685903f0120477a3e407ce8157b58212a773272e1b79a948be23ff26c2"
+    },
+    "term-46": {
+      "version": "bilingual-v1-r2",
+      "sha256": "cd193d8aa1b93d51b66bdabddda885cf5766395afd8dbbaf1643d7c31d0fe39b"
+    },
+    "term-47": {
+      "version": "bilingual-v1-r2",
+      "sha256": "7d9566b90c7908994739da9d87cf19613c15380d2ddefbcc581da0404a56d616"
+    },
+    "term-48": {
+      "version": "bilingual-v1-r2",
+      "sha256": "982c81f97db3dc3be60c381750dc122c2b382590dd59d1eb99033090c2134e21"
+    }
+  }
+}

@@ -1,74 +1,74 @@
 {
   "id": "expressionism",
-  "name": "表现主义人物",
+  "name": "Expressionist Figure Painting",
   "features": [
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "带张力的形体",
-      "explanation": "在保留身份与动作的前提下，适度强化形体转折与不对称",
-      "evidence": "头颈与肩部的倾斜、局部不对称带来不稳定感。",
+      "label": "Forms under tension",
+      "explanation": "Preserve identity and actions while moderately emphasizing angular changes in form and asymmetry",
+      "evidence": "The tilt of the head, neck and shoulders, together with local asymmetries, creates a sense of instability.",
       "zh": "在保留身份与动作的前提下，适度强化形体转折与不对称",
-      "en": "Preserve identity and pose while moderately emphasizing angular changes and asymmetry",
+      "en": "Preserve identity and actions while moderately emphasizing angular changes in form and asymmetry",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "紧张折线",
-      "explanation": "用有轻重变化的折转线条表达形体张力",
-      "evidence": "颈部、下颌和眼周的轮廓收紧，转折明显。",
+      "label": "Tense angular lines",
+      "explanation": "Express tension in the forms through angular lines of varied weight",
+      "evidence": "Contours around the neck, jaw and eyes tighten and turn sharply.",
       "zh": "用有轻重变化的折转线条表达形体张力",
-      "en": "Express tension through angular lines with varied weight",
+      "en": "Express tension in the forms through angular lines of varied weight",
       "default": true
     },
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "主观的肤色",
-      "explanation": "以土黄、灰绿、暗红和近黑组织不均匀的情绪性色块",
-      "evidence": "脸部并非均匀肤色，土黄、灰绿与暖红色痕交错。",
+      "label": "Subjective skin color",
+      "explanation": "Use ochre, gray-green, dark red and near-black in uneven, emotionally expressive color patches",
+      "evidence": "The face is not a uniform skin color: ochre, gray-green and warm red marks intersect.",
       "zh": "以土黄、灰绿、暗红和近黑组织不均匀的情绪性色块",
-      "en": "Use ochre, gray-green, dark red and near-black in uneven expressive color patches",
+      "en": "Use ochre, gray-green, dark red and near-black in uneven, emotionally expressive color patches",
       "default": true,
       "group": "palette"
     },
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "不均匀明暗",
-      "explanation": "让明暗分布略带断续，突出关键表情和结构",
-      "evidence": "脸部明暗以断续色痕出现，与大面积深色衣服对照。",
+      "label": "Uneven shading",
+      "explanation": "Let light and shadow appear slightly broken, emphasizing key expressions and structures",
+      "evidence": "Broken tonal marks on the face contrast with the broad area of dark clothing.",
       "zh": "让明暗分布略带断续，突出关键表情和结构",
-      "en": "Use slightly broken tonal transitions to emphasize expression and structure",
+      "en": "Let light and shadow appear slightly broken, emphasizing key expressions and structures",
       "default": true
     },
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "空场中的主体",
-      "explanation": "保留原图布局，简化次要细节，让主体周围有安静的空场",
-      "evidence": "人物集中在右侧，左侧空场与红色灯笼果形成平衡。",
+      "label": "Subjects in open space",
+      "explanation": "Keep the source image’s layout, simplify secondary details and leave quiet open space around the subjects",
+      "evidence": "The figure is concentrated on the right, balanced by the open area and red Chinese lantern fruits on the left.",
       "zh": "保留原图布局，简化次要细节，让主体周围有安静的空场",
-      "en": "Keep the original layout, simplify secondary detail and leave quiet space around the subjects",
+      "en": "Keep the source image’s layout, simplify secondary details and leave quiet open space around the subjects",
       "default": true
     },
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "断续色痕",
-      "explanation": "保留干涩、断续的色痕与局部露底，避免过度抛光",
-      "evidence": "面部色痕、衣服中的线与露出的浅底保留了干涩感。",
+      "label": "Broken color marks",
+      "explanation": "Retain dry, broken color marks and areas of exposed ground, avoiding an overpolished finish",
+      "evidence": "Marks on the face, lines in the clothing and exposed pale ground retain a dry quality.",
       "zh": "保留干涩、断续的色痕与局部露底，避免过度抛光",
-      "en": "Keep dry broken marks and occasional exposed ground without polishing them away",
+      "en": "Retain dry, broken color marks and areas of exposed ground, avoiding an overpolished finish",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "内向的张力",
-      "explanation": "表达克制而敏感的心理张力",
-      "evidence": "直视的眼神与偏转的头部方向不同，增添敏感而紧张的感受。",
+      "label": "Inward tension",
+      "explanation": "Convey restrained, sensitive psychological tension",
+      "evidence": "The eyes look directly at the viewer while the head turns aside, adding a sensitive, tense feeling.",
       "zh": "表达克制而敏感的心理张力",
       "en": "Convey restrained, sensitive psychological tension",
       "default": true
@@ -77,9 +77,9 @@
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": "Keep the source palette",
+      "explanation": "Keep the source image’s main hue relationships, adjusting only value and contrast.",
+      "evidence": "This is an optional variation for creating an image, not a description of the reference artwork.",
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
@@ -87,6 +87,6 @@
   ],
   "avoid": {
     "zh": "不新增原图没有的人物、建筑或道具；不添加参考图的题字、署名或水印；不改变原图的动作与物件关系",
-    "en": "Do not add people, buildings or props absent from the source; do not add lettering, signatures or watermarks from the reference; do not alter poses or object relationships"
+    "en": "Do not add people, buildings or props absent from the source image; do not add inscriptions, signatures or watermarks from the reference; do not alter the source image’s actions or relationships between objects"
   }
 }

@@ -1,23 +1,23 @@
 {
   "id": "AS-008",
-  "name": "Peggy Nille · 繁花秘境",
+  "name": "Peggy Nille · Hidden Worlds in Bloom",
   "features": [
     {
       "id": "shape-recommended",
       "dimension": "shape",
-      "label": "大形先行",
-      "explanation": "先概括原有形体的大剪影，再分层安排小纹样",
-      "evidence": "树冠被概括成圆团、椭圆、尖塔或扇面；鸟翼、花朵和屋顶都有可读的剪影。细密纹样填在这些大形内，形成“大形—纹样簇—微小点线”三个尺度，避免所有细节争夺注意。",
+      "label": "Large shapes first",
+      "explanation": "First simplify existing forms into large silhouettes, then arrange small patterns in layers",
+      "evidence": "Canopies are simplified into rounded masses, ovals, spires or fans; bird wings, flowers and roofs all have readable silhouettes. Fine patterns fill these large shapes, establishing three scales—large forms, pattern clusters and tiny dots and lines—so the details do not all compete for attention.",
       "zh": "先概括原有形体的大剪影，再分层安排小纹样",
-      "en": "Establish large silhouettes of existing forms before arranging smaller patterns",
+      "en": "First simplify existing forms into large silhouettes, then arrange small patterns in layers",
       "default": true
     },
     {
       "id": "line-recommended",
       "dimension": "line",
-      "label": "细线说明",
-      "explanation": "用内部细线和边缘色差说明结构",
-      "evidence": "点粒、短叶形、细叶脉、平行弧线、羽状排线、鱼鳞格与不规则环纹反复出现。同一种纹样沿枝叶或羽片的方向生长，不同物种和形体换用不同节奏；重复带有大小与间距变化。",
+      "label": "Fine lines explain structure",
+      "explanation": "Describe structure through fine internal lines and color differences at edges",
+      "evidence": "Dots, short leaf shapes, fine veins, parallel arcs, feather-like hatching, fish-scale grids and irregular rings recur. A given pattern follows the direction of branches, leaves or feathers, while different species and forms use different rhythms. Repetition varies in size and spacing.",
       "zh": "用内部细线和边缘色差说明结构",
       "en": "Describe structure through fine internal lines and color differences at edges",
       "default": true
@@ -25,9 +25,9 @@
     {
       "id": "color-recommended",
       "dimension": "color",
-      "label": "深底鲜色",
-      "explanation": "用稳定深色承托有集中与重复的鲜明局部色",
-      "evidence": "先用近黑、深蓝、绿色或白色建立大底，再让红橙、黄绿、粉紫与青蓝作为局部对比。高饱和颜色有集中与重复，暗形和相对安静的区域稳定画面，并非每一寸都同样鲜亮。",
+      "label": "Bright colors on a dark ground",
+      "explanation": "Set concentrated, repeated bright local colors against stable dark fields",
+      "evidence": "Near-black, deep blue, green or white first establishes the broad ground; red-orange, yellow-green, pink-violet and cyan-blue then create local contrasts. Highly saturated colors are concentrated and repeated. Dark shapes and relatively quiet areas stabilize the image; not every inch is equally bright.",
       "zh": "用稳定深色承托有集中与重复的鲜明局部色",
       "en": "Set concentrated, repeated bright local colors against stable dark fields",
       "default": true,
@@ -36,9 +36,9 @@
     {
       "id": "light-recommended",
       "dimension": "light",
-      "label": "压低体积",
-      "explanation": "弱化体积明暗，让局部色与纹样承担形体信息",
-      "evidence": "以清晰的局部色块和相邻色差分离形体，体积明暗被压低；细线与内部花纹承担结构说明。部分边缘和色块有轻微手绘起伏，附图 1 的点粒更粗，附图 4 的线条更清爽。这里只描述可见质感，不据此外观断言水粉、丝网印刷、拼贴或数字软件。",
+      "label": "Reduced volume",
+      "explanation": "Reduce volumetric shading so local color and pattern describe forms",
+      "evidence": "Clear local color areas and differences between adjacent colors separate forms, while volumetric shading is reduced; fine lines and internal patterns explain structure. Some edges and color areas show slight hand-drawn irregularities. Dots are coarser in attached image 1, while lines are cleaner in image 4. These observations describe visible texture only; appearance does not establish gouache, screenprinting, collage or digital software as the medium or method.",
       "zh": "弱化体积明暗，让局部色与纹样承担形体信息",
       "en": "Reduce volumetric shading so local color and pattern describe forms",
       "default": true
@@ -46,9 +46,9 @@
     {
       "id": "space-recommended",
       "dimension": "space",
-      "label": "重叠分层",
-      "explanation": "保留原有物件关系，用重叠与大小差异建立层次",
-      "evidence": "景深主要由形体重叠、大小变化、竖向树干和局部空隙建立；装饰性的平面感仍然强。前景大叶片围住中景树群，房屋、人物和动物穿插于不同层次，空间逻辑服务于画面的可读性。",
+      "label": "Layers through overlap",
+      "explanation": "Keep object relationships and build layers through overlap and size differences",
+      "evidence": "Depth comes mainly from overlapping forms, changes of scale, vertical trunks and local gaps; the decorative flatness remains strong. Large foreground leaves surround middle-ground trees, while houses, figures and animals interweave at different depths. Spatial logic serves the image’s readability.",
       "zh": "保留原有物件关系，用重叠与大小差异建立层次",
       "en": "Keep object relationships and build layers through overlap and size differences",
       "default": true
@@ -56,19 +56,19 @@
     {
       "id": "texture-recommended",
       "dimension": "texture",
-      "label": "纹样尺度",
-      "explanation": "在现有形体内组织大形、纹样簇和小点线三个尺度",
-      "evidence": "点粒、短叶形、细叶脉、平行弧线、羽状排线、鱼鳞格与不规则环纹反复出现。同一种纹样沿枝叶或羽片的方向生长，不同物种和形体换用不同节奏；重复带有大小与间距变化。",
+      "label": "Scales of pattern",
+      "explanation": "Within existing forms, organize three scales: large shapes, pattern clusters, and small dots and lines",
+      "evidence": "Dots, short leaf shapes, fine veins, parallel arcs, feather-like hatching, fish-scale grids and irregular rings recur. A given pattern follows the direction of branches, leaves or feathers, while different species and forms use different rhythms. Repetition varies in size and spacing.",
       "zh": "在现有形体内组织大形、纹样簇和小点线三个尺度",
-      "en": "Within existing forms, organize three scales: large shapes, pattern clusters and tiny marks",
+      "en": "Within existing forms, organize three scales: large shapes, pattern clusters, and small dots and lines",
       "default": true
     },
     {
       "id": "mood-recommended",
       "dimension": "mood",
-      "label": "寻觅趣味",
-      "explanation": "营造丰富、幻想、值得细看的叙事趣味",
-      "evidence": "小人物、动物与带窗房屋像藏在图案中的故事线索，体型比例常带幻想意味。观看过程由远看整体色块转为近看细节；附图 2 的人物与两个放射状白花形建立局部动作关系，附图 3 的灯笼串形成向上的节奏。",
+      "label": "The pleasure of discovery",
+      "explanation": "Create a rich imaginative narrative atmosphere that rewards close looking",
+      "evidence": "Small figures, animals and windowed houses resemble story clues hidden within patterns, often with fantastical size relationships. Viewing shifts from broad color areas at a distance to details up close. In image 2, the figure and two radiating white flower forms establish a local action relationship; in image 3, strings of lanterns create an upward rhythm.",
       "zh": "营造丰富、幻想、值得细看的叙事趣味",
       "en": "Create a rich imaginative narrative atmosphere that rewards close looking",
       "default": true
@@ -77,9 +77,9 @@
       "id": "color-original",
       "dimension": "color",
       "group": "palette",
-      "label": "沿用原图配色",
-      "explanation": "保留原图的主要色相关系，只调整色阶与对比。",
-      "evidence": "这是创作时可选的变体，不是对参考作品的描述。",
+      "label": "Keep the original palette",
+      "explanation": "Keep the source image’s main hue relationships, adjusting only value and contrast.",
+      "evidence": "This is an optional variation for creation, not a description of the reference artwork.",
       "zh": "保留原图的主要色相关系，只调整色阶与对比",
       "en": "Keep the source image’s main hue relationships, adjusting only value and contrast",
       "default": false
