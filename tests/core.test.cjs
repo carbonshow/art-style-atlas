@@ -38,7 +38,7 @@ test('pagination limits actual visible cards to 24 and clamps stale pages',()=>{
   assert.equal(A.paginate(many,99).page,3);
   assert.equal(A.paginate([],9).page,1);
 });
-test('prompt contains only selected features; rejects contradictory palette selections',()=>{
+test('prompt contains only selected features; rejects contradictory feature selections',()=>{
   for(const entry of entries){
     const profile=read('data/profiles/'+entry.id+'.json');
     const line=profile.features.find(f=>f.dimension==='line');
@@ -50,13 +50,15 @@ test('prompt contains only selected features; rejects contradictory palette sele
       assert.ok(text.includes(s.goal));assert.ok(text.includes(s.customKeep));assert.ok(text.includes(s.customAvoid));
       assert.ok(text.includes(A.PRESERVE[0][lang]));assert.ok(text.includes(A.PRESERVE[3][lang]));
     }
-    assert.equal(A.selectedFeatures(profile,profile.features.map(f=>f.id)).filter(f=>f.group==='palette').length,1);
+    for (const group of new Set(profile.features.map(f=>f.group).filter(Boolean))) {
+      assert.equal(A.selectedFeatures(profile,profile.features.map(f=>f.id)).filter(f=>f.group===group).length,1);
+    }
     assert.equal(A.selectedFeatures(profile,['color-original'])[0].id,'color-original');
     assert.equal(A.selectedFeatures(profile,['not-a-feature']).length,0);
   }
 });
-test('all 18 entries have exactly one default in each dimension and default preservation stays intact',()=>{
-  assert.equal(entries.length,18);
+test('all entries have exactly one default in each dimension and default preservation stays intact',()=>{
+  assert.equal(entries.length,19);
   for(const entry of entries){
     const p=read('data/profiles/'+entry.id+'.json'),selected=p.features.filter(f=>f.default).map(f=>f.id);
     assert.equal(A.selectedFeatures(p,selected).length,7);

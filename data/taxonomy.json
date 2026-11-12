@@ -96,6 +96,10 @@
         {
           "id": "painterly-surface",
           "name": "Painterly Surface Effects"
+        },
+        {
+          "id": "paper-relief",
+          "name": "Paper-art and Relief Effects"
         }
       ]
     },
@@ -182,6 +186,10 @@
         {
           "id": "limited",
           "name": "Limited Palette"
+        },
+        {
+          "id": "relief",
+          "name": "Layered Relief"
         }
       ]
     },

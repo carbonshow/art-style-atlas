@@ -1,0 +1,46 @@
+{
+  "case_id": "AS-011",
+  "added_on": "2026-11-12",
+  "source": "Four user-provided reference images; the request authorizes adding them to the existing public website.",
+  "attribution": "Artist, original post, date, actual medium, software and AI involvement unverified. Descriptive atlas titles only.",
+  "classification_basis": "Visual observation; museum sources explain terminology only and do not establish provenance.",
+  "media_handling": "Original JPEG bytes and full frames preserved, in upload order. All four have JFIF metadata only, with no EXIF or comment segment.",
+  "images": [
+    {
+      "source_filename": "HW2C09TXUAAOqyf.jpeg",
+      "published_file": "media/paper-relief-landscape-01.jpg",
+      "sha256": "b75f54d8c978d633bc33a574272a69ea68656e6dd08e8defc07427aece3ef845",
+      "width": 1474,
+      "height": 3195,
+      "byte_preserved": true
+    },
+    {
+      "source_filename": "HW2C09OXUAAWhAe.jpeg",
+      "published_file": "media/paper-relief-landscape-02.jpg",
+      "sha256": "bd4750a5d5b1ad8c95ba038eff77b275b4e89fdc23eaa33982d4abd849a1e3ea",
+      "width": 1474,
+      "height": 3195,
+      "byte_preserved": true
+    },
+    {
+      "source_filename": "HW2C09TXMAAKhe9.jpeg",
+      "published_file": "media/paper-relief-landscape-03.jpg",
+      "sha256": "0f013100a33418eb20bee5ffdcf980ddaec778e1d151391cf0ffe4770e874c88",
+      "width": 1474,
+      "height": 3195,
+      "byte_preserved": true
+    },
+    {
+      "source_filename": "HW2C09RWEAEAJLF.jpeg",
+      "published_file": "media/paper-relief-landscape-04.jpg",
+      "sha256": "df899fa5c1617e4fcf31e5f3533018b3ceb4dac222785d955d910089cdb458dc",
+      "width": 1474,
+      "height": 3195,
+      "byte_preserved": true
+    }
+  ],
+  "background_sources": [
+    "https://www.mfa.org/programs/community-programs/art-making-at-home/paper-quilling",
+    "https://www.vam.ac.uk/articles/japanese-woodblock-prints-ukiyo-e"
+  ]
+}

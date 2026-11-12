@@ -18,7 +18,7 @@ class BilingualChecks(unittest.TestCase):
 
     def test_every_page_has_both_complete_static_versions_and_metadata(self):
         pages=[p for p in self.outputs if p.endswith('.html') and not p.startswith('zh/')]
-        self.assertEqual(len(pages),26)
+        self.assertEqual(len(pages), len(self.data[-1]) + 8)
         for path in pages:
             for prefix,lang in [('', 'en'),('zh/','zh-CN')]:
                 html=self.outputs[prefix+path]
@@ -80,8 +80,8 @@ class BilingualChecks(unittest.TestCase):
 
     def test_sitemap_and_analytics_include_chinese_pages(self):
         sitemap=self.outputs['sitemap.xml']
-        self.assertEqual(sitemap.count('<loc>'),50)
-        for path in ['zh/compose/','zh/learn/glossary/','zh/cases/AS-010/']:
+        self.assertEqual(sitemap.count('<loc>'), 2 * (len(self.data[-1]) + 7))
+        for path in ['zh/compose/','zh/learn/glossary/','zh/cases/AS-010/','zh/cases/AS-011/']:
             self.assertIn(self.data[0]['url']+path,sitemap)
             self.assertIn('"'+path+'"',self.outputs['index.html'])
 

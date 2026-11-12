@@ -251,5 +251,25 @@
     "sha256": "083c898bca114d285c9795ae01cd0fc6cf07135c306527f270b29ce5df98f4ee",
     "width": 369,
     "height": 756
+  },
+  "media/paper-relief-landscape-01.jpg": {
+    "sha256": "b75f54d8c978d633bc33a574272a69ea68656e6dd08e8defc07427aece3ef845",
+    "width": 1474,
+    "height": 3195
+  },
+  "media/paper-relief-landscape-02.jpg": {
+    "sha256": "bd4750a5d5b1ad8c95ba038eff77b275b4e89fdc23eaa33982d4abd849a1e3ea",
+    "width": 1474,
+    "height": 3195
+  },
+  "media/paper-relief-landscape-03.jpg": {
+    "sha256": "0f013100a33418eb20bee5ffdcf980ddaec778e1d151391cf0ffe4770e874c88",
+    "width": 1474,
+    "height": 3195
+  },
+  "media/paper-relief-landscape-04.jpg": {
+    "sha256": "df899fa5c1617e4fcf31e5f3533018b3ceb4dac222785d955d910089cdb458dc",
+    "width": 1474,
+    "height": 3195
   }
 }

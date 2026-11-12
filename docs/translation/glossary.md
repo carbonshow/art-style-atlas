@@ -170,3 +170,13 @@
 [S13]: https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/arts-edu/resources/va-curri/visual_arts_glossary20171206.pdf
 [S14]: https://www.metmuseum.org/art/collection/search/39799
 [S15]: https://artsandculture.google.com/asset/utagawa-kuniyoshi-the-wrestler-roshi-ensei-a-colour-woodblock-print/rAGE5oXDDiv5Og?hl=en
+
+## AS-011 增补术语（2026-11-12）
+
+| 中文 | 英文 | 使用边界 |
+|---|---|---|
+| 纸艺浮雕风 | paper-relief-inspired | 视觉描述，不确认真实纸雕或浅浮雕制作工艺。 |
+| 衍纸般 | quilling-like | [波士顿美术博物馆的工艺说明](https://www.mfa.org/programs/community-programs/art-making-at-home/paper-quilling)用于解释卷曲窄纸条的术语；本批只确认相似观感。 |
+| 片层纸雕感／岩板质感 | layered-paper effect / slate-like texture | 表面联想，不确认纸张或板岩材料。 |
+| 东方幻想景观 | East Asian fantasy landscapes | 本批景观的视觉联想与检索名称，不确认国别、地点、作者或历史流派。 |
+| 圆形天体 | celestial disc | 不确定是太阳还是月亮时，避免翻译为确定的 sun 或 moon。 |

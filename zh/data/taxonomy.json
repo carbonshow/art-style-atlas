@@ -96,6 +96,10 @@
         {
           "id": "painterly-surface",
           "name": "绘画质感表现"
+        },
+        {
+          "id": "paper-relief",
+          "name": "纸艺与浮雕质感"
         }
       ]
     },
@@ -182,6 +186,10 @@
         {
           "id": "limited",
           "name": "有限色彩"
+        },
+        {
+          "id": "relief",
+          "name": "层叠浮雕"
         }
       ]
     },

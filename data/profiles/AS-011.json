@@ -1,0 +1,104 @@
+{
+  "id": "AS-011",
+  "name": "Paper-relief-inspired · East Asian Fantasy Landscapes",
+  "features": [
+    {
+      "id": "shape-layered",
+      "dimension": "shape",
+      "label": "Clear large forms and layered silhouettes",
+      "explanation": "Make major contours readable before describing detail through layered shapes.",
+      "evidence": "Discs, mountains and tree crowns read first as large forms in all four images; local texture adds detail afterward.",
+      "zh": "保留原图主体与结构，以清楚的大轮廓和层叠剪影概括形体",
+      "en": "Preserve the source subjects and structure, simplifying forms into clear large contours and layered silhouettes",
+      "default": true
+    },
+    {
+      "id": "line-flow",
+      "dimension": "line",
+      "label": "Curves following the forms",
+      "explanation": "Use line direction to describe relief and flow, with variation in density.",
+      "evidence": "Lines following the forms reinforce direction in image 1’s waterfalls, image 2’s slopes and image 4’s river.",
+      "zh": "用顺着原有形体与运动方向的曲线组织细节，主要轮廓清楚，次要线条疏密有别",
+      "en": "Organize detail with curves following the existing forms and direction of movement, keeping main contours clear and varying the density of secondary lines",
+      "default": true
+    },
+    {
+      "id": "color-charcoal-orange",
+      "dimension": "color",
+      "label": "Gray-black, ivory and orange-red accents",
+      "explanation": "Support the image with gray-black, separate layers with ivory and focus attention with orange-red.",
+      "evidence": "All four use a muted gray-black base with orange-red in discs, foliage or waterways, in different areas and proportions.",
+      "zh": "采用灰黑、岩灰与暖米白的有限色盘，在原图已有的重要区域集中少量橙红强调色",
+      "en": "Use a limited palette of gray-black, rock gray and warm ivory, concentrating a small amount of orange-red in existing important areas of the source",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-edge",
+      "dimension": "light",
+      "label": "Shallow relief edge shadows",
+      "explanation": "Suggest thickness through subtle edge highlights and overlap shadows.",
+      "evidence": "Cloud, rock and foliage edges separate into light and shadow, resembling thin layers slightly raised from a backing.",
+      "zh": "用柔和侧光、细小边缘亮部与浅遮挡阴影塑造低浮雕感，保持原图明暗主次",
+      "en": "Create a low-relief appearance with soft side lighting, small edge highlights and shallow overlap shadows while retaining the source’s value hierarchy",
+      "default": true
+    },
+    {
+      "id": "space-route",
+      "dimension": "space",
+      "label": "Layered framing and a visual route",
+      "explanation": "Retain the composition and use existing paths or contours to connect depth layers.",
+      "evidence": "The waterfall valley, golden river and lava rivers connect foreground and background, framed by slopes and vegetation.",
+      "zh": "保留原构图与视角，以原图已有的路径和轮廓连接前后景，明确遮挡层次并留出安静区域",
+      "en": "Preserve the source composition and viewpoint, connecting foreground and background through existing paths and contours, with clear overlaps and quiet areas",
+      "default": true
+    },
+    {
+      "id": "texture-linear",
+      "dimension": "texture",
+      "label": "Linear paper-relief effect",
+      "explanation": "Use fine but restrained raised-looking, paper-strip-like textures, as in the first two images.",
+      "evidence": "Image 1’s linear rock textures and image 2’s spiral clouds show continuous strip-like edges, without establishing actual materials.",
+      "zh": "采用仿纸艺的连续细条与盘卷般浅浮雕肌理，按不同对象调整方向和密度，主要轮廓附近保持简洁",
+      "en": "Use simulated paper-art textures of continuous fine strips and coiled low-relief forms, varying direction and density by subject and keeping major contours uncluttered",
+      "default": true,
+      "group": "surface"
+    },
+    {
+      "id": "mood-fantasy",
+      "dimension": "mood",
+      "label": "Solemn fantasy atmosphere",
+      "explanation": "Combine stable large shapes, rhythmic patterns and selective strong contrast into a coherent mood.",
+      "evidence": "Repeated curves and large discs create order in all four. Images 1 and 2 feel quieter; volcanoes and lava make images 3 and 4 more tense.",
+      "zh": "营造庄重、富有节律的幻想氛围，让装饰细节服从整体秩序",
+      "en": "Create a solemn, rhythmic fantasy atmosphere, keeping decorative details subordinate to the overall order",
+      "default": true
+    },
+    {
+      "id": "texture-layered",
+      "dimension": "texture",
+      "label": "Layered-paper and slate-like effect",
+      "explanation": "Emphasize irregular layers and varied edge thickness as an alternative to continuous fine strips.",
+      "evidence": "Image 3’s rough slopes and disc, and image 4’s layered cloud masses, most closely show this treatment.",
+      "zh": "采用仿叠纸与岩板的片层肌理，以不规则边缘和薄层投影表现厚度，云、水与植物保留各自的表面节奏",
+      "en": "Use simulated layered-paper and slate-like textures, suggesting thickness with irregular edges and thin-layer shadows while preserving distinct surface rhythms for clouds, water and plants",
+      "default": false,
+      "group": "surface"
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "label": "Keep the original palette",
+      "explanation": "Keep the source hue relationships, adjusting value and accent areas only.",
+      "evidence": "This is an optional creative variation, not a description of the reference images.",
+      "zh": "保留原图主要色相关系，通过明暗与饱和度差别区分主体和背景",
+      "en": "Keep the source’s main hue relationships, distinguishing subject and background through value and saturation",
+      "default": false,
+      "group": "palette"
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的天体、火山、熔岩、树种、人物或建筑；不复制题字、署名或水印；避免满幅等密纹理、过重阴影与塑料光泽",
+    "en": "Do not add celestial bodies, volcanoes, lava, tree species, people or buildings absent from the source; do not copy lettering, signatures or watermarks; avoid uniformly dense texture, excessively heavy shadows and plastic gloss"
+  }
+}

@@ -691,9 +691,9 @@
     "zh": "恢复推荐组合",
     "en": "Restore recommended features"
   },
-  "同一配色组只能选一项。恢复推荐组合不会清除你的文字要求。": {
-    "zh": "同一配色组只能选一项。恢复推荐组合不会清除你的文字要求。",
-    "en": "Choose at most one option from each palette group. Restoring the recommended features does not clear your written requirements."
+  "同一互斥组选项只能选一项。恢复推荐组合不会清除你的文字要求。": {
+    "zh": "同一互斥组选项只能选一项。恢复推荐组合不会清除你的文字要求。",
+    "en": "Choose at most one option from each mutually exclusive group. Restoring the recommended features does not clear your written requirements."
   },
   "03 · 写下这次的目标与取舍": {
     "zh": "03 · 写下这次的目标与取舍",
@@ -870,5 +870,9 @@
   "交互内容加载失败，请刷新；静态内容仍可阅读。": {
     "zh": "交互内容加载失败，请刷新；静态内容仍可阅读。",
     "en": "Interactive content could not load. Please refresh; static content is still available."
+  },
+  "本组不指定特征": {
+    "zh": "本组不指定特征",
+    "en": "Do not specify a feature from this group"
   }
 }

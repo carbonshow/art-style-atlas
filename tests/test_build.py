@@ -65,7 +65,7 @@ class PublicContentChecks(unittest.TestCase):
 
     def test_original_case_ids_and_media_are_preserved(self):
         ids = {x['id'] for x in self.data[-1] if x['type']=='case'}
-        self.assertEqual(ids, {'AS-%03d'%i for i in range(1,11)})
+        self.assertTrue({'AS-%03d'%i for i in range(1,11)} <= ids)
         case4 = next(x for x in self.data[-1] if x['id']=='AS-004')
         self.assertNotIn('examples',case4)
         self.assertEqual(len(case4['references']),4)

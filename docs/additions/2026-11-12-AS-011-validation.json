@@ -1,0 +1,49 @@
+{
+  "case_id": "AS-011",
+  "checked_on": "2026-11-12",
+  "scope": "Pre-publication validation of four user-provided reference images and bilingual case content.",
+  "checks": {
+    "build": "pass; 19 entries, 48 terms, 103 generated files",
+    "python_unittest": "21 passed",
+    "node_tests": "26 passed",
+    "build_check": "pass",
+    "git_diff_check": "pass",
+    "existing_media": "51 files retain original SHA-256",
+    "existing_cases": "AS-001 through AS-010 source JSON bytes unchanged"
+  },
+  "browser": {
+    "desktop": {
+      "viewport": [
+        1280,
+        900
+      ],
+      "document_scroll_width": 1280,
+      "full_frame_images": 4,
+      "image_natural_size": [
+        1474,
+        3195
+      ]
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "document_scroll_width": 390,
+      "reference_count": 4,
+      "image_object_fit": "contain"
+    },
+    "interactions": [
+      "Chinese search for 衍纸 with paper-relief category returns AS-011",
+      "English switch preserves search and filter and returns AS-011",
+      "Reference-image lightbox opens",
+      "Two surface treatments exclude one another; selection remains after language switch",
+      "AS-011 is available in the prompt builder; seven recommended dimensions"
+    ]
+  },
+  "notes": [
+    "No new artwork was generated.",
+    "Source and attribution uncertainty is retained in both languages.",
+    "Production deployment is verified separately after the publication commit."
+  ]
+}

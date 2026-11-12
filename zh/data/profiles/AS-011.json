@@ -1,0 +1,104 @@
+{
+  "id": "AS-011",
+  "name": "纸艺浮雕风 · 东方幻想景观",
+  "features": [
+    {
+      "id": "shape-layered",
+      "dimension": "shape",
+      "label": "清楚大形与层叠剪影",
+      "explanation": "先读清主要轮廓，再用层叠形状解释细节。",
+      "evidence": "圆盘、山体与树冠在四图中都先以大形成立，局部细纹随后补充。",
+      "zh": "保留原图主体与结构，以清楚的大轮廓和层叠剪影概括形体",
+      "en": "Preserve the source subjects and structure, simplifying forms into clear large contours and layered silhouettes",
+      "default": true
+    },
+    {
+      "id": "line-flow",
+      "dimension": "line",
+      "label": "顺形曲线",
+      "explanation": "让线条方向说明起伏与流动，并保留疏密变化。",
+      "evidence": "图 1 的瀑布、图 2 的山体、图 4 的河道都由顺着形体延伸的线条强化方向。",
+      "zh": "用顺着原有形体与运动方向的曲线组织细节，主要轮廓清楚，次要线条疏密有别",
+      "en": "Organize detail with curves following the existing forms and direction of movement, keeping main contours clear and varying the density of secondary lines",
+      "default": true
+    },
+    {
+      "id": "color-charcoal-orange",
+      "dimension": "color",
+      "label": "灰黑米白与橙红强调",
+      "explanation": "用灰黑托住画面，米白区分层次，橙红集中注意力。",
+      "evidence": "四图都以低饱和灰黑为基底，橙红集中在天体、叶片或河道；分布与面积各不相同。",
+      "zh": "采用灰黑、岩灰与暖米白的有限色盘，在原图已有的重要区域集中少量橙红强调色",
+      "en": "Use a limited palette of gray-black, rock gray and warm ivory, concentrating a small amount of orange-red in existing important areas of the source",
+      "default": true,
+      "group": "palette"
+    },
+    {
+      "id": "light-edge",
+      "dimension": "light",
+      "label": "浅浮雕边缘阴影",
+      "explanation": "用轻微边缘亮部与遮挡阴影表现厚度。",
+      "evidence": "卷云、山石与树冠的边缘具有亮暗分离，像薄层在底面上略微隆起。",
+      "zh": "用柔和侧光、细小边缘亮部与浅遮挡阴影塑造低浮雕感，保持原图明暗主次",
+      "en": "Create a low-relief appearance with soft side lighting, small edge highlights and shallow overlap shadows while retaining the source’s value hierarchy",
+      "default": true
+    },
+    {
+      "id": "space-route",
+      "dimension": "space",
+      "label": "分层框景与视觉路径",
+      "explanation": "保留原构图，把已有路径或轮廓组织为前后联系。",
+      "evidence": "图 1 的瀑谷、图 2 的金河和图 3、4 的熔岩河连接前后景，两侧山林构成框景。",
+      "zh": "保留原构图与视角，以原图已有的路径和轮廓连接前后景，明确遮挡层次并留出安静区域",
+      "en": "Preserve the source composition and viewpoint, connecting foreground and background through existing paths and contours, with clear overlaps and quiet areas",
+      "default": true
+    },
+    {
+      "id": "texture-linear",
+      "dimension": "texture",
+      "label": "线性纸艺浮雕感",
+      "explanation": "采用细密但有节制的纸条般隆起纹理，适合前两张的观感。",
+      "evidence": "图 1 的线性山石和图 2 的螺旋盘云显示细条般连续边缘，不证明实际材料。",
+      "zh": "采用仿纸艺的连续细条与盘卷般浅浮雕肌理，按不同对象调整方向和密度，主要轮廓附近保持简洁",
+      "en": "Use simulated paper-art textures of continuous fine strips and coiled low-relief forms, varying direction and density by subject and keeping major contours uncluttered",
+      "default": true,
+      "group": "surface"
+    },
+    {
+      "id": "mood-fantasy",
+      "dimension": "mood",
+      "label": "庄重的幻想感",
+      "explanation": "让稳定大形、节律纹样与少量强对比形成统一气质。",
+      "evidence": "四图的重复曲线和大圆形带来秩序感；图 1、2 较静谧，图 3、4 因火山与熔岩更紧张。",
+      "zh": "营造庄重、富有节律的幻想氛围，让装饰细节服从整体秩序",
+      "en": "Create a solemn, rhythmic fantasy atmosphere, keeping decorative details subordinate to the overall order",
+      "default": true
+    },
+    {
+      "id": "texture-layered",
+      "dimension": "texture",
+      "label": "片层纸雕与岩板感",
+      "explanation": "以不规则片层与厚薄边缘为主，可替换连续细条效果。",
+      "evidence": "图 3 的粗糙山体与圆盘、图 4 的片层云冠更接近这种表面处理。",
+      "zh": "采用仿叠纸与岩板的片层肌理，以不规则边缘和薄层投影表现厚度，云、水与植物保留各自的表面节奏",
+      "en": "Use simulated layered-paper and slate-like textures, suggesting thickness with irregular edges and thin-layer shadows while preserving distinct surface rhythms for clouds, water and plants",
+      "default": false,
+      "group": "surface"
+    },
+    {
+      "id": "color-original",
+      "dimension": "color",
+      "label": "沿用原图配色",
+      "explanation": "保留原图色相关系，只调整色阶与强调区域。",
+      "evidence": "这是创作时的可选变体，不是对参考图的描述。",
+      "zh": "保留原图主要色相关系，通过明暗与饱和度差别区分主体和背景",
+      "en": "Keep the source’s main hue relationships, distinguishing subject and background through value and saturation",
+      "default": false,
+      "group": "palette"
+    }
+  ],
+  "avoid": {
+    "zh": "不新增原图没有的天体、火山、熔岩、树种、人物或建筑；不复制题字、署名或水印；避免满幅等密纹理、过重阴影与塑料光泽",
+    "en": "Do not add celestial bodies, volcanoes, lava, tree species, people or buildings absent from the source; do not copy lettering, signatures or watermarks; avoid uniformly dense texture, excessively heavy shadows and plastic gloss"
+  }
+}

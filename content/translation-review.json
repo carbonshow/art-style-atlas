@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-10-21",
-  "version": "bilingual-v1-r2",
-  "method": "AI translation, paragraph-by-paragraph comparison, independent-agent cross-review, and integrated revision; not human expert certification.",
+  "reviewed_on": "2026-11-12",
+  "version": "bilingual-v1-r3-as011",
+  "method": "Initial bilingual-v1-r2 review used independent-agent cross-review. The AS-011 increment was reviewed by the same AI through paragraph-by-paragraph comparison and terminology/source checks; see the dated record. Not human expert certification.",
   "record": "docs/translation/review.md",
   "files": {
     "content/cases/AS-001.json": "4b3a895c0401a282c890e01a7d007e8602af850220186175f3d09e61dbad2f48",
@@ -25,10 +25,11 @@
     "content/guides/painterly-portrait.json": "50f6ff5a8b79328a7b4cd4853b27d31a3a4a7b32fea2cbad86be31246ad6b903",
     "content/learning.json": "ecea8864f039602870471af004bcacd1a4c21baf20a01c16dd5b5da35e8fa827",
     "content/prompt-ui.json": "a8139c1c39406cdd0c0e8e848994a2ea5bb9c6f378d2d59f8b13a2a43b0eccf3",
-    "content/site.json": "a501b2f7c8f60fa52d5dbbb3247ddb12cedd50a0b3c6a5ca6f2e498a1bf4adde",
-    "content/taxonomy.json": "1059a4072698afa57564323dc991dfa8e46be30e6c5178cf0f62ac508ccd1520",
+    "content/site.json": "b6ac24ff3e17b905a27c420d8e0598782a865341573d638c152ccd74ac11c38e",
+    "content/taxonomy.json": "1f9ff32d30cdf589a3eef393bb4a776a08676524911103387002661a82b682ad",
     "content/terms.json": "88bfc72d086b9dc9ec31ae11286ac1bf9b13ce80f76053d5e674a08bd360ff43",
-    "content/ui.json": "225c86e8a2fac0fc86313f63e53c5353bd98199f9a9a4f35c53ea270db48c540"
+    "content/ui.json": "3802bfacf98221506bd9663f81cf2a83c36bd5f3fb8efbc185bdc01dd962ffe6",
+    "content/cases/AS-011.json": "f7784370665532481e05b746cc2ff272a3591d2269d472d00708d00288a07bbe"
   },
   "items": {
     "painterly-portrait": {
@@ -294,6 +295,10 @@
     "term-48": {
       "version": "bilingual-v1-r2",
       "sha256": "982c81f97db3dc3be60c381750dc122c2b382590dd59d1eb99033090c2134e21"
+    },
+    "AS-011": {
+      "version": "bilingual-v1-r3-as011",
+      "sha256": "f7784370665532481e05b746cc2ff272a3591d2269d472d00708d00288a07bbe"
     }
   }
 }

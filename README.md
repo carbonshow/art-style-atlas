@@ -9,7 +9,7 @@
 ## 内容目录
 
 - `content/guides/`：每篇风格指南一个 JSON，说明共性、变化、识别线索与作品证据。
-- `content/cases/`：每组参考案例一个 JSON，保留 AS-001 至 AS-010 标识、逐图品鉴、已公开对照和出处。
+- `content/cases/`：每组参考案例一个 JSON，保留 AS-001 至 AS-011 标识、逐图品鉴、已公开对照和出处。
 - `content/taxonomy.json`：独立的风格与传统、参考题材、画面效果分类，以及七个特征维度。
 - `content/terms.json`：48 个探索词。它们不是 48 个已完成的风格指南。
 - `content/learning.json`：人物入门路线，引用内容标识，不复制指南全文。

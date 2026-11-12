@@ -168,6 +168,13 @@
             "zh": "绘画质感表现",
             "en": "Painterly Surface Effects"
           }
+        },
+        {
+          "id": "paper-relief",
+          "name": {
+            "zh": "纸艺与浮雕质感",
+            "en": "Paper-art and Relief Effects"
+          }
         }
       ]
     },
@@ -316,6 +323,13 @@
           "name": {
             "zh": "有限色彩",
             "en": "Limited Palette"
+          }
+        },
+        {
+          "id": "relief",
+          "name": {
+            "zh": "层叠浮雕",
+            "en": "Layered Relief"
           }
         }
       ]
